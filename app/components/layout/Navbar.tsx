@@ -159,7 +159,7 @@ const Navbar = () => {
           <div className="max-w-7xl mx-auto px-8">
             <div className="flex justify-start">
               <div className="w-80 py-8 ml-[calc(50%-18rem)]">
-                                 {serviziItems.map((servizio, idx) => (
+                                 {serviziItems.map((servizio) => (
                    <div key={servizio} className={`border-b last:border-b-0 pb-4 mb-4 last:mb-0 transition-colors duration-300 ${
                      isScrolled ? 'border-gray-600' : 'border-white/20'
                    }`}>

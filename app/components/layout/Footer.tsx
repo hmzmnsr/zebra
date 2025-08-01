@@ -76,7 +76,7 @@ const Footer = () => {
               />
             </div>
             <p className="text-sm leading-relaxed max-w-md">
-              ZEBRA è un'azienda tecnologica che crea soluzioni multimediali avanzate integrando contenuto e digital media technology.
+              ZEBRA è un&apos;azienda tecnologica che crea soluzioni multimediali avanzate integrando contenuto e digital media technology.
             </p>
           </div>
 

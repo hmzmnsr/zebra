@@ -25,7 +25,7 @@ const ChiSiamoThreeColumns = () => {
            <div className="flex flex-col justify-center space-y-6 md:space-y-1">
              {/* Small text */}
              <p className="text-xs sm:text-sm text-gray-600">
-               with the brand's signature orange.
+               with the brand&apos;s signature orange.
              </p>
              
              {/* Main heading */}
@@ -38,10 +38,10 @@ const ChiSiamoThreeColumns = () => {
                {/* First text block */}
                <div className="space-y-3 sm:space-y-4">
                  <p className="text-sm sm:text-base text-gray-800 leading-relaxed">
-                   For IBM's latest Linux platform launch, we created a launch film that brought a fresh, playful energy to the hardware.
+                   For IBM&apos;s latest Linux platform launch, we created a launch film that brought a fresh, playful energy to the hardware.
                  </p>
                  <p className="text-sm sm:text-base text-gray-800 leading-relaxed">
-                   To celebrate the platform's signature openness, we leaned into an original song (inspired by a reference) for an invitation few could resist—capped with the brand's signature orange.
+                   To celebrate the platform&apos;s signature openness, we leaned into an original song (inspired by a reference) for an invitation few could resist—capped with the brand&apos;s signature orange.
                  </p>
                </div>
                
@@ -53,10 +53,10 @@ const ChiSiamoThreeColumns = () => {
             {/* Additional content can be added here */}
             <div className="space-y-3 sm:space-y-4">
                  <p className="text-sm sm:text-base text-gray-800 leading-relaxed">
-                   For IBM's latest Linux platform launch, we created a launch film that brought a fresh, playful energy to the hardware.
+                   For IBM&apos;s latest Linux platform launch, we created a launch film that brought a fresh, playful energy to the hardware.
                  </p>
                  <p className="text-sm sm:text-base text-gray-800 leading-relaxed">
-                   To celebrate the platform's signature openness, we leaned into an original song (inspired by a reference) for an invitation few could resist—capped with the brand's signature orange.
+                   To celebrate the platform&apos;s signature openness, we leaned into an original song (inspired by a reference) for an invitation few could resist—capped with the brand&apos;s signature orange.
                  </p>
             </div>
           </div>

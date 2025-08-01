@@ -43,7 +43,7 @@ const ProductsSection = () => {
                 Il più compatto della famiglia ARES, ma con una potenza che non teme confronti. Pensato per la gestione del digital signage in contesti ad alta intensità operativa: display e ledwall per aeroporti, stadi, centri commerciali e retail.
               </p>
               <p className="text-sm text-[#D1D5DB] leading-6 text-left">
-                ARES Controller, combinato al software EVA, automatizza completamente la gestione del digital signage, lasciando all'utente solo il compito di programmare la sequenza dei contenuti e definire gli orari di riproduzione. E' comandabile in modo semplice e intuitivo, sia da desktop che da dispositivi mobile.
+                ARES Controller, combinato al software EVA, automatizza completamente la gestione del digital signage, lasciando all&apos;utente solo il compito di programmare la sequenza dei contenuti e definire gli orari di riproduzione. E&apos; comandabile in modo semplice e intuitivo, sia da desktop che da dispositivi mobile.
               </p>
             </div>
           </div>
@@ -82,13 +82,13 @@ const ProductsSection = () => {
                 Il mediaserver più diffuso per la gestione di sistemi multimediali complessi, dalle sale immersive museali ai grandi videomapping architetturali.
               </p>
               <p className="text-sm text-[#D1D5DB] leading-6 text-left">
-                Grazie a una potenza e un'affidabilità straordinarie, ARES Media Engine è l'unità di controllo ideale per applicazioni che richiedono alto numero di uscite, grandi risoluzioni, acquisizioni video e di sensori e distribuzione audio multicanale.
+                Grazie a una potenza e un&apos;affidabilità straordinarie, ARES Media Engine è l&apos;unità di controllo ideale per applicazioni che richiedono alto numero di uscite, grandi risoluzioni, acquisizioni video e di sensori e distribuzione audio multicanale.
               </p>
               <p className="text-sm text-[#D1D5DB] leading-6 text-left">
-                ARES automatizza l'intero funzionamento degli impianti multimediali, grazie alla perfetta integrazione con i principali sistemi di controllo e al supporto del software proprietario ZNC.
+                ARES automatizza l&apos;intero funzionamento degli impianti multimediali, grazie alla perfetta integrazione con i principali sistemi di controllo e al supporto del software proprietario ZNC.
               </p>
               <p className="text-sm text-[#D1D5DB] leading-6 text-left">
-                Addio a procedure complesse e controlli intricati: con l'interfaccia tablet personalizzabile, gestire un sistema multimediale non è mai stato così semplice.
+                Addio a procedure complesse e controlli intricati: con l&apos;interfaccia tablet personalizzabile, gestire un sistema multimediale non è mai stato così semplice.
               </p>
             </div>
           </div>

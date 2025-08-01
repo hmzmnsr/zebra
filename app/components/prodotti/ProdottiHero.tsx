@@ -24,7 +24,7 @@ const ProdottiHero = () => {
           
           {/* Second Paragraph */}
           <p className="text-base md:text-lg text-gray-100 leading-relaxed font-sans">
-            A seconda dell'applicazione, ogni mediaserver è corredato dai nostri software proprietari, sviluppati internamente per garantire massima efficienza e integrazione.
+            A seconda dell&apos;applicazione, ogni mediaserver è corredato dai nostri software proprietari, sviluppati internamente per garantire massima efficienza e integrazione.
           </p>
         </div>
       </div>

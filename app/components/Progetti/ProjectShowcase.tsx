@@ -39,7 +39,7 @@ const ProjectShowcase = () => {
               </p>
               
               <p>
-                Uno spazio versatile dove la collaborazione si fonde con l'interattività, migliorando le performance operative. Uno strumento sorprendente capace di coinvolgere i clienti in presentazioni immersive e comunicare concetti in modo chiaro, impattante e memorabile.
+                Uno spazio versatile dove la collaborazione si fonde con l&apos;interattività, migliorando le performance operative. Uno strumento sorprendente capace di coinvolgere i clienti in presentazioni immersive e comunicare concetti in modo chiaro, impattante e memorabile.
               </p>
               
               <p>
@@ -47,7 +47,7 @@ const ProjectShowcase = () => {
               </p>
               
               <p>
-                L'intero sistema è gestito da ARES Media Engine per garantire alte performance, facilità d'uso e controllo totale. Il supporto tecnico da remoto fornisce assistenza in tempo reale, assicurando che ogni sessione rispetti le aspettative.
+                L&apos;intero sistema è gestito da ARES Media Engine per garantire alte performance, facilità d&apos;uso e controllo totale. Il supporto tecnico da remoto fornisce assistenza in tempo reale, assicurando che ogni sessione rispetti le aspettative.
               </p>
             </div>
             
@@ -92,14 +92,14 @@ const ProjectShowcase = () => {
             {/* Project Description */}
             <div className="text-gray-600 leading-tight text-sm md:text-base">
               <p>
-              In occasione del lancio del rivoluzionario avvitatore Oil-Less, Beta Utensili ci ha affidato la realizzazione di un contenuto 3D ad alto impatto visivo, capace di esprimere l'elevato livello di innovazione tecnica e la raffinatezza progettuale del prodotto.
+              In occasione del lancio del rivoluzionario avvitatore Oil-Less, Beta Utensili ci ha affidato la realizzazione di un contenuto 3D ad alto impatto visivo, capace di esprimere l&apos;elevato livello di innovazione tecnica e la raffinatezza progettuale del prodotto.
               </p>
               
               <p>
               Attraverso una modellazione accurata, animazioni fluide e visual effects fotorealistici, abbiamo dato vita al prodotto evidenziandone materiali, dettagli costruttivi e funzionalità, anche attraverso efficaci comparazioni con i competitor. 
               </p>
               <p>
-              L'intero progetto è stato curato nei minimi dettagli: il sound design, sincronizzato con le animazioni, valorizza le dinamiche del racconto; il background richiama l'immagine coordinata del brand; mentre le text animation comunicano i dati tecnici in modo chiaro ed elegante, mantenendo uno stile essenziale e coinvolgente. 
+              L&apos;intero progetto è stato curato nei minimi dettagli: il sound design, sincronizzato con le animazioni, valorizza le dinamiche del racconto; il background richiama l&apos;immagine coordinata del brand; mentre le text animation comunicano i dati tecnici in modo chiaro ed elegante, mantenendo uno stile essenziale e coinvolgente. 
               </p>
             </div>
             
@@ -161,15 +161,15 @@ const ProjectShowcase = () => {
             {/* Project Description */}
             <div className="text-gray-600 leading-tight text-sm md:text-base">
               <p>
-                All'interno dei nuovi headquarters di Beta Utensili, ZEBRA è stata incaricata di progettare e realizzare il sistema tecnologico per la sala del Consiglio di amministrazione: uno spazio iconico dove design e funzionalità si incontrano.
+                All&apos;interno dei nuovi headquarters di Beta Utensili, ZEBRA è stata incaricata di progettare e realizzare il sistema tecnologico per la sala del Consiglio di amministrazione: uno spazio iconico dove design e funzionalità si incontrano.
               </p>
               
               <p>
-              L'obiettivo era chiaro: garantire riunioni e presentazioni altamente efficaci, potenziando la condivisione dei contenuti e la comunicazione con i partecipanti da remoto. Ai margini della spettacolare Jordan F1 sospesa al soffitto, abbiamo integrato con discrezione videoproiettori, sistemi audio, microfoni intelligenti e telecamere per ottenere un ambiente tecnologicamente evoluto ma visivamente pulito.
+              L&apos;obiettivo era chiaro: garantire riunioni e presentazioni altamente efficaci, potenziando la condivisione dei contenuti e la comunicazione con i partecipanti da remoto. Ai margini della spettacolare Jordan F1 sospesa al soffitto, abbiamo integrato con discrezione videoproiettori, sistemi audio, microfoni intelligenti e telecamere per ottenere un ambiente tecnologicamente evoluto ma visivamente pulito.
               </p>
               
               <p>
-              Il tutto è gestito tramite un'interfaccia intuitiva da tablet, che consente di attivare l'intero sistema conference in pochi secondi, semplificando l'avvio di ogni riunione e migliorando l'efficienza operativa. 
+              Il tutto è gestito tramite un&apos;interfaccia intuitiva da tablet, che consente di attivare l&apos;intero sistema conference in pochi secondi, semplificando l&apos;avvio di ogni riunione e migliorando l&apos;efficienza operativa. 
               </p>
             </div>
             
@@ -224,7 +224,7 @@ const ProjectShowcase = () => {
               </p>
               
               <p>
-              Un'esperienza visiva emozionante, visitata da migliaia di persone, che ha permesso a EPSON di aggiudicarsi il premio come miglior stand della manifestazione. 
+              Un&apos;esperienza visiva emozionante, visitata da migliaia di persone, che ha permesso a EPSON di aggiudicarsi il premio come miglior stand della manifestazione. 
               </p>
             </div>
             
@@ -272,15 +272,15 @@ const ProjectShowcase = () => {
               {/* Project Description */}
               <div className="text-gray-600 leading-tight text-sm md:text-base">
                 <p>
-                Il Centro TOG di Milano è un'eccellenza nel trattamento di bambini con disabilità cognitive e neurologiche, da sempre in prima linea nell'adozione di approcci innovativi in campo terapeutico. ZEBRA ha scelto di diventare partner attivo del progetto, mettendo a disposizione le proprie competenze tecnologico-esperienziali. Dalla collaborazione con le terapeute del centro è nata una stanza immersiva interattiva, un ambiente progettato a quattro mani per offrire ai piccoli pazienti trattamenti personalizzati e potenziati, calibrati sulle esigenze individuali. 
+                Il Centro TOG di Milano è un&apos;eccellenza nel trattamento di bambini con disabilità cognitive e neurologiche, da sempre in prima linea nell&apos;adozione di approcci innovativi in campo terapeutico. ZEBRA ha scelto di diventare partner attivo del progetto, mettendo a disposizione le proprie competenze tecnologico-esperienziali. Dalla collaborazione con le terapeute del centro è nata una stanza immersiva interattiva, un ambiente progettato a quattro mani per offrire ai piccoli pazienti trattamenti personalizzati e potenziati, calibrati sulle esigenze individuali. 
                 </p>
                 
                 <p>
-                Grazie alla combinazione di immersività, interattività e know-how terapeutico, abbiamo realizzato una sala dove i bambini possono esplorare scenari 3D coinvolgenti – dai fondali marini ai boschi innevati – pensati per stimolare i sensi, favorire l'apprendimento e regalare momenti di libertà ed emozione. 
+                Grazie alla combinazione di immersività, interattività e know-how terapeutico, abbiamo realizzato una sala dove i bambini possono esplorare scenari 3D coinvolgenti – dai fondali marini ai boschi innevati – pensati per stimolare i sensi, favorire l&apos;apprendimento e regalare momenti di libertà ed emozione. 
                 </p>
                 
                 <p>
-                Un progetto pionieristico che ha attirato l'attenzione del settore e dei media, aprendo nuove prospettive sull'uso delle tecnologie immersive in ambito medico-terapeutico. Un percorso di crescita che prosegue, alimentato dalla collaborazione continua con gli amici di TOG e dall'impegno condiviso nell'innovazione al servizio delle persone. 
+                Un progetto pionieristico che ha attirato l&apos;attenzione del settore e dei media, aprendo nuove prospettive sull&apos;uso delle tecnologie immersive in ambito medico-terapeutico. Un percorso di crescita che prosegue, alimentato dalla collaborazione continua con gli amici di TOG e dall&apos;impegno condiviso nell&apos;innovazione al servizio delle persone. 
                 </p>
               </div>
               
@@ -329,7 +329,7 @@ const ProjectShowcase = () => {
               {/* Project Description */}
               <div className="text-gray-600 leading-tight text-sm md:text-base">
                 <p>
-                l nostro prodotto immersivo più conosciuto: uno spazio di proiezione panoramica di oltre 6 metri di base che permette di insegnare entrando letteralmente nella materia. L'intera superficie è interattiva, trasformando ogni lezione in un'esperienza dinamica e partecipativa. 
+                l nostro prodotto immersivo più conosciuto: uno spazio di proiezione panoramica di oltre 6 metri di base che permette di insegnare entrando letteralmente nella materia. L&apos;intera superficie è interattiva, trasformando ogni lezione in un&apos;esperienza dinamica e partecipativa. 
                 </p>
                 
                 <p>

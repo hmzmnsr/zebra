@@ -12,7 +12,7 @@ const ChiSiamoFeatures = () => {
             
             {/* Small text */}
             <p className="text-xs sm:text-sm text-gray-600">
-              with the brand's signature orange.
+              with the brand&apos;s signature orange.
             </p>
             
             {/* Main heading */}
