@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Clients from "./components/homepage/Clients";
 import ContactCTA from "./components/ContactCTA";
 
@@ -13,7 +13,7 @@ export default function Home() {
           </h1>
           <p className="mt-6 text-xl text-gray-600 max-w-3xl mx-auto">
             Soluzioni innovative per il futuro digitale. Specializzati in tecnologie immersive, 
-            produzione di contenuti e ambienti collaborativi all'avanguardia.
+            produzione di contenuti e ambienti collaborativi all&apos;avanguardia.
           </p>
           <div className="mt-10 flex justify-center gap-4">
             <button className="bg-gray-800 text-white px-8 py-3 rounded-md hover:bg-gray-700 transition-colors">

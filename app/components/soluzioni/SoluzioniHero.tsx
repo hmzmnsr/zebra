@@ -21,7 +21,7 @@ const SoluzioniHero = () => {
         <div className="max-w-4xl space-y-8">
           {/* First Paragraph */}
           <p className="text-base md:text-lg text-gray-100 leading-relaxed font-sans">
-            Diamo vita a spazi che comunicano, emozionano e trasformano la percezione. Tramite tecnologie all'avanguardia e una visione creativa, creiamo ambienti immersivi che uniscono mondo digitale e fisico, trasportando il pubblico oltre i confini dell'immaginazione.
+            Diamo vita a spazi che comunicano, emozionano e trasformano la percezione. Tramite tecnologie all&apos;avanguardia e una visione creativa, creiamo ambienti immersivi che uniscono mondo digitale e fisico, trasportando il pubblico oltre i confini dell&apos;immaginazione.
           </p>
         </div>
       </div>

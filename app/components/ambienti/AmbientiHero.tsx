@@ -12,7 +12,7 @@ const AmbientiHero = () => {
         {/* Header Title with divider line next to it */}
         <div className="flex items-baseline mb-8">
           <h1 className="text-4xl md:text-6xl font-sans text-white mr-4">
-            Ambienti collaborativi all'avanguardia
+            Ambienti collaborativi all&apos;avanguardia
           </h1>
           <div className="flex-1 h-px bg-gray-500"></div>
         </div>

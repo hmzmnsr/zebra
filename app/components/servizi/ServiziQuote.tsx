@@ -9,7 +9,7 @@ const ServiziQuote = () => {
           Trasformiamo le tue idee in realtà straordinarie, creando spazi e
           </p>
           <p className="text-lg md:text-xl lg:text-4xl text-gray-900 leading-tight font-sans text-center lg:text-left">
-          contenuti che migliorano la collaborazione, accelerano l'innovazione e
+          contenuti che migliorano la collaborazione, accelerano l&apos;innovazione e
           </p>
           <p className="text-lg md:text-xl lg:text-4xl text-gray-900 leading-tight font-sans text-center lg:text-left">
           lasciano un segno.

@@ -24,7 +24,7 @@ export default function Prodotti() {
             {/* Left Column */}
             <div className="space-y-8">
               <p className="text-base md:text-lg text-gray-100 leading-relaxed font-sans font-light">
-                Frutto di un'intensa attività di ricerca e sviluppo, i nostri mediaserver sono progettati per garantire massima flessibilità e affidabilità: gestione di output video in numero illimitato, sistemi audio anche multicanale, acquisizioni video in 4K e controllo di apparati tramite PLC.
+                Frutto di un&apos;intensa attività di ricerca e sviluppo, i nostri mediaserver sono progettati per garantire massima flessibilità e affidabilità: gestione di output video in numero illimitato, sistemi audio anche multicanale, acquisizioni video in 4K e controllo di apparati tramite PLC.
               </p>
               
               <p className="text-base md:text-lg text-gray-100 leading-relaxed font-sans font-light">
