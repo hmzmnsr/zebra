@@ -57,10 +57,10 @@ const ServiziFeature = () => {
                 2
               </h2>
               <h3 className="text-xl md:text-2xl lg:text-4xl text-gray-700">
-                Ambienti collaborativi all'avanguardia
+                Ambienti collaborativi all&apos;avanguardia
               </h3>
               <p className="text-gray-600 leading-tight text-sm md:text-base mt-4 md:mt-8">
-              Spazi collaborativi all'avanguardia dove tecnologie multimediali ed immersive potenziano produttività e creatività, trasformando ogni riunione, presentazione o sessione di training in un'esperienza d'impatto altamente performante. 
+              Spazi collaborativi all&apos;avanguardia dove tecnologie multimediali ed immersive potenziano produttività e creatività, trasformando ogni riunione, presentazione o sessione di training in un&apos;esperienza d&apos;impatto altamente performante. 
               </p>
             </div>
             
@@ -79,7 +79,7 @@ const ServiziFeature = () => {
           <div className="relative lg:col-span-3 order-2">
             <Image
               src="/assets/servisiz/2.jpg"
-              alt="Ambienti collaborativi all'avanguardia"
+              alt="Ambienti collaborativi all&apos;avanguardia"
               width={600}
               height={400}
               className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"

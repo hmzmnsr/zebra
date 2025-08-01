@@ -60,7 +60,7 @@ const ServiziContent = () => {
                  Software development
                </h3>
                <p className="text-gray-600 leading-tight text-sm md:text-base mt-4 md:mt-8">
-               Software personalizzati con un approccio completo: dal design UX/UI allo sviluppo di applicazioni, anche mobile. Interfacce di controllo intuitive e integrazione di automazioni, per soluzioni che semplificano i processi e valorizzano l'esperienza utente 
+               Software personalizzati con un approccio completo: dal design UX/UI allo sviluppo di applicazioni, anche mobile. Interfacce di controllo intuitive e integrazione di automazioni, per soluzioni che semplificano i processi e valorizzano l&apos;esperienza utente 
                </p>
              </div>
              

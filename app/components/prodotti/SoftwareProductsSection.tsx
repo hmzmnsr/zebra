@@ -43,7 +43,7 @@ const SoftwareProductsSection = () => {
                 Software ZEBRA per digital signage, semplice e intuitivo per la gestione della comunicazione su monitor, ledwall e videoproiettori con un solo click. Permette il controllo pratico e centralizzato degli orari, scegliendo cosa trasmettere e quando, anche da remoto.
               </p>
               <p className="text-sm text-[#2d5016] leading-6 text-left">
-                Si integra con ARES controller, permettendo la gestione di una o più uscite e automatizzando le funzioni dei dispositivi, incluso l'accensione/spegnimento. La soluzione è costruita su una base cloud avanzata, progettata per alta sicurezza contro intrusioni esterne e manomissioni.
+                Si integra con ARES controller, permettendo la gestione di una o più uscite e automatizzando le funzioni dei dispositivi, incluso l&apos;accensione/spegnimento. La soluzione è costruita su una base cloud avanzata, progettata per alta sicurezza contro intrusioni esterne e manomissioni.
               </p>
             </div>
           </div>
@@ -82,7 +82,7 @@ const SoftwareProductsSection = () => {
                 Software che permette ai mediaserver ARES di controllare qualsiasi dispositivo connesso. Altamente flessibile e configurabile, si adatta ai più diversi contesti applicativi, funzionando come domotica avanzata.
               </p>
               <p className="text-sm text-[#2d5016] leading-6 text-left">
-                Permette ad ARES di comunicare e gestire ogni componente di un sistema multimediale: luci, tapparelle, automazioni e dispositivi connessi. Grazie all'interfaccia tablet con ZNC, tutti i controlli del sistema sono facilmente accessibili, semplici, intuitivi e personalizzabili.
+                Permette ad ARES di comunicare e gestire ogni componente di un sistema multimediale: luci, tapparelle, automazioni e dispositivi connessi. Grazie all&apos;interfaccia tablet con ZNC, tutti i controlli del sistema sono facilmente accessibili, semplici, intuitivi e personalizzabili.
               </p>
             </div>
           </div>
