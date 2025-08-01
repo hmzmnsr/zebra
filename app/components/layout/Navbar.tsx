@@ -35,6 +35,11 @@ const Navbar = () => {
     { name: 'Contatti', href: '/contatti' }
   ];
 
+  // Function to generate URL from servizio name
+  const generateServizioUrl = (servizio: string) => {
+    return `/servizi/${servizio.toLowerCase().replace(/\s+/g, '-').replace(/'/g, '')}`;
+  };
+
   return (
     <div className="fixed top-0 left-0 right-0 z-50">
       {/* Mobile menu trigger - positioned outside main nav */}
@@ -159,7 +164,7 @@ const Navbar = () => {
                      isScrolled ? 'border-gray-600' : 'border-white/20'
                    }`}>
                      <Link
-                       href={`/servizi/${servizio.toLowerCase().replace(/\s+/g, '-')}`}
+                       href={generateServizioUrl(servizio)}
                        className="block text-white hover:text-gray-300 transition-colors text-sm py-2"
                      >
                        {servizio}
@@ -197,7 +202,7 @@ const Navbar = () => {
                                              {serviziItems.map((servizio) => (
                          <Link
                            key={servizio}
-                           href={`/servizi/${servizio.toLowerCase().replace(/\s+/g, '-')}`}
+                           href={generateServizioUrl(servizio)}
                            className="block px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-700 transition-colors"
                          >
                            {servizio}
