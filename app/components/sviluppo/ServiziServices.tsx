@@ -1,0 +1,35 @@
+'use client';
+
+const ServiziServices = () => {
+  const services = [
+    {
+      id: 1,
+      title: 'Conferencing, design thinking, presentazione',
+    },
+    {
+      id: 2,
+      title: 'Soluzioni multimediali per l\'automazione industriale',
+    }
+  ];
+
+  return (
+    <section className="py-16" style={{ backgroundColor: '#47515a' }}>
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 md:gap-8">
+          {services.map((service) => (
+            <div key={service.id} className="flex items-baseline space-x-3">
+              <span className="text-white text-sm flex-shrink-0">
+                {service.id}.
+              </span>
+              <span className="text-white text-sm leading-tight">
+                {service.title}
+              </span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default ServiziServices; 
