@@ -50,7 +50,7 @@ const Navbar = () => {
   if (!isMounted) {
     return (
       <div className="fixed top-0 left-0 right-0 z-50">
-        <nav className="backdrop-blur-md border-b border-white/20 text-white w-full h-[70px] flex items-center px-8 z-40 relative transition-all duration-300 bg-white/10 border-white/20">
+        <nav className="bg-white border-b border-gray-200 text-gray-800 w-full h-[70px] flex items-center px-8 z-40 relative transition-all duration-300">
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center justify-between w-full max-w-7xl mx-auto">
             {/* Logo */}
@@ -92,23 +92,27 @@ const Navbar = () => {
             {/* Mobile Logo */}
             <div className="flex-shrink-0">
               <Link href="/" className="flex items-center">
-                <Image
-                  src="/assets/logo.png"
-                  alt="Zebra Logo"
-                  width={140}
-                  height={50}
-                  className="h-10 w-auto"
-                  priority
-                />
+                <div className="flex items-center">
+                  {/* Diagonal stripes graphic */}
+                  <div className="flex mr-2">
+                    <div className="w-1 h-4 bg-green-500 mr-0.5"></div>
+                    <div className="w-1 h-4 bg-teal-500 mr-0.5"></div>
+                    <div className="w-1 h-4 bg-blue-500 mr-0.5"></div>
+                    <div className="w-1 h-4 bg-blue-600 mr-0.5"></div>
+                    <div className="w-1 h-4 bg-blue-700"></div>
+                  </div>
+                  {/* ZEBRA text */}
+                  <span className="font-bold text-black text-xl">ZEBRA</span>
+                </div>
               </Link>
             </div>
 
             {/* Mobile Menu Button */}
-            <button className="flex items-center gap-2 text-white">
-              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M10 2L12 8H18L13 12L15 18L10 14L5 18L7 12L2 8H8L10 2Z" />
+            <button className="flex items-center gap-2 text-gray-500">
+              <span className="text-sm font-medium">Menu</span>
+              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
               </svg>
-              <span>Menu</span>
             </button>
           </div>
         </nav>
@@ -122,12 +126,12 @@ const Navbar = () => {
       <div className="lg:hidden absolute top-0 left-0 z-50 p-4">
         <button
           onClick={() => setIsServiziOpen(!isServiziOpen)}
-          className="flex items-center gap-2 text-white"
+          className="flex items-center gap-2 text-gray-500"
         >
-          <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-            <path d="M10 2L12 8H18L13 12L15 18L10 14L5 18L7 12L2 8H8L10 2Z" />
+          <span className="text-sm font-medium">Menu</span>
+          <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+            <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
           </svg>
-          <span>Menu</span>
         </button>
       </div>
 
@@ -199,26 +203,30 @@ const Navbar = () => {
           {/* Mobile Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
-              <Image
-                src="/assets/logo.png"
-                alt="Zebra Logo"
-                width={140}
-                height={50}
-                className="h-10 w-auto"
-                priority
-              />
+              <div className="flex items-center">
+                {/* Diagonal stripes graphic */}
+                <div className="flex mr-2">
+                  <div className="w-1 h-4 bg-green-500 mr-0.5"></div>
+                  <div className="w-1 h-4 bg-teal-500 mr-0.5"></div>
+                  <div className="w-1 h-4 bg-blue-500 mr-0.5"></div>
+                  <div className="w-1 h-4 bg-blue-600 mr-0.5"></div>
+                  <div className="w-1 h-4 bg-blue-700"></div>
+                </div>
+                {/* ZEBRA text */}
+                <span className="font-bold text-black text-xl">ZEBRA</span>
+              </div>
             </Link>
           </div>
 
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsServiziOpen(!isServiziOpen)}
-            className="flex items-center gap-2 text-white"
+            className="flex items-center gap-2 text-gray-500"
           >
-            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-              <path d="M10 2L12 8H18L13 12L15 18L10 14L5 18L7 12L2 8H8L10 2Z" />
+            <span className="text-sm font-medium">Menu</span>
+            <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+              <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
             </svg>
-            <span>Menu</span>
           </button>
         </div>
       </nav>
