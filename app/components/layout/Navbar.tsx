@@ -7,13 +7,19 @@ import Image from 'next/image';
 const Navbar = () => {
   const [isServiziOpen, setIsServiziOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
+    setIsMounted(true);
+    
     const handleScroll = () => {
       const scrollTop = window.scrollY;
       setIsScrolled(scrollTop > 50);
     };
 
+    // Set initial scroll state
+    handleScroll();
+    
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
@@ -39,6 +45,76 @@ const Navbar = () => {
   const generateServizioUrl = (servizio: string) => {
     return `/servizi/${servizio.toLowerCase().replace(/\s+/g, '-').replace(/'/g, '')}`;
   };
+
+  // Don't render until mounted to prevent hydration mismatch
+  if (!isMounted) {
+    return (
+      <div className="fixed top-0 left-0 right-0 z-50">
+        <nav className="backdrop-blur-md border-b border-white/20 text-white w-full h-[70px] flex items-center px-8 z-40 relative transition-all duration-300 bg-white/10 border-white/20">
+          {/* Desktop Navigation */}
+          <div className="hidden lg:flex items-center justify-between w-full max-w-7xl mx-auto">
+            {/* Logo */}
+            <div className="flex-shrink-0">
+              <Link href="/" className="flex items-center">
+                <Image
+                  src="/assets/logo.png"
+                  alt="Zebra Logo"
+                  width={280}
+                  height={80}
+                  className="h-16 w-auto"
+                  priority
+                />
+              </Link>
+            </div>
+
+            {/* Navigation Links */}
+            <div className="flex items-center space-x-16 pr-24">
+              {navItems.map((item, index) => (
+                <div key={item.name} className="relative">
+                  <Link
+                    href={item.href}
+                    className="text-white hover:text-gray-300 transition-colors text-base font-medium"
+                  >
+                    {item.name}
+                  </Link>
+                  
+                  {/* Vertical separator */}
+                  {index < navItems.length - 1 && (
+                    <div className="absolute -right-6 top-1/2 transform -translate-y-1/2 w-px h-6 bg-white/30"></div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Mobile Navigation */}
+          <div className="lg:hidden flex items-center justify-between w-full">
+            {/* Mobile Logo */}
+            <div className="flex-shrink-0">
+              <Link href="/" className="flex items-center">
+                <Image
+                  src="/assets/logo.png"
+                  alt="Zebra Logo"
+                  width={140}
+                  height={50}
+                  className="h-10 w-auto"
+                  priority
+                />
+              </Link>
+            </div>
+
+            {/* Mobile Menu Button */}
+            <button className="flex items-center gap-2 text-white">
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M10 2L12 8H18L13 12L15 18L10 14L5 18L7 12L2 8H8L10 2Z" />
+              </svg>
+              <span>Menu</span>
+            </button>
+          </div>
+        </nav>
+      </div>
+    );
+  }
 
   return (
     <div className="fixed top-0 left-0 right-0 z-50">
