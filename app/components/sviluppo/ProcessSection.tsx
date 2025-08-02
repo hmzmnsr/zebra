@@ -9,11 +9,11 @@ const ProcessSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Content - Text Block */}
           <div className="">
-            <h3 className="text-gray-300 text-md font-thin px-32">
+            <h3 className="text-gray-300 text-md font-thin px-4 sm:px-8 lg:px-32">
               Il nostro processo
             </h3>
-            <p className="text-white text-xl leading-tight px-32 font-thin">
-            Dai photobooth immersivi alle applicazioni mobile, passando per i configuratori in real-time, ZEBRA offre un servizio completo di sviluppo custom, progettato su misura per ogni esigenza. 
+            <p className="text-white text-xl leading-tight px-4 sm:px-8 lg:px-32 font-thin">
+            Dai photobooth immersivi alle applicazioni mobile, passando per i configuratori in real-time, ZEBRA offre un servizio completo di sviluppo custom, progettato su misura per ogni esigenza. 
               </p>
           </div>
 

@@ -122,25 +122,12 @@ const Navbar = () => {
 
   return (
     <div className="fixed top-0 left-0 right-0 z-50">
-      {/* Mobile menu trigger - positioned outside main nav */}
-      <div className="lg:hidden absolute top-0 left-0 z-50 p-4">
-        <button
-          onClick={() => setIsServiziOpen(!isServiziOpen)}
-          className="flex items-center gap-2 text-gray-500"
-        >
-          <span className="text-sm font-medium">Menu</span>
-          <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-            <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
-          </svg>
-        </button>
-      </div>
-
       {/* Main Navigation Bar */}
-      <nav className={`backdrop-blur-md border-b border-white/20 text-white w-full h-[70px] flex items-center px-8 z-40 relative transition-all duration-300 ${
-        isScrolled 
-          ? 'bg-[#4F4F4E] border-gray-600' 
-          : 'bg-white/10 border-white/20'
-      }`}>
+             <nav className={`w-full h-[70px] flex items-center px-8 z-40 relative transition-all duration-300 ${
+         isScrolled 
+           ? 'bg-white border-gray-200 text-gray-800 lg:bg-[#4F4F4E] lg:border-gray-600 lg:text-white' 
+           : 'bg-white border-gray-200 text-gray-800 lg:backdrop-blur-md lg:border-white/20 lg:text-white lg:bg-white/10'
+       }`}>
         {/* Desktop Navigation */}
         <div className="hidden lg:flex items-center justify-between w-full max-w-7xl mx-auto">
           {/* Logo */}
@@ -261,47 +248,47 @@ const Navbar = () => {
         </div>
       )}
 
-      {/* Mobile Dropdown */}
-      {isServiziOpen && (
-        <div className={`lg:hidden absolute top-full left-0 w-full backdrop-blur-md border-t shadow-lg z-50 transition-all duration-300 ${
-          isScrolled 
-            ? 'bg-[#4F4F4E] border-gray-600' 
-            : 'bg-white/10 border-white/20'
-        }`}>
+             {/* Mobile Dropdown */}
+       {isServiziOpen && (
+         <div className={`lg:hidden absolute top-full left-0 w-full border-t shadow-lg z-50 transition-all duration-300 ${
+           isScrolled 
+             ? 'bg-white border-gray-200 lg:bg-[#4F4F4E] lg:border-gray-600' 
+             : 'bg-white border-gray-200'
+         }`}>
           <div className="px-4 py-2 space-y-1">
             {navItems.map((item) => (
               <div key={item.name}>
                 {item.hasDropdown ? (
                   <div>
-                    <button
-                      onClick={() => setIsServiziOpen(!isServiziOpen)}
-                      className="w-full text-left px-3 py-2 text-white hover:bg-gray-700 transition-colors flex items-center justify-between"
-                    >
-                      {item.name}
-                      <span className="text-sm">
-                        {isServiziOpen ? '-' : '+'}
-                      </span>
-                    </button>
-                    <div className="pl-4">
-                                             {serviziItems.map((servizio) => (
+                                         <button
+                       onClick={() => setIsServiziOpen(!isServiziOpen)}
+                       className="w-full text-left px-3 py-2 text-gray-800 hover:bg-gray-100 transition-colors flex items-center justify-between"
+                     >
+                       {item.name}
+                       <span className="text-sm">
+                         {isServiziOpen ? '-' : '+'}
+                       </span>
+                     </button>
+                     <div className="pl-4">
+                                              {serviziItems.map((servizio) => (
                          <Link
                            key={servizio}
                            href={generateServizioUrl(servizio)}
-                           className="block px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-700 transition-colors"
+                           className="block px-3 py-2 text-gray-600 hover:text-gray-800 hover:bg-gray-100 transition-colors"
                          >
                            {servizio}
                          </Link>
                        ))}
-                    </div>
-                  </div>
-                ) : (
-                  <Link
-                    href={item.href}
-                    className="block px-3 py-2 text-white hover:bg-gray-700 transition-colors"
-                  >
-                    {item.name}
-                  </Link>
-                )}
+                     </div>
+                   </div>
+                 ) : (
+                   <Link
+                     href={item.href}
+                     className="block px-3 py-2 text-gray-800 hover:bg-gray-100 transition-colors"
+                   >
+                     {item.name}
+                   </Link>
+                 )}
               </div>
             ))}
           </div>
