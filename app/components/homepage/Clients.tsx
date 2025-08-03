@@ -9,7 +9,7 @@ const Clients = () => {
     { name: 'pierre cardin', logo: '/assets/homepage/buslogo5.png' },
     { name: 'LANEROSSI', logo: '/assets/homepage/buslogo6.png' },
     { name: 'REGIONE DEL VENETO', logo: '/assets/homepage/buslogo7.png' },
-    { name: 'OLAFER', logo: '/assets/homepage/buslogo8.png' },
+    { name: 'OLAFER', logo: '/assets/homepage/buslogo2.png' },
     { name: 'Beta', logo: '/assets/homepage/buslogo9.png' },
     { name: 'TOG', logo: '/assets/homepage/buslogo10.png' },
   ];
