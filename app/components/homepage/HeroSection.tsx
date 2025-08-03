@@ -4,9 +4,9 @@ import Image from 'next/image';
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full overflow-hidden mt-[70px] md:mt-0 h-[calc(100vh-70px)] md:h-auto">
+    <section className="relative w-full overflow-hidden mt-[70px] md:mt-0 h-[calc(100vh-70px)] md:h-auto bg-black">
       {/* Background Image */}
-      <div className="relative h-full">
+      <div className="relative h-full pt-10">
         <Image
           src="/assets/homepage/sec1.png"
           alt="Hero Background"
