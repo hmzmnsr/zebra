@@ -19,7 +19,7 @@ const ContactCTA = () => {
           <button className="inline-flex items-center gap-3 px-8 py-4 bg-white border border-gray-300 rounded-lg hover:border-gray-400 transition-colors">
             <span className="text-black font-medium">Contattaci</span>
             <Image
-              src="/assets/btn.PNG"
+              src="/assets/case/btn.PNG"
               alt="Contact icon"
               width={16}
               height={16}
