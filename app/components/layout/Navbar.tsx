@@ -259,6 +259,7 @@ const Navbar = () => {
                    }`}>
                      <Link
                        href={generateServizioUrl(servizio)}
+                       onClick={handleNavigationClick}
                        className="block text-white hover:text-gray-300 transition-colors text-sm py-2"
                      >
                        {servizio}
