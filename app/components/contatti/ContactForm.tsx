@@ -160,7 +160,7 @@ const ContactForm = () => {
               >
                 <span className="text-black font-medium text-sm sm:text-base">Invia</span>
                 <Image
-                  src="/assets/btn.PNG"
+                  src="/assets/case/btn.PNG"
                   alt="Send icon"
                   width={16}
                   height={16}
