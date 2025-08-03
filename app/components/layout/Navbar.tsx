@@ -38,6 +38,10 @@ const Navbar = () => {
     }, 150); // Small delay to allow moving to dropdown content
   };
 
+  const handleNavigationClick = () => {
+    setIsServiziOpen(false);
+  };
+
   const serviziItems = [
     'Soluzioni multimediali immersive',
     'Produzione contenuti',
@@ -275,32 +279,42 @@ const Navbar = () => {
           <div className="px-4 py-2 space-y-1">
             {navItems.map((item) => (
               <div key={item.name}>
-                {item.hasDropdown ? (
+                                {item.hasDropdown ? (
                   <div>
-                                         <button
-                       onClick={() => setIsServiziOpen(!isServiziOpen)}
-                       className="w-full text-left px-3 py-2 text-gray-800 hover:bg-gray-100 transition-colors flex items-center justify-between"
-                     >
-                       {item.name}
-                       <span className="text-sm">
-                         {isServiziOpen ? '-' : '+'}
-                       </span>
-                     </button>
-                     <div className="pl-4">
-                                              {serviziItems.map((servizio) => (
+                                         <div className="flex items-center justify-between">
+                       <Link
+                         href={item.href}
+                         onClick={handleNavigationClick}
+                         className="flex-1 px-3 py-2 text-gray-800 hover:bg-gray-100 transition-colors"
+                       >
+                         {item.name}
+                       </Link>
+                      <button
+                        onClick={() => setIsServiziOpen(!isServiziOpen)}
+                        className="px-3 py-2 text-gray-800 hover:bg-gray-100 transition-colors"
+                      >
+                        <span className="text-sm">
+                          {isServiziOpen ? '-' : '+'}
+                        </span>
+                      </button>
+                    </div>
+                                         <div className="pl-4">
+                       {serviziItems.map((servizio) => (
                          <Link
                            key={servizio}
                            href={generateServizioUrl(servizio)}
+                           onClick={handleNavigationClick}
                            className="block px-3 py-2 text-gray-600 hover:text-gray-800 hover:bg-gray-100 transition-colors"
                          >
                            {servizio}
                          </Link>
                        ))}
                      </div>
-                   </div>
-                 ) : (
+                  </div>
+                                 ) : (
                    <Link
                      href={item.href}
+                     onClick={handleNavigationClick}
                      className="block px-3 py-2 text-gray-800 hover:bg-gray-100 transition-colors"
                    >
                      {item.name}
