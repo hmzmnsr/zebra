@@ -14,7 +14,7 @@ const IntegratedApproachSection = () => {
         
         {/* Left Column - Text Content */}
         <div className="flex-1 max-w-2xl text-center md:text-left mb-8 md:mb-0">
-          <h1 className="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-light text-white leading-relaxed mb-6 md:mb-8 px-2 md:px-0">
+          <h1 className="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-light text-white leading-tight mb-6 md:mb-8 px-2 md:px-0">
             Il nostro approccio integrato fonde tecnologia e creatività per dare vita 
             ad esperienze sensorialmente stimolanti ed indimenticabili
           </h1>
