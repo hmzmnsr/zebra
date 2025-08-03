@@ -8,6 +8,7 @@ const Navbar = () => {
   const [isServiziOpen, setIsServiziOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
@@ -40,6 +41,7 @@ const Navbar = () => {
 
   const handleNavigationClick = () => {
     setIsServiziOpen(false);
+    setIsMobileMenuOpen(false);
   };
 
   const serviziItems = [
@@ -226,11 +228,11 @@ const Navbar = () => {
 
           {/* Mobile Menu Button */}
           <button
-            onClick={() => setIsServiziOpen(!isServiziOpen)}
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className="flex items-center gap-2 text-gray-500"
           >
             <span className="text-sm font-medium">Menu</span>
-            <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+            <svg className={`w-4 h-4 transition-transform duration-300 ${isMobileMenuOpen ? 'rotate-180' : ''}`} fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
             </svg>
           </button>
@@ -269,26 +271,29 @@ const Navbar = () => {
         </div>
       )}
 
-             {/* Mobile Dropdown */}
-       {isServiziOpen && (
-         <div className={`lg:hidden absolute top-full left-0 w-full border-t shadow-lg z-50 transition-all duration-300 ${
-           isScrolled 
-             ? 'bg-white border-gray-200 lg:bg-[#4F4F4E] lg:border-gray-600' 
-             : 'bg-white border-gray-200'
-         }`}>
+                          {/* Mobile Dropdown */}
+        <div className={`lg:hidden absolute top-full left-0 w-full border-t shadow-lg z-50 transition-all duration-500 ease-in-out transform origin-top ${
+          isMobileMenuOpen 
+            ? 'scale-y-100 opacity-100' 
+            : 'scale-y-0 opacity-0 pointer-events-none'
+        } ${
+          isScrolled 
+            ? 'bg-white border-gray-200 lg:bg-[#4F4F4E] lg:border-gray-600' 
+            : 'bg-white border-gray-200'
+        }`}>
           <div className="px-4 py-2 space-y-1">
             {navItems.map((item) => (
               <div key={item.name}>
-                                {item.hasDropdown ? (
+                {item.hasDropdown ? (
                   <div>
-                                         <div className="flex items-center justify-between">
-                       <Link
-                         href={item.href}
-                         onClick={handleNavigationClick}
-                         className="flex-1 px-3 py-2 text-gray-800 hover:bg-gray-100 transition-colors"
-                       >
-                         {item.name}
-                       </Link>
+                    <div className="flex items-center justify-between">
+                      <Link
+                        href={item.href}
+                        onClick={handleNavigationClick}
+                        className="flex-1 px-3 py-2 text-gray-800 hover:bg-gray-100 transition-colors"
+                      >
+                        {item.name}
+                      </Link>
                       <button
                         onClick={() => setIsServiziOpen(!isServiziOpen)}
                         className="px-3 py-2 text-gray-800 hover:bg-gray-100 transition-colors"
@@ -298,33 +303,32 @@ const Navbar = () => {
                         </span>
                       </button>
                     </div>
-                                         <div className="pl-4">
-                       {serviziItems.map((servizio) => (
-                         <Link
-                           key={servizio}
-                           href={generateServizioUrl(servizio)}
-                           onClick={handleNavigationClick}
-                           className="block px-3 py-2 text-gray-600 hover:text-gray-800 hover:bg-gray-100 transition-colors"
-                         >
-                           {servizio}
-                         </Link>
-                       ))}
-                     </div>
+                    <div className="pl-4">
+                      {serviziItems.map((servizio) => (
+                        <Link
+                          key={servizio}
+                          href={generateServizioUrl(servizio)}
+                          onClick={handleNavigationClick}
+                          className="block px-3 py-2 text-gray-600 hover:text-gray-800 hover:bg-gray-100 transition-colors"
+                        >
+                          {servizio}
+                        </Link>
+                      ))}
+                    </div>
                   </div>
-                                 ) : (
-                   <Link
-                     href={item.href}
-                     onClick={handleNavigationClick}
-                     className="block px-3 py-2 text-gray-800 hover:bg-gray-100 transition-colors"
-                   >
-                     {item.name}
-                   </Link>
-                 )}
+                ) : (
+                  <Link
+                    href={item.href}
+                    onClick={handleNavigationClick}
+                    className="block px-3 py-2 text-gray-800 hover:bg-gray-100 transition-colors"
+                  >
+                    {item.name}
+                  </Link>
+                )}
               </div>
             ))}
           </div>
         </div>
-      )}
     </div>
   );
 };
