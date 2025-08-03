@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -8,6 +8,7 @@ const Navbar = () => {
   const [isServiziOpen, setIsServiziOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     setIsMounted(true);
@@ -23,6 +24,19 @@ const Navbar = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  const handleMouseEnter = () => {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
+    setIsServiziOpen(true);
+  };
+
+  const handleMouseLeave = () => {
+    timeoutRef.current = setTimeout(() => {
+      setIsServiziOpen(false);
+    }, 150); // Small delay to allow moving to dropdown content
+  };
 
   const serviziItems = [
     'Soluzioni multimediali immersive',
@@ -149,7 +163,11 @@ const Navbar = () => {
             {navItems.map((item, index) => (
               <div key={item.name} className="relative">
                                  {item.hasDropdown ? (
-                   <div className="relative">
+                   <div 
+                     className="relative"
+                     onMouseEnter={handleMouseEnter}
+                     onMouseLeave={handleMouseLeave}
+                   >
                      <div className="flex items-center gap-2">
                        <Link
                          href={item.href}
@@ -157,12 +175,9 @@ const Navbar = () => {
                        >
                          {item.name}
                        </Link>
-                       <button
-                         onClick={() => setIsServiziOpen(!isServiziOpen)}
-                         className="text-white hover:text-gray-300 transition-colors text-sm"
-                       >
-                         {isServiziOpen ? '-' : '+'}
-                       </button>
+                       <span className="text-white hover:text-gray-300 transition-colors text-sm">
+                         +
+                       </span>
                      </div>
                    </div>
                  ) : (
@@ -221,13 +236,15 @@ const Navbar = () => {
              {/* Full-width Dropdown Menu - Desktop */}
        {isServiziOpen && (
          <div 
-           className={`hidden lg:block absolute top-[70px] left-0 w-screen backdrop-blur-md border-b shadow-lg z-50 transition-all duration-300 ${
+           className={`hidden lg:block absolute top-[70px] w-screen backdrop-blur-md border-b shadow-lg z-50 transition-all duration-300 ${
              isScrolled 
                ? 'bg-[#4F4F4E] border-gray-600' 
                : 'bg-white/10 border-white/20'
            }`}
+           onMouseEnter={handleMouseEnter}
+           onMouseLeave={handleMouseLeave}
          >
-          <div className="max-w-7xl mx-auto px-8">
+          <div className="max-w-8xl mx-auto px-8 ml-64">
             <div className="flex justify-start">
               <div className="w-80 py-8 ml-[calc(50%-18rem)]">
                                  {serviziItems.map((servizio) => (

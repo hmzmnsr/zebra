@@ -7,7 +7,7 @@ const UnderImageSection = () => {
         {/* Header Area */}
         <div className="mb-8 sm:mb-12 leading-tight">
           <h3 className="text-white text-xs font-thin leading-tight">
-          L’ambiente di lavoro come espressione dell innovazione
+          L ambiente di lavoro come espressione dell innovazione
           </h3>
           <h2 className="text-4xl md:text-5xl lg:text-3xl font-thin text-white leading-tight">
             Il futuro è collaborativo
