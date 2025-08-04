@@ -47,9 +47,25 @@ const ImmersiveMultimediaSectionTwo = () => {
           fill
           className="object-cover transition-all duration-1000 ease-in-out"
           priority
+          sizes="100vw"
+          quality={85}
         />
         {/* Black overlay for better text readability */}
         <div className="absolute inset-0 bg-black/40"></div>
+      </div>
+
+      {/* Preload all images */}
+      <div className="hidden">
+        {menuItems.map((item) => (
+          <Image
+            key={item.id}
+            src={item.image}
+            alt=""
+            width={1}
+            height={1}
+            priority={item.id === 1}
+          />
+        ))}
       </div>
 
       {/* Full-width heading above the panel */}
