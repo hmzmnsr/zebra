@@ -145,7 +145,7 @@ const Navbar = () => {
       {/* Main Navigation Bar */}
              <nav className={`w-full h-[70px] flex items-center px-8 z-40 relative transition-all duration-300 ${
          isScrolled 
-           ? 'bg-white border-gray-200 text-gray-800 lg:bg-[#4F4F4E] lg:border-gray-600 lg:text-white' 
+           ? 'bg-white border-gray-200 text-gray-800 lg:bg-black/80 lg:backdrop-blur-md lg:border-white/20 lg:text-white' 
            : 'bg-white border-gray-200 text-gray-800 lg:backdrop-blur-md lg:border-white/20 lg:text-white lg:bg-white/10'
        }`}>
         {/* Desktop Navigation */}
@@ -198,7 +198,7 @@ const Navbar = () => {
                 {/* Vertical separator */}
                 {index < navItems.length - 1 && (
                   <div className={`absolute -right-6 top-1/2 transform -translate-y-1/2 w-px h-6 transition-colors duration-300 ${
-                    isScrolled ? 'bg-gray-600' : 'bg-white/30'
+                    isScrolled ? 'bg-white/30' : 'bg-white/30'
                   }`}></div>
                 )}
               </div>
@@ -244,7 +244,7 @@ const Navbar = () => {
          <div 
            className={`hidden lg:block absolute top-[70px] w-screen backdrop-blur-md border-b shadow-lg z-50 transition-all duration-300 ${
              isScrolled 
-               ? 'bg-[#4F4F4E] border-gray-600' 
+               ? 'bg-black/80 border-white/20' 
                : 'bg-white/10 border-white/20'
            }`}
            onMouseEnter={handleMouseEnter}
@@ -255,7 +255,7 @@ const Navbar = () => {
               <div className="w-80 py-8 ml-[calc(50%-18rem)]">
                                  {serviziItems.map((servizio) => (
                    <div key={servizio} className={`border-b last:border-b-0 pb-4 mb-4 last:mb-0 transition-colors duration-300 ${
-                     isScrolled ? 'border-gray-600' : 'border-white/20'
+                     isScrolled ? 'border-white/20' : 'border-white/20'
                    }`}>
                      <Link
                        href={generateServizioUrl(servizio)}
@@ -279,7 +279,7 @@ const Navbar = () => {
             : 'scale-y-0 opacity-0 pointer-events-none'
         } ${
           isScrolled 
-            ? 'bg-white border-gray-200 lg:bg-[#4F4F4E] lg:border-gray-600' 
+            ? 'bg-white border-gray-200' 
             : 'bg-white border-gray-200'
         }`}>
           <div className="px-4 py-2 space-y-1">

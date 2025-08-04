@@ -40,19 +40,21 @@ const ImmersiveMultimediaSectionTwo = () => {
       {/* Left Vertical Navigation Menu */}
       <div className="absolute top-16 md:top-20 z-10 left-2 md:left-0">
         {/* Table with borders */}
-        <div className="border border-white/30 rounded-lg overflow-hidden w-64 md:w-80">
+        <div className="border border-white/30 overflow-hidden w-64 md:w-80">
           <ul className="space-y-0">
             {menuItems.map((item) => (
               <li key={item.id} className="border-b border-white/30 last:border-b-0">
-                <div className="flex items-center py-2 md:py-3 px-3 md:px-4 hover:bg-white/10 transition-colors cursor-pointer">
-                  <div 
-                    className={`w-1.5 md:w-2 h-1.5 md:h-2 mr-2 md:mr-3 rounded-full ${
-                      item.active ? 'bg-green-500' : 'bg-white/60'
-                    }`}
-                  ></div>
+                <div className={`flex items-center justify-between py-2 md:py-3 px-3 md:px-4 hover:bg-white/10 transition-colors cursor-pointer ${
+                  item.active ? 'bg-black/50' : ''
+                }`}>
                   <span className="text-white/90 hover:text-white transition-colors text-sm md:text-base">
                     {item.title}
                   </span>
+                  <div 
+                    className={`w-1.5 md:w-2 h-1.5 md:h-2 ${
+                      item.active ? 'bg-green-500' : 'bg-white/60'
+                    }`}
+                  ></div>
                 </div>
               </li>
             ))}
