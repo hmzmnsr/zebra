@@ -13,21 +13,24 @@ const ImmersiveMultimediaSectionOne = () => {
       title: 'Sale meeting immersive ', 
       active: activeItem === 1,
       image: '/assets/homepage/bg2.jpg',
-      content: 'Spazi collaborativi all\'avanguardia dove tecnologie multimediali ed immersive potenziano produttività e creatività, trasformando ogni riunione, presentazione o sessione di training in un\'esperienza d\'impatto altamente performante.'
+      content: 'Spazi collaborativi all\'avanguardia dove tecnologie multimediali ed immersive potenziano produttività e creatività, trasformando ogni riunione, presentazione o sessione di training in un\'esperienza d\'impatto altamente performante.',
+      link: '/servizi/ambienti-collaborativi-allavanguardia'
     },
     { 
       id: 2, 
       title: 'Sale conferenza ', 
       active: activeItem === 2,
       image: '/assets/servizi1/6.png',
-      content: 'Ambienti conferenza di ultima generazione dove ogni presentazione diventa un\'esperienza coinvolgente, con sistemi audio-video avanzati che garantiscono comunicazione perfetta e partecipazione attiva.'
+      content: 'Ambienti conferenza di ultima generazione dove ogni presentazione diventa un\'esperienza coinvolgente, con sistemi audio-video avanzati che garantiscono comunicazione perfetta e partecipazione attiva.',
+      link: '/servizi/soluzioni-multimediali-immersive'
     },
     { 
       id: 3, 
       title: 'Demo & Training center aziendali', 
       active: activeItem === 3,
       image: '/assets/servizi1/7.jpg',
-      content: 'Centri di formazione e dimostrazione che trasformano l\'apprendimento in un\'esperienza immersiva, dove ogni sessione di training diventa memorabile e altamente efficace per lo sviluppo professionale.'
+      content: 'Centri di formazione e dimostrazione che trasformano l\'apprendimento in un\'esperienza immersiva, dove ogni sessione di training diventa memorabile e altamente efficace per lo sviluppo professionale.',
+      link: '/servizi/sviluppo-applicazioni'
     },
   ];
 
@@ -117,7 +120,7 @@ const ImmersiveMultimediaSectionOne = () => {
 
       {/* Call-to-Action Button */}
       <Link 
-        href="/servizi/soluzioni-multimediali-immersive"
+        href={activeContent?.link || '/servizi/soluzioni-multimediali-immersive'}
         className="absolute bottom-4 md:bottom-10 right-2 md:right-10 z-10 pl-8 md:pl-24 pr-2 md:pr-4 pt-8 md:pt-36 pb-2 md:pb-4 text-white border border-white/80 
                    hover:bg-white/10 transition-all 
                    duration-300 flex items-center gap-2 group text-xs md:text-sm"

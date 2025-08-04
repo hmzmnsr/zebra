@@ -13,42 +13,48 @@ const ImmersiveMultimediaSection = () => {
       title: 'Storytelling immersivi', 
       active: activeItem === 1,
       image: '/assets/homepage/bg1.jpg',
-      content: 'Sistemi immersivi che avvolgono lo spettatore in un momento sensoriale unico, trasformando ogni ambiente in un viaggio emozionale capace di coinvolgere, stupire e lasciare un segno indelebile nella memoria.'
+      content: 'Sistemi immersivi che avvolgono lo spettatore in un momento sensoriale unico, trasformando ogni ambiente in un viaggio emozionale capace di coinvolgere, stupire e lasciare un segno indelebile nella memoria.',
+      link: '/servizi/soluzioni-multimediali-immersive'
     },
     { 
       id: 2, 
       title: 'Soluzioni medico-terapeutiche', 
       active: activeItem === 2,
       image: '/assets/servizi1/1.jpg',
-      content: 'Tecnologie immersive avanzate per la riabilitazione e la terapia, creando ambienti virtuali sicuri che accelerano il processo di guarigione e migliorano i risultati terapeutici attraverso esperienze coinvolgenti e personalizzate.'
+      content: 'Tecnologie immersive avanzate per la riabilitazione e la terapia, creando ambienti virtuali sicuri che accelerano il processo di guarigione e migliorano i risultati terapeutici attraverso esperienze coinvolgenti e personalizzate.',
+      link: '/servizi/ambienti-collaborativi-allavanguardia'
     },
     { 
       id: 3, 
       title: 'Installazioni interattive', 
       active: activeItem === 3,
       image: '/assets/servizi1/8.jpg',
-      content: 'Spazi interattivi che rispondono al movimento e al tocco, trasformando ogni interazione in un\'esperienza magica che coinvolge tutti i sensi e crea connessioni profonde tra pubblico e contenuto.'
+      content: 'Spazi interattivi che rispondono al movimento e al tocco, trasformando ogni interazione in un\'esperienza magica che coinvolge tutti i sensi e crea connessioni profonde tra pubblico e contenuto.',
+      link: '/servizi/produzione-contenuti'
     },
     { 
       id: 4, 
       title: 'Simulazione', 
       active: activeItem === 4,
       image: '/assets/servizi1/3.jpg',
-      content: 'Ambienti di simulazione realistici per training professionale, dove ogni scenario è progettato per massimizzare l\'apprendimento attraverso esperienze immersive che replicano fedelmente situazioni reali.'
+      content: 'Ambienti di simulazione realistici per training professionale, dove ogni scenario è progettato per massimizzare l\'apprendimento attraverso esperienze immersive che replicano fedelmente situazioni reali.',
+      link: '/servizi/sviluppo-applicazioni'
     },
     { 
       id: 5, 
       title: 'Videomapping', 
       active: activeItem === 5,
       image: '/assets/servizi1/10.jpg',
-      content: 'Proiezioni architetturali che trasformano edifici e superfici in tele dinamiche, creando spettacoli visivi mozzafiato che raccontano storie attraverso la fusione perfetta di luce, suono e architettura.'
+      content: 'Proiezioni architetturali che trasformano edifici e superfici in tele dinamiche, creando spettacoli visivi mozzafiato che raccontano storie attraverso la fusione perfetta di luce, suono e architettura.',
+      link: '/servizi/soluzioni-multimediali-immersive'
     },
     { 
       id: 6, 
       title: 'Soluzioni per fiere ed eventi', 
       active: activeItem === 6,
       image: '/assets/servizi1/5.jpg',
-      content: 'Stand e installazioni fieristiche che catturano l\'attenzione e creano esperienze memorabili, trasformando ogni evento in un\'opportunità unica per coinvolgere il pubblico e comunicare valori aziendali.'
+      content: 'Stand e installazioni fieristiche che catturano l\'attenzione e creano esperienze memorabili, trasformando ogni evento in un\'opportunità unica per coinvolgere il pubblico e comunicare valori aziendali.',
+      link: '/servizi/ambienti-collaborativi-allavanguardia'
     },
   ];
 
@@ -138,7 +144,7 @@ const ImmersiveMultimediaSection = () => {
 
       {/* Call-to-Action Button */}
       <Link 
-        href="/servizi/soluzioni-multimediali-immersive"
+        href={activeContent?.link || '/servizi/soluzioni-multimediali-immersive'}
         className="absolute bottom-4 md:bottom-10 right-2 md:right-10 z-10 pl-8 md:pl-24 pr-2 md:pr-4 pt-8 md:pt-36 pb-2 md:pb-4 text-white border border-white/80 
                    hover:bg-white/10 transition-all 
                    duration-300 flex items-center gap-2 group text-xs md:text-sm"

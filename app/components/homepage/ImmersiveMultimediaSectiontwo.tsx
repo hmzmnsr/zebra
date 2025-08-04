@@ -13,21 +13,24 @@ const ImmersiveMultimediaSectionTwo = () => {
       title: 'Video 3D', 
       active: activeItem === 1,
       image: '/assets/homepage/bg3.png',
-      content: 'Produzioni A-V pensate per comunicare in modo stupefacente, valorizzando prodotti e aziende tramite contenuti ottimizzati per canali social, YouTube, siti web e spot televisivi.'
+      content: 'Produzioni A-V pensate per comunicare in modo stupefacente, valorizzando prodotti e aziende tramite contenuti ottimizzati per canali social, YouTube, siti web e spot televisivi.',
+      link: '/servizi/produzione-contenuti'
     },
     { 
       id: 2, 
       title: 'Riprese & Editing', 
       active: activeItem === 2,
       image: '/assets/servizi1/8.jpg',
-      content: 'Servizi di ripresa professionale e post-produzione avanzata che trasformano ogni progetto in un\'opera d\'arte visiva, con editing creativo che racconta storie coinvolgenti e memorabili.'
+      content: 'Servizi di ripresa professionale e post-produzione avanzata che trasformano ogni progetto in un\'opera d\'arte visiva, con editing creativo che racconta storie coinvolgenti e memorabili.',
+      link: '/servizi/soluzioni-multimediali-immersive'
     },
     { 
       id: 3, 
       title: 'Sound Design', 
       active: activeItem === 3,
       image: '/assets/servizi1/9.jpg',
-      content: 'Composizione audio e sound design immersivo che crea atmosfere sonore uniche, trasformando ogni esperienza multimediale in un viaggio sensoriale completo attraverso la potenza del suono.'
+      content: 'Composizione audio e sound design immersivo che crea atmosfere sonore uniche, trasformando ogni esperienza multimediale in un viaggio sensoriale completo attraverso la potenza del suono.',
+      link: '/servizi/ambienti-collaborativi-allavanguardia'
     },
   ];
 
@@ -117,7 +120,7 @@ const ImmersiveMultimediaSectionTwo = () => {
 
       {/* Call-to-Action Button */}
       <Link 
-        href="/servizi/soluzioni-multimediali-immersive"
+        href={activeContent?.link || '/servizi/soluzioni-multimediali-immersive'}
         className="absolute bottom-4 md:bottom-10 right-2 md:right-10 z-10 pl-8 md:pl-24 pr-2 md:pr-4 pt-8 md:pt-36 pb-2 md:pb-4 text-white border border-white/80 
                    hover:bg-white/10 transition-all 
                    duration-300 flex items-center gap-2 group text-xs md:text-sm"
