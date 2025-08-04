@@ -145,7 +145,7 @@ const Navbar = () => {
       {/* Main Navigation Bar */}
              <nav className={`w-full h-[70px] flex items-center px-8 z-40 relative transition-all duration-300 ${
          isScrolled 
-           ? 'bg-white border-gray-200 text-gray-800 lg:bg-black/80 lg:backdrop-blur-md lg:border-white/20 lg:text-white' 
+           ? 'bg-white border-gray-200 text-gray-800 lg:bg-black/40 lg:backdrop-blur-md lg:border-white/20 lg:text-white' 
            : 'bg-white border-gray-200 text-gray-800 lg:backdrop-blur-md lg:border-white/20 lg:text-white lg:bg-white/10'
        }`}>
         {/* Desktop Navigation */}
@@ -244,7 +244,7 @@ const Navbar = () => {
          <div 
            className={`hidden lg:block absolute top-[70px] w-screen backdrop-blur-md border-b shadow-lg z-50 transition-all duration-300 ${
              isScrolled 
-               ? 'bg-black/80 border-white/20' 
+               ? 'bg-black/40 border-white/20' 
                : 'bg-white/10 border-white/20'
            }`}
            onMouseEnter={handleMouseEnter}
