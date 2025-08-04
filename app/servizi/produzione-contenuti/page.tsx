@@ -10,7 +10,7 @@ import CTASection from '../../components/produzione/CTASection';
 
 export default function ProduzionePage() {
   return (
-    <main>
+    <main className="bg-[#222222]">
       <ProduzioneHero />
       <ServiziServices />
       <ProcessSection />

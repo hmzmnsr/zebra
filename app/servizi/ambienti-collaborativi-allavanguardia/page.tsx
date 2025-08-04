@@ -10,7 +10,7 @@ import CTASection from '../../components/ambienti/CTASection';
 
 export default function AmbientiPage() {
   return (
-    <main>
+    <main className="bg-[#222222]">
       <AmbientiHero />
       <ServiziServices />
       <ProcessSection />
