@@ -6,27 +6,27 @@ const NewImageSection = () => {
   return (
     <div className="w-full">
  {/* Second Section - Text on Left, Image on Right */}
- <div className="py-16 bg-white">
-        <div className="max-w-8xl mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
+ <div className="py-12 sm:py-16 md:py-16 lg:py-16 bg-white">
+        <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8 sm:gap-12 lg:gap-0">
             {/* Left Content - Text */}
-            <div className="order-1 mb-8 lg:mb-0 pl-24">
-              <h3 className="text-black text-md font-thin leading-extralight px-4 sm:px-6 lg:pr-32">
+            <div className="order-1 mb-8 lg:mb-0 pl-0 sm:pl-8 md:pl-16 lg:pl-24">
+              <h3 className="text-black text-sm sm:text-md font-thin leading-extralight px-0 sm:px-4 md:px-6 lg:pr-32 mb-3 sm:mb-4">
                Un impegno che continua
               </h3>
-              <p className="text-4xl md:text-5xl lg:text-3xl font-extralight text-black leading-tight px-4 sm:px-6 lg:pr-32">
+              <p className="text-2xl sm:text-3xl md:text-4xl lg:text-3xl font-extralight text-black leading-tight px-0 sm:px-4 md:px-6 lg:pr-32">
               Un percorso di crescita che prosegue, alimentato dalla collaborazione continua con gli amici di TOG e dall&apos;impegno condiviso nell&apos;innovazione al servizio delle persone.
               </p>
             </div>
 
             {/* Right Content - Image */}
-            <div className="order-2 flex justify-center lg:justify-start pl-8">
+            <div className="order-2 flex justify-center lg:justify-start pl-0 sm:pl-4 md:pl-6 lg:pl-8">
               <Image
                 src="/assets/case1centro/3.jpg"
                 alt="Innovazione tecnologica"
                 width={800}
                 height={600}
-                className="w-full h-108 shadow-lg"
+                className="w-full h-64 sm:h-80 md:h-96 lg:h-108 shadow-lg"
               />
             </div>
           </div>

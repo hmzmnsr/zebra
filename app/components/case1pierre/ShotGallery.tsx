@@ -14,20 +14,20 @@ const ShotGallery = () => {
   ];
 
   return (
-    <div className="pt-8 md:pt-16 bg-white">
+    <div className="pt-8 sm:pt-12 md:pt-16 bg-white">
       <div className="max-w-8xl mx-auto px-1">
         {/* Header */}
-        <div className="text-start px-4 sm:px-6 lg:ml-24 mb-8 md:mb-12">
-          <h3 className="text-black text-xs font-thin leading-tight">
+        <div className="text-start px-4 sm:px-6 lg:ml-24 mb-6 sm:mb-8 md:mb-12">
+          <h3 className="text-black text-xs font-thin leading-tight mb-2 sm:mb-3">
             In ogni frame l&apos;animo del brand
           </h3>
-          <h2 className="text-2xl md:text-4xl lg:text-5xl xl:text-4xl font-thin text-black leading-tight">
+          <h2 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-4xl font-thin text-black leading-tight">
             Shot gallery
           </h2>
         </div>
 
         {/* Image Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 mb-8 md:mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 mb-6 sm:mb-8 md:mb-12">
           {images.map((image, index) => (
             <div key={index} className="aspect-[5/3] overflow-hidden">
               <Image

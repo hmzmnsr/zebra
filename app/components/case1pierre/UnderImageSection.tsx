@@ -4,10 +4,10 @@ import Image from 'next/image';
 
 const UnderImageSection = () => {
   return (
-    <div className="pb-16 sm:pb-24 lg:pb-32 bg-white px-0 lg:px-24">
+    <div className="pb-12 sm:pb-16 md:pb-24 lg:pb-32 bg-white px-0 lg:px-24">
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-12">
         {/* Content Area - Image Left + All Content Right */}
-        <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 sm:gap-12 mt-16 sm:mt-20 lg:mt-24">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 sm:gap-8 md:gap-12 mt-12 sm:mt-16 md:mt-20 lg:mt-24">
           {/* Left Side - Image */}
           <div className="lg:col-span-2 flex justify-center lg:justify-start">
             <Image
@@ -15,18 +15,18 @@ const UnderImageSection = () => {
               alt="Spazio immersivo"
               width={600}
               height={400}
-              className="w-full max-w-md h-80 sm:h-96 md:h-[44rem] object-cover shadow-lg"
+              className="w-full max-w-md h-64 sm:h-80 md:h-96 lg:h-[44rem] object-cover shadow-lg"
             />
           </div>
 
           {/* Right Side - All Content (Header + Text) */}
-          <div className="lg:col-span-3 space-y-8">
+          <div className="lg:col-span-3 space-y-6 sm:space-y-8">
             {/* Header Area */}
-            <div className="leading-tight  py-20">
-              <h3 className="text-black text-xs font-thin leading-tight">
+            <div className="leading-tight py-12 sm:py-16 md:py-20">
+              <h3 className="text-black text-xs font-thin leading-tight mb-2 sm:mb-3">
               Dal tessuto al cosmo.
               </h3>
-              <h2 className="text-3xl md:text-3xl lg:text-4xl font-thin text-black leading-tight">
+              <h2 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-thin text-black leading-tight">
               La moda guarda alle stelle
               </h2>
             </div>
@@ -34,7 +34,7 @@ const UnderImageSection = () => {
             {/* Text Content */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
               <div className="text-black text-sm leading-tight">
-                Un lanciatore spaziale, una maison leggendaria, l’Agenzia Spaziale Europea e la visione creativa di ZEBRA.<br/><br/>Da questo connubio è nato uno degli eventi più spettacolari e audaci degli ultimi anni: due sfilate gemelle firmate Pierre Cardin, andate in scena a Parigi e nella Guyana Francese, all’ombra dell’iconico razzo Ariane 5. 
+                Un lanciatore spaziale, una maison leggendaria, l'Agenzia Spaziale Europea e la visione creativa di ZEBRA.<br/><br/>Da questo connubio è nato uno degli eventi più spettacolari e audaci degli ultimi anni: due sfilate gemelle firmate Pierre Cardin, andate in scena a Parigi e nella Guyana Francese, all'ombra dell'iconico razzo Ariane 5. 
 
               </div>
               <div className="text-black text-sm leading-tight">
