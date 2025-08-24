@@ -16,7 +16,7 @@ const ProductsSection = () => {
               {/* Matte overlay */}
               <div className="absolute inset-0 bg-black/5 mix-blend-multiply"></div>
               <Image
-                src="/assets/prodotti/1.png"
+                src="/assets/prodotti/11.png"
                 alt="ARES Controller"
                 width={300}
                 height={220}
@@ -55,7 +55,7 @@ const ProductsSection = () => {
               {/* Matte overlay */}
               <div className="absolute inset-0 bg-black/5 mix-blend-multiply"></div>
               <Image
-                src="/assets/prodotti/2.png"
+                src="/assets/prodotti/12.png"
                 alt="ARES Media Engine"
                 width={300}
                 height={220}

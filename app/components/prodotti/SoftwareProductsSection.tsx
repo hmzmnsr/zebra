@@ -4,23 +4,26 @@ import Image from 'next/image';
 
 const SoftwareProductsSection = () => {
   return (
-    <section className="bg-[#f5f5f5] text-white pb-16">
+    <section className="bg-white text-white pb-16">
       <div className="max-w-8xl mx-auto px-8">
         {/* Two-column layout for software products */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           
           {/* Panel 1: EVA Digital Signage */}
           <div className="transition-transform duration-300 flex flex-col items-center">
-            {/* Product Image with gradient background */}
-            <div className="w-full h-120 mb-6 flex items-center justify-center bg-gradient-to-b from-[#CED7CB] to-[#4C64612B] relative">
+            {/* Software Interface Screenshot */}
+            <div className="w-full h-128 mb-6 flex items-center justify-end bg-gradient-to-b from-[#CED7CB] to-[#4C64612B] relative overflow-hidden rounded-lg">
               {/* Matte overlay */}
               <div className="absolute inset-0 bg-black/5 mix-blend-multiply"></div>
               <Image
-                src="/assets/prodotti/4.png"
-                alt="EVA Digital Signage"
-                width={300}
-                height={220}
-                className="w-auto h-60 object-contain relative z-10"
+                src="/assets/prodotti/6.png"
+                alt="EVA Digital Signage Software Interface"
+                width={2000}
+                height={1500}
+                className="w-full h-full object-cover scale-125 relative z-10 -mr-32 pt-20"
+                quality={95}
+                priority
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
             </div>
             
@@ -39,28 +42,38 @@ const SoftwareProductsSection = () => {
             
             {/* Product Description */}
             <div className="space-y-3">
-              <p className="text-sm text-[#2d5016] leading-6 text-left">
-                Software ZEBRA per digital signage, semplice e intuitivo per la gestione della comunicazione su monitor, ledwall e videoproiettori con un solo click. Permette il controllo pratico e centralizzato degli orari, scegliendo cosa trasmettere e quando, anche da remoto.
+            <p className="text-sm text-[#2d5016] leading-6 text-left">
+              La soluzione software di ZEBRA dedicata al digital signage: una piattaforma semplice e intuitiva per gestire, con un solo click, la comunicazione su monitor, ledwall e videoproiettori. 
               </p>
               <p className="text-sm text-[#2d5016] leading-6 text-left">
-                Si integra con ARES controller, permettendo la gestione di una o più uscite e automatizzando le funzioni dei dispositivi, incluso l&apos;accensione/spegnimento. La soluzione è costruita su una base cloud avanzata, progettata per alta sicurezza contro intrusioni esterne e manomissioni.
+              Consente di controllare in modo pratico e centralizzato il palinsesto, scegliendo cosa trasmettere e quando farlo, anche da remoto. 
+              </p>
+              <p className="text-sm text-[#2d5016] leading-6 text-left">
+              Integrato con il controller ARES, EVA permette la gestione di uno o più output, automatizzando completamente il funzionamento, compresi accensione e spegnimento dei dispositivi. 
+              </p>
+              <p className="text-sm text-[#2d5016] leading-6 text-left">
+              È dotato di una base cloud evoluta, progettata per garantire i più alti standard di sicurezza contro intrusioni e manomissioni esterne. 
               </p>
             </div>
           </div>
 
           {/* Panel 2: Chrono Interfaccia di controllo */}
           <div className="transition-transform duration-300 flex flex-col items-center">
-            {/* Product Image with gradient background */}
-            <div className="w-full h-120 mb-6 flex items-center justify-center bg-gradient-to-b from-[#CED7CB] to-[#4C64612B] relative">
+            {/* Software Interface Screenshot */}
+            <div className="w-full h-128 mb-6 flex items-center justify-end bg-gradient-to-b from-[#CED7CB] to-[#4C64612B] relative overflow-hidden rounded-lg">
               {/* Matte overlay */}
               <div className="absolute inset-0 bg-black/5 mix-blend-multiply"></div>
               <Image
-                src="/assets/prodotti/5.png"
-                alt="Chrono Interfaccia di controllo"
-                width={300}
-                height={220}
-                className="w-auto h-60 object-contain relative z-10"
-              />
+  src="/assets/prodotti/7.png"
+  alt="Chrono Control Interface Software"
+  width={2000}
+  height={1500}
+  className="w-full h-full object-cover scale-125 relative z-10 -mr-32 pt-20"
+  quality={95}
+  priority
+  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+/>
+
             </div>
             
             {/* Product Title and Button - Same Line */}
@@ -79,10 +92,10 @@ const SoftwareProductsSection = () => {
             {/* Product Description */}
             <div className="space-y-3">
               <p className="text-sm text-[#2d5016] leading-6 text-left">
-                Software che permette ai mediaserver ARES di controllare qualsiasi dispositivo connesso. Altamente flessibile e configurabile, si adatta ai più diversi contesti applicativi, funzionando come domotica avanzata.
+              E’ il software che consente ai mediaserver ARES di controllare qualsiasi dispositivo ad essi connesso. 
               </p>
               <p className="text-sm text-[#2d5016] leading-6 text-left">
-                Permette ad ARES di comunicare e gestire ogni componente di un sistema multimediale: luci, tapparelle, automazioni e dispositivi connessi. Grazie all&apos;interfaccia tablet con ZNC, tutti i controlli del sistema sono facilmente accessibili, semplici, intuitivi e personalizzabili.
+              Estremamente flessibile e configurabile, si adatta a diversi contesti applicativi fungendo da domotica evoluta, permettendo ad ARES di dialogare e gestire ogni componente del sistema multimediale, comprese luci, tende, automazioni e dispositivi collegati. Grazie all’interfaccia tablet, con ZNC tutti i controlli dell’impianto sono sempre a portata di mano, in modo semplice, intuitivo e personalizzabile. 
               </p>
             </div>
           </div>
