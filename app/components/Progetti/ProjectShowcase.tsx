@@ -24,42 +24,47 @@ const ProjectShowcase = () => {
           {/* Project Content - Takes 2 columns (0.8 parts) */}
           <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:mr-8">
             {/* Project Header */}
-            <div className="space-y-2">
+            <div className="space-y-0">
               <h2 className="text-lg md:text-xl text-gray-900">
-                Accenture
+              Sala meeting immersiva
               </h2>
               <h3 className="text-2xl md:text-4xl text-gray-700">
-                Sala meeting immersiva
+              Accenture Immersive Room
               </h3>
             </div>
             
             {/* Project Description */}
             <div className="text-gray-600 leading-tight text-sm md:text-base">
               <p>
-                Uno spazio progettato per elevare meeting e presentazioni a un nuovo livello di efficacia e coinvolgimento. La tecnologia di base è ZEBRA, un sistema avanzato ma intuitivo.
+              Uno spazio progettato per portare meeting e presentazioni a un nuovo livello di efficacia e coinvolgimento
               </p>
               
               <p>
-                Uno spazio versatile dove la collaborazione si fonde con l&apos;interattività, migliorando le performance operative. Uno strumento sorprendente capace di coinvolgere i clienti in presentazioni immersive e comunicare concetti in modo chiaro, impattante e memorabile.
+              La tecnologia ZEBRA è il cuore di questo ambiente immersivo: un sistema avanzato nella configurazione ma estremamente intuitivo nell&apos;utilizzo. Uno spazio polivalente, dove la collaborazione si fonde con l&apos;interattività, migliorando le performance operative. Uno strumento sorprendente, capace di coinvolgere il cliente in presentazioni immersive e comunicare concetti in modo chiaro, impattante e memorabile
               </p>
               
               <p>
-                Una batteria di videoproiettori crea una superficie di visualizzazione panoramica ad alta risoluzione. Sistemi audio, microfoni e telecamere intelligenti abilitano una comunicazione fluida, anche da remoto.
+              Un array di videoproiettori crea una superficie di visualizzazione panoramica ad altissima risoluzione, mentre sistemi audio, microfoni e telecamere intelligenti permettono una comunicazione fluida anche da remoto.
               </p>
               
               <p>
-                L&apos;intero sistema è gestito da ARES Media Engine per garantire alte performance, facilità d&apos;uso e controllo totale. Il supporto tecnico da remoto fornisce assistenza in tempo reale, assicurando che ogni sessione rispetti le aspettative.
+              Il tutto è gestito da ARES Media Engine, per garantire prestazioni elevate, flessibilità d&apos;uso e pieno controllo.
+              </p>
+
+                            
+              <p>
+              Il supporto tecnico da remoto assicura assistenza in tempo reale, affinché ogni sessione sia sempre all&apos;altezza delle aspettative.
               </p>
             </div>
             
             {/* Call to Action Button - Positioned at bottom right */}
             <div className="text-center md:text-right">
-              <button className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+            <Link href="/case1accenture" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                 <span>Scopri di più</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -81,7 +86,7 @@ const ProjectShowcase = () => {
           {/* Project Content - Takes 2 columns (0.8 parts) - On mobile: second, On desktop: first */}
           <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:ml-8 lg:order-1">
             {/* Project Header */}
-            <div className="space-y-2">
+            <div className="space-y-0">
               <h2 className="text-lg md:text-xl text-gray-900">
                 Beta Utensili
               </h2>
@@ -106,7 +111,7 @@ const ProjectShowcase = () => {
             
             {/* Call to Action Button - Positioned at bottom right */}
             <div className="text-center md:text-right">
-              <Link href="/case" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+              <Link href="/case2betaoilless" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                 <span>Scopri di più</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -139,7 +144,7 @@ const ProjectShowcase = () => {
           {/* Project Image - Takes 3 columns (1.2 parts) */}
           <div className="relative lg:col-span-3">
             <Image
-              src="/assets/progetti/sala.jpg"
+              src="/assets/progetti/3.jpg"
               alt="Project Three"
               width={600}
               height={400}
@@ -150,7 +155,7 @@ const ProjectShowcase = () => {
           {/* Project Content - Takes 2 columns (0.8 parts) */}
           <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:mr-8">
             {/* Project Header */}
-            <div className="space-y-2">
+            <div className="space-y-0">
               <h2 className="text-lg md:text-xl text-gray-900">
                 Beta CDA
               </h2>
@@ -194,7 +199,7 @@ const ProjectShowcase = () => {
           {/* Project Image - Takes 3 columns (1.2 parts) - On mobile: first, On desktop: second */}
           <div className="relative lg:col-span-3 lg:order-2">
             <Image
-              src="/assets/progetti/vid.png"
+              src="/assets/progetti/4.jpg"
               alt="Project Four"
               width={600}
               height={400}
@@ -205,12 +210,12 @@ const ProjectShowcase = () => {
           {/* Project Content - Takes 2 columns (0.8 parts) - On mobile: second, On desktop: first */}
           <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:ml-8 lg:order-1">
             {/* Project Header */}
-            <div className="space-y-2">
+            <div className="space-y-0">
               <h2 className="text-lg md:text-xl text-gray-900">
-                EPSON ISE, Barcellona
+              Soluzioni per fiere e musei
               </h2>
               <h3 className="text-2xl md:text-4xl text-gray-700">
-              Soluzioni per fiere e musei
+              EPSON Booth ISE Barcellona
               </h3>
             </div>
             
@@ -250,7 +255,7 @@ const ProjectShowcase = () => {
             {/* Project Image - Takes 3 columns (1.2 parts) */}
             <div className="relative lg:col-span-3">
               <Image
-                src="/assets/progetti/sala.jpg"
+                src="/assets/progetti/5.jpg"
                 alt="Project Five"
                 width={600}
                 height={400}
@@ -261,25 +266,29 @@ const ProjectShowcase = () => {
             {/* Project Content - Takes 2 columns (0.8 parts) */}
             <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:mr-8">
               {/* Project Header */}
-              <div className="space-y-2">
+              <div className="space-y-0">
                 <h2 className="text-lg md:text-xl text-gray-900">
-                Sala Immersive Ulisse, Centro TOG Milano
+                Soluzioni Medico-Terapeutiche
                 </h2>
                 <h3 className="text-2xl md:text-4xl text-gray-700">
-                Soluzioni Medico-Terapeutiche
+                Sala Ulisse, Centro TOG Milano
                 </h3>
               </div>
               
               {/* Project Description */}
               <div className="text-gray-600 leading-tight text-sm md:text-base">
                 <p>
-                Il Centro TOG di Milano è un&apos;eccellenza nel trattamento di bambini con disabilità cognitive e neurologiche, da sempre in prima linea nell&apos;adozione di approcci innovativi in campo terapeutico. ZEBRA ha scelto di diventare partner attivo del progetto, mettendo a disposizione le proprie competenze tecnologico-esperienziali. Dalla collaborazione con le terapeute del centro è nata una stanza immersiva interattiva, un ambiente progettato a quattro mani per offrire ai piccoli pazienti trattamenti personalizzati e potenziati, calibrati sulle esigenze individuali. 
+                Il Centro TOG di Milano è un&apos;eccellenza nel trattamento di bambini con disabilità cognitive e neurologiche, da sempre in prima linea nell&apos;adozione di approcci innovativi in campo terapeutico. 
+                </p>
+                
+                <p>
+                ZEBRA ha scelto di diventare partner attivo del progetto, mettendo a disposizione le proprie competenze tecnologico-esperienziali. Dalla collaborazione con le terapeute del centro è nata una stanza immersiva interattiva, un ambiente progettato a quattro mani per offrire ai piccoli pazienti trattamenti personalizzati e potenziati, calibrati sulle esigenze individuali. 
                 </p>
                 
                 <p>
                 Grazie alla combinazione di immersività, interattività e know-how terapeutico, abbiamo realizzato una sala dove i bambini possono esplorare scenari 3D coinvolgenti – dai fondali marini ai boschi innevati – pensati per stimolare i sensi, favorire l&apos;apprendimento e regalare momenti di libertà ed emozione. 
                 </p>
-                
+
                 <p>
                 Un progetto pionieristico che ha attirato l&apos;attenzione del settore e dei media, aprendo nuove prospettive sull&apos;uso delle tecnologie immersive in ambito medico-terapeutico. Un percorso di crescita che prosegue, alimentato dalla collaborazione continua con gli amici di TOG e dall&apos;impegno condiviso nell&apos;innovazione al servizio delle persone. 
                 </p>
@@ -307,7 +316,7 @@ const ProjectShowcase = () => {
             {/* Project Image - Takes 3 columns (1.2 parts) - On mobile: first, On desktop: second */}
             <div className="relative lg:col-span-3 lg:order-2">
               <Image
-                src="/assets/progetti/vid.png"
+                src="/assets/progetti/6.jpg"
                 alt="Project Six"
                 width={600}
                 height={400}
@@ -318,27 +327,207 @@ const ProjectShowcase = () => {
             {/* Project Content - Takes 2 columns (0.8 parts) - On mobile: second, On desktop: first */}
             <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:ml-8 lg:order-1">
               {/* Project Header */}
-              <div className="space-y-2">
+              <div className="space-y-0">
                 <h2 className="text-lg md:text-xl text-gray-900">
-                Sfilata maison Pierre Cardin, Parigi e Guyana francese 
+                Soluzioni per eventi
                 </h2>
                 <h3 className="text-2xl md:text-4xl text-gray-700">
-                Soluzioni per eventi
+                Immersive Runway Pierre Cardin, Parigi e Guyana francese 
                 </h3>
               </div>
               
               {/* Project Description */}
               <div className="text-gray-600 leading-tight text-sm md:text-base">
                 <p>
-                l nostro prodotto immersivo più conosciuto: uno spazio di proiezione panoramica di oltre 6 metri di base che permette di insegnare entrando letteralmente nella materia. L&apos;intera superficie è interattiva, trasformando ogni lezione in un&apos;esperienza dinamica e partecipativa. 
+                Un lanciatore spaziale, una maison leggendaria, l&apos;Agenzia Spaziale Europea e la visione creativa di ZEBRA. 
                 </p>
                 
                 <p>
-                Già adottato da oltre 500 scuole in tutta Italia, è dotato di un vastissimo repertorio di scenari 3D multilingua, pensati per rendere ogni lezione interattiva, coinvolgente e indimenticabile. 
+                Da questo connubio è nato uno degli eventi più spettacolari e audaci degli ultimi anni: due sfilate gemelle firmate Pierre Cardin, andate in scena a Parigi e nella Guyana Francese, all&apos;ombra dell&apos;iconico razzo Ariane 5. 
                 </p>
                 
                 <p>
-                Il supporto tecnico da remoto incluso garantisce massima continuità operativa in ogni momento. 
+                ZEBRA ha curato la realizzazione di un videomapping monumentale sul razzo, concepito per raccontare – attraverso immagini, luce e movimento – la narrazione alla base della sfilata, culminata con un epilogo simbolico: il lancio verso lo spazio. 
+                </p>
+
+                <p>
+                Oltre 300.000 lumen hanno illuminato le notti parigine e sudamericane per uno show trasmesso in diretta mondiale, dove la tecnologia ZEBRA è stata chiamata a garantire prestazioni impeccabili e massima affidabilità, in un contesto tecnico e simbolico di altissimo livello. 
+                </p>
+              </div>
+              
+              {/* Call to Action Button - Positioned at bottom right */}
+              <div className="text-center md:text-right">
+                <button className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+                  <span>Scopri di più</span>
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+        {/* Fifth Project - Image Left, Content Right */}
+        <div className="bg-white py-8 md:py-12">
+        <div className="max-w-8xl mx-auto px-4 md:px-2">
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-center">
+            
+            {/* Project Image - Takes 3 columns (1.2 parts) */}
+            <div className="relative lg:col-span-3">
+              <Image
+                src="/assets/progetti/7.jpg"
+                alt="Project Five"
+                width={600}
+                height={400}
+                className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
+              />
+            </div>
+            
+            {/* Project Content - Takes 2 columns (0.8 parts) */}
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:mr-8">
+              {/* Project Header */}
+              <div className="space-y-0">
+                <h2 className="text-lg md:text-xl text-gray-900">
+                Simulatori e Demo Center 
+                </h2>
+                <h3 className="text-2xl md:text-4xl text-gray-700">
+                AGCO Agridome
+                </h3>
+              </div>
+              
+              {/* Project Description */}
+              <div className="text-gray-600 leading-tight text-sm md:text-base">
+                <p>
+                Il colosso della meccanizzazione agricola AGCO ha affidato a ZEBRA e Mosaico una doppia sfida: realizzare un simulatore per la trebbia di punta IDEAL e progettare un demo center esperienziale capace di trasmettere il know-how e l&apos;identità del brand. 
+                </p>
+                
+                <p>
+                Per il simulatore, abbiamo sviluppato un sistema visuale immersivo che replica con precisione il lavoro in campo, utilizzando la cabina reale della trebbia come superficie di proiezione e centro di comando. Questo strumento innovativo, pensato per la formazione di clienti e forza vendita, viene utilizzato in eventi internazionali, permettendo di testare il prodotto senza uscire dalla sala o dalla fiera. 
+                </p>
+                
+                <p>
+                Parallelamente, presso l&apos;AGCO Agridome di Breganze, abbiamo creato un percorso immersivo che guida il visitatore attraverso tutte le fasi di sviluppo del prodotto – dalla prototipazione al rilascio. Sale immersive, supporti digitali interattivi e videomapping su mockup trasformano la visita in un&apos;esperienza coinvolgente e memorabile, pensata per rafforzare il legame con il marchio e valorizzare l&apos;eccellenza tecnologica del gruppo AGCO. 
+                </p>
+              </div>
+              
+              {/* Call to Action Button - Positioned at bottom right */}
+              <div className="text-center md:text-right">
+                <button className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+                  <span>Scopri di più</span>
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      {/* Sixth Project - Content Left, Image Right on Desktop Only */}
+      <div className="bg-white">
+        <div className="max-w-8xl mx-auto px-4 md:px-2">
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-center">
+            
+            {/* Project Image - Takes 3 columns (1.2 parts) - On mobile: first, On desktop: second */}
+            <div className="relative lg:col-span-3 lg:order-2">
+              <Image
+                src="/assets/progetti/8.jpg"
+                alt="Project Six"
+                width={600}
+                height={400}
+                className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
+              />
+            </div>
+            
+            {/* Project Content - Takes 2 columns (0.8 parts) - On mobile: second, On desktop: first */}
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:ml-8 lg:order-1">
+              {/* Project Header */}
+              <div className="space-y-0">
+                <h2 className="text-lg md:text-xl text-gray-900">
+                Soluzioni multimediali immersive per i musei
+                </h2>
+                <h3 className="text-2xl md:text-4xl text-gray-700">
+                Galleria degli Uffizi 
+                </h3>
+              </div>
+              
+              {/* Project Description */}
+              <div className="text-gray-600 leading-tight text-sm md:text-base">
+                <p>
+                In occasione della mostra “Il Codice Leicester” di Leonardo da Vinci, la Galleria degli Uffizi di Firenze ha coinvolto il team ZEBRA nella progettazione e realizzazione di exhibit digitali interattivi per immergere i visitatori nell&apos;universo visionario del genio toscano. 
+                </p>
+                
+                <p>
+                Cascate digitali che scorrono su pareti e pavimenti, proiezioni di grande formato pensate per spiegare concetti e dettagli con efficacia visiva, e supporti interattivi che permettono di sfogliare e tradurre in tempo reale le pagine originali del Codice Leicester – concesso per l&apos;occasione da Bill Gates – hanno trasformato l&apos;esperienza museale in un viaggio emozionale e conoscitivo senza precedenti. 
+                </p>
+                
+                <p>
+                Un perfetto equilibrio tra tecnologia e patrimonio culturale, in cui le nostre soluzioni immersive hanno affiancato uno dei più preziosi manoscritti del Rinascimento, amplificandone la forza narrativa e rendendola accessibile a tutti  
+                </p>
+              </div>
+              
+              {/* Call to Action Button - Positioned at bottom right */}
+              <div className="text-center md:text-right">
+                <button className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+                  <span>Scopri di più</span>
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+       {/* Fifth Project - Image Left, Content Right */}
+       <div className="bg-white py-8 md:py-12">
+        <div className="max-w-8xl mx-auto px-4 md:px-2">
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-center">
+            
+            {/* Project Image - Takes 3 columns (1.2 parts) */}
+            <div className="relative lg:col-span-3">
+              <Image
+                src="/assets/progetti/9.jpg"
+                alt="Project Five"
+                width={600}
+                height={400}
+                className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
+              />
+            </div>
+            
+            {/* Project Content - Takes 2 columns (0.8 parts) */}
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:mr-8">
+              {/* Project Header */}
+              <div className="space-y-0">
+                <h2 className="text-lg md:text-xl text-gray-900">
+                Storytelling immersivo
+                </h2>
+                <h3 className="text-2xl md:text-4xl text-gray-700">
+                Cantine Oniverse (gruppo Calzedonia) 
+                </h3>
+              </div>
+              
+              {/* Project Description */}
+              <div className="text-gray-600 leading-tight text-sm md:text-base">
+                <p>
+                Terreni diversi, identità uniche, vini d&apos;eccellenza. 
+                Dai suoli vulcanici di Lanuvio a quelli carichi di salsedine di Alghero, le cantine Tenimenti Leone e Podere Guardia Grande, parte del gruppo Oniverse (Calzedonia), hanno scelto ZEBRA per raccontare il valore dei propri luoghi attraverso storytelling immersivi ad alto impatto emozionale.
+                </p>
+                
+                <p>
+                Dal concept narrativo alla produzione video, fino all&apos;installazione delle tecnologie immersive, abbiamo curato l&apos;intero percorso esperienziale, creando due viaggi sensoriali pensati per coinvolgere i visitatori e trasportarli nell&apos;anima autentica dei territori e dei vini. 
+                </p>
+                
+                <p>
+                Un racconto visivo che fonde territorio, cultura e prodotto, pensato per rafforzare il legame emotivo tra l&apos;ospite e l&apos;identità delle cantine. 
                 </p>
               </div>
               
