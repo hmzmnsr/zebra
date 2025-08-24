@@ -22,7 +22,7 @@ const CaseHero = () => {
         <div className="max-w-4xl space-y-4 sm:space-y-0 md:space-y-0">
           {/* First Paragraph */}
           <p className="text-sm sm:text-sm md:text-base lg:text-lg text-gray-100 leading-relaxed md:leading-tight font-sans font-thin">
-          In occasione della mostra "Il Codice Leicester" di Leonardo da Vinci, la Galleria degli Uffizi di<br/> Firenze ha coinvolto il team ZEBRA nella progettazione e realizzazione di exhibit digitali<br/> interattivi per immergere i visitatori nell&apos;universo visionario del genio toscano. 
+          In occasione della mostra &apos;Il Codice Leicester&apos; di Leonardo da Vinci, la Galleria degli Uffizi di<br/> Firenze ha coinvolto il team ZEBRA nella progettazione e realizzazione di exhibit digitali<br/> interattivi per immergere i visitatori nell&apos;universo visionario del genio toscano. 
           </p>
         </div>
       </div>

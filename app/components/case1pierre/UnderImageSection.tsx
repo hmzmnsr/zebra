@@ -34,7 +34,7 @@ const UnderImageSection = () => {
             {/* Text Content */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
               <div className="text-black text-sm leading-tight">
-                Un lanciatore spaziale, una maison leggendaria, l'Agenzia Spaziale Europea e la visione creativa di ZEBRA.<br/><br/>Da questo connubio è nato uno degli eventi più spettacolari e audaci degli ultimi anni: due sfilate gemelle firmate Pierre Cardin, andate in scena a Parigi e nella Guyana Francese, all'ombra dell'iconico razzo Ariane 5. 
+                Un lanciatore spaziale, una maison leggendaria, l&apos;Agenzia Spaziale Europea e la visione creativa di ZEBRA.<br/><br/>Da questo connubio è nato uno degli eventi più spettacolari e audaci degli ultimi anni: due sfilate gemelle firmate Pierre Cardin, andate in scena a Parigi e nella Guyana Francese, all&apos;ombra dell&apos;iconico razzo Ariane 5. 
 
               </div>
               <div className="text-black text-sm leading-tight">
