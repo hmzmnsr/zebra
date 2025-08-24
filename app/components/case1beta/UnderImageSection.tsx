@@ -1,0 +1,34 @@
+'use client';
+
+const UnderImageSection = () => {
+  return (
+    <div className="pb-16 sm:pb-24 lg:pb-32 bg-white px-0 lg:px-24">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-12">
+        {/* Header Area */}
+        <div className="mb-8 sm:mb-12 leading-tight">
+          <h3 className="text-black text-xs font-thin leading-tight">
+          Comunicare concetti in modo chiaro e impattante
+          </h3>
+          <h2 className="text-3xl md:text-3xl lg:text-4xl font-thin text-black leading-tight">
+          Lo spazio come strumento
+          </h2>
+        </div>
+
+        {/* Content Area - Three Columns */}
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 sm:gap-12 mt-16 sm:mt-20 lg:mt-24">
+          <div className="text-black text-sm leading-tight">
+          La tecnologia ZEBRA è il cuore di questo ambiente immersivo: un sistema avanzato nella configurazione ma estremamente intuitivo nell&apos;utilizzo. Uno spazio polivalente, dove la collaborazione si fonde con l&apos;interattività, migliorando le performance operative. Uno strumento sorprendente, capace di coinvolgere il cliente in presentazioni immersive e comunicare concetti in modo chiaro, impattante e memorabile. 
+          </div>
+          <div className="text-black text-sm leading-tight pl-20">
+          Un array di videoproiettori crea una superficie di visualizzazione panoramica ad altissima risoluzione, mentre sistemi audio, microfoni e telecamere intelligenti permettono una comunicazione fluida anche da remoto.&apos;Il tutto è gestito interamente da ARES Media Engine, per garantire prestazioni elevate, flessibilità d&apos;uso e totale controllo. 
+          </div>
+          <div className="text-black text-sm leading-tight">
+            {/* Empty right section */}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default UnderImageSection; 
