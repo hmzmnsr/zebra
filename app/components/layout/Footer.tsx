@@ -58,7 +58,7 @@ const Footer = () => {
   ];
 
     return (
-    <footer className="bg-gray-50 text-gray-800 pt-12">
+    <footer className="bg-white text-gray-800 pt-12">
       <div className="max-w-8xl mx-auto px-4 pt-24ins pb-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           {/* Left Section - Company Information */}

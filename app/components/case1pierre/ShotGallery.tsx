@@ -14,7 +14,7 @@ const ShotGallery = () => {
   ];
 
   return (
-    <div className="pt-8 sm:pt-12 md:pt-16 bg-white">
+    <div className="pt-8 sm:pt-12 md:pt-16 bg-white pb-28 lg:pb-0">
       <div className="max-w-8xl mx-auto px-1">
         {/* Header */}
         <div className="text-start px-4 sm:px-6 lg:ml-24 mb-6 sm:mb-8 md:mb-12">

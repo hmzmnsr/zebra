@@ -8,12 +8,12 @@ const PowerToolSection = () => {
       {/* First Half - Top Section */}
       <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[40vh] md:min-h-[50vh]">
         {/* Left Half - Text Content */}
-        <div className="p-4 md:p-8 lg:p-12 flex flex-col justify-center ml-4 md:ml-20">
+        <div className="p-4 md:p-8 lg:p-12 flex flex-col justify-center ml-0 md:ml-20">
           <div className="max-w-lg">
             <p className="text-xs md:text-sm">
               with the brand&apos;s signature orange.
             </p>
-            <p className="text-gray-300 leading-relaxed font-light text-lg md:text-2xl lg:text-3xl leading-tight">
+            <p className="text-gray-300 leading-relaxed font-light text-base md:text-2xl lg:text-3xl leading-tight">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>

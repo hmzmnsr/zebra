@@ -28,7 +28,7 @@ const UnderImageSection = () => {
           </div>
 
           {/* Content Area - Three Columns */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-12 mt-8 md:mt-16 lg:mt-20 xl:mt-36">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-12 mt-8 md:mt-16 lg:mt-20 xl:mt-36">
             <div className="text-black text-sm leading-relaxed md:leading-tight">
             For IBMs latest Linux platform launch, we created a launch film that brought a fresh, playful energy to the hardware. <br/><br/>
             To celebrate the platforms signature openness, we leaned into an  original song (inspired by a reference) for an invitation few could  resist—capped with the brand&apos;s signature orange.

@@ -14,7 +14,7 @@ const ShotGallery = () => {
   ];
 
   return (
-    <div className="pt-8 md:pt-16 bg-white">
+    <div className="pt-8 md:pt-16 bg-white pb-28 lg:pb-0">
       <div className="max-w-8xl mx-auto px-1">
         {/* Header */}
         <div className="text-start px-4 sm:px-6 lg:ml-24 mb-8 md:mb-12">
@@ -42,7 +42,7 @@ const ShotGallery = () => {
         </div>
 
         {/* Navigation */}
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center px-4 sm:px-6 gap-4 md:gap-0">
+        <div className="flex flex-row justify-between items-center px-4 sm:px-6 gap-4">
           <Link href="/servizi/soluzioni-multimediali-immersive" className="flex items-center text-black hover:text-gray-600 transition-colors">
             <span className="mr-2">←</span>
             <span className="text-xs md:text-sm">Vai a Soluzioni multimediali immersive</span>

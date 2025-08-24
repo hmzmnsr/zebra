@@ -10,7 +10,7 @@ const ImageSection = () => {
         alt="Produzione contenuti illustration"
         width={1920}
         height={600}
-        className="w-full h-48 sm:h-56 md:h-64 lg:h-168 object-cover"
+        className="w-full h-64 sm:h-56 md:h-64 lg:h-168 object-cover"
         priority
       />
     </div>
