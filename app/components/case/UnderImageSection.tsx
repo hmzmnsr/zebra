@@ -1,45 +1,51 @@
 'use client';
 
+import Image from 'next/image';
+
 const UnderImageSection = () => {
   return (
-    <div className="relative min-h-screen">
-      {/* Background Image - Mobile: top, Desktop: center */}
-      <div 
-        className="w-full h-64 md:h-full md:absolute md:inset-0"
-        style={{
-          backgroundImage: 'url(/assets/case/bg.PNG)',
-          backgroundSize: 'contain',
-          backgroundPosition: 'top center',
-          backgroundRepeat: 'no-repeat'
-        }}
-      ></div>
-      
-      {/* Content - Mobile: below image, Desktop: overlay */}
-      <div className="md:absolute md:inset-0 flex items-center">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8 md:mt-0">
-          {/* Header Area */}
-          <div className="mb-6 md:mb-8 lg:mb-12 leading-tight">
-            <h3 className="text-black text-xs font-thin leading-tight">
-              with the brands signature orange.
-            </h3>
-            <h2 className="text-2xl md:text-4xl lg:text-5xl xl:text-3xl font-thin text-black leading-tight">
-            Lorem ipsum dolor sit amet, 
-            </h2>
-          </div>
+    <div className="relative pb-12 sm:pb-16 lg:pb-32 px-4 sm:px-6 lg:px-24">
+      {/* Overlapping Image - Top Right Corner - Hidden on mobile, shown on larger screens */}
+      <div className="hidden md:block absolute -top-32 sm:-top-40 md:-top-56 right-0 z-10 w-2/3 lg:w-3/5 h-full">
+        <Image
+          src="/assets/case/bg1.png"
+          alt="Decorative Image"
+          width={800}
+          height={600}
+          className="w-full h-auto object-contain"
+        />
+      </div>
 
-          {/* Content Area - Three Columns */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-12 mt-8 md:mt-16 lg:mt-20 xl:mt-36">
-            <div className="text-black text-sm leading-relaxed md:leading-tight">
-            For IBMs latest Linux platform launch, we created a launch film that brought a fresh, playful energy to the hardware. <br/><br/>
-            To celebrate the platforms signature openness, we leaned into an  original song (inspired by a reference) for an invitation few could  resist—capped with the brand&apos;s signature orange.
-            </div>
-            <div className="text-black text-sm leading-relaxed md:leading-tight">
-            For IBMs latest Linux platform launch, we created a launch film that brought a fresh, playful energy to the hardware. <br/><br/>
-            To celebrate the platforms signature openness, we leaned into an  original song (inspired by a reference) for an invitation few could  resist—capped with the brand&apos;s signature orange.
-            </div>
-            <div className="text-white text-sm leading-relaxed md:leading-tight">
-              {/* Empty right section */}
-            </div>
+      {/* Mobile Image - Centered and visible only on mobile */}
+      <div className="md:hidden flex justify-center mb-8">
+        <Image
+          src="/assets/case/bg1.png"
+          alt="Decorative Image"
+          width={400}
+          height={300}
+          className="w-3/4 h-auto object-contain"
+        />
+      </div>
+
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-12">
+        {/* Header Area */}
+        <div className="mb-6 sm:mb-8 md:mb-12 leading-tight">
+          <h3 className="text-black text-xs font-thin leading-tight">
+             Uno stand che non si guarda: si vive.
+          </h3>
+          <h2 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-thin text-black leading-tight">
+          Far rivivere i capolavori 
+          <br/>tramite la tecnologia
+          </h2>
+        </div>
+
+        {/* Content Area - Two Columns */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 mt-12 sm:mt-16 md:mt-20 lg:mt-24 mr-0 sm:mr-0 md:mr-104">
+          <div className="text-black text-sm leading-tight">
+          In occasione della fiera ISE di Barcellona, il nostro<br/> partner strategico EPSON, leader mondiale nella <br/>videoproiezione, ci ha affidato la progettazione e <br/>realizzazione del suo stand immersivo: uno spazio <br/>concepito per esaltare versatilità e qualità delle<br/> soluzioni di videoproiezione firmate EPSON. 
+          </div>
+          <div className="text-black text-sm leading-tight">
+          Dalla fase di concept creativo alla gestione tecnica in<br/> loco, ZEBRA ha curato ogni aspetto della<br/> realizzazione, trasformando lo stand in una vera e<br/> propria opera immersiva ad altissima risoluzione, <br/>animata da un racconto digitale coinvolgente, creato<br/> per omaggiare la città di Barcellona e i grandi maestri<br/> della pittura spagnola. 
           </div>
         </div>
       </div>
