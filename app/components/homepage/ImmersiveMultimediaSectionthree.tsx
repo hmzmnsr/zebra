@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -10,6 +10,21 @@ const ImmersiveMultimediaSectionThree = () => {
   const [touchStartX, setTouchStartX] = useState<number | null>(null);
   const [touchEndX, setTouchEndX] = useState<number | null>(null);
   const [loadedImages, setLoadedImages] = useState<Record<string, boolean>>({});
+
+  useEffect(() => {
+    const currentIndex = activeItem;
+    const nextIndex = currentIndex === menuItems.length ? 1 : currentIndex + 1;
+    const prevIndex = currentIndex === 1 ? menuItems.length : currentIndex - 1;
+    [nextIndex, prevIndex].forEach((idx) => {
+      const src = menuItems.find(i => i.id === idx)?.image;
+      if (src && !loadedImages[src] && typeof window !== 'undefined') {
+        const img = new window.Image();
+        img.src = src;
+        img.onload = () => setLoadedImages(prev => ({ ...prev, [src]: true }));
+      }
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [activeItem]);
 
   const menuItems = [
     { 
@@ -42,7 +57,7 @@ const ImmersiveMultimediaSectionThree = () => {
       setTimeout(() => {
         setActiveItem(targetIndex);
         setTimeout(() => setIsFading(false), 10);
-      }, 150);
+      }, 300);
     };
     if (loadedImages[targetSrc]) {
       proceed();
@@ -103,7 +118,7 @@ const ImmersiveMultimediaSectionThree = () => {
       onTouchEnd={handleTouchEnd}
     >
       {/* Background Image */}
-      <div className={`absolute inset-0 transition-opacity duration-300 ease-in-out ${isFading ? 'opacity-0' : 'opacity-100'}`}>
+      <div className={`absolute inset-0 transition-opacity duration-700 ease-in-out ${isFading ? 'opacity-0' : 'opacity-100'}`}>
         <Image
           src={activeContent?.image || '/assets/homepage/bg4.jpg'}
           alt="Immersive Multimedia Background"
@@ -111,7 +126,8 @@ const ImmersiveMultimediaSectionThree = () => {
           className="object-cover"
           priority
           sizes="100vw"
-          quality={85}
+          quality={65}
+          fetchPriority="high"
           onLoadingComplete={() => {
             const src = activeContent?.image;
             if (src && !loadedImages[src]) {
@@ -155,7 +171,7 @@ const ImmersiveMultimediaSectionThree = () => {
       >
         {/* Mobile Content */}
         <div className="absolute top-20 left-0 right-0 z-10 px-4">
-          <div className={`bg-black/40 backdrop-blur-sm rounded-lg p-4 mb-4 transition-opacity duration-300 ${isFading ? 'opacity-0' : 'opacity-100'}`}>
+          <div className={`bg-black/40 backdrop-blur-sm rounded-lg p-4 mb-4 transition-opacity duration-500 ${isFading ? 'opacity-0' : 'opacity-100'}`}>
             <h3 className="text-white text-lg font-medium mb-2 text-center">
               {activeContent?.title}
             </h3>
