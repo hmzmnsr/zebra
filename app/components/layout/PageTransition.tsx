@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
+import { motion, AnimatePresence } from 'framer-motion';
 
 type PageTransitionProps = {
   children: React.ReactNode;
@@ -9,29 +10,49 @@ type PageTransitionProps = {
 
 export default function PageTransition({ children }: PageTransitionProps) {
   const pathname = usePathname();
-  const [isVisible, setIsVisible] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+  const [shouldShowContent, setShouldShowContent] = useState(true);
 
   useEffect(() => {
-    // Fade in on mount
-    const t = setTimeout(() => setIsVisible(true), 10);
-    return () => clearTimeout(t);
-  }, []);
-
-  useEffect(() => {
-    // Trigger fade on route change (mobile only via CSS)
-    setIsVisible(false);
-    const t = setTimeout(() => setIsVisible(true), 20);
-    return () => clearTimeout(t);
+    // When pathname changes, immediately hide content and start transition
+    setIsLoading(true);
+    setShouldShowContent(false);
+    
+    // After transition completes, show new content
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+      setShouldShowContent(true);
+    }, 200); // Reduced from 600ms to 200ms
+    
+    return () => clearTimeout(timer);
   }, [pathname]);
 
+  // Don't render content while transitioning
+  if (!shouldShowContent) {
+    return (
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 0 }}
+        transition={{ duration: 0.1 }} // Reduced from 0.3s to 0.1s
+        className="min-h-screen w-full bg-white"
+      />
+    );
+  }
+
   return (
-    <div
-      className={`transition-opacity duration-300 md:duration-0 ${
-        isVisible ? 'opacity-100' : 'opacity-0'
-      }`}
+    <motion.div
+      key={pathname}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ 
+        duration: 0.3, // Reduced from 0.6s to 0.3s
+        ease: "easeInOut"
+      }}
+      className="min-h-screen w-full"
     >
       {children}
-    </div>
+    </motion.div>
   );
 }
 
