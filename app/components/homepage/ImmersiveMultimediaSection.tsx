@@ -9,6 +9,7 @@ const ImmersiveMultimediaSection = () => {
   const [isFading, setIsFading] = useState(false);
   const [touchStartX, setTouchStartX] = useState<number | null>(null);
   const [touchEndX, setTouchEndX] = useState<number | null>(null);
+  const [loadedImages, setLoadedImages] = useState<Record<string, boolean>>({});
 
   const menuItems = [
     { 
@@ -65,20 +66,39 @@ const ImmersiveMultimediaSection = () => {
     setActiveItem(itemId);
   };
 
+  const goToSlide = (targetIndex: number) => {
+    const target = menuItems.find(item => item.id === targetIndex);
+    const targetSrc = target?.image || '';
+    const proceed = () => {
+      setIsFading(true);
+      setTimeout(() => {
+        setActiveItem(targetIndex);
+        setTimeout(() => setIsFading(false), 10);
+      }, 150);
+    };
+    if (loadedImages[targetSrc]) {
+      proceed();
+    } else if (typeof window !== 'undefined' && targetSrc) {
+      const img = new window.Image();
+      img.src = targetSrc;
+      img.onload = () => {
+        setLoadedImages(prev => ({ ...prev, [targetSrc]: true }));
+        proceed();
+      };
+      img.onerror = proceed;
+    } else {
+      proceed();
+    }
+  };
+
   const nextSlide = () => {
-    setIsFading(true);
-    setTimeout(() => {
-      setActiveItem((prev) => (prev === menuItems.length ? 1 : prev + 1));
-      setTimeout(() => setIsFading(false), 10);
-    }, 150);
+    const targetIndex = activeItem === menuItems.length ? 1 : activeItem + 1;
+    goToSlide(targetIndex);
   };
 
   const prevSlide = () => {
-    setIsFading(true);
-    setTimeout(() => {
-      setActiveItem((prev) => (prev === 1 ? menuItems.length : prev - 1));
-      setTimeout(() => setIsFading(false), 10);
-    }, 150);
+    const targetIndex = activeItem === 1 ? menuItems.length : activeItem - 1;
+    goToSlide(targetIndex);
   };
 
   const handleTouchStart = (e: React.TouchEvent) => {
@@ -108,7 +128,12 @@ const ImmersiveMultimediaSection = () => {
   const activeContent = menuItems.find(item => item.id === activeItem);
 
   return (
-    <section className="relative min-h-screen w-full overflow-hidden">
+    <section 
+      className="relative min-h-screen w-full overflow-hidden"
+      onTouchStart={handleTouchStart}
+      onTouchMove={handleTouchMove}
+      onTouchEnd={handleTouchEnd}
+    >
       {/* Background Image */}
       <div className={`absolute inset-0 transition-opacity duration-300 ease-in-out ${isFading ? 'opacity-0' : 'opacity-100'}`}> 
         <Image
@@ -119,6 +144,12 @@ const ImmersiveMultimediaSection = () => {
           priority
           sizes="100vw"
           quality={85}
+          onLoadingComplete={() => {
+            const src = activeContent?.image;
+            if (src && !loadedImages[src]) {
+              setLoadedImages(prev => ({ ...prev, [src]: true }));
+            }
+          }}
         />
         {/* Black overlay for better text readability */}
         <div className="absolute inset-0 bg-black/40"></div>
@@ -153,9 +184,6 @@ const ImmersiveMultimediaSection = () => {
       {/* Mobile Carousel View - Hidden on desktop */}
       <div 
         className="md:hidden"
-        onTouchStart={handleTouchStart}
-        onTouchMove={handleTouchMove}
-        onTouchEnd={handleTouchEnd}
       >
         {/* Mobile Content */}
         <div className="absolute top-20 left-0 right-0 z-10 px-4">
