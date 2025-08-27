@@ -3,6 +3,8 @@
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { EffectFade, Pagination, Navigation } from 'swiper/modules';
 
 const ImmersiveMultimediaSectionTwo = () => {
   const [activeItem, setActiveItem] = useState(1);
@@ -125,8 +127,8 @@ const ImmersiveMultimediaSectionTwo = () => {
       onTouchMove={handleTouchMove}
       onTouchEnd={handleTouchEnd}
     >
-      {/* Background Image */}
-      <div className={`absolute inset-0 transition-opacity duration-700 ease-in-out ${isFading ? 'opacity-0' : 'opacity-100'}`}>
+      {/* Background Image for desktop */}
+      <div className={`absolute inset-0 md:block hidden transition-opacity duration-700 ease-in-out ${isFading ? 'opacity-0' : 'opacity-100'}`}>
         <Image
           src={activeContent?.image || '/assets/homepage/bg3.png'}
           alt="Immersive Multimedia Background"
@@ -143,7 +145,6 @@ const ImmersiveMultimediaSectionTwo = () => {
             }
           }}
         />
-        {/* Black overlay for better text readability */}
         <div className="absolute inset-0 bg-black/40"></div>
       </div>
 
@@ -173,68 +174,56 @@ const ImmersiveMultimediaSectionTwo = () => {
         </div>
       </div>
 
-      {/* Mobile Carousel View - Hidden on desktop */}
-      <div 
-        className="md:hidden"
-      >
-        {/* Mobile Content */}
-        <div className="absolute top-20 left-0 right-0 z-10 px-4">
-          <div className={`bg-black/40 backdrop-blur-sm rounded-lg p-4 mb-4 transition-opacity duration-500 ${isFading ? 'opacity-0' : 'opacity-100'}`}>
-            <h3 className="text-white text-lg font-medium mb-2 text-center">
-              {activeContent?.title}
-            </h3>
-            <p className="text-white/90 text-sm leading-relaxed text-center">
-              {activeContent?.content}
-            </p>
-          </div>
-        </div>
-
-        {/* Mobile Navigation Dots */}
-        <div className="absolute bottom-32 left-0 right-0 z-10 flex justify-center">
-          <div className="flex space-x-2">
-            {menuItems.map((item) => (
-              <button
-                key={item.id}
-                onClick={() => handleItemClick(item.id)}
-                className={`w-2 h-2 rounded-full transition-all duration-300 ${
-                  item.active ? 'bg-white scale-125' : 'bg-white/50'
-                }`}
-              />
-            ))}
-          </div>
-        </div>
-
-        {/* Mobile Arrow Navigation */}
-        <div className="absolute bottom-20 left-0 right-0 z-10 flex justify-between px-4">
-          <button
-            onClick={prevSlide}
-            className="bg-black/40 backdrop-blur-sm text-white p-3 rounded-full hover:bg-black/60 transition-all duration-300"
-          >
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-            </svg>
-          </button>
-          
-          <button
-            onClick={nextSlide}
-            className="bg-black/40 backdrop-blur-sm text-white p-3 rounded-full hover:bg-black/60 transition-all duration-300"
-          >
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
-          </button>
-        </div>
-
-        {/* Mobile CTA Button */}
-        <Link 
-          href={activeContent?.link || '/servizi/soluzioni-multimediali-immersive'}
-          className="absolute bottom-4 left-1/2 transform -translate-x-1/2 z-10 bg-white/20 backdrop-blur-sm text-white px-6 py-3 rounded-lg border border-white/30 hover:bg-white/30 transition-all duration-300 flex items-center gap-2 text-sm"
+      {/* Mobile Carousel View with Swiper - Hidden on desktop */}
+      <div className="md:hidden h-screen">
+        <Swiper
+          modules={[EffectFade, Pagination, Navigation]}
+          effect="fade"
+          speed={700}
+          loop
+          pagination={{ clickable: true }}
+          navigation={{ prevEl: '.home-imm-prev', nextEl: '.home-imm-next' }}
+          onSlideChange={(swiper) => setActiveItem((swiper.realIndex % menuItems.length) + 1)}
+          className="h-full"
         >
-          <span className="font-medium">Scopri di più</span>
-          <span className="text-lg group-hover:translate-x-1 transition-transform duration-300">
-            →
-          </span>
-        </Link>
+          {menuItems.map((item) => (
+            <SwiperSlide key={item.id}>
+              <div className="relative h-full w-full">
+                <Image
+                  src={item.image}
+                  alt="Immersive Multimedia Background"
+                  fill
+                  className="object-cover"
+                  sizes="100vw"
+                  quality={70}
+                  priority={item.id === 1}
+                />
+                <div className="absolute inset-0 bg-black/40"></div>
+                <div className="absolute top-20 left-0 right-0 z-10 px-4">
+                  <div className="bg-black/40 backdrop-blur-sm rounded-lg p-4 mb-4">
+                    <h3 className="text-white text-lg font-medium mb-2 text-center">{item.title}</h3>
+                    <p className="text-white/90 text-sm leading-relaxed text-center">{item.content}</p>
+                  </div>
+                </div>
+                <Link 
+                  href={item.link}
+                  className="absolute bottom-16 left-1/2 transform -translate-x-1/2 z-10 bg-white/20 backdrop-blur-sm text-white px-6 py-3 rounded-lg border border-white/30 hover:bg-white/30 transition-all duration-300 flex items-center gap-2 text-sm"
+                >
+                  <span className="font-medium">Scopri di più</span>
+                  <span className="text-lg group-hover:translate-x-1 transition-transform duration-300">→</span>
+                </Link>
+                <div className="absolute bottom-8 left-0 right-0 z-10 flex justify-between px-4">
+                  <button className="home-imm-prev bg-black/40 backdrop-blur-sm text-white p-3 rounded-full">
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" /></svg>
+                  </button>
+                  <button className="home-imm-next bg-black/40 backdrop-blur-sm text-white p-3 rounded-full">
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+                  </button>
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
 
       {/* Desktop View - Hidden on mobile */}
