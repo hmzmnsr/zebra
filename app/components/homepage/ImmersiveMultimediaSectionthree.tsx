@@ -6,6 +6,9 @@ import Link from 'next/link';
 
 const ImmersiveMultimediaSectionThree = () => {
   const [activeItem, setActiveItem] = useState(1);
+  const [isFading, setIsFading] = useState(false);
+  const [touchStartX, setTouchStartX] = useState<number | null>(null);
+  const [touchEndX, setTouchEndX] = useState<number | null>(null);
 
   const menuItems = [
     { 
@@ -31,11 +34,43 @@ const ImmersiveMultimediaSectionThree = () => {
   };
 
   const nextSlide = () => {
-    setActiveItem((prev) => (prev === menuItems.length ? 1 : prev + 1));
+    setIsFading(true);
+    setTimeout(() => {
+      setActiveItem((prev) => (prev === menuItems.length ? 1 : prev + 1));
+      setTimeout(() => setIsFading(false), 10);
+    }, 150);
   };
 
   const prevSlide = () => {
-    setActiveItem((prev) => (prev === 1 ? menuItems.length : prev - 1));
+    setIsFading(true);
+    setTimeout(() => {
+      setActiveItem((prev) => (prev === 1 ? menuItems.length : prev - 1));
+      setTimeout(() => setIsFading(false), 10);
+    }, 150);
+  };
+
+  const handleTouchStart = (e: React.TouchEvent) => {
+    setTouchStartX(e.changedTouches[0].clientX);
+    setTouchEndX(null);
+  };
+
+  const handleTouchMove = (e: React.TouchEvent) => {
+    setTouchEndX(e.changedTouches[0].clientX);
+  };
+
+  const handleTouchEnd = () => {
+    if (touchStartX === null || touchEndX === null) return;
+    const deltaX = touchEndX - touchStartX;
+    const threshold = 40;
+    if (Math.abs(deltaX) > threshold) {
+      if (deltaX < 0) {
+        nextSlide();
+      } else {
+        prevSlide();
+      }
+    }
+    setTouchStartX(null);
+    setTouchEndX(null);
   };
 
   const activeContent = menuItems.find(item => item.id === activeItem);
@@ -43,12 +78,12 @@ const ImmersiveMultimediaSectionThree = () => {
   return (
     <section className="relative min-h-screen w-full overflow-hidden">
       {/* Background Image */}
-      <div className="absolute inset-0">
+      <div className={`absolute inset-0 transition-opacity duration-300 ease-in-out ${isFading ? 'opacity-0' : 'opacity-100'}`}>
         <Image
           src={activeContent?.image || '/assets/homepage/bg4.jpg'}
           alt="Immersive Multimedia Background"
           fill
-          className="object-cover transition-all duration-1000 ease-in-out"
+          className="object-cover"
           priority
           sizes="100vw"
           quality={85}
@@ -84,10 +119,15 @@ const ImmersiveMultimediaSectionThree = () => {
       </div>
 
       {/* Mobile Carousel View - Hidden on desktop */}
-      <div className="md:hidden">
+      <div 
+        className="md:hidden"
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
+      >
         {/* Mobile Content */}
         <div className="absolute top-20 left-0 right-0 z-10 px-4">
-          <div className="bg-black/40 backdrop-blur-sm rounded-lg p-4 mb-4">
+          <div className={`bg-black/40 backdrop-blur-sm rounded-lg p-4 mb-4 transition-opacity duration-300 ${isFading ? 'opacity-0' : 'opacity-100'}`}>
             <h3 className="text-white text-lg font-medium mb-2 text-center">
               {activeContent?.title}
             </h3>
