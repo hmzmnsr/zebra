@@ -22,7 +22,7 @@ export default function PageTransition({ children }: PageTransitionProps) {
     const timer = setTimeout(() => {
       setIsLoading(false);
       setShouldShowContent(true);
-    }, 200); // Reduced from 600ms to 200ms
+    }, 350); // Adjusted to 350ms for smoother feel
     
     return () => clearTimeout(timer);
   }, [pathname]);
@@ -33,7 +33,7 @@ export default function PageTransition({ children }: PageTransitionProps) {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 0 }}
-        transition={{ duration: 0.1 }} // Reduced from 0.3s to 0.1s
+        transition={{ duration: 0.2 }} // Adjusted to 0.2s
         className="min-h-screen w-full bg-white"
       />
     );
@@ -46,7 +46,7 @@ export default function PageTransition({ children }: PageTransitionProps) {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ 
-        duration: 0.3, // Reduced from 0.6s to 0.3s
+        duration: 0.5, // Adjusted to 0.5s for smoother fade
         ease: "easeInOut"
       }}
       className="min-h-screen w-full"
