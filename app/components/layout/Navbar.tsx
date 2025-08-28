@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
+import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -304,7 +305,25 @@ const Navbar = () => {
                         </span>
                       </button>
                     </div>
-                    <div className="pl-4">
+                    <motion.div
+                      className="pl-4"
+                      style={{ overflow: 'hidden' }}
+                      initial="closed"
+                      animate={isServiziOpen ? 'open' : 'closed'}
+                      variants={{
+                        open: {
+                          height: 'auto',
+                          opacity: 1,
+                          transition: { duration: 0.7, ease: [0.22, 1, 0.36, 1] }
+                        },
+                        closed: {
+                          height: 0,
+                          opacity: 0,
+                          transition: { duration: 0.35, ease: [0.4, 0, 0.2, 1] }
+                        }
+                      }}
+                      aria-hidden={!isServiziOpen}
+                    >
                       {serviziItems.map((servizio) => (
                         <Link
                           key={servizio}
@@ -315,7 +334,7 @@ const Navbar = () => {
                           {servizio}
                         </Link>
                       ))}
-                    </div>
+                    </motion.div>
                   </div>
                 ) : (
                   <Link
