@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // No redirects needed; routes have been migrated under /progetti
 };
 
 export default nextConfig;
