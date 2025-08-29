@@ -71,7 +71,7 @@ const Navbar = () => {
   if (!isMounted) {
     return (
       <div className="fixed top-0 left-0 right-0 z-50">
-        <nav className="bg-white border-b border-gray-200 text-gray-800 w-full h-[70px] flex items-center px-8 z-40 relative transition-all duration-300">
+        <nav className="bg-black/40 backdrop-blur-md border-b border-white/20 text-white w-full h-[70px] flex items-center px-8 z-40 relative transition-all duration-300">
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center justify-between w-full max-w-7xl mx-auto">
             {/* Logo */}
@@ -123,13 +123,13 @@ const Navbar = () => {
                     <div className="w-1 h-4 bg-blue-700"></div>
                   </div>
                   {/* ZEBRA text */}
-                  <span className="font-bold text-black text-xl">ZEBRA</span>
+                  <span className="font-bold text-white text-xl">ZEBRA</span>
                 </div>
               </Link>
             </div>
 
             {/* Mobile Menu Button */}
-            <button className="flex items-center gap-2 text-gray-500">
+            <button className="flex items-center gap-2 text-white">
               <span className="text-sm font-medium">Menu</span>
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
@@ -146,8 +146,8 @@ const Navbar = () => {
       {/* Main Navigation Bar */}
              <nav className={`w-full h-[70px] flex items-center px-8 z-40 relative transition-all duration-300 ${
          isScrolled 
-           ? 'bg-white border-gray-200 text-gray-800 lg:bg-black/40 lg:backdrop-blur-md lg:border-white/20 lg:text-white' 
-           : 'bg-white border-gray-200 text-gray-800 lg:backdrop-blur-md lg:border-white/20 lg:text-white lg:bg-white/10'
+           ? 'bg-black/40 backdrop-blur-md border-white/20 text-white lg:bg-black/40 lg:backdrop-blur-md lg:border-white/20 lg:text-white' 
+           : 'bg-black/40 backdrop-blur-md border-white/20 text-white lg:bg-black/40 lg:backdrop-blur-md lg:border-white/20 lg:text-white'
        }`}>
         {/* Desktop Navigation */}
         <div className="hidden lg:flex items-center justify-between w-full max-w-7xl mx-auto">
@@ -222,7 +222,7 @@ const Navbar = () => {
                   <div className="w-1 h-4 bg-blue-700"></div>
                 </div>
                 {/* ZEBRA text */}
-                <span className="font-bold text-black text-xl">ZEBRA</span>
+                <span className="font-bold text-white text-xl">ZEBRA</span>
               </div>
             </Link>
           </div>
@@ -230,7 +230,7 @@ const Navbar = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="flex items-center gap-2 text-gray-500"
+            className="flex items-center gap-2 text-white"
           >
             <span className="text-sm font-medium">Menu</span>
             <svg className={`w-4 h-4 transition-transform duration-300 ${isMobileMenuOpen ? 'rotate-180' : ''}`} fill="currentColor" viewBox="0 0 20 20">
@@ -243,11 +243,7 @@ const Navbar = () => {
              {/* Full-width Dropdown Menu - Desktop */}
        {isServiziOpen && (
          <div 
-           className={`hidden lg:block absolute top-[70px] w-screen backdrop-blur-md border-b shadow-lg z-50 transition-all duration-300 ${
-             isScrolled 
-               ? 'bg-black/40 border-white/20' 
-               : 'bg-white/10 border-white/20'
-           }`}
+          className={`hidden lg:block absolute top-[70px] w-screen backdrop-blur-md border-b shadow-lg z-50 transition-all duration-300 bg-black/40 border-white/20`}
            onMouseEnter={handleMouseEnter}
            onMouseLeave={handleMouseLeave}
          >
@@ -255,19 +251,19 @@ const Navbar = () => {
             <div className="flex justify-start">
               <div className="w-80 py-8 ml-[calc(50%-18rem)]">
                                  {serviziItems.map((servizio) => (
-                   <div key={servizio} className={`border-b last:border-b-0 pb-4 mb-4 last:mb-0 transition-colors duration-300 ${
-                     isScrolled ? 'border-white/20' : 'border-white/20'
-                   }`}>
-                     <Link
-                       href={generateServizioUrl(servizio)}
-                       onClick={handleNavigationClick}
-                       className="block text-white hover:text-gray-300 transition-colors text-sm py-2"
-                     >
-                       {servizio}
-                     </Link>
-                   </div>
-                 ))}
-              </div>
+                  <div key={servizio} className={`border-b last:border-b-0 pb-4 mb-4 last:mb-0 transition-colors duration-300 ${
+                    isScrolled ? 'border-white/20' : 'border-white/20'
+                  }`}>
+                    <Link
+                      href={generateServizioUrl(servizio)}
+                      onClick={handleNavigationClick}
+                      className="block text-white hover:text-gray-300 transition-colors text-sm py-2"
+                    >
+                      {servizio}
+                    </Link>
+                  </div>
+                ))}
+             </div>
             </div>
           </div>
         </div>
@@ -280,8 +276,8 @@ const Navbar = () => {
             : 'scale-y-0 opacity-0 pointer-events-none'
         } ${
           isScrolled 
-            ? 'bg-white border-gray-200' 
-            : 'bg-white border-gray-200'
+            ? 'bg-black/40 backdrop-blur-md border-white/20' 
+            : 'bg-black/40 backdrop-blur-md border-white/20'
         }`}>
           <div className="px-4 py-2 space-y-1">
             {navItems.map((item) => (
@@ -292,13 +288,13 @@ const Navbar = () => {
                       <Link
                         href={item.href}
                         onClick={handleNavigationClick}
-                        className="flex-1 px-3 py-2 text-gray-800 hover:bg-gray-100 transition-colors"
+                        className="flex-1 px-3 py-2 text-white hover:bg-white/10 transition-colors"
                       >
                         {item.name}
                       </Link>
                       <button
                         onClick={() => setIsServiziOpen(!isServiziOpen)}
-                        className="px-3 py-2 text-gray-800 hover:bg-gray-100 transition-colors"
+                        className="px-3 py-2 text-white hover:bg-white/10 transition-colors"
                       >
                         <span className="text-sm">
                           {isServiziOpen ? '-' : '+'}
@@ -329,7 +325,7 @@ const Navbar = () => {
                           key={servizio}
                           href={generateServizioUrl(servizio)}
                           onClick={handleNavigationClick}
-                          className="block px-3 py-2 text-gray-600 hover:text-gray-800 hover:bg-gray-100 transition-colors"
+                          className="block px-3 py-2 text-white/90 hover:text-white hover:bg-white/10 transition-colors"
                         >
                           {servizio}
                         </Link>
@@ -340,7 +336,7 @@ const Navbar = () => {
                   <Link
                     href={item.href}
                     onClick={handleNavigationClick}
-                    className="block px-3 py-2 text-gray-800 hover:bg-gray-100 transition-colors"
+                    className="block px-3 py-2 text-white hover:bg-white/10 transition-colors"
                   >
                     {item.name}
                   </Link>
