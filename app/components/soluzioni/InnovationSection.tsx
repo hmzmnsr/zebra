@@ -12,14 +12,20 @@ const InnovationSection = () => {
             {/* Left Content - Text Block */}
             <div className="order-2 lg:order-1">
               <h3 className="text-gray-300 text-md font-thin px-4 sm:px-8 lg:px-32">
-                Un cambio di paradigma negli ambienti di lavoro
+              Racconti da vivere
               </h3>
               <h2 className="text-white text-4xl md:text-5xl lg:text-4xl font-thin leading-tight px-4 sm:px-8 lg:px-32 mb-4">
-                Innovazione coinvolgente
+              Storytelling immersivi
               </h2>
               <div className="w-16 h-px bg-white mb-6 mx-4 sm:mx-8 lg:mx-32"></div>
               <p className="text-white text-sm leading-tight px-4 sm:px-8 lg:px-32 font-thin">
-                Costruiamo spazi multimediali progettati per stimolare creatività e collaborazione, integrando tecnologie visive e interattive di ultima generazione.
+               Creiamo esperienze immersive che stupiscono il pubblico attraverso storytelling multisensoriali personalizzati. 
+<br/>
+<br/>
+Dal concept iniziale alla creazione dei contenuti, fino alla realizzazione finale e allassistenza post-lancio: un viaggio emozionale completo, pensato per rendere lesperienza un ricordo straordinario. 
+<br/>
+<br/>
+Per showroom, musei, stand fieristici, eventi, product reveal e contesti educativi. 
               </p>
             </div>
 
@@ -55,14 +61,14 @@ const InnovationSection = () => {
             {/* Right Content - Text Block */}
             <div className="order-2">
               <h3 className="text-gray-300 text-md font-thin px-4 sm:px-8 lg:px-32">
-                Un cambio di paradigma negli ambienti di lavoro
+              Nuove forme di terapia
               </h3>
               <h2 className="text-white text-4xl md:text-5xl lg:text-4xl font-thin leading-tight px-4 sm:px-8 lg:px-32 mb-4">
-                Innovazione coinvolgente
+              Soluzioni medico-terapeutiche
               </h2>
               <div className="w-16 h-px bg-white mb-6 mx-4 sm:mx-8 lg:mx-32"></div>
               <p className="text-white text-sm leading-tight px-4 sm:px-8 lg:px-32 font-thin">
-                Costruiamo spazi multimediali progettati per stimolare creatività e collaborazione, integrando tecnologie visive e interattive di ultima generazione.
+              Progettiamo ed implementiamo sistemi immersivi avanzati per il settore medico, supportando ospedali, centri di riabilitazione e strutture terapeutiche con soluzioni innovative che arricchiscono lesperienza dei pazienti. Grazie all'immersività, offriamo ai terapeuti nuovi strumenti per potenziare le cure, migliorando il benessere psicologico dei pazienti durante il trattamento e favorendone una maggiore efficacia. 
               </p>
             </div>
           </div>

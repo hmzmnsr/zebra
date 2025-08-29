@@ -29,6 +29,10 @@ const PowerToolSection = () => {
                height={300}
                className="w-full h-64 sm:h-80 md:h-96 lg:h-104 object-cover"
              />
+
+<p className="text-[10px] sm:text-xs text-gray-300 mt-2 text-right pr-1 sm:pr-2 md:pr-4">
+               ISE 2023 EPSON Booth
+             </p>
            </div>
          </div>
       </div>
@@ -44,6 +48,11 @@ const PowerToolSection = () => {
         
         
        </div>
+
+
+             {/* Floating horizontal lines (adjust positions as needed) */}
+      <div className="pointer-events-none absolute left-88 right-0 top-6 h-px bg-white/30"></div>
+      <div className="pointer-events-none absolute left-0 right-88 bottom-36 h-px bg-white/30"></div>
     </section>
   );
 };
