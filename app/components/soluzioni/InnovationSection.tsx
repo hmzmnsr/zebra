@@ -68,7 +68,7 @@ Per showroom, musei, stand fieristici, eventi, product reveal e contesti educati
               </h2>
               <div className="w-16 h-px bg-white mb-6 mx-4 sm:mx-8 lg:mx-32"></div>
               <p className="text-white text-sm leading-tight px-4 sm:px-8 lg:px-32 font-thin">
-              Progettiamo ed implementiamo sistemi immersivi avanzati per il settore medico, supportando ospedali, centri di riabilitazione e strutture terapeutiche con soluzioni innovative che arricchiscono lesperienza dei pazienti. Grazie all'immersività, offriamo ai terapeuti nuovi strumenti per potenziare le cure, migliorando il benessere psicologico dei pazienti durante il trattamento e favorendone una maggiore efficacia. 
+              Progettiamo ed implementiamo sistemi immersivi avanzati per il settore medico, supportando ospedali, centri di riabilitazione e strutture terapeutiche con soluzioni innovative che arricchiscono lesperienza dei pazienti. Grazie allimmersività, offriamo ai terapeuti nuovi strumenti per potenziare le cure, migliorando il benessere psicologico dei pazienti durante il trattamento e favorendone una maggiore efficacia. 
               </p>
             </div>
           </div>
