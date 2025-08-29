@@ -14,6 +14,9 @@ const CaseHero = () => {
           </h1>
           <div className="hidden md:block flex-1 h-px bg-gray-500"></div>
         </div>
+        <div className="hidden md:flex justify-end -mt-3 mb-6">
+          <span className="text-xs sm:text-sm text-gray-300">progetti</span>
+        </div>
         <h2 className="text-lg sm:text-xl md:text-3xl lg:text-4xl font-sans text-white mr-0 md:mr-4 mb-8 sm:mb-12 md:mb-24">
         
         </h2>

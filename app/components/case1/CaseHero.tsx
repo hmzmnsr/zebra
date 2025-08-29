@@ -14,9 +14,9 @@ const CaseHero = () => {
           </h1>
           <div className="hidden md:block flex-1 h-px bg-gray-500"></div>
         </div>
-        <h2 className="text-lg sm:text-xl md:text-3xl lg:text-4xl font-sans text-white mr-0 md:mr-4 mb-8 sm:mb-12 md:mb-24">
-        
-        </h2>
+        <div className="hidden md:flex justify-end -mt-2 mb-12">
+          <span className="text-xs sm:text-sm text-gray-300">progetti</span>
+        </div>
         
         {/* Body Text - Two paragraphs with generous line spacing */}
         <div className="max-w-4xl space-y-4 sm:space-y-0 md:space-y-0">

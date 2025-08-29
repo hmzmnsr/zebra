@@ -14,6 +14,9 @@ const ServiziHero = () => {
           </h1>
           <div className="flex-1 h-px bg-gray-500"></div>
         </div>
+        <div className="hidden md:flex justify-end -mt-8 mb-6">
+          <span className="text-xs sm:text-sm text-gray-300">I nostri servizi</span>
+        </div>
         
         {/* Body Text - Two paragraphs with generous line spacing */}
         <div className="max-w-3xl space-y-8">
