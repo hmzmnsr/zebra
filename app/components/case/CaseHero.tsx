@@ -14,20 +14,15 @@ const CaseHero = () => {
           </h1>
           <div className="hidden md:block flex-1 h-px bg-gray-500"></div>
         </div>
-        <h2 className="text-lg sm:text-xl md:text-3xl lg:text-4xl font-sans text-white mr-0 md:mr-4 mb-8 sm:mb-12 md:mb-24">
-          Lancio prodotto
-        </h2>
         
         {/* Body Text - Two paragraphs with generous line spacing */}
         <div className="max-w-4xl space-y-4 sm:space-y-3 md:space-y-2">
           {/* First Paragraph */}
+          <br/>
+          <br/>
+          <br/>
           <p className="text-sm sm:text-sm md:text-base lg:text-lg text-gray-100 leading-relaxed md:leading-tight font-sans font-thin">
-          For IBMs latest Linux platform launch, we created a launch film that brought a fresh, playful energy to the hardware.
-          </p>
-          
-          {/* Second Paragraph */}
-          <p className="text-sm sm:text-sm md:text-base lg:text-lg text-gray-100 leading-relaxed md:leading-tight font-sans font-thin">
-          To celebrate the platforms signature openness, we leaned into an  original song (inspired by a reference) for an invitation few could  resist—capped with the brands signature orange.
+          Per presentare il nuovo avvitatore Oil-Less, Beta Utensili ha scelto un formato capace di unire precisione tecnica e forte impatto visivo: un video 3D pensato per una diffusione multicanale dai social alle fiere, fino alle presentazioni promo e al canale YouTube.
           </p>
         </div>
       </div>
