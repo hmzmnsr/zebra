@@ -1,38 +1,26 @@
 import ChiSiamoHero from '../components/chi-siamo/ChiSiamoHero';
 import ChiSiamoStory from '../components/chi-siamo/ChiSiamoStory';
 import ChiSiamoExperience from '../components/chi-siamo/ChiSiamoExperience';
-import ChiSiamoFeatures from '../components/chi-siamo/ChiSiamoFeatures';
-import ChiSiamoThreeColumns from '../components/chi-siamo/ChiSiamoThreeColumns';
-import ChiSiamoThreeColumnsRight from '../components/chi-siamo/ChiSiamoThreeColumnsRight';
-import ChiSiamoGrid from '../components/chi-siamo/ChiSiamoGrid';
-import ContactCTA from '../components/ContactCTA';
+import StatisticsSection from '../components/chi-siamo/StatisticsSection';
+import CTASection from '../components/chi-siamo/CTASection';
+import UnderImageSection from '../components/chi-siamo/UnderImageSection';
 
 export default function ChiSiamo() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
       <ChiSiamoHero />
-      
+       
       {/* Story Section */}
       <ChiSiamoStory />
+
+      <UnderImageSection />
       
       {/* Experience Section */}
       <ChiSiamoExperience />
-      
-      {/* Features Section */}
-      <ChiSiamoFeatures />
-      
-      {/* Three Columns Section */}
-      <ChiSiamoThreeColumns />
-      
-      {/* Three Columns Right Section */}
-      <ChiSiamoThreeColumnsRight />
-      
-      {/* Grid Section */}
-      <ChiSiamoGrid />
-      
-      {/* Contact CTA Section */}
-      <ContactCTA />
+      <StatisticsSection />
+
+      <CTASection />
       
       {/* Additional content sections can be added here */}
     </div>
