@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 type PageTransitionProps = {
   children: React.ReactNode;
@@ -10,17 +10,14 @@ type PageTransitionProps = {
 
 export default function PageTransition({ children }: PageTransitionProps) {
   const pathname = usePathname();
-  const [isLoading, setIsLoading] = useState(false);
   const [shouldShowContent, setShouldShowContent] = useState(true);
 
   useEffect(() => {
     // When pathname changes, immediately hide content and start transition
-    setIsLoading(true);
     setShouldShowContent(false);
     
     // After transition completes, show new content
     const timer = setTimeout(() => {
-      setIsLoading(false);
       setShouldShowContent(true);
     }, 350); // Adjusted to 350ms for smoother feel
     

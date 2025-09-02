@@ -466,7 +466,7 @@ const ProjectShowcase = () => {
               {/* Project Description */}
               <div className="text-gray-600 leading-tight text-sm md:text-base">
                 <p>
-                In occasione della mostra "Il Codice Leicester" di Leonardo da Vinci, la Galleria degli Uffizi di Firenze ha coinvolto il team ZEBRA nella progettazione e realizzazione di exhibit digitali interattivi per immergere i visitatori nell&apos;universo visionario del genio toscano. 
+                In occasione della mostra &ldquo;Il Codice Leicester&rdquo; di Leonardo da Vinci, la Galleria degli Uffizi di Firenze ha coinvolto il team ZEBRA nella progettazione e realizzazione di exhibit digitali interattivi per immergere i visitatori nell&apos;universo visionario del genio toscano. 
                 </p>
                 
                 <p>
