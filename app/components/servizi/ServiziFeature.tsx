@@ -7,7 +7,7 @@ const ServiziFeature = () => {
     <section className="bg-white py-16">
       <div className="max-w-8xl mx-auto">
         {/* First Section - Image Left, Content Right */}
-        <div className="bg-gray-100 rounded-lg p-6 md:p-8 mb-8">
+        <div className="bg-gray-100 rounded-lg p-6 md:px-16 md:pt-8 mb-16">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-start">
             {/* Left Side - Image */}
             <div className="relative lg:col-span-3 order-2 lg:order-1">
@@ -50,7 +50,7 @@ const ServiziFeature = () => {
         </div>
 
         {/* Second Section - Content Left, Image Right */}
-        <div className="bg-gray-100 rounded-lg p-6 md:p-8 mb-8">
+        <div className="bg-gray-100 rounded-lg p-6 md:px-16 md:pt-8 mb-8">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-start">
             {/* Left Side - Text Content */}
             <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[280px] md:h-[480px] order-1">
