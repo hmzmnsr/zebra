@@ -6,8 +6,8 @@ import Link from 'next/link';
 const IntegratedApproachSection = () => {
   return (
     <section className="relative min-h-[60vh] md:h-116 w-full overflow-hidden">
-      {/* Dark gradient background */}
-      <div className="absolute inset-0 bg-gradient-to-r from-[#222222] to-[#23373c]"></div>
+      {/* Dark gradient background - starts from same color as video section ends */}
+      <div className="absolute inset-0 bg-gradient-to-b from-[#222222] via-[#222222] to-[#23373c]"></div>
       
       {/* Main content container */}
       <div className="relative z-10 flex flex-col md:flex-row justify-center md:justify-between items-center min-h-[60vh] md:h-full px-4 md:px-8 lg:px-20 py-8 md:py-0">
