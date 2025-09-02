@@ -11,7 +11,7 @@ const ServiziFeature = () => {
           {/* Left Side - Image */}
           <div className="relative lg:col-span-3 order-2 lg:order-1">
             <Image
-              src="/assets/servisiz/1.jpg"
+              src="/assets/servisiz/11.jpg"
               alt="Soluzioni Multimediali Immersive"
               width={600}
               height={400}

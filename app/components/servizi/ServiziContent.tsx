@@ -78,7 +78,7 @@ const ServiziContent = () => {
            {/* Right Side - Image */}
            <div className="relative lg:col-span-3 order-2">
              <Image
-               src="/assets/servisiz/4.jpg"
+               src="/assets/servisiz/12.png"
                alt="Software development"
                width={600}
                height={400}
