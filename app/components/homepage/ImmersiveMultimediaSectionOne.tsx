@@ -41,16 +41,16 @@ const ImmersiveMultimediaSectionOne = () => {
       id: 2, 
       title: 'Sale conferenza ', 
       active: activeItem === 2,
-      image: '/assets/servizi1/6.png',
-      content: 'Ambienti conferenza di ultima generazione dove ogni presentazione diventa un\'esperienza coinvolgente, con sistemi audio-video avanzati che garantiscono comunicazione perfetta e partecipazione attiva.',
+      image: '/assets/homepage/new11.jpg',
+      content: 'Spazi collaborativi all\'avanguardia dove tecnologie multimediali ed immersive potenziano produttività e creatività, trasformando ogni riunione, presentazione o sessione di training in un\'esperienza d\'impatto altamente performante.',
       link: '/servizi/soluzioni-multimediali-immersive'
     },
     { 
       id: 3, 
       title: 'Demo & Training center aziendali', 
       active: activeItem === 3,
-      image: '/assets/servizi1/7.jpg',
-      content: 'Centri di formazione e dimostrazione che trasformano l\'apprendimento in un\'esperienza immersiva, dove ogni sessione di training diventa memorabile e altamente efficace per lo sviluppo professionale.',
+      image: '/assets/homepage/new11.jpg',
+      content: 'Spazi collaborativi all\'avanguardia dove tecnologie multimediali ed immersive potenziano produttività e creatività, trasformando ogni riunione, presentazione o sessione di training in un\'esperienza d\'impatto altamente performante.',
       link: '/servizi/sviluppo-applicazioni'
     },
   ];
