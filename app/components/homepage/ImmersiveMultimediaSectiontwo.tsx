@@ -41,16 +41,16 @@ const ImmersiveMultimediaSectionTwo = () => {
       id: 2, 
       title: 'Riprese & Editing', 
       active: activeItem === 2,
-      image: '/assets/homepage/new112.png',
-      content: 'Servizi di ripresa professionale e post-produzione avanzata che trasformano ogni progetto in un\'opera d\'arte visiva, con editing creativo che racconta storie coinvolgenti e memorabili.',
+      image: '/assets/homepage/new114.png',
+      content: 'Produzioni A-V pensate per comunicare in modo stupefacente, valorizzando prodotti e aziende tramite contenuti ottimizzati per canali social, YouTube, siti web e spot televisivi.',
       link: '/servizi/soluzioni-multimediali-immersive'
     },
     { 
       id: 3, 
       title: 'Sound Design', 
       active: activeItem === 3,
-      image: '/assets/homepage/new114.png',
-      content: 'Composizione audio e sound design immersivo che crea atmosfere sonore uniche, trasformando ogni esperienza multimediale in un viaggio sensoriale completo attraverso la potenza del suono.',
+      image: '/assets/homepage/new113.png',
+      content: 'Produzioni A-V pensate per comunicare in modo stupefacente, valorizzando prodotti e aziende tramite contenuti ottimizzati per canali social, YouTube, siti web e spot televisivi.',
       link: '/servizi/ambienti-collaborativi-allavanguardia'
     },
   ];
@@ -257,8 +257,9 @@ const ImmersiveMultimediaSectionTwo = () => {
         </div>
 
         {/* Center/Right Foreground Text Block */}
-        <div className="absolute bottom-20 md:bottom-20 left-2 md:left-5 z-10 text-white max-w-xs md:max-w-2xl px-2 md:px-0">
-          <p className="text-sm md:text-2xl leading-relaxed font-light text-white/95 transition-all duration-1000 ease-in-out">
+        <div className="absolute bottom-20 md:bottom-6 left-2 md:left-5 z-10 text-white max-w-xs md:max-w-3xl px-2 md:px-0">
+          <div className="absolute -left-5 right-1 -top-4 border-t border-white pt-4"></div>
+          <p className="text-sm md:text-3xl leading-relaxed font-light text-white transition-all duration-1000 ease-in-out" style={{ fontFamily: 'Arial, sans-serif' }}>
             {activeContent?.content}
           </p>
         </div>

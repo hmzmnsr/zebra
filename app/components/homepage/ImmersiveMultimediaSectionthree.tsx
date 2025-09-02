@@ -34,7 +34,7 @@ const ImmersiveMultimediaSectionThree = () => {
       title: 'UX-UI Design', 
       active: activeItem === 1,
       image: '/assets/homepage/1111.png',
-      content: 'Sistemi immersivi che avvolgono lo spettatore in un momento sensoriale unico, trasformando ogni ambiente in un viaggio emozionale capace di coinvolgere, stupire e lasciare un segno indelebile nella memoria.',
+      content: 'Software personalizzati con un approccio completo: dal design UX/UI allo sviluppo di applicazioni, anche mobile. Interfacce intuitive e automazioni per soluzioni che semplificano i processi e valorizzano l&apos;esperienza utente.',
       link: '/servizi/soluzioni-multimediali-immersive'
     },
     { 
@@ -42,7 +42,7 @@ const ImmersiveMultimediaSectionThree = () => {
       title: 'Sviluppo applicazioni', 
       active: activeItem === 2,
       image: '/assets/homepage/1112.jpg',
-      content: 'Sviluppo di applicazioni software innovative e personalizzate che integrano tecnologie immersive e multimediali, creando soluzioni digitali avanzate che elevano l\'esperienza utente a nuovi livelli di coinvolgimento.',
+      content: 'Software personalizzati con un approccio completo: dal design UX/UI allo sviluppo di applicazioni, anche mobile. Interfacce intuitive e automazioni per soluzioni che semplificano i processi e valorizzano l&apos;esperienza utente.',
       link: '/servizi/sviluppo-applicazioni'
     },
   ];
@@ -249,8 +249,9 @@ const ImmersiveMultimediaSectionThree = () => {
         </div>
 
         {/* Center/Right Foreground Text Block */}
-        <div className="absolute bottom-20 md:bottom-20 left-2 md:left-5 z-10 text-white max-w-xs md:max-w-2xl px-2 md:px-0">
-          <p className="text-sm md:text-2xl leading-relaxed font-light text-white/95 transition-all duration-1000 ease-in-out">
+        <div className="absolute bottom-20 md:bottom-6 left-2 md:left-5 z-10 text-white max-w-xs md:max-w-3xl px-2 md:px-0">
+          <div className="absolute -left-5 right-1 -top-4 border-t border-white pt-4"></div>
+          <p className="text-sm md:text-3xl leading-relaxed font-light text-white transition-all duration-1000 ease-in-out" style={{ fontFamily: 'Arial, sans-serif' }}>
             {activeContent?.content}
           </p>
         </div>
