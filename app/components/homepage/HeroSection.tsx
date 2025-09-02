@@ -16,7 +16,17 @@ const HeroSection = () => {
           x5-video-player="true"
           x5-video-player-fullscreen="true"
           preload="auto"
+          disablePictureInPicture
+          controlsList="nodownload nofullscreen noremoteplayback"
           className="w-full h-screen object-cover"
+          onLoadedData={(e) => {
+            const video = e.target as HTMLVideoElement;
+            video.play().catch(() => {
+              // Fallback: if autoplay fails, try to play on first user interaction
+              document.addEventListener('touchstart', () => video.play(), { once: true });
+              document.addEventListener('click', () => video.play(), { once: true });
+            });
+          }}
         />
         
         {/* Gradient Overlay - transparent to bottom section color */}
