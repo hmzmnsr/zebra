@@ -1,19 +1,17 @@
 'use client';
 
-import Image from 'next/image';
-
 const HeroSection = () => {
   return (
     <section className="relative w-full overflow-hidden mt-[70px] md:mt-0 h-[calc(100vh-70px)] md:h-auto bg-black">
-      {/* Background Image */}
-      <div className="relative h-full pt-10">
-        <Image
-          src="/assets/homepage/sec1.png"
-          alt="Hero Background"
-          width={1920}
-          height={1080}
-          className="w-full h-full object-cover"
-          priority
+      {/* Background Video */}
+      <div className="relative h-auto pt-10">
+        <video
+          src="/assets/homepage/hero.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-screen object-cover"
         />
         
         {/* Text Overlay */}
