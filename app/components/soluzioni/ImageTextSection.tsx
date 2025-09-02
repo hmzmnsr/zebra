@@ -112,7 +112,7 @@ const ImageTextSection = () => {
             {/* Left Content - Image */}
             <div className="order-1 flex justify-center lg:justify-end pr-8 mb-8 lg:mb-0">
               <Image
-                src="/assets/servizi1/6.png"
+                src="/assets/servizi1/n.jpg"
                 alt="Innovazione tecnologica"
                 width={800}
                 height={600}
