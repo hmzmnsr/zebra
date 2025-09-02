@@ -27,20 +27,20 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="w-full bg-[#222222] min-h-screen flex items-center justify-center py-8">
-      <div className="w-full mx-auto px-5 sm:px-6 lg:px-8">
+    <section className="w-full bg-gradient-to-b from-[#222222] to-[#1a1f2e] py-16">
+      <div className="w-full mx-auto px-6 sm:px-8 lg:px-12">
         {/* Container Card */}
-        <div className="bg-white rounded-xl border border-[#E5E7EB] shadow-[0_2px_12px_rgba(0,0,0,0.05)] p-5 sm:p-5 lg:p-8 relative">
+        <div className="bg-white border border-[#E5E7EB] shadow-[0_2px_12px_rgba(0,0,0,0.05)] p-8 sm:p-10 lg:p-6 relative max-w-6xl mx-auto">
           {/* Title */}
-          <h2 className="text-2xl font-semibold text-[#111827] mb-4">Form di contatto</h2>
+          <h2 className="text-2xl lg:text-3xl font-semibold text-[#111827] mb-6">Form di contatto</h2>
           
           {/* Divider Line */}
-          <div className="w-full h-px bg-[#E5E7EB] mb-6"></div>
+          <div className="w-full h-px bg-[#E5E7EB] mb-8"></div>
           
-          <form onSubmit={handleSubmit} className="space-y-5 sm:space-y-5 lg:space-y-5">
+          <form onSubmit={handleSubmit} className="space-y-6">
             {/* Nome */}
             <div>
-              <label htmlFor="nome" className="block text-sm font-semibold text-[#111827] mb-2">
+              <label htmlFor="nome" className="block text-sm font-semibold text-[#111827] bg-gray-50 px-3 py-2 mb-0">
                 Nome<span className="text-[#EF4444] ml-1">*</span>
               </label>
               <input
@@ -51,13 +51,13 @@ const ContactForm = () => {
                 onChange={handleChange}
                 required
                 placeholder="Es. Marco"
-                className="w-full h-12 px-3.5 py-3 bg-[#F8FAFC] border border-[#E2E8F0] rounded-lg text-[#111827] placeholder-[#94A3B8] focus:outline-none focus:border-[#2563EB] focus:bg-white transition-all"
+                className="w-full h-12 px-4 py-3 bg-white border border-[#E2E8F0] text-[#111827] placeholder-[#94A3B8] focus:outline-none focus:border-[#2563EB] focus:bg-white transition-all"
               />
             </div>
 
             {/* Cognome */}
             <div>
-              <label htmlFor="cognome" className="block text-sm font-semibold text-[#111827] mb-2">
+              <label htmlFor="cognome" className="block text-sm font-semibold text-[#111827] bg-gray-50 px-3 py-2 mb-0">
                 Cognome<span className="text-[#EF4444] ml-1">*</span>
               </label>
               <input
@@ -68,13 +68,13 @@ const ContactForm = () => {
                 onChange={handleChange}
                 required
                 placeholder="Es. Rossi"
-                className="w-full h-12 px-3.5 py-3 bg-[#F8FAFC] border border-[#E2E8F0] rounded-lg text-[#111827] placeholder-[#94A3B8] focus:outline-none focus:border-[#2563EB] focus:bg-white transition-all"
+                className="w-full h-12 px-4 py-3 bg-white border border-[#E2E8F0] text-[#111827] placeholder-[#94A3B8] focus:outline-none focus:border-[#2563EB] focus:bg-white transition-all"
               />
             </div>
 
             {/* Azienda */}
             <div>
-              <label htmlFor="azienda" className="block text-sm font-semibold text-[#111827] mb-2">
+              <label htmlFor="azienda" className="block text-sm font-semibold text-[#111827] bg-gray-50 px-3 py-2 mb-0">
                 Azienda<span className="text-[#EF4444] ml-1">*</span>
               </label>
               <input
@@ -85,13 +85,13 @@ const ContactForm = () => {
                 onChange={handleChange}
                 required
                 placeholder="Es. ACME S.r.l."
-                className="w-full h-12 px-3.5 py-3 bg-[#F8FAFC] border border-[#E2E8F0] rounded-lg text-[#111827] placeholder-[#94A3B8] focus:outline-none focus:border-[#2563EB] focus:bg-white transition-all"
+                className="w-full h-12 px-4 py-3 bg-white border border-[#E2E8F0] text-[#111827] placeholder-[#94A3B8] focus:outline-none focus:border-[#2563EB] focus:bg-white transition-all"
               />
             </div>
 
             {/* Telefono */}
             <div>
-              <label htmlFor="telefono" className="block text-sm font-semibold text-[#111827] mb-2">
+              <label htmlFor="telefono" className="block text-sm font-semibold text-[#111827] bg-gray-50 px-3 py-2 mb-0">
                 Tel.<span className="text-[#EF4444] ml-1">*</span>
               </label>
               <input
@@ -102,13 +102,13 @@ const ContactForm = () => {
                 onChange={handleChange}
                 required
                 placeholder="Es. +39 333 123 4567"
-                className="w-full h-12 px-3.5 py-3 bg-[#F8FAFC] border border-[#E2E8F0] rounded-lg text-[#111827] placeholder-[#94A3B8] focus:outline-none focus:border-[#2563EB] focus:bg-white transition-all"
+                className="w-full h-12 px-4 py-3 bg-white border border-[#E2E8F0] text-[#111827] placeholder-[#94A3B8] focus:outline-none focus:border-[#2563EB] focus:bg-white transition-all"
               />
             </div>
 
             {/* Email */}
             <div>
-              <label htmlFor="email" className="block text-sm font-semibold text-[#111827] mb-2">
+              <label htmlFor="email" className="block text-sm font-semibold text-[#111827] bg-gray-50 px-3 py-2 mb-0">
                 Email<span className="text-[#EF4444] ml-1">*</span>
               </label>
               <input
@@ -119,13 +119,13 @@ const ContactForm = () => {
                 onChange={handleChange}
                 required
                 placeholder="nome@azienda.it"
-                className="w-full h-12 px-3.5 py-3 bg-[#F8FAFC] border border-[#E2E8F0] rounded-lg text-[#111827] placeholder-[#94A3B8] focus:outline-none focus:border-[#2563EB] focus:bg-white transition-all"
+                className="w-full h-12 px-4 py-3 bg-white border border-[#E2E8F0] text-[#111827] placeholder-[#94A3B8] focus:outline-none focus:border-[#2563EB] focus:bg-white transition-all"
               />
             </div>
 
             {/* Tipologia di progetto */}
             <div>
-              <label htmlFor="tipologia" className="block text-sm font-semibold text-[#111827] mb-2">
+              <label htmlFor="tipologia" className="block text-sm font-semibold text-[#111827] bg-gray-50 px-3 py-2 mb-0">
                 Tipologia di progetto <span className="text-[#111827]">+</span>
               </label>
               <select
@@ -133,7 +133,7 @@ const ContactForm = () => {
                 name="tipologia"
                 value={formData.tipologia}
                 onChange={handleChange}
-                className="w-full h-12 px-3.5 py-3 bg-[#F8FAFC] border border-[#E2E8F0] rounded-lg text-[#111827] focus:outline-none focus:border-[#2563EB] focus:bg-white transition-all"
+                className="w-full h-12 px-4 py-3 bg-white border border-[#E2E8F0] text-[#111827] focus:outline-none focus:border-[#2563EB] focus:bg-white transition-all"
               >
                 <option value="">Seleziona…</option>
                 <option value="sito-web">Sito web</option>
@@ -147,7 +147,7 @@ const ContactForm = () => {
 
             {/* Messaggio */}
             <div>
-              <label htmlFor="messaggio" className="block text-sm font-semibold text-[#111827] mb-2">
+              <label htmlFor="messaggio" className="block text-sm font-semibold text-[#111827] bg-gray-50 px-3 py-2 mb-0">
                 Messaggio
               </label>
               <textarea
@@ -155,40 +155,28 @@ const ContactForm = () => {
                 name="messaggio"
                 value={formData.messaggio}
                 onChange={handleChange}
-                rows={6}
+                rows={5}
                 minLength={0}
                 maxLength={2000}
                 placeholder="Scrivici due righe sul progetto…"
-                className="w-full min-h-[144px] max-h-[320px] px-3.5 py-3 bg-[#F8FAFC] border border-[#E2E8F0] rounded-lg text-[#111827] placeholder-[#94A3B8] focus:outline-none focus:border-[#2563EB] focus:bg-white transition-all resize-none"
+                className="w-full px-4 py-3 bg-white border border-[#E2E8F0] text-[#111827] placeholder-[#94A3B8] focus:outline-none focus:border-[#2563EB] focus:bg-white transition-all resize-none"
               />
-              <div className="flex justify-end mt-2">
-                <p className="text-xs text-[#64748B]">
-                  {formData.messaggio.length}/2000
-                </p>
-              </div>
+
             </div>
 
-            {/* Mobile Submit Button (hidden on desktop) */}
-            <div className="lg:hidden pt-2">
-              <button
-                type="submit"
-                className="w-full h-12 bg-[#111827] hover:bg-[#1F2937] active:bg-black text-white font-semibold rounded-lg transition-colors"
-              >
-                Invia il modulo →
-              </button>
-            </div>
+                         {/* Submit Button */}
+             <div className="flex justify-end">
+               <button
+                 type="submit"
+                 className="w-32 h-32 bg-white border border-[#dce4e7] flex items-end justify-start p-4 font-normal text-[#012E2A] text-sm font-sans hover:bg-gray-50 transition-colors"
+               >
+                 <span className="flex items-center">
+                   Invia il modulo
+                   <span className="ml-2">→</span>
+                 </span>
+               </button>
+             </div>
           </form>
-
-          {/* Desktop CTA Panel (hidden on mobile) */}
-          <div className="hidden lg:block absolute bottom-5 right-5 w-48 h-14 bg-white border border-[#E5E7EB] rounded-lg shadow-[0_4px_12px_rgba(0,0,0,0.08)] p-3">
-            <button
-              type="submit"
-              form="contact-form"
-              className="w-full h-10 bg-white text-[#111827] font-semibold rounded-lg transition-colors min-w-[160px] border border-[#E5E7EB] hover:bg-gray-50"
-            >
-              Invia il modulo →
-            </button>
-          </div>
         </div>
       </div>
     </section>
