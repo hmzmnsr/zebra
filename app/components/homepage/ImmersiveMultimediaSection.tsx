@@ -34,7 +34,7 @@ const ImmersiveMultimediaSection = () => {
       id: 1, 
       title: 'Storytelling immersivi', 
       active: activeItem === 1,
-      image: '/assets/homepage/bg1.jpg',
+      image: '/assets/homepage/new1.jpg',
       content: 'Sistemi immersivi che avvolgono lo spettatore in un momento sensoriale unico, trasformando ogni ambiente in un viaggio emozionale capace di coinvolgere, stupire e lasciare un segno indelebile nella memoria.',
       link: '/servizi/soluzioni-multimediali-immersive'
     },
@@ -42,7 +42,7 @@ const ImmersiveMultimediaSection = () => {
       id: 2, 
       title: 'Soluzioni medico-terapeutiche', 
       active: activeItem === 2,
-      image: '/assets/servizi1/1.jpg',
+      image: '/assets/homepage/new2.jpg',
       content: 'Tecnologie immersive avanzate per la riabilitazione e la terapia, creando ambienti virtuali sicuri che accelerano il processo di guarigione e migliorano i risultati terapeutici attraverso esperienze coinvolgenti e personalizzate.',
       link: '/servizi/ambienti-collaborativi-allavanguardia'
     },
@@ -50,7 +50,7 @@ const ImmersiveMultimediaSection = () => {
       id: 3, 
       title: 'Installazioni interattive', 
       active: activeItem === 3,
-      image: '/assets/servizi1/8.jpg',
+      image: '/assets/homepage/new3.jpg',
       content: 'Spazi interattivi che rispondono al movimento e al tocco, trasformando ogni interazione in un\'esperienza magica che coinvolge tutti i sensi e crea connessioni profonde tra pubblico e contenuto.',
       link: '/servizi/produzione-contenuti'
     },
@@ -58,7 +58,7 @@ const ImmersiveMultimediaSection = () => {
       id: 4, 
       title: 'Simulazione', 
       active: activeItem === 4,
-      image: '/assets/servizi1/3.jpg',
+      image: '/assets/homepage/new4.jpg',
       content: 'Ambienti di simulazione realistici per training professionale, dove ogni scenario è progettato per massimizzare l\'apprendimento attraverso esperienze immersive che replicano fedelmente situazioni reali.',
       link: '/servizi/sviluppo-applicazioni'
     },
@@ -66,7 +66,7 @@ const ImmersiveMultimediaSection = () => {
       id: 5, 
       title: 'Videomapping', 
       active: activeItem === 5,
-      image: '/assets/servizi1/10.jpg',
+      image: '/assets/homepage/new5.jpg',
       content: 'Proiezioni architetturali che trasformano edifici e superfici in tele dinamiche, creando spettacoli visivi mozzafiato che raccontano storie attraverso la fusione perfetta di luce, suono e architettura.',
       link: '/servizi/soluzioni-multimediali-immersive'
     },
@@ -74,7 +74,7 @@ const ImmersiveMultimediaSection = () => {
       id: 6, 
       title: 'Soluzioni per fiere ed eventi', 
       active: activeItem === 6,
-      image: '/assets/servizi1/5.jpg',
+      image: '/assets/homepage/new6.jpg',
       content: 'Stand e installazioni fieristiche che catturano l\'attenzione e creano esperienze memorabili, trasformando ogni evento in un\'opportunità unica per coinvolgere il pubblico e comunicare valori aziendali.',
       link: '/servizi/ambienti-collaborativi-allavanguardia'
     },
