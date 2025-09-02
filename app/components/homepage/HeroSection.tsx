@@ -11,6 +11,11 @@ const HeroSection = () => {
           loop
           muted
           playsInline
+          webkit-playsinline="true"
+          x5-playsinline="true"
+          x5-video-player="true"
+          x5-video-player-fullscreen="true"
+          preload="auto"
           className="w-full h-screen object-cover"
         />
         
