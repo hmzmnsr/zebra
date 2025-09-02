@@ -21,10 +21,10 @@ const SviluppoHero = () => {
         </div>
         
         {/* Body Text - Two paragraphs with generous line spacing */}
-        <div className="max-w-4xl space-y-8">
+        <div className="max-w-5xl space-y-8">
           {/* First Paragraph */}
           <p className="text-base md:text-lg text-gray-100 leading-relaxed font-sans">
-          Sviluppiamo software personalizzati con un approccio completo: dal design UX/UI allo sviluppo di applicazioni, anche mobile. Interfacce di controllo intuitive e integrazione di automazioni, per soluzioni che semplificano i processi e valorizzano l’esperienza utente. 
+          Sviluppiamo software personalizzati con un approccio completo: dal design UX/UI allo sviluppo<br/> di applicazioni, anche mobile.<br/> Interfacce di controllo intuitive e integrazione di automazioni, per soluzioni che semplificano i <br/>processi e valorizzano l&apos;esperienza utente. 
           </p>
         </div>
       </div>

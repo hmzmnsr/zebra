@@ -24,7 +24,7 @@ const ProduzioneHero = () => {
         <div className="max-w-4xl space-y-8">
           {/* First Paragraph */}
           <p className="text-base md:text-lg text-gray-100 leading-relaxed font-sans">
-            Produzioni A-V pensate per comunicare in modo stupefacente, valorizzando prodotti e aziende tramite contenuti ottimizzati per canali social, YouTube, siti web e spot televisivi.
+          Diamo forma alle tue idee unendo tecnologie avanzate e creatività senza limiti: realizziamo contenuti AV e 3D professionali per ogni ambito applicativo. Dalla modellazione all&apos;editing, passando per riprese dedicate agli output immersivi e sound design, offriamo produzioni complete pensate per lasciare il segno. 
           </p>
         </div>
       </div>

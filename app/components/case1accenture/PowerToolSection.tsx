@@ -23,7 +23,7 @@ const PowerToolSection = () => {
          <div className="flex items-center justify-center p-4 sm:p-6 md:p-8 lg:p-1">
            <div className="relative w-full h-full">
              <Image
-               src="/assets/case1accenture/3.jpg"
+               src="/assets/case1accenture/31.jpg"
                alt="Beta Utensili Power Tool"
                width={400}
                height={300}

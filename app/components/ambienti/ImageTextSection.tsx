@@ -48,7 +48,7 @@ const ImageTextSection = () => {
             {/* Left Content - Image */}
             <div className="order-1 flex justify-center lg:justify-end pr-8 mb-8 lg:mb-0">
               <Image
-                src="/assets/servizi3/5.jpg"
+                src="/assets/servizi3/71.jpg"
                 alt="Innovazione tecnologica"
                 width={800}
                 height={600}
@@ -59,20 +59,17 @@ const ImageTextSection = () => {
             {/* Right Content - Text */}
             <div className="order-2 pl-8">
               <h3 className="text-black text-xs font-thin leading-tight px-4 sm:px-6 lg:pl-10">
-                Ogni frame, una storia
+              Condivisione senza limiti
               </h3>
               <h2 className="text-4xl md:text-5xl lg:text-3xl font-thin text-black leading-tight px-4 sm:px-6 lg:pl-10">
-                Riprese ed editing video
+              Sale conferenza ed auditorium
               </h2>
               <div className="text-black text-sm leading-tight space-y-4 mt-8 px-4 sm:px-6 lg:pr-40 lg:pl-10 font-thin">
                 <p>
-                Il video è il formato che più di ogni altro cattura l&apos;attenzione e genera engagement. Per questo realizziamo contenuti che uniscono estetica cinematografica e strategia comunicativa, per raccontare storie in modo efficace e indelebile. 
+                Nel workflow moderno, la collaborazione e la presentazione dei contenuti assumono un ruolo sempre più centrale, anche quando i team lavorano da luoghi diversi o i clienti non sono presenti fisicamente. ZEBRA progetta e realizza sale conferenza dotate di videoproiettori, display, sistemi audio, microfoni e telecamere intelligenti, pensati per avvicinare persone lontane e massimizzare l&apos;efficacia della comunicazione. 
                 </p>
                 <p>
-                Dalle riprese al montaggio finale, seguiamo ogni fase con cura maniacale: elaborazione degli storyboard, regia, illuminazione, color grading, motion graphics e sound desing. Effettuiamo riprese in ogni tipo di formato: 360° immersive, aeree tramite droni e tradizionali a terra, garantendo qualità estrema in ogni contesto. 
-                </p>
-                <p>
-                Ci occupiamo di diversi formati: corporate video, tutorial, spot televisivi, contenuti per social media e per supporti immersivi. Ogni progetto è pensato per essere performante su tutte le piattaforme, ottimizzando durata, formato e fruibilità del messaggio. 
+                Dalle più piccole meeting room ai grandi auditorium, ogni infrastruttura è progettata su misura, in base alle esigenze operative e agli obiettivi del cliente.
                 </p>
               </div>
             </div>
@@ -87,14 +84,17 @@ const ImageTextSection = () => {
             {/* Left Content - Text */}
             <div className="order-2 lg:order-1 pr-8">
               <h3 className="text-black text-xs font-thin leading-tight px-4 sm:px-6 lg:pl-10">
-              Il suono che fa la differenza
+              Dimostrazione e formazione efficaci
               </h3>
               <h2 className="text-4xl md:text-5xl lg:text-3xl font-thin text-black leading-tight px-4 sm:px-6 lg:pl-10">
-              Sound design
+              Demo e training center aziendali
               </h2>
               <div className="text-black text-sm leading-tight space-y-4 mt-8 px-4 sm:px-6 lg:pr-40 lg:pl-10 font-thin">
                 <p>
-                Il suono è un linguaggio potente che amplifica e completa l&apos;esperienza visiva. Creiamo paesaggi sonori unici, effetti sincronizzati all&apos;immagine e colonne sonore originali, per dare ritmo e carattere ad ogni progetto. Dal design audio alla colonna sonora, evolviamo i contenuti in esperienze multisensoriali indimenticabili. 
+                Nella strategia aziendale, le aree demo e training hanno un ruolo fondamentale per fidelizzare e formare partner, forza vendita e tecnici.
+                </p>
+                <p>
+                ZEBRA supporta il cliente con un servizio completo, che parte dall&apos;analisi degli obiettivi formativi e commerciali, fino alla progettazione e implementazione di strumenti digitali avanzati per la dimostrazione e la formazione. 
                 </p>
               </div>
             </div>

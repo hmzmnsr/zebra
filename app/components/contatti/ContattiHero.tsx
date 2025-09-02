@@ -2,62 +2,32 @@
 
 const ContattiHero = () => {
   return (
-    <section className="relative w-full overflow-hidden h-screen pt-[70px]">
-      {/* Grid Layout Container */}
-      <div className="grid grid-cols-5 grid-rows-5 h-[130vh]">
-        {/* Div 1 - Large section */}
-        <div className="col-span-3 bg-[#2a433d] flex items-center justify-start pl-2 pt-20">
-          <div className="text-start text-white">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-thin mb-4">
-              Contatti
-            </h1>
-          </div>
-        </div>
-        
-        {/* Div 2 - Black section */}
-        <div className="col-span-2 row-start-2 bg-[#2a433d] flex items-center justify-center">
-          <div className="text-center text-white p-6">
-
-          </div>
-        </div>
-        
-        {/* Div 3 - Small section */}
-        <div className="row-start-3 bg-[#2a433d] flex items-center justify-center">
-          <div className="text-center text-white p-4">
-          </div>
-        </div>
-        
-        {/* Div 4 - Small section */}
-        <div className="col-start-3 row-start-3 bg-[#2a433d] flex items-center justify-center">
-          <div className="text-center text-white p-4">
-          </div>
-        </div>
+    <section className="bg-[#222222] text-white py-48 relative">
+    {/* Matte overlay */}
+    <div className="absolute inset-0  mix-blend-multiply"></div>
+    
+    <div className="px-4 sm:px-6 lg:px-3 relative z-10">
+      {/* Header Title with divider line next to it */}
+      <div className="flex items-baseline mb-8">
+        <h1 className="text-4xl md:text-6xl font-sans text-white mr-4">
+        Contatti
+        </h1>
+        <div className="flex-1 h-px bg-gray-500"></div>
+      </div>
+      <div className="hidden md:flex justify-end -mt-8 mb-6">
+        <span className="text-xs sm:text-sm text-gray-300">Contatti</span>
       </div>
       
-      {/* Overlay content for larger screens */}
-      <div className="absolute inset-0 flex items-center justify-center z-10 px-4 md:px-8 pointer-events-none">
-        <div className="text-center text-white max-w-4xl w-full hidden md:block">
-          <h1 className="text-4xl lg:text-3xl font-thin leading-tight ml-36">
-          Se hai una visione, siamo pronti ad ascoltarla.
-          </h1>
-          <h1 className="text-4xl lg:text-3xl font-thin mb-6 leading-tight ml-10 mr-36">
-          Contattaci. Il resto lo costruiremo insieme.
-          </h1>
-        </div>
+      {/* Body Text - Two paragraphs with generous line spacing */}
+      <div className="max-w-5xl pt-8 pb-16">
+        {/* First Paragraph */}
+        <p className="text-base md:text-lg text-gray-100 leading-relaxed font-sans">
+        Se hai una visione, siamo pronti ad ascoltarla. Contattaci. Il resto lo costruiremo insieme.
+        </p>
+        
       </div>
-      
-      {/* Mobile overlay content */}
-      <div className="absolute inset-0 flex items-center justify-center z-10 px-4 md:hidden pointer-events-none">
-        <div className="text-center text-white max-w-sm w-full">
-          <h1 className="text-lg sm:text-xl font-thin leading-tight mb-4">
-          Se hai una visione, siamo pronti ad ascoltarla.
-          </h1>
-          <h1 className="text-lg sm:text-xl font-thin leading-tight">
-          Contattaci. Il resto lo costruiremo insieme.
-          </h1>
-        </div>
-      </div>
-    </section>
+    </div>
+  </section>
   );
 };
 

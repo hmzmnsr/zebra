@@ -2,7 +2,7 @@
 
 const CaseHero = () => {
   return (
-    <section className="bg-gradient-to-bl from-black via-[#1a2a28] to-[#4a6b65] text-white py-32 sm:py-40 md:py-48 lg:py-48 relative">
+    <section className="bg-gradient-to-bl from-black via-[#1a2a28] to-[#4a6b65] text-white py-32 sm:py-40 md:pt-48 md:pb-16 lg:pt-48 lg:pb-16 relative">
       {/* Matte overlay */}
       <div className="absolute inset-0 bg-black/10 mix-blend-multiply"></div>
       
@@ -28,8 +28,6 @@ const CaseHero = () => {
           </p>
           <p className="text-base sm:text-lg md:text-lg text-gray-100 leading-relaxed font-sans font-thin">
           Dalla fase di concept creativo alla gestione tecnica in loco, ZEBRA ha curato ogni aspetto della realizzazione, trasformando lo stand in una vera e propria opera immersiva ad altissima risoluzione, animata da un racconto digitale coinvolgente, creato per omaggiare la città di Barcellona e i grandi maestri della pittura spagnola. 
-
-
           </p>
         </div>
       </div>

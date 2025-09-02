@@ -11,11 +11,10 @@ const PowerToolSection = () => {
         <div className="p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col justify-center ml-2 sm:ml-4 md:ml-20">
           <div className="max-w-lg">
             <p className="text-xs sm:text-xs md:text-sm">
-            Far parlare il patrimonio con nuovi linguaggi
+            Il vino nasce dalla terra, ma vive nel racconto.
             </p>
             <p className="text-gray-300 leading-relaxed font-light text-base sm:text-lg md:text-2xl lg:text-3xl leading-tight">
-            Per rendere visibile ciò che Leonardo ha immaginato secoli fa, serviva una tecnologia che sapesse emozionare.
-            Un allestimento immersivo che unisce arte, scienza e design al servizio della conoscenza.
+            Esperienze immersive per entrare nell&apos;anima dei territori e sentire ogni vino come un&apos;estensione del luogo in cui prende vita.
             </p>
           </div>
         </div>

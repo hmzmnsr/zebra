@@ -6,11 +6,11 @@ import Link from 'next/link';
 const ShotGallery = () => {
   const images = [
     { src: '/assets/servizi3/6.jpg', alt: '360-degree camera in vineyard' },
-    { src: '/assets/servizi3/7.jpg', alt: 'Drone controller with smartphone' },
-    { src: '/assets/servizi3/8.jpg', alt: 'Aerial view of blue lake' },
-    { src: '/assets/servizi3/9.jpg', alt: 'Purple grapes on vine' },
-    { src: '/assets/servizi3/10.png', alt: 'Digital tower with smoke' },
-    { src: '/assets/servizi3/10.png', alt: 'Power tool silhouette' }
+    { src: '/assets/servizi3/new1.png', alt: 'Drone controller with smartphone' },
+    { src: '/assets/servizi3/7.jpg', alt: 'Aerial view of blue lake' },
+    { src: '/assets/servizi3/new2.png', alt: 'Purple grapes on vine' },
+    { src: '/assets/servizi3/9.jpg', alt: 'Digital tower with smoke' },
+    { src: '/assets/servizi3/new3.png', alt: 'Power tool silhouette' }
   ];
 
   return (

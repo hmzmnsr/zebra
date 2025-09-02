@@ -7,7 +7,7 @@ const HorizontalImage = () => {
     <section className="w-full bg-white py-12 sm:py-16 md:py-20">
       <div className="w-full">
         <Image
-          src="/assets/case2betaise/img.png"
+          src="/assets/case2betaise/img2.png"
           alt="Case Betaise Image"
           width={1920}
           height={1080}

@@ -23,10 +23,10 @@ const NewImageSection = () => {
             {/* Right Content - Text */}
             <div className="order-2 pl-0 sm:pl-4 lg:pl-8">
               <h3 className="text-black text-sm sm:text-md font-thin leading-extralight px-0 sm:px-4 lg:pl-20">
-              Immersi nel pensiero di Leonardo
+              Vino, terra e racconto.
               </h3>
               <p className="text-2xl sm:text-3xl md:text-4xl lg:text-3xl font-extralight text-black leading-tight px-0 sm:px-4 lg:pl-20">
-              Un&apos;interfaccia interattiva ha<br/> permesso di sfogliare<br/> virtualmente le pagine originali<br/> del Codice, con traduzioni e<br/> approfondimenti in tempo reale,<br/> rendendo comprensibile e<br/> accessibile un documento di<br/> enorme complessità.
+              Ne sono nati due percorsi<br/> sensoriali che accompagnano<br/> l&apos;ospite in un racconto fatto di<br/> immagini, suoni e atmosfere,<br/> rafforzando il legame emotivo <br/>con il luogo e offrendo<br/> un&apos;introduzione memorabile<br/> all&apos;esperienza enologica.
               </p>
             </div>
           </div>

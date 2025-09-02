@@ -17,7 +17,7 @@ const UnderImageSection = () => {
         {/* Content Area - Three Columns */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 md:gap-12 mt-12 sm:mt-16 md:mt-20 lg:mt-24">
           <div className="text-black text-sm leading-tight">
-            Dal concept narrativo alla produzione video, fino all&apos;installazione delle tecnologie immersive, abbiamo curato l&apos;intero percorso esperienziale, creando due viaggi sensoriali pensati per coinvolgere i visitatori e trasportarli nell&apos;anima autentica dei territori e dei vini.
+          Cascate digitali che scorrono su pareti e pavimenti, proiezioni di grande formato pensate per spiegare concetti e dettagli con efficacia visiva, e supporti interattivi che permettono di sfogliare e tradurre in tempo reale le pagine originali del Codice Leicester concesso per l&apos;occasione da Bill Gates, hanno trasformato l&apos;esperienza museale in un viaggio emozionale e conoscitivo senza precedenti. 
           </div>
           <div className="text-black text-sm leading-tight pl-0 sm:pl-0 md:pl-20">
             Un racconto visivo che fonde territorio, cultura e prodotto, pensato per rafforzare il legame emotivo tra l&apos;ospite e l&apos;identità delle cantine. 

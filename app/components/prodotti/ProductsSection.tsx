@@ -87,9 +87,6 @@ const ProductsSection = () => {
               <p className="text-sm text-[#D1D5DB] leading-6 text-left">
                 ARES automatizza l&apos;intero funzionamento degli impianti multimediali, grazie alla perfetta integrazione con i principali sistemi di controllo e al supporto del software proprietario ZNC.
               </p>
-              <p className="text-sm text-[#D1D5DB] leading-6 text-left">
-                Addio a procedure complesse e controlli intricati: con l&apos;interfaccia tablet personalizzabile, gestire un sistema multimediale non è mai stato così semplice.
-              </p>
             </div>
           </div>
 

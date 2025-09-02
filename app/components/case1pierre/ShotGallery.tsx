@@ -40,18 +40,6 @@ const ShotGallery = () => {
             </div>
           ))}
         </div>
-
-        {/* Navigation */}
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center px-4 sm:px-6 gap-4 md:gap-0">
-          <Link href="/servizi/soluzioni-multimediali-immersive" className="flex items-center text-black hover:text-gray-600 transition-colors">
-            <span className="mr-2">←</span>
-            <span className="text-xs md:text-sm">Vai a Soluzioni multimediali immersive</span>
-          </Link>
-          <Link href="/servizi/produzione-contenuti" className="flex items-center text-black hover:text-gray-600 transition-colors">
-            <span className="text-xs md:text-sm">Vai a produzioni video 3D</span>
-            <span className="ml-2">→</span>
-          </Link>
-        </div>
       </div>
     </div>
   );

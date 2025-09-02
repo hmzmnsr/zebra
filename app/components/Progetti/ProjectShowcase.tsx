@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const ProjectShowcase = () => {
   return (
-    <section className="bg-white py-16 md:py-32">
+    <section className="bg-white pt-16 md:pt-32 pb-28 md:pb-12">
       <div className="max-w-8xl mx-auto px-4 md:px-2">
         {/* First Project */}
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-center py-8 md:py-12">
@@ -488,7 +488,7 @@ const ProjectShowcase = () => {
 
 
        {/* Fifth Project - Image Left, Content Right */}
-       <div className="bg-white py-8 md:py-12">
+       <div className="bg-white pt-8 md:pt-12">
         <div className="max-w-8xl mx-auto px-4 md:px-2">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-center">
             

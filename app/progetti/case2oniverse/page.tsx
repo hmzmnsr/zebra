@@ -6,7 +6,7 @@ import CTASection from '../../components/case1/CTASection';
 import ShotGallery from '../../components/case1/ShotGallery';
 import UnderImageSection from '../../components/case1/UnderImageSection';
 import NewImageSection from '../../components/case1/newimagesection';
-
+import HorizontalImage from '../../components/case1/horizontalimage';
 
 export default function Case() {
   return (
@@ -16,6 +16,7 @@ export default function Case() {
       <ExperienceSection />
       <PowerToolSection />
       <UnderImageSection />
+      <HorizontalImage/>
       <NewImageSection/>
       <ShotGallery />
       <CTASection />

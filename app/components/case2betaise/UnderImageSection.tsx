@@ -19,7 +19,7 @@ const UnderImageSection = () => {
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-12">
         {/* Header Area */}
         <div className="mb-6 sm:mb-8 md:mb-12 leading-tight">
-          <h3 className="text-black text-xs font-thin leading-tight mb-2 sm:mb-3">
+          <h3 className="text-black text-xs font-thin leading-tight">
              Uno stand che non si guarda: si vive.
           </h3>
           <h2 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-thin text-black leading-tight">

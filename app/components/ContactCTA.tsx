@@ -1,35 +1,30 @@
-import Image from 'next/image';
+'use client';
 
-const ContactCTA = () => {
+import Link from 'next/link';
+
+const CTASection = () => {
   return (
-    <section className="bg-white py-32 flex items-center">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center">
-          {/* Main Text */}
-          <div className="mb-24">
-            <h2 className="text-2xl md:text-5xl font-medium text-black">
-              Stai creando un progetto multimediale?
-            </h2>
-            <p className="text-2xl md:text-5xl text-black">
-              Contattaci e insieme lo renderemo realtà
-            </p>
-          </div>
-
-          {/* Contact Button */}
-          <button className="inline-flex items-center gap-3 px-8 py-4 bg-white border border-gray-300 rounded-lg hover:border-gray-400 transition-colors">
-            <span className="text-black font-medium">Contattaci</span>
-            <Image
-              src="/assets/case/btn.PNG"
-              alt="Contact icon"
-              width={16}
-              height={16}
-              className="w-4 h-4"
-            />
-          </button>
+    <div className="pb-16 pt-1 sm:pb-12 md:pb-16 lg:pb-12 sm:pt-1 md:pt-1 lg:pt-1 bg-white">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
+        <div className="mb-4 sm:mb-8 md:mb-8 mt-4 sm:mt-12 md:mt-16 lg:mt-20 xl:mt-44">
+          <h2 className="text-black text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-light leading-relaxed md:leading-tight px-2 sm:px-4">
+          Hai in mente un progetto multimediale?<br />
+          Contattaci ed insieme lo renderemo realtà.
+          </h2>
+        </div>
+        
+        <div className="flex justify-center mt-4 sm:mt-8 md:mt-8 lg:mt-12 xl:mt-44">
+          <Link 
+            href="/contatti" 
+            className="inline-flex items-center text-black hover:text-gray-300 transition-colors text-sm sm:text-base md:text-base lg:text-lg font-medium px-4 py-2 sm:px-6 sm:py-3"
+          >
+            <span>Contatta un esperto</span>
+            <span className="ml-2">→</span>
+          </Link>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
-export default ContactCTA; 
+export default CTASection; 

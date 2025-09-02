@@ -2,7 +2,7 @@
 
 const UnderImageSection = () => {
   return (
-    <div className="py-16 sm:py-24 lg:pt-12 lg:pb-32" style={{ backgroundColor: '#2b2b2e' }}>
+    <div className="py-16 sm:py-24 lg:pt-12 lg:pb-12" style={{ backgroundColor: '#2b2b2e' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header Area */}
         <div className="mb-8 sm:mb-12 leading-tight">
@@ -25,6 +25,22 @@ const UnderImageSection = () => {
           <div className="text-white text-sm leading-tight">
             {/* Empty right section */}
           </div>
+        </div>
+      </div>
+
+
+      {/* Horizontal line extending full screen width */}
+      <div className="w-11/12 h-px bg-gray-400 opacity-60 mt-20 sm:mt-28 lg:mt-36 mb-2 -ml-4 sm:-ml-6 lg:-ml-8"></div>
+      
+      {/* Creative Stack Section - positioned at bottom right */}
+      <div className="w-full flex flex-col sm:flex-row justify-center lg:justify-end px-4 sm:px-6 lg:px-8 lg:pr-2">
+        <div className="flex flex-col sm:flex-row items-center lg:items-center gap-4 sm:gap-6 lg:gap-8 text-center lg:text-right">
+          <h3 className="text-xs sm:text-sm lg:text-xs text-gray-300 font-light -mt-5">
+            La nostra stack creativa
+          </h3>
+          <p className="text-xs sm:text-sm lg:text-xs text-gray-300 font-light">
+          Progettazione, allestimento, cablaggio,<br className="hidden sm:hidden lg:block" />programmazione, automazione, supporto 24/7
+          </p>
         </div>
       </div>
     </div>

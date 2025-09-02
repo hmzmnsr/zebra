@@ -1,7 +1,7 @@
 import ProdottiHero from '../components/prodotti/ProdottiHero';
 import ProductsSection from '../components/prodotti/ProductsSection';
 import SoftwareProductsSection from '../components/prodotti/SoftwareProductsSection';
-import ContactCTA from '../components/ContactCTA';
+import ContactCTA from '../components/prodotti/ContactCTA';
 import Image from 'next/image';
 
 export default function Prodotti() {
