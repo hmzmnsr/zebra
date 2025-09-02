@@ -9,7 +9,7 @@ const CaseHero = () => {
       <div className="px-4 sm:px-6 lg:px-3 relative z-10">
         {/* Header Title with divider line next to it */}
         <div className="flex flex-col md:flex-row items-start md:items-baseline mb-4 sm:mb-2 mt-4 sm:mt-6 md:mt-10">
-          <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-sans text-white mr-0 md:mr-4 mb-3 sm:mb-2 md:mb-0 leading-tight">
+          <h1 className="text-xl sm:text-2xl md:text-5xl lg:text-6xl font-sans text-white mr-0 md:mr-4 mb-3 sm:mb-2 md:mb-0 leading-tight">
           Il Codice Leicester: Galleria degli Uffizi
           </h1>
           <div className="hidden md:block flex-1 h-px bg-gray-500"></div>
