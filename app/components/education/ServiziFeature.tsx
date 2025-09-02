@@ -7,22 +7,10 @@ const ServiziFeature = () => {
     <section className="bg-white">
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
 
-         {/* zero Section - Image Left, Content Right */}
+         {/* zero Section - Content Left, Image Right */}
          <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-start mb-16">
-          {/* Left Side - Image */}
-          <div className="relative lg:col-span-3 order-2 lg:order-1">
-            <Image
-              src="/assets/education/3.jpg"
-              alt="Ambienti collaborativi all&apos;avanguardia"
-              width={600}
-              height={400}
-              className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
-              priority
-            />
-          </div>
-
-          {/* Right Side - Text Content */}
-          <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:mr-16 flex flex-col justify-between min-h-[280px] md:h-[480px] order-1 lg:order-2">
+          {/* Left Side - Text Content */}
+          <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:ml-16 flex flex-col justify-between min-h-[280px] md:h-[480px] order-1">
             {/* Project Header */}
             <div className="space-y-2">
               <h2 className="text-lg md:text-xl text-gray-900">
@@ -46,7 +34,7 @@ const ServiziFeature = () => {
             </div>
             
             {/* Call to Action Button - Positioned at bottom right */}
-            <div className="text-center lg:text-right mt-4 lg:mt-0">
+            <div className="text-center lg:text-right mt-4 lg:mt-28">
               <button className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                 <span>Scopri di più</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -54,6 +42,18 @@ const ServiziFeature = () => {
                 </svg>
               </button>
             </div>
+          </div>
+
+          {/* Right Side - Image */}
+          <div className="relative lg:col-span-3 order-2">
+            <Image
+              src="/assets/education/3.jpg"
+              alt="Ambienti collaborativi all&apos;avanguardia"
+              width={600}
+              height={400}
+              className="w-full h-[340px] md:h-[540px] object-cover shadow-lg"
+              priority
+            />
           </div>
         </div>
 
@@ -81,7 +81,7 @@ const ServiziFeature = () => {
             </div>
             
             {/* Call to Action Button - Positioned at bottom right */}
-            <div className="text-center lg:text-right mt-4 lg:mt-0">
+            <div className="text-center lg:text-right mt-4 lg:mt-5">
               <button className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                 <span>Scopri di più</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -98,7 +98,7 @@ const ServiziFeature = () => {
               alt="Soluzioni Multimediali Immersive"
               width={600}
               height={400}
-              className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
+              className="w-full h-[340px] md:h-[540px] object-cover shadow-lg"
               priority
             />
           </div>
@@ -113,7 +113,7 @@ const ServiziFeature = () => {
               alt="Ambienti collaborativi all&apos;avanguardia"
               width={600}
               height={400}
-              className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
+              className="w-full h-[340px] md:h-[540px] object-cover shadow-lg"
               priority
             />
           </div>
@@ -137,7 +137,7 @@ const ServiziFeature = () => {
             </div>
             
             {/* Call to Action Button - Positioned at bottom right */}
-            <div className="text-center lg:text-right mt-4 lg:mt-0">
+            <div className="text-center lg:text-right mt-4 lg:mt-48">
               <button className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                 <span>Scopri di più</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -166,7 +166,7 @@ const ServiziFeature = () => {
             </div>
             
             {/* Call to Action Button - Positioned at bottom right */}
-            <div className="text-center lg:text-right mt-4 lg:mt-0">
+            <div className="text-center lg:text-right mt-4 lg:mt-60">
               <button className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                 <span>Scopri di più</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -183,7 +183,7 @@ const ServiziFeature = () => {
               alt="Soluzioni Multimediali Immersive"
               width={600}
               height={400}
-              className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
+              className="w-full h-[340px] md:h-[540px] object-cover shadow-lg"
               priority
             />
           </div>
@@ -198,7 +198,7 @@ const ServiziFeature = () => {
               alt="Ambienti collaborativi all&apos;avanguardia"
               width={600}
               height={400}
-              className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
+              className="w-full h-[340px] md:h-[540px] object-cover shadow-lg"
               priority
             />
           </div>
@@ -229,7 +229,7 @@ const ServiziFeature = () => {
             </div>
             
             {/* Call to Action Button - Positioned at bottom right */}
-            <div className="text-center lg:text-right mt-4 lg:mt-0">
+            <div className="text-center lg:text-right mt-4 lg:mt-14">
               <button className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                 <span>Scopri di più</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
