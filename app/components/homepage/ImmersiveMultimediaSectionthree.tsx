@@ -33,7 +33,7 @@ const ImmersiveMultimediaSectionThree = () => {
       id: 1, 
       title: 'UX-UI Design', 
       active: activeItem === 1,
-      image: '/assets/homepage/bg4.jpg',
+      image: '/assets/homepage/1111.png',
       content: 'Sistemi immersivi che avvolgono lo spettatore in un momento sensoriale unico, trasformando ogni ambiente in un viaggio emozionale capace di coinvolgere, stupire e lasciare un segno indelebile nella memoria.',
       link: '/servizi/soluzioni-multimediali-immersive'
     },
@@ -41,7 +41,7 @@ const ImmersiveMultimediaSectionThree = () => {
       id: 2, 
       title: 'Sviluppo applicazioni', 
       active: activeItem === 2,
-      image: '/assets/servizi1/10.jpg',
+      image: '/assets/homepage/1112.jpg',
       content: 'Sviluppo di applicazioni software innovative e personalizzate che integrano tecnologie immersive e multimediali, creando soluzioni digitali avanzate che elevano l\'esperienza utente a nuovi livelli di coinvolgimento.',
       link: '/servizi/sviluppo-applicazioni'
     },
@@ -137,7 +137,7 @@ const ImmersiveMultimediaSectionThree = () => {
             }
           }}
         />
-        <div className="absolute inset-0 bg-black/40"></div>
+        <div className={`absolute inset-0 ${activeContent?.id === 2 ? 'bg-black/70' : 'bg-black/40'}`}></div>
       </div>
 
       {/* Preload all images */}
@@ -190,7 +190,7 @@ const ImmersiveMultimediaSectionThree = () => {
                   quality={70}
                   priority={item.id === 1}
                 />
-                <div className="absolute inset-0 bg-black/40"></div>
+                <div className={`absolute inset-0 ${item.id === 2 ? 'bg-black/70' : 'bg-black/40'}`}></div>
                 <div className="absolute top-20 left-0 right-0 z-10 px-4">
                   <div className="bg-black/40 backdrop-blur-sm rounded-lg p-4 mb-4">
                     <h3 className="text-white text-lg font-medium mb-2 text-center">{item.title}</h3>

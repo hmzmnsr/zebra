@@ -33,7 +33,7 @@ const ImmersiveMultimediaSectionTwo = () => {
       id: 1, 
       title: 'Video 3D', 
       active: activeItem === 1,
-      image: '/assets/homepage/bg3.png',
+      image: '/assets/homepage/new111.png',
       content: 'Produzioni A-V pensate per comunicare in modo stupefacente, valorizzando prodotti e aziende tramite contenuti ottimizzati per canali social, YouTube, siti web e spot televisivi.',
       link: '/servizi/produzione-contenuti'
     },
@@ -41,7 +41,7 @@ const ImmersiveMultimediaSectionTwo = () => {
       id: 2, 
       title: 'Riprese & Editing', 
       active: activeItem === 2,
-      image: '/assets/servizi1/8.jpg',
+      image: '/assets/homepage/new112.png',
       content: 'Servizi di ripresa professionale e post-produzione avanzata che trasformano ogni progetto in un\'opera d\'arte visiva, con editing creativo che racconta storie coinvolgenti e memorabili.',
       link: '/servizi/soluzioni-multimediali-immersive'
     },
@@ -49,7 +49,7 @@ const ImmersiveMultimediaSectionTwo = () => {
       id: 3, 
       title: 'Sound Design', 
       active: activeItem === 3,
-      image: '/assets/servizi1/9.jpg',
+      image: '/assets/homepage/new114.png',
       content: 'Composizione audio e sound design immersivo che crea atmosfere sonore uniche, trasformando ogni esperienza multimediale in un viaggio sensoriale completo attraverso la potenza del suono.',
       link: '/servizi/ambienti-collaborativi-allavanguardia'
     },
