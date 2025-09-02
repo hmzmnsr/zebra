@@ -15,10 +15,10 @@ const HeroSection = () => {
         />
         
         {/* Gradient Overlay - transparent to bottom section color */}
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent from-20% via-transparent via-60% to-[#222222] to-100% z-5"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent from-0% via-black/20 via-40% to-[#222222] to-100% z-5"></div>
         
         {/* Text Overlay */}
-        <div className="absolute inset-0 flex items-center md:items-end justify-center z-10 px-4 md:px-8 mb-0 md:mb-24">
+        <div className="absolute inset-0 flex items-start md:items-end justify-center z-10 px-4 md:px-8 pt-80 md:pt-0 mb-0 md:mb-24">
           <div className="text-center text-white max-w-4xl w-full">
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-thin mb-4 md:mb-6 leading-tight px-2 md:px-0">
               Creiamo esperienze<br className="hidden sm:block"/> immersive memorabili
