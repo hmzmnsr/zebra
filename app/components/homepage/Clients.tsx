@@ -19,7 +19,7 @@ const Clients = () => {
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         {/* Headline */}
         <div className="text-center mb-16 md:mb-24 lg:mb-32">
-          <h2 className="text-lg md:text-xl lg:text-2xl xl:text-4xl px-4 md:px-0" style={{ color: '#3a615c' }}>
+          <h2 className="text-lg md:text-xl lg:text-2xl xl:text-4xl px-4 md:px-0" style={{ color: '#3a615c', fontWeight: 250 }}>
             I nostri prodotti e servizi vengono scelti da istituzioni e brand leader di settore
           </h2>
         </div>
