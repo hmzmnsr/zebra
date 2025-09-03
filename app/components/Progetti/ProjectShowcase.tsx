@@ -23,7 +23,7 @@ const ProjectShowcase = () => {
             </div>
             
             {/* Project Content - Takes 2 columns (0.8 parts) */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
                              {/* Project Header */}
                <div className="space-y-0">
                  <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
@@ -59,7 +59,7 @@ const ProjectShowcase = () => {
                </div>
               
               {/* Call to Action Button - Positioned at bottom right */}
-              <div className="text-center lg:text-right mt-4 lg:mt-12">
+              <div className="text-center lg:text-right mt-auto">
                  <Link href="/progetti/case1accenture" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                   <span>Scopri di più</span>
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -87,7 +87,7 @@ const ProjectShowcase = () => {
             </div>
             
             {/* Project Content - Takes 2 columns (0.8 parts) - On mobile: second, On desktop: first */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:order-1">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:order-1 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
                              {/* Project Header */}
                <div className="space-y-0">
                  <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
@@ -113,7 +113,7 @@ const ProjectShowcase = () => {
                </div>
               
               {/* Call to Action Button - Positioned at bottom right */}
-              <div className="text-center lg:text-right mt-4 lg:mt-20">
+              <div className="text-center lg:text-right mt-auto">
                 <Link href="/progetti/case2betaoilless" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                   <span>Scopri di più</span>
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -158,7 +158,7 @@ const ProjectShowcase = () => {
             </div>
             
             {/* Project Content - Takes 2 columns (0.8 parts) */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
                              {/* Project Header */}
                <div className="space-y-0">
                  <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
@@ -185,7 +185,7 @@ const ProjectShowcase = () => {
                </div>
               
               {/* Call to Action Button - Positioned at bottom right */}
-              <div className="text-center md:text-right lg:text-right mt-4 lg:mt-24">
+              <div className="text-center md:text-right lg:text-right mt-auto">
                  <Link href="/progetti/case1beta" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                   <span>Scopri di più</span>
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -215,7 +215,7 @@ const ProjectShowcase = () => {
             </div>
             
             {/* Project Content - Takes 2 columns (0.8 parts) - On mobile: second, On desktop: first */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:order-1">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:order-1 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
                              {/* Project Header */}
                <div className="space-y-0">
                  <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
@@ -242,7 +242,7 @@ const ProjectShowcase = () => {
                </div>
               
               {/* Call to Action Button - Positioned at bottom right */}
-              <div className="text-center md:text-right lg:text-right mt-4 lg:mt-24">
+              <div className="text-center md:text-right lg:text-right mt-auto">
                  <Link href="/progetti/case2betaise" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                   <span>Scopri di più</span>
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -272,7 +272,7 @@ const ProjectShowcase = () => {
             </div>
             
             {/* Project Content - Takes 2 columns (0.8 parts) */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
                              {/* Project Header */}
                <div className="space-y-0">
                  <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
@@ -303,7 +303,7 @@ const ProjectShowcase = () => {
                </div>
               
               {/* Call to Action Button - Positioned at bottom right */}
-              <div className="text-center md:text-right">
+              <div className="text-center md:text-right mt-auto">
               <Link href="/progetti/case1centro" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                 <span>Scopri di più</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -333,7 +333,7 @@ const ProjectShowcase = () => {
             </div>
             
             {/* Project Content - Takes 2 columns (0.8 parts) - On mobile: second, On desktop: first */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:order-1">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:order-1 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
                              {/* Project Header */}
                <div className="space-y-0">
                  <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
@@ -364,7 +364,7 @@ const ProjectShowcase = () => {
                </div>
               
               {/* Call to Action Button - Positioned at bottom right */}
-              <div className="text-center md:text-right lg:text-right mt-4 lg:mt-12">
+              <div className="text-center md:text-right lg:text-right mt-auto">
               <Link href="/progetti/case1pierre" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                 <span>Scopri di più</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -395,7 +395,7 @@ const ProjectShowcase = () => {
               </div>
               
               {/* Project Content - Takes 2 columns (0.8 parts) */}
-              <div className="space-y-4 md:space-y-6 relative lg:col-span-2">
+              <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
                                  {/* Project Header */}
                  <div className="space-y-0">
                    <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
@@ -422,7 +422,7 @@ const ProjectShowcase = () => {
                  </div>
                 
                 {/* Call to Action Button - Positioned at bottom right */}
-                <div className="text-center md:text-right lg:text-right mt-4 lg:mt-8">
+                <div className="text-center md:text-right lg:text-right mt-auto">
                 <Link href="/progetti/case1agco" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                   <span>Scopri di più</span>
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -452,7 +452,7 @@ const ProjectShowcase = () => {
             </div>
             
             {/* Project Content - Takes 2 columns (0.8 parts) - On mobile: second, On desktop: first */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:order-1">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:order-1 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
                              {/* Project Header */}
                <div className="space-y-0">
                  <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
@@ -479,7 +479,7 @@ const ProjectShowcase = () => {
                </div>
               
               {/* Call to Action Button - Positioned at bottom right */}
-              <div className="text-center md:text-right lg:text-right mt-4 lg:mt-20">
+              <div className="text-center md:text-right lg:text-right mt-auto">
               <Link href="/progetti/case2uffizi" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                 <span>Scopri di più</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -512,7 +512,7 @@ const ProjectShowcase = () => {
             </div>
             
             {/* Project Content - Takes 2 columns (0.8 parts) */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
                              {/* Project Header */}
                <div className="space-y-0">
                  <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
@@ -540,7 +540,7 @@ const ProjectShowcase = () => {
                </div>
               
               {/* Call to Action Button - Positioned at bottom right */}
-              <div className="text-center md:text-right lg:text-right mt-4 lg:mt-20">
+              <div className="text-center md:text-right lg:text-right mt-auto">
               <Link href="/progetti/case2oniverse" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                 <span>Scopri di più</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
