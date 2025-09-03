@@ -6,26 +6,26 @@ const UnderImageSection = () => {
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-12">
         {/* Header Area */}
         <div className="mb-6 sm:mb-8 md:mb-12 leading-tight">
-          <h3 className="text-black text-xs font-thin leading-tight mb-2 sm:mb-3">
+          <h3 className="text-black text-xs leading-tight mb-2 sm:mb-3" style={{ fontWeight: 400 }}>
           Comunicare concetti in modo chiaro e impattante
           </h3>
-          <h2 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-thin text-black leading-tight">
+          <h2 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl text-black leading-tight" style={{ fontWeight: 250 }}>
           Lo spazio come strumento
           </h2>
         </div>
 
         {/* Content Area - Three Columns */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 md:gap-12 mt-12 sm:mt-16 md:mt-20 lg:mt-24">
-          <div className="text-black text-sm leading-tight">
-          La tecnologia ZEBRA è il cuore di questo ambiente immersivo: un sistema avanzato nella configurazione ma estremamente intuitivo nell&apos;utilizzo. Uno spazio polivalente, dove la collaborazione si fonde con l&apos;interattività, migliorando le performance operative. Uno strumento sorprendente, capace di coinvolgere il cliente in presentazioni immersive e comunicare concetti in modo chiaro, impattante e memorabile. 
+          <div className="text-black text-sm leading-tight" style={{ fontWeight: 400 }}>
+          La tecnologia ZEBRA è il cuore di questo ambiente immersivo: un sistema avanzato nella configurazione ma estremamente intuitivo nell&apos;utilizzo. Uno spazio polivalente, dove la collaborazione si fonde con l&apos;interattività, migliorando le performance operative. Uno strumento sorprendente, capace di coinvolgere il cliente in presentazioni immersive e comunicare concetti in modo chiaro, impattante e memorabile. 
 
           </div>
-          <div className="text-black text-sm leading-tight pl-0 sm:pl-8 md:pl-16 lg:pl-20">
-          Un array di videoproiettori crea una superficie di visualizzazione panoramica ad altissima risoluzione, mentre sistemi audio, microfoni e telecamere intelligenti permettono una comunicazione fluida anche da remoto. 
-<br/>Il tutto è gestito interamente da ARES Media Engine, per garantire prestazioni elevate, flessibilità d’uso e totale controllo. 
+          <div className="text-black text-sm leading-tight pl-0 sm:pl-8 md:pl-16 lg:pl-20" style={{ fontWeight: 400 }}>
+          Un array di videoproiettori crea una superficie di visualizzazione panoramica ad altissima risoluzione, mentre sistemi audio, microfoni e telecamere intelligenti permettono una comunicazione fluida anche da remoto. 
+<br/>Il tutto è gestito interamente da ARES Media Engine, per garantire prestazioni elevate, flessibilità d'uso e totale controllo. 
 
           </div>
-          <div className="text-black text-sm leading-tight">
+          <div className="text-black text-sm leading-tight" style={{ fontWeight: 400 }}>
             {/* Empty right section */}
           </div>
         </div>

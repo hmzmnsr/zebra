@@ -6,10 +6,10 @@ const UnderImageSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header Area */}
         <div className="mb-8 sm:mb-12 leading-tight">
-          <h3 className="text-white text-xs font-thin leading-tight text-center lg:text-left">
+          <h3 className="text-white text-xs leading-tight text-center lg:text-left" style={{ fontWeight: 400 }}>
             Diamo vita alle tue idee
           </h3>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-3xl font-bold text-white leading-tight text-center lg:text-left">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-3xl text-white leading-tight text-center lg:text-left" style={{ fontWeight: 250 }}>
             Contenuti che catturano<br className="hidden lg:block" />
             l&apos;attenzione
           </h2>
@@ -17,13 +17,13 @@ const UnderImageSection = () => {
 
         {/* Content Area - Three Columns */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-12 mt-12 sm:mt-16 lg:mt-24">
-          <div className="text-white text-xs sm:text-sm lg:text-sm leading-tight">
+          <div className="text-white text-xs sm:text-sm lg:text-sm leading-tight" style={{ fontWeight: 400 }}>
             Ogni brand ha una storia o un prodotto da raccontare. Il nostro compito è farli vivere potenziandone la portata comunicativa: non ci limitiamo a creare contenuti, studiamo attentamente ogni narrazione per generare emozioni, stimolare la curiosità e rafforzare l&apos;identità del tuo prodotto.
           </div>
-          <div className="text-white text-xs sm:text-sm lg:text-sm leading-tight">
+          <div className="text-white text-xs sm:text-sm lg:text-sm leading-tight" style={{ fontWeight: 400 }}>
             Lo facciamo unendo strategia, creatività e tecnologia. Dai video aziendali alle animazioni 3D, ogni dettaglio è pensato per comunicare in modo chiaro e coinvolgente. Perché un racconto multimediale non è solo immagine: è la chiave per creare connessioni autentiche con il pubblico.
           </div>
-          <div className="text-white text-xs sm:text-sm lg:text-sm leading-tight md:col-span-2 lg:col-span-1">
+          <div className="text-white text-xs sm:text-sm lg:text-sm leading-tight md:col-span-2 lg:col-span-1" style={{ fontWeight: 400 }}>
             {/* Empty right section */}
           </div>
         </div>

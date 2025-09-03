@@ -11,9 +11,9 @@ const ServiziFeature = () => {
           <div className="bg-gray-100 rounded-lg px-6 md:px-8 mb-16 overflow-hidden">
            <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-start">
             {/* Left Side - Text Content */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:ml-16 flex flex-col justify-between min-h-[280px] md:h-[480px] order-1">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:ml-16 flex flex-col h-[340px] md:h-[540px] order-1">
               {/* Project Header */}
-              <div className="space-y-2">
+              <div className="space-y-2 flex-1">
                 <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-gray-900">
                   3
                 </h2>
@@ -35,7 +35,7 @@ const ServiziFeature = () => {
               </div>
               
                              {/* Call to Action Button - Positioned at bottom right */}
-                             <div className="text-center lg:text-right mt-auto">
+                             <div className="text-center lg:text-right">
                  <button className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                    <span>Scopri di più</span>
                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -63,9 +63,9 @@ const ServiziFeature = () => {
          <div className="bg-gray-100 rounded-lg px-6 md:px-8 mb-16 overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-start">
             {/* Left Side - Text Content */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:ml-16 flex flex-col justify-between min-h-[280px] md:h-[480px] order-1">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:ml-16 flex flex-col h-[340px] md:h-[540px] order-1">
               {/* Project Header */}
-              <div className="space-y-2">
+              <div className="space-y-2 flex-1">
                 <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-gray-900">
                   4
                 </h2>
@@ -84,7 +84,7 @@ const ServiziFeature = () => {
               </div>
               
                              {/* Call to Action Button - Positioned at bottom right */}
-                             <div className="text-center lg:text-right mt-auto">
+                             <div className="text-center lg:text-right">
                  <button className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                    <span>Scopri di più</span>
                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -124,9 +124,9 @@ const ServiziFeature = () => {
              </div>
 
             {/* Right Side - Text Content */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:mr-16 flex flex-col justify-between min-h-[280px] md:h-[480px] order-1 lg:order-2">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:mr-16 flex flex-col h-[340px] md:h-[540px] order-1 lg:order-2">
               {/* Project Header */}
-              <div className="space-y-2">
+              <div className="space-y-2 flex-1">
                 <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-gray-900">
                   5
                 </h2>
@@ -142,7 +142,7 @@ const ServiziFeature = () => {
               </div>
               
                              {/* Call to Action Button - Positioned at bottom right */}
-                             <div className="text-center lg:text-right mt-auto">
+                             <div className="text-center lg:text-right">
                  <button className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                    <span>Scopri di più</span>
                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -158,9 +158,9 @@ const ServiziFeature = () => {
            <div className="bg-gray-100 rounded-lg px-6 md:px-8 mb-16 overflow-hidden">
             <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-start">
             {/* Left Side - Text Content */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:ml-16 flex flex-col justify-between min-h-[280px] md:h-[480px] order-1">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:ml-16 flex flex-col h-[340px] md:h-[540px] order-1">
               {/* Project Header */}
-              <div className="space-y-2">
+              <div className="space-y-2 flex-1">
                 <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-gray-900">
                   6
                 </h2>
@@ -173,7 +173,7 @@ const ServiziFeature = () => {
               </div>
               
                              {/* Call to Action Button - Positioned at bottom right */}
-                             <div className="text-center lg:text-right mt-auto">
+                             <div className="text-center lg:text-right">
                  <button className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                    <span>Scopri di più</span>
                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -213,9 +213,9 @@ const ServiziFeature = () => {
               </div>
 
             {/* Right Side - Text Content */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:mr-16 flex flex-col justify-between min-h-[280px] md:h-[480px] order-1 lg:order-2">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:mr-16 flex flex-col h-[340px] md:h-[540px] order-1 lg:order-2">
               {/* Project Header */}
-              <div className="space-y-2">
+              <div className="space-y-2 flex-1">
                 <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-gray-900">
                   7
                 </h2>
@@ -238,7 +238,7 @@ const ServiziFeature = () => {
               </div>
               
                              {/* Call to Action Button - Positioned at bottom right */}
-                             <div className="text-center lg:text-right mt-auto">
+                             <div className="text-center lg:text-right">
                  <button className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                    <span>Scopri di più</span>
                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

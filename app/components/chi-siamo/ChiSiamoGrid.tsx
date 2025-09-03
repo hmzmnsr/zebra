@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const ChiSiamoGrid = () => {
   return (
-    <section className="bg-white py-12 md:py-8">
+    <section className="bg-[#FBFDFC] text-[#083933] py-12 md:py-8">
       <div className="px-2 sm:px-4 lg:px-2">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-1">
           {/* Row 1 - First 3 boxes */}

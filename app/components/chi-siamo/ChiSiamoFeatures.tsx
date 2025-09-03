@@ -4,26 +4,26 @@ import Image from 'next/image';
 
 const ChiSiamoFeatures = () => {
   return (
-    <section className="bg-white py-12 md:py-16">
+    <section className="bg-[#FBFDFC] text-[#083933] py-12 md:py-16">
       <div className="px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 lg:gap-12">
           {/* Left Column - Text Content (3/5 width = 60%) */}
           <div className="lg:col-span-3 flex flex-col justify-start  space-y-4 sm:space-y-2 px-4 sm:px-12 mt-8 sm:mt-12">
             
             {/* Small text */}
-            <p className="text-xs sm:text-sm text-gray-600">
+            <p className="text-xs sm:text-sm text-[#083933]">
               with the brand&apos;s signature orange.
             </p>
             
             {/* Main heading */}
-            <h2 className="text-xl sm:text-2xl md:text-3xl font-sans text-gray-800 font-medium">
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-sans text-[#083933] font-medium">
               Lorem ipsum dolor sit amet,
             </h2>
             
             {/* Large number and text */}
             <div className="flex flex-col sm:flex-row sm:items-center justify-center space-y-4 sm:space-x-4 mt-8 sm:mt-12">
-              <span className="text-3xl sm:text-4xl md:text-6xl font-bold text-gray-800">+100%</span>
-              <div className="space-y-2 text-xs sm:text-sm text-gray-800">
+              <span className="text-3xl sm:text-4xl md:text-6xl font-bold text-[#083933]">+100%</span>
+              <div className="space-y-2 text-xs sm:text-sm text-[#083933]">
                 <p>Di auto produzione energetica</p>
                 <p>Forniamo gestione remota, supporto al nostro hardware ovunque</p>
                 <p>si trovi nel mondo</p>

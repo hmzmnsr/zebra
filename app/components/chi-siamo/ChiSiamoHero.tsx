@@ -2,7 +2,7 @@
 
 const ChiSiamoHero = () => {
   return (
-    <section className="bg-white text-white py-48 relative">
+    <section className="bg-[#FBFDFC] text-[#083933] py-48 relative">
       {/* Matte overlay */}
       <div className="absolute inset-0 mix-blend-multiply"></div>
       
@@ -26,7 +26,7 @@ const ChiSiamoHero = () => {
           </p>
           
           {/* Second Paragraph */}
-          <p className="text-sm sm:text-base md:text-lg text-gray-100 leading-relaxed font-sans">
+          <p className="text-sm sm:text-base md:text-lg text-[#083933] leading-relaxed font-sans">
 
           </p>
         </div>
