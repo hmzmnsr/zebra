@@ -8,7 +8,7 @@ const ShotGallery = () => {
     { src: '/assets/case1pierra/5.jpg', alt: 'Drone controller with smartphone' },
     { src: '/assets/case1pierra/6.jpg', alt: 'Aerial view of blue lake' },
     { src: '/assets/case1pierra/7.png', alt: 'Purple grapes on vine' },
-    { src: '/assets/case1pierra/8.jpg', alt: 'Digital tower with smoke' },
+    { src: '/assets/case1pierra/81.PNG', alt: 'Digital tower with smoke' },
     { src: '/assets/case1pierra/88.jpg', alt: 'Power tool silhouette' }
   ];
 
