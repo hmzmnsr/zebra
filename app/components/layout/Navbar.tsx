@@ -108,25 +108,21 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* Mobile Navigation */}
-          <div className="lg:hidden flex items-center justify-between w-full">
-            {/* Mobile Logo */}
-            <div className="flex-shrink-0">
-              <Link href="/" className="flex items-center">
-                <div className="flex items-center">
-                  {/* Diagonal stripes graphic */}
-                  <div className="flex mr-2">
-                    <div className="w-1 h-4 bg-green-500 mr-0.5"></div>
-                    <div className="w-1 h-4 bg-teal-500 mr-0.5"></div>
-                    <div className="w-1 h-4 bg-blue-500 mr-0.5"></div>
-                    <div className="w-1 h-4 bg-blue-600 mr-0.5"></div>
-                    <div className="w-1 h-4 bg-blue-700"></div>
-                  </div>
-                  {/* ZEBRA text */}
-                  <span className="font-bold text-white text-xl">ZEBRA</span>
-                </div>
-              </Link>
-            </div>
+                    {/* Mobile Navigation */}
+        <div className="lg:hidden flex items-center justify-between w-full">
+          {/* Mobile Logo */}
+          <div className="flex-shrink-0">
+            <Link href="/" className="flex items-center">
+                             <Image
+                 src="/assets/Logo_Light-1.png"
+                 alt="Zebra Logo"
+                 width={40}
+                 height={16}
+                 className="h-4 w-auto"
+                 priority
+               />
+            </Link>
+          </div>
 
             {/* Mobile Menu Button */}
             <button className="flex items-center gap-2 text-white">
@@ -212,18 +208,14 @@ const Navbar = () => {
           {/* Mobile Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
-              <div className="flex items-center">
-                {/* Diagonal stripes graphic */}
-                <div className="flex mr-2">
-                  <div className="w-1 h-4 bg-green-500 mr-0.5"></div>
-                  <div className="w-1 h-4 bg-teal-500 mr-0.5"></div>
-                  <div className="w-1 h-4 bg-blue-500 mr-0.5"></div>
-                  <div className="w-1 h-4 bg-blue-600 mr-0.5"></div>
-                  <div className="w-1 h-4 bg-blue-700"></div>
-                </div>
-                {/* ZEBRA text */}
-                <span className="font-bold text-white text-xl">ZEBRA</span>
-              </div>
+                             <Image
+                 src="/assets/Logo_Light-1.png"
+                 alt="Zebra Logo"
+                 width={40}
+                 height={16}
+                 className="h-4 w-auto"
+                 priority
+               />
             </Link>
           </div>
 
