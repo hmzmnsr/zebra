@@ -94,7 +94,8 @@ const Navbar = () => {
                 <div key={item.name} className="relative">
                   <Link
                     href={item.href}
-                    className="text-white hover:text-gray-300 transition-colors text-base font-medium"
+                    className="text-white hover:text-gray-300 transition-colors text-base"
+                    style={{ fontWeight: 400 }}
                   >
                     {item.name}
                   </Link>
@@ -174,7 +175,8 @@ const Navbar = () => {
                      <div className="flex items-center gap-2">
                        <Link
                          href={item.href}
-                         className="text-white hover:text-gray-300 transition-colors text-base font-medium"
+                         className="text-white hover:text-gray-300 transition-colors text-base"
+                         style={{ fontWeight: 400 }}
                        >
                          {item.name}
                        </Link>
@@ -186,7 +188,8 @@ const Navbar = () => {
                  ) : (
                   <Link
                     href={item.href}
-                    className="text-white hover:text-gray-300 transition-colors text-base font-medium"
+                    className="text-white hover:text-gray-300 transition-colors text-base"
+                    style={{ fontWeight: 400 }}
                   >
                     {item.name}
                   </Link>
@@ -250,6 +253,7 @@ const Navbar = () => {
                       href={generateServizioUrl(servizio)}
                       onClick={handleNavigationClick}
                       className="block text-white hover:text-gray-300 transition-colors text-sm py-2"
+                      style={{ fontWeight: 400 }}
                     >
                       {servizio}
                     </Link>
@@ -281,6 +285,7 @@ const Navbar = () => {
                         href={item.href}
                         onClick={handleNavigationClick}
                         className="flex-1 px-3 py-2 text-white hover:bg-white/10 transition-colors"
+                        style={{ fontWeight: 400 }}
                       >
                         {item.name}
                       </Link>
@@ -318,6 +323,7 @@ const Navbar = () => {
                           href={generateServizioUrl(servizio)}
                           onClick={handleNavigationClick}
                           className="block px-3 py-2 text-white/90 hover:text-white hover:bg-white/10 transition-colors"
+                          style={{ fontWeight: 400 }}
                         >
                           {servizio}
                         </Link>
@@ -329,6 +335,7 @@ const Navbar = () => {
                     href={item.href}
                     onClick={handleNavigationClick}
                     className="block px-3 py-2 text-white hover:bg-white/10 transition-colors"
+                    style={{ fontWeight: 400 }}
                   >
                     {item.name}
                   </Link>
