@@ -5,8 +5,8 @@ import Link from 'next/link';
 
 const ShotGallery = () => {
   const images = [
-    { src: '/assets/servizi2/7.jpg', alt: '360-degree camera in vineyard' },
-    { src: '/assets/servizi2/8.jpg', alt: 'Drone controller with smartphone' },
+    { src: '/assets/servizi2/me2.jpg', alt: '360-degree camera in vineyard' },
+    { src: '/assets/servizi2/me1.jpg', alt: 'Drone controller with smartphone' },
     { src: '/assets/servizi2/9.jpg', alt: 'Aerial view of blue lake' },
     { src: '/assets/servizi2/10.jpg', alt: 'Purple grapes on vine' },
     { src: '/assets/servizi2/11.jpg', alt: 'Digital tower with smoke' },
