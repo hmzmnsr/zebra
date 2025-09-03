@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const CTASection = () => {
   return (
-    <div className="pb-8 sm:pb-12 md:pb-16 lg:pb-12 sm:pt-20 md:pt-28 lg:pt-36 bg-white">
+    <div className="pb-8 sm:pb-12 md:pb-16 lg:pb-12 sm:pt-20 md:pt-28 lg:pt-36 bg-[#FBFDFC]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
         <div className="mb-6 sm:mb-8 md:mb-8 mt-8 sm:mt-12 md:mt-20">
           <h2 className="text-black text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl leading-none" style={{ fontWeight: 430 }}>

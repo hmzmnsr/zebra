@@ -2,14 +2,14 @@
 
 const UnderImageSection = () => {
   return (
-    <div className="pb-12 sm:pb-16 md:pb-24 lg:pb-32 bg-white px-0 lg:px-24">
+    <div className="pb-12 sm:pb-16 md:pb-24 lg:pb-32 bg-[#FBFDFC] px-0 lg:px-24">
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-12">
         {/* Header Area */}
         <div className="mb-6 sm:mb-8 md:mb-12 leading-tight">
           <h3 className="text-black text-xs leading-tight mb-2 sm:mb-3" style={{ fontWeight: 400 }}>
           Conoscere, provare, credere
           </h3>
-          <h2 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl text-black leading-tight" style={{ fontWeight: 250 }}>
+          <h2 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl text-black leading-none" style={{ fontWeight: 250 }}>
           L&apos;esperienza è il nuovo<br/> vantaggio competitivo
           </h2>
         </div>

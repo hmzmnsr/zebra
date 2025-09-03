@@ -2,7 +2,7 @@
 
 const CaseContent = () => {
   return (
-    <section className="bg-white py-32">
+    <section className="bg-[#FBFDFC] py-32">
       <div className="px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           {/* Main Content */}

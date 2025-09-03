@@ -6,7 +6,7 @@ const NewImageSection = () => {
   return (
     <div className="w-full">
  {/* Second Section - Text on Left, Image on Right */}
- <div className="py-16 bg-white">
+ <div className="py-16 bg-[#FBFDFC]">
         <div className="max-w-8xl mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
             {/* Left Content - Text */}
