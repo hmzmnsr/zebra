@@ -29,14 +29,14 @@ export default function Education() {
     {/* Quote Section */}
     <div className="bg-[#FBFDFC] py-16 md:py-32">
         <div className="max-w-6xl mx-auto px-4">
-          <p className="text-lg md:text-xl lg:text-4xl text-gray-900 leading-tight font-sans text-center md:text-left pl-0 md:pl-28">
+          <p style={{ fontWeight: 400 }} className="text-lg md:text-xl lg:text-4xl text-[#082239] leading-none font-sans text-center md:text-left pl-0 md:pl-28">
             Quando la conoscenza diventa esperienza, nasce un
           </p>
-          <p className="text-lg md:text-xl lg:text-4xl text-gray-900 leading-tight font-sans text-center md:text-left">
-            apprendimento che emoziona, coinvolge e resta impresso nella
+          <p style={{ fontWeight: 400 }} className="text-lg md:text-xl lg:text-4xl text-[#082239] leading-none font-sans text-center md:text-left">
+            apprendimento che emoziona, coinvolge e resta impresso per sempre
           </p>
-          <p className="text-lg md:text-xl lg:text-4xl text-gray-900 leading-tight font-sans text-center md:text-left">
-            memoria
+          <p style={{ fontWeight: 400 }} className="text-lg md:text-xl lg:text-4xl text-[#082239] leading-none font-sans text-center md:text-left">
+          nella memoria.
           </p>
         </div>
     </div>
