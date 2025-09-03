@@ -1,0 +1,72 @@
+/* Cofo Sans Variable Font Configuration */
+
+@font-face {
+  font-family: 'CofoSansVariable';
+  src: url('/fonts/Cofo-Sans-Var.otf') format('opentype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+  font-feature-settings: "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "ss07", "ss08", "ss09", "ss10", "ss11", "ss12", "ss13", "ss14", "ss15", "ss16", "ss17", "ss18", "ss19", "ss20";
+}
+
+/* Font weight utility classes */
+.font-thin { font-weight: 100; }
+.font-extralight { font-weight: 200; }
+.font-light { font-weight: 300; }
+.font-normal { font-weight: 400; }
+.font-medium { font-weight: 500; }
+.font-semibold { font-weight: 600; }
+.font-bold { font-weight: 700; }
+.font-extrabold { font-weight: 800; }
+.font-black { font-weight: 900; }
+
+/* Stylistic sets utility classes */
+.stylistic-ss01 { font-feature-settings: "ss01" on; }
+.stylistic-ss02 { font-feature-settings: "ss02" on; }
+.stylistic-ss03 { font-feature-settings: "ss03" on; }
+.stylistic-ss04 { font-feature-settings: "ss04" on; }
+.stylistic-ss05 { font-feature-settings: "ss05" on; }
+.stylistic-ss06 { font-feature-settings: "ss06" on; }
+.stylistic-ss07 { font-feature-settings: "ss07" on; }
+.stylistic-ss08 { font-feature-settings: "ss08" on; }
+.stylistic-ss09 { font-feature-settings: "ss09" on; }
+.stylistic-ss10 { font-feature-settings: "ss10" on; }
+.stylistic-ss11 { font-feature-settings: "ss11" on; }
+.stylistic-ss12 { font-feature-settings: "ss12" on; }
+.stylistic-ss13 { font-feature-settings: "ss13" on; }
+.stylistic-ss14 { font-feature-settings: "ss14" on; }
+.stylistic-ss15 { font-feature-settings: "ss15" on; }
+.stylistic-ss16 { font-feature-settings: "ss16" on; }
+.stylistic-ss17 { font-feature-settings: "ss17" on; }
+.stylistic-ss18 { font-feature-settings: "ss18" on; }
+.stylistic-ss19 { font-feature-settings: "ss19" on; }
+.stylistic-ss20 { font-feature-settings: "ss20" on; }
+
+/* Font family utility classes */
+.font-cofo {
+  font-family: var(--font-cofo-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Optimized text rendering for Cofo Sans */
+.font-cofo {
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Global font application */
+* {
+  font-family: var(--font-cofo-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Specific font weights for different elements */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-cofo-sans), Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+p, span, div, a, button, input, textarea, select {
+  font-family: var(--font-cofo-sans), Arial, Helvetica, sans-serif;
+}

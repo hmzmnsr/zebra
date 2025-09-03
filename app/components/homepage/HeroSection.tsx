@@ -6,7 +6,7 @@ const HeroSection = () => {
       {/* Background Video */}
       <div className="relative h-auto pt-10">
         <video
-          src="/assets/homepage/hero.mp4"
+          src="/assets/homepage/hero1.mp4"
           autoPlay
           loop
           muted
@@ -35,10 +35,10 @@ const HeroSection = () => {
         {/* Text Overlay */}
         <div className="absolute inset-0 flex items-start md:items-end justify-center z-10 px-4 md:px-8 pt-80 md:pt-0 mb-0 md:mb-24">
           <div className="text-center text-white max-w-4xl w-full">
-            <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-thin mb-4 md:mb-6 leading-tight px-2 md:px-0">
+            <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-thin mb-4 md:mb-6 leading-tight px-2 md:px-0 font-cofo">
               Creiamo esperienze<br className="hidden sm:block"/> immersive memorabili
             </h1>
-            <p className="text-sm sm:text-base md:text-lg font-light leading-relaxed px-2 md:px-0">
+            <p className="text-sm sm:text-base md:text-lg font-light leading-relaxed px-2 md:px-0 font-cofo">
               Diamo forma a visioni ambiziose trasformandole in <br className="hidden sm:block"/> soluzioni multimediali su misura
             </p>
           </div>
