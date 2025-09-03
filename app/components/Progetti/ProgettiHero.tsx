@@ -26,8 +26,8 @@ const ProgettiHero = () => {
           </p>
           
           {/* Second Paragraph */}
-          <p style={{ fontWeight: 300 }} className="text-base md:text-lg text-gray-100 leading-relaxed font-sans">
-          Esperienze, contenuti e tecnologie: dalle immersive room al 3D, alcune delle nostre creazioni più rappresentative nei diversi ambiti applicative.
+          <p style={{ fontWeight: 300 }} className="text-base md:text-lg text-gray-100 leading-none font-sans">
+          Esperienze, contenuti e tecnologie: dalle immersive room al 3D, alcune delle nostre creazioni<br/> più rappresentative nei diversi ambiti applicative.
           </p>
         </div>
       </div>

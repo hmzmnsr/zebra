@@ -17,7 +17,7 @@ const UnderImageSection = () => {
         {/* Content Area - Three Columns */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 sm:gap-12 mt-16 sm:mt-20 lg:mt-24">
           <div className="text-black text-sm leading-tight" style={{ fontWeight: 400 }}>
-          Immagina di varcare la soglia di un racconto e non limitarti ad ascoltarlo, ma viverlo. L immersività trasforma lo storytelling in esperienza: le immagini avvolgono, i suoni affascinano e le superfici prendono vita. Ogni dettaglio diventa un frammento di narrazione, ogni movimento del pubblico un'interazione che amplifica le emozioni.  Non è più il pubblico a guardare la storia: è la storia a plasmarsi sull utente, a seguirlo, a rispondere ai suoi gesti. 
+          Immagina di varcare la soglia di un racconto e non limitarti ad ascoltarlo, ma viverlo. L immersività trasforma lo storytelling in esperienza: le immagini avvolgono, i suoni affascinano e le superfici prendono vita. Ogni dettaglio diventa un frammento di narrazione, ogni movimento del pubblico un&apos;interazione che amplifica le emozioni.  Non è più il pubblico a guardare la storia: è la storia a plasmarsi sull utente, a seguirlo, a rispondere ai suoi gesti. 
           </div>
           <div className="text-black text-sm leading-tight" style={{ fontWeight: 400 }}>
           Così i messaggi diventano indelebili, pervadendo corpo e mente, imprimendosi nella memoria emotiva. Con le nostre tecnologie e la nostra creatività lo storytelling si apre ad infinite possibilità, abbracciando la percezione diretta dell uomo: è così che creiamo esperienze che parlano direttamente ai sensi ed al cuore. 

@@ -21,7 +21,7 @@ const ChiSiamoHero = () => {
         {/* Body Text - Two paragraphs with generous line spacing */}
         <div className="max-w-5xl space-y-6 sm:space-y-8">
           {/* First Paragraph */}
-          <p style={{ fontWeight: 300 }} className="text-sm sm:text-base md:text-lg text-[#083933] leading-relaxed font-sans">
+          <p style={{ fontWeight: 300 }} className="text-sm sm:text-base md:text-xl text-[#083933] leading-none font-sans mt-14">
           ZEBRA è una azienda specializzata nella creazione di soluzioni multimediali avanzate<br className="hidden sm:block"/> integrando contenuto e digital media technology.
           </p>
           

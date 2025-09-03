@@ -22,7 +22,7 @@ const UnderImageSection = () => {
           </div>
           <div className="text-black text-sm leading-tight pl-0 sm:pl-8 md:pl-16 lg:pl-20" style={{ fontWeight: 400 }}>
           Un array di videoproiettori crea una superficie di visualizzazione panoramica ad altissima risoluzione, mentre sistemi audio, microfoni e telecamere intelligenti permettono una comunicazione fluida anche da remoto. 
-<br/>Il tutto è gestito interamente da ARES Media Engine, per garantire prestazioni elevate, flessibilità d'uso e totale controllo. 
+<br/>Il tutto è gestito interamente da ARES Media Engine, per garantire prestazioni elevate, flessibilità d&apos;uso e totale controllo. 
 
           </div>
           <div className="text-black text-sm leading-tight" style={{ fontWeight: 400 }}>
