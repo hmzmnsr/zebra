@@ -10,10 +10,10 @@ const PowerToolSection = () => {
         {/* Left Half - Text Content */}
         <div className="p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col justify-center ml-2 sm:ml-4 md:ml-20">
           <div className="max-w-lg">
-            <p className="text-xs sm:text-xs md:text-sm">
+            <p className="text-[#fbfdff] text-xs sm:text-xs md:text-sm mb-2 sm:mb-3 md:mb-0" style={{ fontWeight: 400 }}>
             Il vino nasce dalla terra, ma vive nel racconto.
             </p>
-            <p className="text-gray-300 leading-relaxed font-light text-base sm:text-lg md:text-2xl lg:text-3xl leading-tight">
+            <p className="text-[#fbfdff] leading-none text-base sm:text-lg md:text-2xl lg:text-3xl leading-tight" style={{ fontWeight: 250 }}>
             Esperienze immersive per entrare nell&apos;anima dei territori e sentire ogni vino come un&apos;estensione del luogo in cui prende vita.
             </p>
           </div>

@@ -10,10 +10,10 @@ const PowerToolSection = () => {
         {/* Left Half - Text Content */}
         <div className="p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col justify-center ml-0 sm:ml-4 md:ml-20">
           <div className="max-w-lg">
-            <p className="text-xs sm:text-sm md:text-sm mb-2 sm:mb-3 md:mb-4">
+            <p className="text-[#fbfdff] text-xs sm:text-sm md:text-sm mb-2 sm:mb-3 md:mb-0" style={{ fontWeight: 400 }}>
             Un razzo, una sfilata, un racconto di luce.
             </p>
-            <p className="text-gray-300 leading-relaxed font-light text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl leading-tight">
+            <p className="text-[#fbfdff] leading-none text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl leading-tight" style={{ fontWeight: 250 }}>
             Realizzato in collaborazione con l&apos;Agenzia Spaziale Europea, il progetto ha visto ZEBRA protagonista nella progettazione e gestione di un complesso sistema di proiezione su scala monumentale.
             </p>
           </div>
