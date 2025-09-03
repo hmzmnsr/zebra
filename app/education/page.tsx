@@ -11,12 +11,12 @@ export default function Education() {
       <EducationHero />
 
              {/* Prodotti per l'educazione Section */}
-      <section className="bg-[#FBFDFC] py-16 md:py-24">
+      <section className="bg-[#FBFDFC] py-16 md:py-12">
         <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-thin text-gray-900 mb-6">
+          <h2 style={{ fontWeight: 400 }} className="text-2xl md:text-3xl lg:text-4xl text-[#082239] mb-14">
             Prodotti per l&apos;educazione
           </h2>
-          <p className="text-lg md:text-lg text-gray-700 leading-tight">
+          <p style={{ fontWeight: 300 }} className="text-lg md:text-lg text-[#082239] leading-none">
             Offriamo kit chiavi in mano e sistemi personalizzati per ogni tipo di attività <br/>
             didattica: dalla simulazione in laboratorio alle aule immersive.
           </p>

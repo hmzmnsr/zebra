@@ -16,7 +16,7 @@ const EducationHero = () => {
         </div>
         
         {/* Body Text - Two paragraphs with generous line spacing */}
-        <div className="max-w-4xl space-y-8">
+        <div className="max-w-4xl space-y-8 mt-14">
           {/* First Paragraph */}
           <p style={{ fontWeight: 300 }} className="text-base md:text-md text-gray-100 leading-none font-sans">
           Forniamo soluzioni multimediali avanzate per portare l immersività nel mondo della scuola. Immagina di insegnare trasportando gli studenti all interno della materia: entrando in una cellula, passeggiando tra le colonne dell Acropoli o esplorando lo spazio. 

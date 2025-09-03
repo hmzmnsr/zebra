@@ -40,30 +40,30 @@ const EduFeature = () => {
                     priority
                   />
                 </div>
-                <h3 className="text-xl md:text-2xl lg:text-3xl text-gray-700">
+                <h3 style={{ fontWeight: 250 }} className="text-xl md:text-2xl lg:text-3xl text-[#082239]">
                  Kit di simulazione per laboratori
                 </h3>
-                <p className="text-gray-600 leading-tight text-sm md:text-base mt-4 md:mt-8">
-                SYM LAB è il kit di simulazione immersiva di ZEBRA, progettato per trasformare la formazione in esperienza. Permette di ricreare attività pratiche in modo realistico e coinvolgente: dalla guida di mezzi industriali alla progettazione, dal design di moda alla manutenzione tecnica.
+                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-sm md:text-base mt-4 md:mt-8">
+                  <span style={{ fontWeight: 500 }}>SYM LAB</span> è il kit di simulazione immersiva di ZEBRA, progettato per trasformare la formazione in esperienza. Permette di ricreare attività pratiche in modo realistico e coinvolgente: dalla guida di mezzi industriali alla progettazione, dal design di moda alla manutenzione tecnica.
                 </p>
-                <p className="text-gray-600 leading-tight text-sm md:text-base mt-4 md:mt-2">
-                Tecnologia integrata:
+                <p style={{ fontWeight: 500 }} className="text-[#082239] leading-none text-sm md:text-base mt-4 md:mt-8">
+                  <span style={{ fontWeight: 500 }}>Tecnologia integrata:</span>
                 </p>
-                <ul className="text-gray-600 leading-tight text-sm md:text-base mt-2 space-y-1 list-disc list-inside pl-4">
+                <ul className="text-gray-600 leading-none text-sm md:text-base mt-2 space-y-1 list-disc list-inside pl-4">
                   <li>Schermo curvo con proiezione ad alta risoluzione</li>
-                  <li>MediaServer ARES per la gestione delle simulazioni</li>
+                  <li><span style={{ fontWeight: 500 }}>MediaServer ARES</span> per la gestione delle simulazioni</li>
                   <li>Postazione regolabile con telecamera integrata</li>
                   <li>Seduta e comandi dedicati per scenari specifici</li>
                 </ul>
-                <p className="text-gray-600 leading-tight text-sm md:text-base mt-4 md:mt-4">
-                Con SYM LAB, teoria e pratica si incontrano in un ambiente sicuro, dinamico e altamente formativo: la soluzione ideale per scuole, aziende e centri professionali.
+                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-sm md:text-base mt-4 md:mt-4">
+                  Con <span style={{ fontWeight: 500 }}>SYM LAB</span>, teoria e pratica si incontrano in un ambiente sicuro, dinamico e altamente formativo: la soluzione ideale per scuole, aziende e centri professionali.
                 </p>
               </div>
               
               {/* Call to Action Button - Positioned at bottom right */}
               <div className="text-center lg:text-right">
                 <button className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
-                  <span>Scopri di più</span>
+                  <span className='text-[#082239]'>Scopri di più</span>
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
@@ -95,24 +95,24 @@ const EduFeature = () => {
                 <h2 className="text-lg md:text-xl text-gray-900">
                   2
                 </h2>
-                <h3 className="text-xl md:text-2xl lg:text-4xl text-gray-700">
-                Simulatori professionali per laboratori
+                <h3 style={{ fontWeight: 250 }} className="text-xl md:text-2xl lg:text-4xl text-[#082239]">
+                  Simulatori professionali per laboratori
                 </h3>
-                <p className="text-gray-600 leading-tight text-sm md:text-base mt-4 md:mt-8">
-                Progettiamo e realizziamo simulatori professionali ad alte prestazioni per laboratori scolastici e formativi, pensati per offrire un esperienza realistica e coinvolgente in qualsiasi ambito applicativo. 
+                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-sm md:text-base mt-4 md:mt-8">
+                  Progettiamo e realizziamo simulatori <span style={{ fontWeight: 500 }}>professionali ad alte prestazioni per laboratori scolastici e formativi</span>, pensati per offrire un esperienza realistica e coinvolgente in qualsiasi ambito applicativo. 
                 </p>
-                <p className="text-gray-600 leading-tight text-sm md:text-base mt-4 md:mt-2">
-                Ogni simulatore è personalizzato, completamente configurabile nelle dimensioni, nei comandi e nel software, così da rispondere ad ogni esigenza didattica. 
+                <p className="text-gray-600 leading-tight text-sm md:text-base mt-4 md:mt-5">
+                  <span style={{ fontWeight: 500 }}>Ogni simulatore è personalizzato</span>, completamente <span style={{ fontWeight: 500 }}>configurabile</span> nelle dimensioni, nei comandi e nel software, così da rispondere ad ogni esigenza didattica. 
                 </p>
-                <p className="text-gray-600 leading-tight text-sm md:text-base mt-4 md:mt-2">
-                Dai simulatori di volo a quelli navali, fino alle simulazioni di macchine agricole e industriali, ogni sistema è dotato di tecnologie di visualizzazione all avanguardia per garantire un apprendimento pratico, immersivo e professionale. 
+                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-sm md:text-base mt-4 md:mt-5">
+                  Dai simulatori di volo a quelli navali, fino alle simulazioni di macchine agricole e industriali, <span style={{ fontWeight: 500 }}>ogni sistema è dotato di tecnologie di visualizzazione all avanguardia</span> per garantire un apprendimento pratico, immersivo e professionale. 
                 </p>
               </div>
               
               {/* Call to Action Button - Positioned at bottom right */}
               <div className="text-center lg:text-right">
                 <button className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
-                  <span>Scopri di più</span>
+                  <span className='text-[#082239]'>Scopri di più</span>
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
