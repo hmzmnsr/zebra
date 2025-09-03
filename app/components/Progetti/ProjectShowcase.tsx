@@ -60,7 +60,7 @@ const ProjectShowcase = () => {
               
               {/* Call to Action Button - Positioned at bottom right */}
               <div className="text-center lg:text-right mt-auto">
-                 <Link href="/progetti/case1accenture" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+                 <Link href="/progetti/accenture-immersive-meeting-space" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                   <span>Scopri di più</span>
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -114,7 +114,7 @@ const ProjectShowcase = () => {
               
               {/* Call to Action Button - Positioned at bottom right */}
               <div className="text-center lg:text-right mt-auto">
-                <Link href="/progetti/case2betaoilless" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+                <Link href="/progetti/beta-utensili-oil-less-campaign" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                   <span>Scopri di più</span>
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -186,7 +186,7 @@ const ProjectShowcase = () => {
               
               {/* Call to Action Button - Positioned at bottom right */}
               <div className="text-center md:text-right lg:text-right mt-auto">
-                 <Link href="/progetti/case1beta" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+                 <Link href="/progetti/beta-sala-cda" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                   <span>Scopri di più</span>
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -243,7 +243,7 @@ const ProjectShowcase = () => {
               
               {/* Call to Action Button - Positioned at bottom right */}
               <div className="text-center md:text-right lg:text-right mt-auto">
-                 <Link href="/progetti/case2betaise" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+                 <Link href="/progetti/epson-booth-ise-barcellona" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                   <span>Scopri di più</span>
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -304,7 +304,7 @@ const ProjectShowcase = () => {
               
               {/* Call to Action Button - Positioned at bottom right */}
               <div className="text-center md:text-right mt-auto">
-              <Link href="/progetti/case1centro" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+              <Link href="/progetti/sala-ulisse-centro-tog-milano" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                 <span>Scopri di più</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -365,7 +365,7 @@ const ProjectShowcase = () => {
               
               {/* Call to Action Button - Positioned at bottom right */}
               <div className="text-center md:text-right lg:text-right mt-auto">
-              <Link href="/progetti/case1pierre" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+              <Link href="/progetti/immersive-runway-pierre-cardin" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                 <span>Scopri di più</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -423,7 +423,7 @@ const ProjectShowcase = () => {
                 
                 {/* Call to Action Button - Positioned at bottom right */}
                 <div className="text-center md:text-right lg:text-right mt-auto">
-                <Link href="/progetti/case1agco" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+                <Link href="/progetti/agco-agridome" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                   <span>Scopri di più</span>
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -480,7 +480,7 @@ const ProjectShowcase = () => {
               
               {/* Call to Action Button - Positioned at bottom right */}
               <div className="text-center md:text-right lg:text-right mt-auto">
-              <Link href="/progetti/case2uffizi" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+              <Link href="/progetti/il-codice-leicester-galleria-degli-uffizi" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                 <span>Scopri di più</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -541,7 +541,7 @@ const ProjectShowcase = () => {
               
               {/* Call to Action Button - Positioned at bottom right */}
               <div className="text-center md:text-right lg:text-right mt-auto">
-              <Link href="/progetti/case2oniverse" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+              <Link href="/progetti/cantine-oniverse-gruppo-calzedonia" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
                 <span>Scopri di più</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
