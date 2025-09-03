@@ -6,20 +6,20 @@ const UnderImageSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header Area */}
         <div className="mb-8 sm:mb-12 leading-none">
-          <h3 className="text-[#082239] text-xs leading-none" style={{ fontWeight: 400 }}>
+          <h3 className="text-white text-xs leading-none" style={{ fontWeight: 400 }}>
           L ambiente di lavoro come espressione dell innovazione
           </h3>
-          <h2 className="text-4xl md:text-5xl lg:text-3xl text-[#082239] leading-none" style={{ fontWeight: 250 }}>
+          <h2 className="text-4xl md:text-5xl lg:text-3xl text-white leading-none" style={{ fontWeight: 250 }}>
             Il futuro è collaborativo
           </h2>
         </div>
 
         {/* Content Area - Three Columns */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 sm:gap-12 mt-16 sm:mt-20 lg:mt-24">
-          <div className="text-[#082239] text-sm leading-none" style={{ fontWeight: 400 }}>
+          <div className="text-white text-sm leading-none" style={{ fontWeight: 400 }}>
           Immagina uno spazio in cui realizzare presentazioni e dimostrazioni ad alto impatto, capaci di stupire il cliente e comunicare innovazione. Uno spazio flessibile, pensato per creare, progettare e collaborare con il tuo team, anche a distanza.  
           </div>
-          <div className="text-[#082239] text-sm leading-none" style={{ fontWeight: 400 }}>
+          <div className="text-white text-sm leading-none" style={{ fontWeight: 400 }}>
           Le soluzioni collaborative di ZEBRA rispondono a tutte queste esigenze, combinando tecnologia avanzata e design funzionale per supportare il lavoro ibrido, potenziandolo. 
           </div>
           <div className="text-[#082239] text-sm leading-none" style={{ fontWeight: 400 }}>

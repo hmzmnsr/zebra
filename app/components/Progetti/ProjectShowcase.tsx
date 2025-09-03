@@ -141,21 +141,10 @@ const ProjectShowcase = () => {
         </div>
       </div>
 
-               {/* Third Project - Image Left, Content Right */}
+               {/* Third Project - Content Left, Image Right */}
          <div className="max-w-8xl mx-auto">
            <div className="bg-gray-100 rounded-lg px-6 md:px-8 mb-16 overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-center">
-            
-            {/* Project Image - Takes 3 columns (1.2 parts) */}
-            <div className="relative lg:col-span-3">
-              <Image
-                src="/assets/progetti/3.jpg"
-                alt="Project Three"
-                width={600}
-                height={400}
-                className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
-              />
-            </div>
             
             {/* Project Content - Takes 2 columns (0.8 parts) */}
             <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
@@ -194,17 +183,28 @@ const ProjectShowcase = () => {
                 </Link>
               </div>
             </div>
+            
+            {/* Project Image - Takes 3 columns (1.2 parts) */}
+            <div className="relative lg:col-span-3">
+              <Image
+                src="/assets/progetti/3.jpg"
+                alt="Project Three"
+                width={600}
+                height={400}
+                className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
+              />
+            </div>
           </div>
         </div>
       </div>
 
-               {/* Fourth Project - Content Left, Image Right on Desktop Only */}
+               {/* Fourth Project - Image Left, Content Right */}
          <div className="max-w-8xl mx-auto">
            <div className="bg-gray-100 rounded-lg px-6 md:px-8 mb-16 overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-center">
             
-            {/* Project Image - Takes 3 columns (1.2 parts) - On mobile: first, On desktop: second */}
-            <div className="relative lg:col-span-3 lg:order-2">
+            {/* Project Image - Takes 3 columns (1.2 parts) */}
+            <div className="relative lg:col-span-3">
               <Image
                 src="/assets/progetti/4.jpg"
                 alt="Project Four"
@@ -214,8 +214,8 @@ const ProjectShowcase = () => {
               />
             </div>
             
-            {/* Project Content - Takes 2 columns (0.8 parts) - On mobile: second, On desktop: first */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:order-1 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
+            {/* Project Content - Takes 2 columns (0.8 parts) */}
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
                              {/* Project Header */}
                <div className="space-y-0">
                  <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
@@ -255,193 +255,194 @@ const ProjectShowcase = () => {
         </div>
       </div>
       
-      {/* Fifth Project - Image Left, Content Right */}
-      <div className="max-w-8xl mx-auto">
-        <div className="bg-gray-100 rounded-lg px-6 md:px-8 mb-16 overflow-hidden">
-          <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-center">
-            
-            {/* Project Image - Takes 3 columns (1.2 parts) */}
-            <div className="relative lg:col-span-3">
-              <Image
-                src="/assets/progetti/5.jpg"
-                alt="Project Five"
-                width={600}
-                height={400}
-                className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
-              />
-            </div>
-            
-            {/* Project Content - Takes 2 columns (0.8 parts) */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
-                             {/* Project Header */}
-               <div className="space-y-0">
-                 <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
-                 Soluzioni Medico-Terapeutiche
-                 </h2>
-                 <h3 style={{ fontWeight: 250 }} className="text-2xl md:text-4xl text-[#082239]">
-                 Sala Ulisse, Centro TOG Milano
-                 </h3>
-               </div>
-               
-               {/* Project Description */}
-               <div className="text-[#082239] leading-tight text-sm md:text-base mt-4 md:mt-5">
-                 <p style={{ fontWeight: 407 }} className="leading-none">
-                 Il Centro TOG di Milano è un&apos;eccellenza nel trattamento di bambini con disabilità cognitive e neurologiche, da sempre in prima linea nell&apos;adozione di approcci innovativi in campo terapeutico. 
-                 </p>
-                 
-                 <p style={{ fontWeight: 407 }} className="leading-none">
-                 ZEBRA ha scelto di diventare partner attivo del progetto, mettendo a disposizione le proprie competenze tecnologico-esperienziali. Dalla collaborazione con le terapeute del centro è nata una stanza immersiva interattiva, un ambiente progettato a quattro mani per offrire ai piccoli pazienti trattamenti personalizzati e potenziati, calibrati sulle esigenze individuali. 
-                 </p>
-                 
-                 <p style={{ fontWeight: 407 }} className="leading-none">
-                 Grazie alla combinazione di immersività, interattività e know-how terapeutico, abbiamo realizzato una sala dove i bambini possono esplorare scenari 3D coinvolgenti – dai fondali marini ai boschi innevati – pensati per stimolare i sensi, favorire l&apos;apprendimento e regalare momenti di libertà ed emozione. 
-                 </p>
-
-                 <p style={{ fontWeight: 407 }} className="leading-none">
-                 Un progetto pionieristico che ha attirato l&apos;attenzione del settore e dei media, aprendo nuove prospettive sull&apos;uso delle tecnologie immersive in ambito medico-terapeutico. Un percorso di crescita che prosegue, alimentato dalla collaborazione continua con gli amici di TOG e dall&apos;impegno condiviso nell&apos;innovazione al servizio delle persone. 
-                 </p>
-               </div>
-              
-              {/* Call to Action Button - Positioned at bottom right */}
-              <div className="text-center md:text-right mt-auto">
-              <Link href="/progetti/sala-ulisse-centro-tog-milano" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
-                <span>Scopri di più</span>
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                </svg>
-              </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      {/* Sixth Project - Content Left, Image Right on Desktop Only */}
-      <div className="max-w-8xl mx-auto">
-        <div className="bg-gray-100 rounded-lg px-6 md:px-8 mb-8 overflow-hidden">
-          <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-center">
-            
-            {/* Project Image - Takes 3 columns (1.2 parts) - On mobile: first, On desktop: second */}
-            <div className="relative lg:col-span-3 lg:order-2">
-              <Image
-                src="/assets/progetti/6.jpg"
-                alt="Project Six"
-                width={600}
-                height={400}
-                className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
-              />
-            </div>
-            
-            {/* Project Content - Takes 2 columns (0.8 parts) - On mobile: second, On desktop: first */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:order-1 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
-                             {/* Project Header */}
-               <div className="space-y-0">
-                 <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
-                 Soluzioni per eventi
-                 </h2>
-                 <h3 style={{ fontWeight: 250 }} className="text-2xl md:text-4xl text-[#082239]">
-                 Immersive Runway Pierre Cardin, Parigi e Guyana francese 
-                 </h3>
-               </div>
-               
-               {/* Project Description */}
-               <div className="text-[#082239] leading-tight text-sm md:text-base mt-4 md:mt-5">
-                 <p style={{ fontWeight: 407 }} className="leading-none">
-                 Un lanciatore spaziale, una maison leggendaria, l&apos;Agenzia Spaziale Europea e la visione creativa di ZEBRA. 
-                 </p>
-                 
-                 <p style={{ fontWeight: 407 }} className="leading-none">
-                 Da questo connubio è nato uno degli eventi più spettacolari e audaci degli ultimi anni: due sfilate gemelle firmate Pierre Cardin, andate in scena a Parigi e nella Guyana Francese, all&apos;ombra dell&apos;iconico razzo Ariane 5. 
-                 </p>
-                 
-                 <p style={{ fontWeight: 407 }} className="leading-none">
-                 ZEBRA ha curato la realizzazione di un videomapping monumentale sul razzo, concepito per raccontare – attraverso immagini, luce e movimento – la narrazione alla base della sfilata, culminata con un epilogo simbolico: il lancio verso lo spazio. 
-                 </p>
-
-                 <p style={{ fontWeight: 407 }} className="leading-none">
-                 Oltre 300.000 lumen hanno illuminato le notti parigine e sudamericane per uno show trasmesso in diretta mondiale, dove la tecnologia ZEBRA è stata chiamata a garantire prestazioni impeccabili e massima affidabilità, in un contesto tecnico e simbolico di altissimo livello. 
-                 </p>
-               </div>
-              
-              {/* Call to Action Button - Positioned at bottom right */}
-              <div className="text-center md:text-right lg:text-right mt-auto">
-              <Link href="/progetti/immersive-runway-pierre-cardin" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
-                <span>Scopri di più</span>
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                </svg>
-              </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-        {/* Fifth Project - Image Left, Content Right */}
-        <div className="max-w-8xl mx-auto">
-          <div className="bg-gray-100 rounded-lg px-6 md:px-8 mb-12 overflow-hidden">
-            <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-center">
-              
-              {/* Project Image - Takes 3 columns (1.2 parts) */}
-              <div className="relative lg:col-span-3">
-                <Image
-                  src="/assets/progetti/7.jpg"
-                  alt="Project Five"
-                  width={600}
-                  height={400}
-                  className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
-                />
-              </div>
-              
-              {/* Project Content - Takes 2 columns (0.8 parts) */}
-              <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
-                                 {/* Project Header */}
-                 <div className="space-y-0">
-                   <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
-                   Simulatori e Demo Center 
-                   </h2>
-                   <h3 style={{ fontWeight: 250 }} className="text-2xl md:text-4xl text-[#082239]">
-                   AGCO Agridome
-                   </h3>
-                 </div>
-                 
-                 {/* Project Description */}
-                 <div className="text-[#082239] leading-tight text-sm md:text-base mt-4 md:mt-5">
-                   <p style={{ fontWeight: 407 }} className="leading-none">
-                   Il colosso della meccanizzazione agricola AGCO ha affidato a ZEBRA e Mosaico una doppia sfida: realizzare un simulatore per la trebbia di punta IDEAL e progettare un demo center esperienziale capace di trasmettere il know-how e l&apos;identità del brand. 
-                   </p>
-                   
-                   <p style={{ fontWeight: 407 }} className="leading-none">
-                   Per il simulatore, abbiamo sviluppato un sistema visuale immersivo che replica con precisione il lavoro in campo, utilizzando la cabina reale della trebbia come superficie di proiezione e centro di comando. Questo strumento innovativo, pensato per la formazione di clienti e forza vendita, viene utilizzato in eventi internazionali, permettendo di testare il prodotto senza uscire dalla sala o dalla fiera. 
-                   </p>
-                   
-                   <p style={{ fontWeight: 407 }} className="leading-none">
-                   Parallelamente, presso l&apos;AGCO Agridome di Breganze, abbiamo creato un percorso immersivo che guida il visitatore attraverso tutte le fasi di sviluppo del prodotto – dalla prototipazione al rilascio. Sale immersive, supporti digitali interattivi e videomapping su mockup trasformano la visita in un&apos;esperienza coinvolgente e memorabile, pensata per rafforzare il legame con il marchio e valorizzare l&apos;eccellenza tecnologica del gruppo AGCO. 
-                   </p>
-                 </div>
-                
-                {/* Call to Action Button - Positioned at bottom right */}
-                <div className="text-center md:text-right lg:text-right mt-auto">
-                <Link href="/progetti/agco-agridome" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
-                  <span>Scopri di più</span>
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                  </svg>
-                </Link>
+             {/* Fifth Project - Content Left, Image Right */}
+       <div className="max-w-8xl mx-auto">
+         <div className="bg-gray-100 rounded-lg px-6 md:px-8 mb-16 overflow-hidden">
+           <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-center">
+             
+             {/* Project Content - Takes 2 columns (0.8 parts) */}
+             <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
+                              {/* Project Header */}
+                <div className="space-y-0">
+                  <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
+                  Soluzioni Medico-Terapeutiche
+                  </h2>
+                  <h3 style={{ fontWeight: 250 }} className="text-2xl md:text-4xl text-[#082239]">
+                  Sala Ulisse, Centro TOG Milano
+                  </h3>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
+                
+                {/* Project Description */}
+                <div className="text-[#082239] leading-tight text-sm md:text-base mt-4 md:mt-5">
+                  <p style={{ fontWeight: 407 }} className="leading-none">
+                  Il Centro TOG di Milano è un&apos;eccellenza nel trattamento di bambini con disabilità cognitive e neurologiche, da sempre in prima linea nell&apos;adozione di approcci innovativi in campo terapeutico. 
+                  </p>
+                  
+                  <p style={{ fontWeight: 407 }} className="leading-none">
+                  ZEBRA ha scelto di diventare partner attivo del progetto, mettendo a disposizione le proprie competenze tecnologico-esperienziali. Dalla collaborazione con le terapeute del centro è nata una stanza immersiva interattiva, un ambiente progettato a quattro mani per offrire ai piccoli pazienti trattamenti personalizzati e potenziati, calibrati sulle esigenze individuali. 
+                  </p>
+                  
+                  <p style={{ fontWeight: 407 }} className="leading-none">
+                  Grazie alla combinazione di immersività, interattività e know-how terapeutico, abbiamo realizzato una sala dove i bambini possono esplorare scenari 3D coinvolgenti – dai fondali marini ai boschi innevati – pensati per stimolare i sensi, favorire l&apos;apprendimento e regalare momenti di libertà ed emozione. 
+                  </p>
+
+                  <p style={{ fontWeight: 407 }} className="leading-none">
+                  Un progetto pionieristico che ha attirato l&apos;attenzione del settore e dei media, aprendo nuove prospettive sull&apos;uso delle tecnologie immersive in ambito medico-terapeutico. Un percorso di crescita che prosegue, alimentato dalla collaborazione continua con gli amici di TOG e dall&apos;impegno condiviso nell&apos;innovazione al servizio delle persone. 
+                  </p>
+                </div>
+               
+               {/* Call to Action Button - Positioned at bottom right */}
+               <div className="text-center md:text-right mt-auto">
+               <Link href="/progetti/sala-ulisse-centro-tog-milano" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+                 <span>Scopri di più</span>
+                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                 </svg>
+               </Link>
+               </div>
+             </div>
+             
+             {/* Project Image - Takes 3 columns (1.2 parts) */}
+             <div className="relative lg:col-span-3">
+               <Image
+                 src="/assets/progetti/5.jpg"
+                 alt="Project Five"
+                 width={600}
+                 height={400}
+                 className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
+               />
+             </div>
+           </div>
+         </div>
+       </div>
       
-      {/* Sixth Project - Content Left, Image Right on Desktop Only */}
+             {/* Sixth Project - Image Left, Content Right */}
+       <div className="max-w-8xl mx-auto">
+         <div className="bg-gray-100 rounded-lg px-6 md:px-8 mb-8 overflow-hidden">
+           <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-center">
+             
+             {/* Project Image - Takes 3 columns (1.2 parts) */}
+             <div className="relative lg:col-span-3">
+               <Image
+                 src="/assets/progetti/6.jpg"
+                 alt="Project Six"
+                 width={600}
+                 height={400}
+                 className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
+               />
+             </div>
+             
+             {/* Project Content - Takes 2 columns (0.8 parts) */}
+             <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
+                              {/* Project Header */}
+                <div className="space-y-0">
+                  <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
+                  Soluzioni per eventi
+                  </h2>
+                  <h3 style={{ fontWeight: 250 }} className="text-2xl md:text-4xl text-[#082239]">
+                  Immersive Runway Pierre Cardin, Parigi e Guyana francese 
+                  </h3>
+                </div>
+                
+                {/* Project Description */}
+                <div className="text-[#082239] leading-tight text-sm md:text-base mt-4 md:mt-5">
+                  <p style={{ fontWeight: 407 }} className="leading-none">
+                  Un lanciatore spaziale, una maison leggendaria, l&apos;Agenzia Spaziale Europea e la visione creativa di ZEBRA. 
+                  </p>
+                  
+                  <p style={{ fontWeight: 407 }} className="leading-none">
+                  Da questo connubio è nato uno degli eventi più spettacolari e audaci degli ultimi anni: due sfilate gemelle firmate Pierre Cardin, andate in scena a Parigi e nella Guyana Francese, all&apos;ombra dell&apos;iconico razzo Ariane 5. 
+                  </p>
+                  
+                  <p style={{ fontWeight: 407 }} className="leading-none">
+                  ZEBRA ha curato la realizzazione di un videomapping monumentale sul razzo, concepito per raccontare – attraverso immagini, luce e movimento – la narrazione alla base della sfilata, culminata con un epilogo simbolico: il lancio verso lo spazio. 
+                  </p>
+
+                  <p style={{ fontWeight: 407 }} className="leading-none">
+                  Oltre 300.000 lumen hanno illuminato le notti parigine e sudamericane per uno show trasmesso in diretta mondiale, dove la tecnologia ZEBRA è stata chiamata a garantire prestazioni impeccabili e massima affidabilità, in un contesto tecnico e simbolico di altissimo livello. 
+                  </p>
+                </div>
+               
+               {/* Call to Action Button - Positioned at bottom right */}
+               <div className="text-center md:text-right lg:text-right mt-auto">
+               <Link href="/progetti/immersive-runway-pierre-cardin" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+                 <span>Scopri di più</span>
+                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                 </svg>
+               </Link>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+
+
+      
+                 {/* AGCO Project - Content Left, Image Right */}
+         <div className="max-w-8xl mx-auto">
+           <div className="bg-gray-100 rounded-lg px-6 md:px-8 mb-12 overflow-hidden">
+             <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-center">
+               
+               {/* Project Content - Takes 2 columns (0.8 parts) */}
+               <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
+                                  {/* Project Header */}
+                  <div className="space-y-0">
+                    <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
+                    Simulatori e Demo Center 
+                    </h2>
+                    <h3 style={{ fontWeight: 250 }} className="text-2xl md:text-4xl text-[#082239]">
+                    AGCO Agridome
+                    </h3>
+                  </div>
+                  
+                  {/* Project Description */}
+                  <div className="text-[#082239] leading-tight text-sm md:text-base mt-4 md:mt-5">
+                    <p style={{ fontWeight: 407 }} className="leading-none">
+                    Il colosso della meccanizzazione agricola AGCO ha affidato a ZEBRA e Mosaico una doppia sfida: realizzare un simulatore per la trebbia di punta IDEAL e progettare un demo center esperienziale capace di trasmettere il know-how e l&apos;identità del brand. 
+                    </p>
+                    
+                    <p style={{ fontWeight: 407 }} className="leading-none">
+                    Per il simulatore, abbiamo sviluppato un sistema visuale immersivo che replica con precisione il lavoro in campo, utilizzando la cabina reale della trebbia come superficie di proiezione e centro di comando. Questo strumento innovativo, pensato per la formazione di clienti e forza vendita, viene utilizzato in eventi internazionali, permettendo di testare il prodotto senza uscire dalla sala o dalla fiera. 
+                    </p>
+                    
+                    <p style={{ fontWeight: 407 }} className="leading-none">
+                    Parallelamente, presso l&apos;AGCO Agridome di Breganze, abbiamo creato un percorso immersivo che guida il visitatore attraverso tutte le fasi di sviluppo del prodotto – dalla prototipazione al rilascio. Sale immersive, supporti digitali interattivi e videomapping su mockup trasformano la visita in un&apos;esperienza coinvolgente e memorabile, pensata per rafforzare il legame con il marchio e valorizzare l&apos;eccellenza tecnologica del gruppo AGCO. 
+                    </p>
+                  </div>
+                 
+                 {/* Call to Action Button - Positioned at bottom right */}
+                 <div className="text-center md:text-right lg:text-right mt-auto">
+                 <Link href="/progetti/agco-agridome" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+                   <span>Scopri di più</span>
+                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                   </svg>
+                 </Link>
+                 </div>
+               </div>
+               
+               {/* Project Image - Takes 3 columns (1.2 parts) */}
+               <div className="relative lg:col-span-3">
+                 <Image
+                   src="/assets/progetti/7.jpg"
+                   alt="Project Five"
+                   width={600}
+                   height={400}
+                   className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
+                 />
+               </div>
+             </div>
+           </div>
+         </div>
+      
+      {/* Project - Content Left, Image Right on Desktop Only */}
       <div className="max-w-8xl mx-auto">
         <div className="bg-gray-100 rounded-lg px-6 md:px-8 mb-16 overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-center">
             
-            {/* Project Image - Takes 3 columns (1.2 parts) - On mobile: first, On desktop: second */}
-            <div className="relative lg:col-span-3 lg:order-2">
+            {/* Project Image - Takes 3 columns (1.2 parts) - On mobile: first, On desktop: first */}
+            <div className="relative lg:col-span-3 lg:order-1">
               <Image
                 src="/assets/progetti/8.jpg"
                 alt="Project Six"
@@ -451,8 +452,8 @@ const ProjectShowcase = () => {
               />
             </div>
             
-            {/* Project Content - Takes 2 columns (0.8 parts) - On mobile: second, On desktop: first */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:order-1 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
+            {/* Project Content - Takes 2 columns (0.8 parts) - On mobile: second, On desktop: second */}
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:order-2 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
                              {/* Project Header */}
                <div className="space-y-0">
                  <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
@@ -495,21 +496,10 @@ const ProjectShowcase = () => {
 
 
 
-       {/* Fifth Project - Image Left, Content Right */}
+       {/* Project - Image Left, Content Right */}
        <div className="max-w-8xl mx-auto">
         <div className="bg-gray-100 rounded-lg px-6 md:px-8 mb-8 overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-center">
-            
-            {/* Project Image - Takes 3 columns (1.2 parts) */}
-            <div className="relative lg:col-span-3">
-              <Image
-                src="/assets/progetti/9.jpg"
-                alt="Project Five"
-                width={600}
-                height={400}
-                className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
-              />
-            </div>
             
             {/* Project Content - Takes 2 columns (0.8 parts) */}
             <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
@@ -548,6 +538,17 @@ const ProjectShowcase = () => {
                 </svg>
               </Link>
               </div>
+            </div>
+            
+            {/* Project Image - Takes 3 columns (1.2 parts) */}
+            <div className="relative lg:col-span-3">
+              <Image
+                src="/assets/progetti/9.jpg"
+                alt="Project Five"
+                width={600}
+                height={400}
+                className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
+              />
             </div>
           </div>
         </div>
