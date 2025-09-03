@@ -21,13 +21,13 @@ const CaseHero = () => {
         {/* Body Text - Two paragraphs with generous line spacing */}
         <div className="max-w-4xl space-y-6 sm:space-y-8">
           {/* First Paragraph */}
-          <p style={{ fontWeight: 300 }} className="text-base sm:text-lg md:text-lg text-gray-100 leading-relaxed font-sans">
+          <p style={{ fontWeight: 300 }} className="text-base sm:text-lg md:text-lg text-gray-100 leading-none font-sans">
           Uno spazio progettato per portare meeting e presentazioni a un nuovo livello di efficacia e coinvolgimento. Al centro c&apos;è la tecnologia ZEBRA, integrata in modo elegante ma invisibile, per offrire un&apos;interfaccia intuitiva e un&apos;infrastruttura avanzata. 
 
           </p>
           
           {/* Second Paragraph */}
-          <p style={{ fontWeight: 300 }} className="text-base sm:text-lg md:text-lg text-gray-100 leading-relaxed font-sans">
+          <p style={{ fontWeight: 300 }} className="text-base sm:text-lg md:text-lg text-gray-100 leading-none font-sans">
           Ogni dettaglio, dal controllo centralizzato al supporto tecnico in tempo reale, è progettato per offrire prestazioni elevate e continuità operativa.
 
           </p>

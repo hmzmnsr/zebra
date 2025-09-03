@@ -21,7 +21,7 @@ const ServiziHero = () => {
         {/* Body Text - Two paragraphs with generous line spacing */}
         <div className="max-w-3xl space-y-8">
           {/* First Paragraph */}
-          <p style={{ fontWeight: 300 }} className="text-base md:text-lg text-gray-100 leading-tight font-sans">
+          <p style={{ fontWeight: 300 }} className="text-base md:text-lg text-gray-100 leading-none font-sans">
           Immaginiamo e realizziamo esperienze che fondono tecnologia e design, creando mondi immersivi, spazi collaborativi e contenuti capaci di emozionare. Con il nostro software trasformiamo la complessità in soluzioni semplici e intuitive, per connettere persone, idee e strumenti in un flusso creativo senza confini.
           </p>
         </div>

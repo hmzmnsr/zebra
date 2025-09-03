@@ -18,7 +18,7 @@ const ContattiHero = () => {
       {/* Body Text - Two paragraphs with generous line spacing */}
       <div className="max-w-5xl pt-8 pb-16">
         {/* First Paragraph */}
-        <p style={{ fontWeight: 300 }} className="text-base md:text-lg text-gray-100 leading-relaxed font-sans">
+        <p style={{ fontWeight: 300 }} className="text-base md:text-lg text-gray-100 leading-none font-sans">
         Se hai una visione, siamo pronti ad ascoltarla. Contattaci. Il resto lo costruiremo insieme.
         </p>
         

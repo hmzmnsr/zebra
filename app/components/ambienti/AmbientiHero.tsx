@@ -23,7 +23,7 @@ const AmbientiHero = () => {
         {/* Body Text - Two paragraphs with generous line spacing */}
         <div className="max-w-4xl space-y-8">
           {/* First Paragraph */}
-          <p style={{ fontWeight: 300 }} className="text-base md:text-lg text-gray-100 leading-relaxed font-sans">
+          <p style={{ fontWeight: 300 }} className="text-base md:text-lg text-gray-100 leading-none font-sans">
           Creiamo ambienti che trasformano il modo di collaborare. Non semplici sale riunioni, ma infrastrutture multimediali flessibili capaci di potenziare la produttività: dalla presentazione al design thinking, dal training alla conferenza, ogni esperienza diventa più chiara, interattiva e condivisa. 
 
           </p>

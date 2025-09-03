@@ -21,7 +21,7 @@ const ProgettiHero = () => {
         {/* Body Text - Two paragraphs with generous line spacing */}
         <div className="max-w-5xl space-y-8">
           {/* First Paragraph */}
-          <p style={{ fontWeight: 300 }} className="text-base md:text-lg text-gray-100 leading-relaxed font-sans">
+          <p style={{ fontWeight: 300 }} className="text-base md:text-lg text-gray-100 leading-none font-sans">
             Una selezione delle nostre realizzazioni più significative.
           </p>
           

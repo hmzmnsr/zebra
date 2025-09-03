@@ -23,7 +23,7 @@ const CaseHero = () => {
           {/* First Paragraph */}
           <br/>
 
-          <p style={{ fontWeight: 300 }} className="text-sm sm:text-sm md:text-base lg:text-lg text-gray-100 leading-relaxed md:leading-tight font-sans font-thin">
+          <p style={{ fontWeight: 300 }} className="text-sm sm:text-sm md:text-base lg:text-lg text-gray-100 leading-none font-sans font-thin">
           Per presentare il nuovo avvitatore Oil-Less, Beta Utensili ha scelto un formato capace di unire precisione tecnica e forte impatto visivo: un video 3D pensato per una diffusione multicanale dai social alle fiere, fino alle presentazioni promo e al canale YouTube.
           </p>
         </div>

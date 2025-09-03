@@ -23,7 +23,7 @@ const ProduzioneHero = () => {
         {/* Body Text - Two paragraphs with generous line spacing */}
         <div className="max-w-4xl space-y-8">
           {/* First Paragraph */}
-                    <p style={{ fontWeight: 300 }} className="text-base md:text-lg text-gray-100 leading-relaxed font-sans">
+                    <p style={{ fontWeight: 300 }} className="text-base md:text-lg text-gray-100 leading-none font-sans">
           Diamo forma alle tue idee unendo tecnologie avanzate e creatività senza limiti: realizziamo contenuti AV e 3D professionali per ogni ambito applicativo. Dalla modellazione all&apos;editing, passando per riprese dedicate agli output immersivi e sound design, offriamo produzioni complete pensate per lasciare il segno. 
           </p>
         </div>

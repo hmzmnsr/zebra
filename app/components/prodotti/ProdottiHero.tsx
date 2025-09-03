@@ -18,12 +18,12 @@ const ProdottiHero = () => {
         {/* Body Text - Two paragraphs with generous line spacing */}
         <div className="max-w-4xl space-y-8">
           {/* First Paragraph */}
-          <p style={{ fontWeight: 300 }} className="text-base md:text-lg text-gray-100 leading-relaxed font-sans">
+          <p style={{ fontWeight: 300 }} className="text-base md:text-lg text-gray-100 leading-none font-sans">
             Produciamo mediaserver di controllo in grado di gestire qualsiasi infrastruttura multimediale: ARES Media Engine.
           </p>
           
           {/* Second Paragraph */}
-          <p style={{ fontWeight: 300 }} className="text-base md:text-lg text-gray-100 leading-relaxed font-sans">
+          <p style={{ fontWeight: 300 }} className="text-base md:text-lg text-gray-100 leading-none font-sans">
             A seconda dell&apos;applicazione, ogni mediaserver è corredato dai nostri software proprietari, sviluppati internamente per garantire massima efficienza e integrazione.
           </p>
         </div>

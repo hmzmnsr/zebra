@@ -21,13 +21,13 @@ const CaseHero = () => {
         {/* Body Text - Two paragraphs with generous line spacing */}
         <div className="max-w-4xl space-y-6 sm:space-y-8">
           {/* First Paragraph */}
-          <p style={{ fontWeight: 300 }} className="text-base sm:text-lg md:text-lg text-gray-100 leading-relaxed font-sans font-thin">
+          <p style={{ fontWeight: 300 }} className="text-base sm:text-lg md:text-lg text-gray-100 leading-none font-sans font-thin">
           All&apos;interno dei nuovi headquarters di Beta Utensili, abbiamo progettato un sistema tecnologico su misura per la Sala del Consiglio di Amministrazione: un ambiente strategico.
 
           </p>
           
           {/* Second Paragraph */}
-          <p style={{ fontWeight: 300 }} className="text-base sm:text-lg md:text-lg text-gray-100 leading-relaxed font-sans font-thin">
+          <p style={{ fontWeight: 300 }} className="text-base sm:text-lg md:text-lg text-gray-100 leading-none font-sans font-thin">
            Ogni dettaglio, dalla qualità audio-video al controllo da tablet, è pensato per garantire riunioni fluide, presentazioni efficaci e una comunicazione impeccabile con i partecipante da remoto — il tutto in un contesto di forte impatto estetico e simbolico.
 
           </p>
