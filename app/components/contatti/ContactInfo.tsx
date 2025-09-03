@@ -2,7 +2,7 @@
 
 const ContactInfo = () => {
   return (
-    <section className="w-full bg-[#1a1f2e] flex items-center py-20">
+    <section className="w-full bg-[linear-gradient(to_bottom_left,#1D2029_0%,#1D2029_70%,#39414c_100%)] flex items-center py-20">
       <div className="w-full">
         {/* Horizontal line at top third */}
         <div className="h-px bg-gray-400 mb-16 ml-40"></div>

@@ -27,7 +27,7 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="w-full bg-gradient-to-b from-[#222222] from-[5%] via-[#24252c] to-[#1a1f2e] to-[95%] py-16">
+    <section className="w-full bg-[linear-gradient(to_bottom_left,#222222_0%,#222222_40%,#1a1f2e_100%)] py-16">
       <div className="w-full mx-auto px-6 sm:px-8 lg:px-12">
                  {/* Container Card */}
          <div className="bg-white border border-[#E5E7EB] shadow-[0_2px_12px_rgba(0,0,0,0.05)] pt-8 sm:pt-10 lg:pt-6 px-8 sm:px-10 lg:px-6 pb-0 relative max-w-6xl mx-auto">
