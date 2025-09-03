@@ -22,10 +22,10 @@ const NewImageSection = () => {
 
             {/* Right Content - Text */}
             <div className="order-2 pl-0 sm:pl-4 md:pl-6 lg:pl-8">
-              <h3 className="text-black text-sm sm:text-md font-thin leading-extralight px-0 sm:px-4 md:px-6 lg:pl-16 mb-3 sm:mb-4">
+              <h3 className="text-[#082239] text-sm sm:text-md px-0 sm:px-4 md:px-6 lg:pl-16 mb-3 sm:mb-1" style={{ fontWeight: 420 }}>
               Tecnologia immersiva per raccontare, coinvolgere, vincere
               </h3>
-              <p className="text-2xl sm:text-3xl md:text-4xl lg:text-3xl font-extralight text-black leading-tight px-0 sm:px-4 md:px-6 lg:pl-16">
+              <p className="text-2xl sm:text-3xl md:text-4xl lg:text-3xl font-extralight text-[#082239] leading-none px-0 sm:px-4 md:px-6 lg:pl-16" style={{ fontWeight: 250 }}>
               Un&apos;esperienza visiva<br/> emozionante, visitata da migliaia <br/> di persone, che ha permesso a <br/> EPSON di aggiudicarsi il premio <br/> come miglior stand della <br/> manifestazione. 
               </p>
             </div>
