@@ -14,7 +14,7 @@ const PowerToolSection = () => {
             Tecnologia, design e strategia per ridefinire il futuro del lavoro.
             </p>
             <p className="text-[#fbfdff] leading-none text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl leading-tight" style={{ fontWeight: 250 }}>
-            Un approccio esperienziale agli spazi collaborativi potenzia l&apos;engagement, accelera i processi decisionali e rende memorabile ogni interazione.
+            Un approccio esperienziale agli<br/> spazi collaborativi potenzia l&apos;engagement, accelera i<br/> processi decisionali e rende memorabile ogni interazione.
             </p>
           </div>
         </div>

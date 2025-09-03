@@ -22,22 +22,21 @@ const UnderImageSection = () => {
           {/* Right Side - All Content (Header + Text) */}
           <div className="lg:col-span-3 space-y-6 sm:space-y-8">
             {/* Header Area */}
-            <div className="leading-tight py-12 sm:py-16 md:py-20">
-              <h3 className="text-black text-xs leading-tight mb-2 sm:mb-3" style={{ fontWeight: 400 }}>
+            <div className="leading-none py-12 sm:py-16 md:py-20">
+              <h3 className="text-[#082239] text-xs leading-none mb-2 sm:mb-3" style={{ fontWeight: 400 }}>
               Dal tessuto al cosmo.
               </h3>
-              <h2 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl text-black leading-tight" style={{ fontWeight: 250 }}>
+              <h2 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl text-[#082239] leading-none" style={{ fontWeight: 250 }}>
               La moda guarda alle stelle
               </h2>
             </div>
 
             {/* Text Content */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-              <div className="text-black text-sm leading-tight" style={{ fontWeight: 400 }}>
+              <div className="text-[#082239] text-sm leading-none" style={{ fontWeight: 400 }}>
                 Un lanciatore spaziale, una maison leggendaria, l&apos;Agenzia Spaziale Europea e la visione creativa di ZEBRA.<br/><br/>Da questo connubio è nato uno degli eventi più spettacolari e audaci degli ultimi anni: due sfilate gemelle firmate Pierre Cardin, andate in scena a Parigi e nella Guyana Francese, all&apos;ombra dell&apos;iconico razzo Ariane 5. 
-
               </div>
-              <div className="text-black text-sm leading-tight" style={{ fontWeight: 400 }}>
+              <div className="text-[#082239] text-sm leading-none" style={{ fontWeight: 400 }}>
               ZEBRA ha curato la realizzazione di un videomapping monumentale sul razzo, concepito per raccontare,  attraverso immagini, luce e movimento, la narrazione alla base della sfilata, culminata con un epilogo simbolico: il lancio verso lo spazio. <br/><br/>Oltre 300.000 lumen hanno illuminato le notti parigine e sudamericane per uno show trasmesso in diretta mondiale, dove la tecnologia ZEBRA è stata chiamata a garantire prestazioni impeccabili e massima affidabilità, in un contesto tecnico e simbolico di altissimo livello. 
               </div>
             </div>

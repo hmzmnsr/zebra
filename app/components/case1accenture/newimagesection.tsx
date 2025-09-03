@@ -11,11 +11,11 @@ const NewImageSection = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8 sm:gap-12 lg:gap-0">
             {/* Left Content - Text */}
             <div className="order-1 mb-8 lg:mb-0 pl-0 sm:pl-8 md:pl-16 lg:pl-24">
-              <h3 className="text-black text-sm sm:text-md font-thin leading-extralight px-0 sm:px-4 md:px-6 lg:pr-32 mb-3 sm:mb-4">
+              <h3 className="text-[#082239] text-sm sm:text-md px-0 sm:px-4 md:px-6 lg:pr-32 mb-3 sm:mb-1" style={{ fontWeight: 420 }}>
               Al tuo fianco per garantire continuità ed affidabilità
               </h3>
-              <p className="text-2xl sm:text-3xl md:text-4xl lg:text-3xl font-extralight text-black leading-tight px-0 sm:px-4 md:px-6 lg:pr-32">
-              Il supporto tecnico da remoto assicura assistenza in tempo reale, affinché ogni sessione sia sempre all&apos;altezza delle aspettative.
+              <p className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-extralight text-[#082239] leading-none px-0 sm:px-4 md:px-6 lg:pr-32" style={{ fontWeight: 250 }}>
+              Il supporto tecnico da remoto assicura assistenza in tempo<br/> reale, affinché ogni sessione sia sempre all&apos;altezza delle<br/> aspettative.
               </p>
             </div>
 

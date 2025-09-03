@@ -35,7 +35,7 @@ const ProjectShowcase = () => {
                </div>
                
                {/* Project Description */}
-               <div className="text-[#082239] leading-tight text-sm md:text-base">
+               <div className="text-[#082239] leading-tight text-sm md:text-base mt-4 md:mt-5">
                  <p style={{ fontWeight: 407 }} className="leading-none">
                  Uno spazio progettato per portare meeting e presentazioni a un nuovo livello di efficacia e coinvolgimento
                  </p>
@@ -99,7 +99,7 @@ const ProjectShowcase = () => {
                </div>
                
                {/* Project Description */}
-               <div className="text-[#082239] leading-tight text-sm md:text-base">
+               <div className="text-[#082239] leading-tight text-sm md:text-base mt-4 md:mt-5">
                  <p style={{ fontWeight: 407 }} className="leading-none">
                  In occasione del lancio del rivoluzionario avvitatore Oil-Less, Beta Utensili ci ha affidato la realizzazione di un contenuto 3D ad alto impatto visivo, capace di esprimere l&apos;elevato livello di innovazione tecnica e la raffinatezza progettuale del prodotto.
                  </p>
@@ -128,7 +128,7 @@ const ProjectShowcase = () => {
       
       {/* Quote Section */}
       <div className="bg-white py-16 md:py-32">
-        <div className="max-w-6xl mx-auto px-4">
+        <div className="max-w-6xl mx-auto px-4 mt-4 md:mt-5">
           <p className="text-lg md:text-xl lg:text-4xl text-[#082239] leading-tight font-sans text-center md:text-left pl-0 md:pl-28">
             Quando la conoscenza diventa esperienza, nasce un
           </p>
@@ -170,7 +170,7 @@ const ProjectShowcase = () => {
                </div>
                
                {/* Project Description */}
-               <div className="text-[#082239] leading-tight text-sm md:text-base">
+               <div className="text-[#082239] leading-tight text-sm md:text-base mt-4 md:mt-5">
                  <p style={{ fontWeight: 407 }} className="leading-none">
                    All&apos;interno dei nuovi headquarters di Beta Utensili, ZEBRA è stata incaricata di progettare e realizzare il sistema tecnologico per la sala del Consiglio di amministrazione: uno spazio iconico dove design e funzionalità si incontrano.
                  </p>
@@ -227,7 +227,7 @@ const ProjectShowcase = () => {
                </div>
                
                {/* Project Description */}
-               <div className="text-[#082239] leading-tight text-sm md:text-base">
+               <div className="text-[#082239] leading-tight text-sm md:text-base mt-4 md:mt-5">
                  <p style={{ fontWeight: 407 }} className="leading-none">
                  In occasione della fiera ISE di Barcellona, il nostro partner strategico EPSON, leader mondiale nella videoproiezione, ci ha affidato la progettazione e realizzazione del suo stand immersivo: uno spazio concepito per esaltare versatilità e qualità delle soluzioni di videoproiezione firmate EPSON. 
                  </p>
@@ -284,7 +284,7 @@ const ProjectShowcase = () => {
                </div>
                
                {/* Project Description */}
-               <div className="text-[#082239] leading-tight text-sm md:text-base">
+               <div className="text-[#082239] leading-tight text-sm md:text-base mt-4 md:mt-5">
                  <p style={{ fontWeight: 407 }} className="leading-none">
                  Il Centro TOG di Milano è un&apos;eccellenza nel trattamento di bambini con disabilità cognitive e neurologiche, da sempre in prima linea nell&apos;adozione di approcci innovativi in campo terapeutico. 
                  </p>
@@ -345,7 +345,7 @@ const ProjectShowcase = () => {
                </div>
                
                {/* Project Description */}
-               <div className="text-[#082239] leading-tight text-sm md:text-base">
+               <div className="text-[#082239] leading-tight text-sm md:text-base mt-4 md:mt-5">
                  <p style={{ fontWeight: 407 }} className="leading-none">
                  Un lanciatore spaziale, una maison leggendaria, l&apos;Agenzia Spaziale Europea e la visione creativa di ZEBRA. 
                  </p>
@@ -407,7 +407,7 @@ const ProjectShowcase = () => {
                  </div>
                  
                  {/* Project Description */}
-                 <div className="text-[#082239] leading-tight text-sm md:text-base">
+                 <div className="text-[#082239] leading-tight text-sm md:text-base mt-4 md:mt-5">
                    <p style={{ fontWeight: 407 }} className="leading-none">
                    Il colosso della meccanizzazione agricola AGCO ha affidato a ZEBRA e Mosaico una doppia sfida: realizzare un simulatore per la trebbia di punta IDEAL e progettare un demo center esperienziale capace di trasmettere il know-how e l&apos;identità del brand. 
                    </p>
@@ -464,7 +464,7 @@ const ProjectShowcase = () => {
                </div>
                
                {/* Project Description */}
-               <div className="text-[#082239] leading-tight text-sm md:text-base">
+               <div className="text-[#082239] leading-tight text-sm md:text-base mt-4 md:mt-5">
                  <p style={{ fontWeight: 407 }} className="leading-none">
                  In occasione della mostra &ldquo;Il Codice Leicester&rdquo; di Leonardo da Vinci, la Galleria degli Uffizi di Firenze ha coinvolto il team ZEBRA nella progettazione e realizzazione di exhibit digitali interattivi per immergere i visitatori nell&apos;universo visionario del genio toscano. 
                  </p>
@@ -524,7 +524,7 @@ const ProjectShowcase = () => {
                </div>
                
                {/* Project Description */}
-               <div className="text-[#082239] leading-tight text-sm md:text-base">
+               <div className="text-[#082239] leading-tight text-sm md:text-base mt-4 md:mt-5">
                  <p style={{ fontWeight: 407 }} className="leading-none">
                  Terreni diversi, identità uniche, vini d&apos;eccellenza. 
                  Dai suoli vulcanici di Lanuvio a quelli carichi di salsedine di Alghero, le cantine Tenimenti Leone e Podere Guardia Grande, parte del gruppo Oniverse (Calzedonia), hanno scelto ZEBRA per raccontare il valore dei propri luoghi attraverso storytelling immersivi ad alto impatto emozionale.
