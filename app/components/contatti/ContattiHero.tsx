@@ -2,7 +2,7 @@
 
 const ContattiHero = () => {
   return (
-    <section className="bg-[#222222] text-white py-48 relative">
+    <section className="bg-[#222222] text-white pt-48 pb-20 relative">
     {/* Matte overlay */}
     <div className="absolute inset-0  mix-blend-multiply"></div>
     
@@ -13,9 +13,6 @@ const ContattiHero = () => {
         Contatti
         </h1>
         <div className="flex-1 h-px bg-gray-500"></div>
-      </div>
-      <div className="hidden md:flex justify-end -mt-8 mb-6">
-        <span className="text-xs sm:text-sm text-gray-300">Contatti</span>
       </div>
       
       {/* Body Text - Two paragraphs with generous line spacing */}
