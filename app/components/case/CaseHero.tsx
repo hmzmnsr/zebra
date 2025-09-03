@@ -9,7 +9,7 @@ const CaseHero = () => {
       <div className="px-4 sm:px-6 lg:px-3 relative z-10">
         {/* Header Title with divider line next to it */}
         <div className="flex flex-col md:flex-row items-start md:items-baseline mb-4 sm:mb-2 mt-4 sm:mt-6 md:mt-10">
-          <h1 className="text-xl sm:text-2xl md:text-5xl lg:text-6xl font-sans text-white mr-0 md:mr-4 mb-3 sm:mb-2 md:mb-0 leading-tight">
+          <h1 style={{ fontWeight: 300 }} className="text-xl sm:text-2xl md:text-5xl lg:text-6xl font-sans text-white mr-0 md:mr-4 mb-3 sm:mb-2 md:mb-0 leading-tight">
           Beta Utensili Oil less campaign
           </h1>
           <div className="hidden md:block flex-1 h-px bg-gray-500"></div>
@@ -23,7 +23,7 @@ const CaseHero = () => {
           {/* First Paragraph */}
           <br/>
 
-          <p className="text-sm sm:text-sm md:text-base lg:text-lg text-gray-100 leading-relaxed md:leading-tight font-sans font-thin">
+          <p style={{ fontWeight: 300 }} className="text-sm sm:text-sm md:text-base lg:text-lg text-gray-100 leading-relaxed md:leading-tight font-sans font-thin">
           Per presentare il nuovo avvitatore Oil-Less, Beta Utensili ha scelto un formato capace di unire precisione tecnica e forte impatto visivo: un video 3D pensato per una diffusione multicanale dai social alle fiere, fino alle presentazioni promo e al canale YouTube.
           </p>
         </div>

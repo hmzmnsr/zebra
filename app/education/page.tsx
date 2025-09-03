@@ -11,7 +11,7 @@ export default function Education() {
       <EducationHero />
 
              {/* Prodotti per l'educazione Section */}
-      <section className="bg-white py-16 md:py-24">
+      <section className="bg-[#FBFDFC] py-16 md:py-24">
         <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-thin text-gray-900 mb-6">
             Prodotti per l&apos;educazione
@@ -27,7 +27,7 @@ export default function Education() {
 
 
     {/* Quote Section */}
-    <div className="bg-white py-16 md:py-32">
+    <div className="bg-[#FBFDFC] py-16 md:py-32">
         <div className="max-w-6xl mx-auto px-4">
           <p className="text-lg md:text-xl lg:text-4xl text-gray-900 leading-tight font-sans text-center md:text-left pl-0 md:pl-28">
             Quando la conoscenza diventa esperienza, nasce un

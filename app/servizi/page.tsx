@@ -7,7 +7,7 @@ import ContactCTA from '../components/ContactCTA';
 
 export default function ServiziPage() {
   return (
-    <main>
+    <main className="bg-[#FBFDFC]">
       <ServiziHero />
       <ServiziServices />
       <ServiziFeature />

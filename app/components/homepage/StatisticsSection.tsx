@@ -5,7 +5,7 @@ const StatisticsSection = () => {
     <section 
       className="relative"
       style={{ 
-        background: 'linear-gradient(to bottom, #72ABA3, #ffffff)'
+        background: 'linear-gradient(to bottom, #72ABA3, #FBFDFC)'
       }}
     >
       {/* Top Section with Centered Text */}

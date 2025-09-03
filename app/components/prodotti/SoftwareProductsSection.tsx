@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const SoftwareProductsSection = () => {
   return (
-    <section className="bg-white text-white pb-16">
+    <section className="bg-[#FBFDFC] text-white pb-16">
       <div className="max-w-8xl mx-auto px-8">
         {/* Two-column layout for software products */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">

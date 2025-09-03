@@ -9,7 +9,7 @@ const CaseHero = () => {
       <div className="px-4 sm:px-6 lg:px-3 relative z-10">
         {/* Header Title with divider line next to it */}
         <div className="flex items-baseline mb-8">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-sans text-white mr-4">
+          <h1 style={{ fontWeight: 300 }} className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-sans text-white mr-4">
           AGCO Agridome
           </h1>
           <div className="flex-1 h-px bg-gray-500"></div>
@@ -21,7 +21,7 @@ const CaseHero = () => {
         {/* Body Text - Two paragraphs with generous line spacing */}
         <div className="max-w-4xl space-y-6 sm:space-y-8">
           {/* First Paragraph */}
-          <p className="text-base sm:text-lg md:text-lg text-gray-100 leading-relaxed font-sans font-thin">
+          <p style={{ fontWeight: 300 }} className="text-base sm:text-lg md:text-lg text-gray-100 leading-relaxed font-sans font-thin">
           Il colosso della meccanizzazione agricola AGCO ha affidato a ZEBRA e Mosaico una doppia sfida: realizzare un simulatore per la trebbia di punta IDEAL e progettare un demo center esperienziale capace di trasmettere il know-how e l&apos;identità del brand. 
           </p>
         </div>

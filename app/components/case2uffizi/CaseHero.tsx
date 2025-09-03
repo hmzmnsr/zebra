@@ -9,7 +9,7 @@ const CaseHero = () => {
       <div className="px-4 sm:px-6 lg:px-3 relative z-10">
         {/* Header Title with divider line next to it */}
         <div className="flex flex-col md:flex-row items-start md:items-baseline mb-4 sm:mb-2 mt-4 sm:mt-6 md:mt-10">
-          <h1 className="text-xl sm:text-2xl md:text-5xl lg:text-6xl font-sans text-white mr-0 md:mr-4 mb-3 sm:mb-2 md:mb-0 leading-tight">
+          <h1 style={{ fontWeight: 300 }} className="text-xl sm:text-2xl md:text-5xl lg:text-6xl font-sans text-white mr-0 md:mr-4 mb-3 sm:mb-2 md:mb-0 leading-tight">
           Il Codice Leicester: Galleria degli Uffizi
           </h1>
           <div className="hidden md:block flex-1 h-px bg-gray-500"></div>
@@ -24,7 +24,7 @@ const CaseHero = () => {
         {/* Body Text - Two paragraphs with generous line spacing */}
         <div className="max-w-4xl space-y-4 sm:space-y-0 md:space-y-0">
           {/* First Paragraph */}
-          <p className="text-sm sm:text-sm md:text-base lg:text-lg text-gray-100 leading-relaxed md:leading-tight font-sans font-thin">
+          <p style={{ fontWeight: 300 }} className="text-sm sm:text-sm md:text-base lg:text-lg text-gray-100 leading-relaxed md:leading-tight font-sans font-thin">
           In occasione della mostra &apos;Il Codice Leicester&apos; di Leonardo da Vinci, la Galleria degli Uffizi di<br/> Firenze ha coinvolto il team ZEBRA nella progettazione e realizzazione di exhibit digitali<br/> interattivi per immergere i visitatori nell&apos;universo visionario del genio toscano. 
           </p>
         </div>

@@ -2,7 +2,7 @@
 
 const ServiziQuote = () => {
   return (
-    <section className="bg-white">
+    <section className="bg-[#FBFDFC]">
       <div className="bg-white py-16 md:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-lg md:text-xl lg:text-4xl text-gray-900 leading-tight font-sans text-center lg:text-left lg:pl-28">

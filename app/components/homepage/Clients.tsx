@@ -15,7 +15,7 @@ const Clients = () => {
   ];
 
   return (
-    <section className="bg-white py-16 md:py-32 lg:py-60 flex items-center">
+    <section className="bg-[#FBFDFC] py-16 md:py-32 lg:py-60 flex items-center">
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         {/* Headline */}
         <div className="text-center mb-16 md:mb-24 lg:mb-32">

@@ -44,7 +44,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="IT">
       <body
         className={`${cofoSans.variable} antialiased`}
         suppressHydrationWarning={true}

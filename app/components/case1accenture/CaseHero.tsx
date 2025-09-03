@@ -9,7 +9,7 @@ const CaseHero = () => {
       <div className="px-4 sm:px-6 lg:px-3 relative z-10">
         {/* Header Title with divider line next to it */}
         <div className="flex items-baseline mb-8">
-          <h1 className="text-4xl md:text-6xl font-sans text-white mr-4">
+          <h1 style={{ fontWeight: 300 }} className="text-4xl md:text-6xl font-sans text-white mr-4">
             Accenture Immersive Meeting Space
           </h1>
           <div className="flex-1 h-px bg-gray-500"></div>
@@ -21,13 +21,13 @@ const CaseHero = () => {
         {/* Body Text - Two paragraphs with generous line spacing */}
         <div className="max-w-4xl space-y-6 sm:space-y-8">
           {/* First Paragraph */}
-          <p className="text-base sm:text-lg md:text-lg text-gray-100 leading-relaxed font-sans font-thin">
+          <p style={{ fontWeight: 300 }} className="text-base sm:text-lg md:text-lg text-gray-100 leading-relaxed font-sans">
           Uno spazio progettato per portare meeting e presentazioni a un nuovo livello di efficacia e coinvolgimento. Al centro c&apos;è la tecnologia ZEBRA, integrata in modo elegante ma invisibile, per offrire un&apos;interfaccia intuitiva e un&apos;infrastruttura avanzata. 
 
           </p>
           
           {/* Second Paragraph */}
-          <p className="text-base sm:text-lg md:text-lg text-gray-100 leading-relaxed font-sans font-thin">
+          <p style={{ fontWeight: 300 }} className="text-base sm:text-lg md:text-lg text-gray-100 leading-relaxed font-sans">
           Ogni dettaglio, dal controllo centralizzato al supporto tecnico in tempo reale, è progettato per offrire prestazioni elevate e continuità operativa.
 
           </p>

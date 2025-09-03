@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const EduFeature = () => {
   return (
-    <section className="bg-white">
+    <section className="bg-[#FBFDFC]">
       <div className="max-w-8xl mx-auto">
 
         {/* First Section - Image Left, Content Right */}
