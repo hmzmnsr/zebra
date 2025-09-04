@@ -100,10 +100,6 @@ const Navbar = () => {
                     {item.name}
                   </Link>
                   
-                  {/* Vertical separator */}
-                  {index < navItems.length - 1 && (
-                    <div className="absolute -right-6 top-1/2 transform -translate-y-1/2 w-px h-6 bg-white/30"></div>
-                  )}
                 </div>
               ))}
             </div>
@@ -195,12 +191,6 @@ const Navbar = () => {
                   </Link>
                 )}
                 
-                {/* Vertical separator */}
-                {index < navItems.length - 1 && (
-                  <div className={`absolute -right-6 top-1/2 transform -translate-y-1/2 w-px h-6 transition-colors duration-300 ${
-                    isScrolled ? 'bg-white/30' : 'bg-white/30'
-                  }`}></div>
-                )}
               </div>
             ))}
           </div>
