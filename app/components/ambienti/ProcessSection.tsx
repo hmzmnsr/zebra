@@ -24,6 +24,7 @@ const ProcessSection = () => {
               alt="Process illustration"
               width={600}
               height={600}
+              className="object-cover"
             />
           </div>
         </div>

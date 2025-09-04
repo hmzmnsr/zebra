@@ -12,7 +12,7 @@ const UnderImageSection = () => {
           alt="Decorative Image"
           width={800}
           height={600}
-          className="w-full h-auto object-contain"
+          className="w-full h-auto object-cover"
         />
       </div>
 
@@ -23,7 +23,7 @@ const UnderImageSection = () => {
           alt="Decorative Image"
           width={400}
           height={300}
-          className="w-3/4 h-auto object-contain"
+          className="w-3/4 h-auto object-cover"
         />
       </div>
 

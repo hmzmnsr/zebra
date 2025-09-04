@@ -267,11 +267,11 @@ const ImmersiveMultimediaSectionTwo = () => {
         {/* Call-to-Action Button */}
         <Link 
           href={activeContent?.link || '/servizi/soluzioni-multimediali-immersive'}
-          className="absolute bottom-4 md:bottom-10 right-2 md:right-10 z-10 pl-8 md:pl-24 pr-2 md:pr-4 pt-8 md:pt-36 pb-2 md:pb-4 text-white border border-white/80 
+          className="absolute bottom-4 md:bottom-10 right-2 md:right-10 z-10 pl-8 md:pl-36 pr-2 md:pr-4 pt-8 md:pt-46 pb-2 md:pb-4 text-white border border-white/80 
                      hover:bg-white/10 transition-all 
                      duration-300 flex items-center gap-2 group text-xs md:text-sm"
         >
-          <span className="font-medium">Scopri di più</span>
+          <span className="font-medium mr-3">Scopri di più</span>
           <span className="text-sm md:text-lg group-hover:translate-x-1 transition-transform duration-300">
             →
           </span>
