@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const ImageSection = () => {
   return (
-    <div className="w-full">
+    <div className="w-full relative">
       <Image
         src="/assets/servizi2/3.png"
         alt="Produzione contenuti illustration"
@@ -13,6 +13,8 @@ const ImageSection = () => {
         className="w-full h-68 sm:h-48 md:h-64 lg:h-168"
         priority
       />
+      {/* Horizontal line */}
+      <div className="absolute top-18 left-0 right-0 h-px bg-gray-500  ml-120"></div>
     </div>
   );
 };
