@@ -12,7 +12,7 @@ const UnderImageSection = () => {
           alt="Decorative Image"
           width={200}
           height={50}
-          className="w-full h-[25vh] object-cover"
+          className="w-full h-auto object-contain"
         />
       </div>
 
