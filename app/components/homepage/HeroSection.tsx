@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <section className="relative w-full overflow-hidden mt-0 h-screen md:h-auto bg-black">
       {/* Background Video */}
-      <div className="relative h-auto pt-0 md:pt-10">
+      <div className="relative h-auto pt-0">
         <video
           src="/assets/homepage/hero1.mp4"
           autoPlay
