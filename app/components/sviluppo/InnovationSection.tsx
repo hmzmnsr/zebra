@@ -30,7 +30,7 @@ const InnovationSection = () => {
                 alt="Innovazione coinvolgente - ambiente collaborativo immersivo"
                 width={800}
                 height={600}
-                className="w-full h-auto max-h-64 sm:max-h-80 lg:max-h-108"
+                className="w-full h-64 sm:h-80 lg:h-108 object-cover"
               />
             </div>
           </div>
@@ -48,7 +48,7 @@ const InnovationSection = () => {
                 alt="Innovazione coinvolgente - ambiente collaborativo immersivo"
                 width={800}
                 height={600}
-                className="w-full h-auto max-h-64 sm:max-h-80 lg:max-h-108"
+                className="w-full h-64 sm:h-80 lg:h-108 object-cover"
               />
             </div>
 
