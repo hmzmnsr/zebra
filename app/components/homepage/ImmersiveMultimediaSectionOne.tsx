@@ -41,7 +41,7 @@ const ImmersiveMultimediaSectionOne = () => {
       id: 2, 
       title: 'Sale conferenza ', 
       active: activeItem === 2,
-      image: '/assets/homepage/new11.jpg',
+      image: '/assets/homepage/newme1.jpg',
       content: 'Spazi collaborativi all\'avanguardia dove tecnologie multimediali ed immersive potenziano produttività e creatività, trasformando ogni riunione, presentazione o sessione di training in un\'esperienza d\'impatto altamente performante.',
       link: '/servizi/soluzioni-multimediali-immersive'
     },
@@ -49,7 +49,7 @@ const ImmersiveMultimediaSectionOne = () => {
       id: 3, 
       title: 'Demo & Training center aziendali', 
       active: activeItem === 3,
-      image: '/assets/homepage/new11.jpg',
+      image: '/assets/homepage/new112.png',
       content: 'Spazi collaborativi all\'avanguardia dove tecnologie multimediali ed immersive potenziano produttività e creatività, trasformando ogni riunione, presentazione o sessione di training in un\'esperienza d\'impatto altamente performante.',
       link: '/servizi/sviluppo-applicazioni'
     },
