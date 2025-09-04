@@ -6,9 +6,9 @@ const UnderImageSection = () => {
   return (
     <div className="relative pb-12 sm:pb-16 lg:pb-32 px-4 sm:px-6 lg:px-24">
       {/* Overlapping Image - Top Right Corner - Hidden on mobile, shown on larger screens */}
-      <div className="hidden md:block absolute -top-32 sm:-top-40 md:-top-56 right-0 z-10 w-2/3 lg:w-3/5 h-full">
+      <div className="hidden md:block absolute -top-32 sm:-top-40 md:-top-68 right-0 z-10 w-2/3 lg:w-3/5 h-full">
         <Image
-          src="/assets/case/bg1.png"
+          src="/assets/case/b2.png"
           alt="Decorative Image"
           width={800}
           height={600}

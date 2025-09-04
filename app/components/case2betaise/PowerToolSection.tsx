@@ -13,8 +13,8 @@ const PowerToolSection = () => {
             <p className="text-[#fbfdff] text-xs sm:text-sm md:text-sm mb-2 sm:mb-3 md:mb-0" style={{ fontWeight: 400 }}>
             Tecnologia che emoziona e coinvolge
             </p>
-            <p className="text-[#fbfdff] leading-none text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl leading-tight" style={{ fontWeight: 250 }}>
-            Quando la tecnologia incontra l&apos;arte, lo spazio si trasforma in esperienza. Un linguaggio immersivo per raccontare l&apos;innovazione e lasciare il segno.
+            <p className="text-[#fbfdff] leading-none text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl" style={{ fontWeight: 250 }}>
+            Quando la tecnologia incontra<br/> l&apos;arte, lo spazio si trasforma in <br/>esperienza. Un linguaggio<br/> immersivo per raccontare<br/> l&apos;innovazione e lasciare il segno.
             </p>
           </div>
         </div>

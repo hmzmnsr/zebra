@@ -8,7 +8,7 @@ const CaseHero = () => {
       
       <div className="px-4 sm:px-6 lg:px-3 relative z-10">
         {/* Header Title with divider line next to it */}
-        <div className="flex items-baseline mb-8">
+        <div className="flex items-baseline mb-8 mt-12">
           <h1 style={{ fontWeight: 300 }} className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-sans text-white mr-4">
           EPSON Booth ISE Barcellona
           </h1>
