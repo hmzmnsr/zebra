@@ -7,7 +7,7 @@ const InnovationSection = () => {
     <>
     <div className="relative h-px bg-gray-500 ml-136 top-28"></div>
       {/* First Section - Text on Left, Image on Right */}
-      <section className="pb-16 pt-12" style={{ background: 'linear-gradient(to bottom, #1b2926, #252727)' }}>
+      <section className="pb-8 pt-6 md:pb-16 md:pt-12" style={{ background: 'linear-gradient(to bottom, #1b2926, #252727)' }}>
         <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-1">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             {/* Left Content - Text Block */}
@@ -45,7 +45,7 @@ Per showroom, musei, stand fieristici, eventi, product reveal e contesti educati
       </section>
 
       {/* Second Section - Image on Left, Text on Right */}
-      <section className="pb-16 pt-12 bg-[linear-gradient(to_bottom,#252727_70%,white_70%)]">
+      <section className="pb-8 pt-6 md:pb-16 md:pt-12 bg-[linear-gradient(to_bottom,#252727_70%,white_70%)]">
         <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-1">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             {/* Left Content - Image */}

@@ -4,10 +4,10 @@ import Image from 'next/image';
 
 const ServiziFeature = () => {
   return (
-    <section className="bg-[#FBFDFC] py-16">
+    <section className="bg-[#FBFDFC] py-8 md:py-16">
       <div className="max-w-8xl mx-auto">
         {/* First Section - Image Left, Content Right */}
-        <div className="bg-gray-100 rounded-lg mb-16 overflow-hidden">
+        <div className="bg-gray-100 rounded-lg mb-8 md:mb-16 overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-5 items-start">
             {/* Left Side - Image */}
             <div className="relative lg:col-span-3 order-2 lg:order-1 px-4 md:px-6">
@@ -50,7 +50,7 @@ const ServiziFeature = () => {
         </div>
 
         {/* Second Section - Content Left, Image Right */}
-        <div className="bg-gray-100 rounded-lg mb-16 overflow-hidden">
+        <div className="bg-gray-100 rounded-lg mb-8 md:mb-16 overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-5 items-start">
             {/* Left Side - Text Content */}
             <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[280px] md:h-[480px] order-1 px-6 md:px-16 pt-8 md:pt-8 pb-0 md:pb-0">

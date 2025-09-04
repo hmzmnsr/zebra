@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const ProcessSection = () => {
   return (
-    <section className="py-16" style={{ backgroundColor: '#47515a' }}>
+    <section className="py-8 md:py-16" style={{ backgroundColor: '#47515a' }}>
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-1">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Content - Text Block */}

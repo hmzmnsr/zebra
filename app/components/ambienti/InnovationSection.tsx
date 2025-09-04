@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const InnovationSection = () => {
   return (
-    <section className="pb-16 pt-12" style={{ background: 'linear-gradient(to bottom, #47515a, #2b2b2e)' }}>
+    <section className="pb-8 pt-6 md:pb-16 md:pt-12" style={{ background: 'linear-gradient(to bottom, #47515a, #2b2b2e)' }}>
       <div className="relative h-px bg-gray-400 ml-88 top-20"></div>
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-1">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">

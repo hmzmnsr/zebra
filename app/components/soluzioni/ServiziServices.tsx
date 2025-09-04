@@ -32,7 +32,7 @@ const ServiziServices = () => {
   ];
 
   return (
-    <section className="py-16" style={{ backgroundColor: '#1a2826' }}>
+    <section className="py-8 md:py-16" style={{ backgroundColor: '#1a2826' }}>
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-wrap justify-between items-center gap-8">
           {services.map((service) => (

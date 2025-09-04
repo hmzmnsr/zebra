@@ -6,7 +6,7 @@ const InnovationSection = () => {
   return (
     <>
       {/* First Section - Text on Left, Image on Right */}
-      <section className="pb-16 pt-12 bg-gradient-to-b from-[#29292b] to-white from-50% to-50%">
+      <section className="pb-8 pt-6 md:pb-16 md:pt-12 bg-gradient-to-b from-[#29292b] to-white from-50% to-50%">
       <div className="relative h-px bg-gray-500 ml-128 top-7"></div>
         <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-1">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
@@ -38,7 +38,7 @@ const InnovationSection = () => {
       </section>
 
       {/* Second Section - Image on Left, Text on Right */}
-      <section className="pb-16 pt-12 bg-white">
+      <section className="pb-8 pt-6 md:pb-16 md:pt-12 bg-white">
         <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-1">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             {/* Left Content - Image */}

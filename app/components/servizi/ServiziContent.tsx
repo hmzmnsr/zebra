@@ -7,7 +7,7 @@ const ServiziContent = () => {
     <section className="bg-[#FBFDFC]">
       <div className="max-w-8xl mx-auto">
         {/* Third Section - Image Left, Content Right */}
-        <div className="bg-gray-100 rounded-lg mb-16 overflow-hidden">
+        <div className="bg-gray-100 rounded-lg mb-8 md:mb-16 overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-5 items-start">
             {/* Left Side - Image */}
             <div className="relative lg:col-span-3 order-2 lg:order-1 px-4 md:px-6">
@@ -50,7 +50,7 @@ const ServiziContent = () => {
         </div>
 
         {/* Fourth Section - Image Left, Content Right */}
-        <div className="bg-gray-100 rounded-lg mb-16 overflow-hidden">
+        <div className="bg-gray-100 rounded-lg mb-8 md:mb-16 overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-5 items-start">
             {/* Left Side - Image */}
             <div className="relative lg:col-span-3 order-2 lg:order-1 px-4 md:px-6">

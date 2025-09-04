@@ -6,7 +6,7 @@ const ImageTextSection = () => {
   return (
     <>
       {/* First Section - Text on Left, Image on Right */}
-      <div className="py-16 bg-white">
+      <div className="py-8 md:py-16 bg-white">
         <div className="max-w-8xl mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 items-start gap-8">
             {/* Left Content - Text */}
@@ -42,7 +42,7 @@ const ImageTextSection = () => {
       </div>
 
       {/* Second Section - Image on Left, Text on Right */}
-      <div className="py-16 bg-white">
+      <div className="py-8 md:py-16 bg-white">
         <div className="max-w-8xl mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 items-start gap-8">
             {/* Left Content - Image */}
@@ -78,7 +78,7 @@ const ImageTextSection = () => {
       </div>
 
       {/* Third Section - Text on Left, Image on Right */}
-      <div className="py-16 bg-white">
+      <div className="py-8 md:py-16 bg-white">
         <div className="max-w-8xl mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 items-start gap-8">
             {/* Left Content - Text */}

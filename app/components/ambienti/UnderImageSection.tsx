@@ -2,10 +2,10 @@
 
 const UnderImageSection = () => {
   return (
-    <div className="py-16 sm:py-24 lg:pt-12 lg:pb-12" style={{ backgroundColor: '#2b2b2e' }}>
+    <div className="py-8 sm:py-24 lg:pt-12 lg:pb-12" style={{ backgroundColor: '#2b2b2e' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header Area */}
-        <div className="mb-8 sm:mb-12 leading-none">
+        <div className="mb-4 sm:mb-12 leading-none">
           <h3 className="text-white text-xs leading-none" style={{ fontWeight: 400 }}>
           L ambiente di lavoro come espressione dell innovazione
           </h3>
@@ -15,7 +15,7 @@ const UnderImageSection = () => {
         </div>
 
         {/* Content Area - Three Columns */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 sm:gap-12 mt-16 sm:mt-20 lg:mt-24">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 sm:gap-12 mt-8 sm:mt-20 lg:mt-24">
           <div className="text-white text-sm leading-none" style={{ fontWeight: 400 }}>
           Immagina uno spazio in cui realizzare presentazioni e dimostrazioni ad alto impatto, capaci di stupire il cliente e comunicare innovazione. Uno spazio flessibile, pensato per creare, progettare e collaborare con il tuo team, anche a distanza.  
           </div>
@@ -30,7 +30,7 @@ const UnderImageSection = () => {
 
 
       {/* Horizontal line extending full screen width */}
-      <div className="w-11/12 h-px bg-gray-400 opacity-60 mt-20 sm:mt-28 lg:mt-36 mb-2 -ml-4 sm:-ml-6 lg:-ml-8"></div>
+      <div className="w-11/12 h-px bg-gray-400 opacity-60 mt-10 sm:mt-28 lg:mt-36 mb-2 -ml-4 sm:-ml-6 lg:-ml-8"></div>
       
       {/* Creative Stack Section - positioned at bottom right */}
       <div className="w-full flex flex-col sm:flex-row justify-center lg:justify-end px-4 sm:px-6 lg:px-8 lg:pr-2">

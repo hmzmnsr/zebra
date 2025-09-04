@@ -13,10 +13,10 @@ const ShotGallery = () => {
   ];
 
   return (
-    <div className="py-16 bg-white">
+    <div className="py-8 md:py-16 bg-white">
       <div className="max-w-8xl mx-auto px-1">
         {/* Header */}
-        <div className="text-start px-4 sm:px-6 lg:ml-24 mb-12">
+        <div className="text-start px-4 sm:px-6 lg:ml-24 mb-6 md:mb-12">
           <h3 className="text-black text-xs font-normal leading-tight">
             Spazi di nostra creazione
           </h3>
@@ -26,7 +26,7 @@ const ShotGallery = () => {
         </div>
 
         {/* Image Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 mb-6 md:mb-12">
           {images.map((image, index) => (
             <div key={index} className="aspect-[5/3] overflow-hidden">
               <Image
