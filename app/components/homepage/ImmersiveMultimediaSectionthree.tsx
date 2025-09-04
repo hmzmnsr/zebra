@@ -251,7 +251,7 @@ const ImmersiveMultimediaSectionThree = () => {
         {/* Center/Right Foreground Text Block */}
         <div className="absolute bottom-20 md:bottom-6 left-2 md:left-5 z-10 text-white max-w-xs md:max-w-3xl px-2 md:px-0">
           <div className="absolute -left-5 right-1 -top-4 border-t border-white pt-4"></div>
-          <p className="text-sm md:text-3xl leading-relaxed font-light text-white transition-all duration-1000 ease-in-out">
+          <p className="text-sm md:text-3xl leading-relaxed font-light text-white transition-all duration-1000 ease-in-out" style={{ fontWeight: 250 }}>
             {activeContent?.content}
           </p>
         </div>
