@@ -10,16 +10,14 @@ import TechStack from '../../components/case/techstack';
 
 export default function Case() {
   return (
-    <div className="min-h-screen bg-white flex justify-center">
-      <div className="w-full max-w-[1920px]">
-        <CaseHero />
-        <ImageSection />
-        <ExperienceSection />
-        <PowerToolSection />
-        <UnderImageSection />
-        <ShotGallery />
-        <CTASection />
-      </div>
+    <div className="min-h-screen bg-white">
+      <CaseHero />
+      <ImageSection />
+      <ExperienceSection />
+      <PowerToolSection />
+      <UnderImageSection />
+      <ShotGallery />
+      <CTASection />
     </div>
   );
 }

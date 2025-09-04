@@ -10,17 +10,15 @@ import ShotGallery from '../../components/case1pierre/ShotGallery';
 
 export default function Case() {
   return (
-    <div className="min-h-screen bg-white flex justify-center">
-      <div className="w-full max-w-[1920px]">
-        <CaseHero />
-        <ImageSection />
-        <ExperienceSection />
-        <PowerToolSection />
-        <UnderImageSection /> 
-        <NewImageSection/>
-        <ShotGallery/>
-        <CTASection />
-      </div>
+    <div className="min-h-screen bg-white">
+      <CaseHero />
+      <ImageSection />
+      <ExperienceSection />
+      <PowerToolSection />
+      <UnderImageSection /> 
+      <NewImageSection/>
+      <ShotGallery/>
+      <CTASection />
     </div>
   );
 }

@@ -10,18 +10,16 @@ import CTASection from '../../components/soluzioni/CTASection';
 
 export default function SoluzioniPage() {
   return (
-    <main className="bg-[#222222] flex justify-center">
-      <div className="w-full max-w-[1920px]">
-        <SoluzioniHero />
-        <ServiziServices />
-        <ProcessSection />
-        <ExperienceSection />
-        <InnovationSection />
-        <UnderImageSection />
-        <ImageTextSection />
-        <ShotGallery />
-        <CTASection />
-      </div>
+    <main className="bg-[#222222]">
+      <SoluzioniHero />
+      <ServiziServices />
+      <ProcessSection />
+      <ExperienceSection />
+      <InnovationSection />
+      <UnderImageSection />
+      <ImageTextSection />
+      <ShotGallery />
+      <CTASection />
     </main>
   );
 } 

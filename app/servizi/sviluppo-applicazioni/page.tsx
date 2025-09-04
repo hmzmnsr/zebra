@@ -7,15 +7,13 @@ import CTASection from '../../components/sviluppo/CTASection';
 
 export default function SviluppoPage() {
   return (
-    <main className="bg-[#2a2a2c] flex justify-center">
-      <div className="w-full max-w-[1920px]">
-        <SviluppoHero />
-        <ServiziServices />
-        <ProcessSection />
-        <ExperienceSection />
-        <InnovationSection />
-        <CTASection />
-      </div>
+    <main className="bg-[#2a2a2c]">
+      <SviluppoHero />
+      <ServiziServices />
+      <ProcessSection />
+      <ExperienceSection />
+      <InnovationSection />
+      <CTASection />
     </main>
   );
 } 

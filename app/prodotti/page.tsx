@@ -6,8 +6,7 @@ import Image from 'next/image';
 
 export default function Prodotti() {
   return (
-    <div className="min-h-screen flex justify-center">
-      <div className="w-full max-w-[1920px]">
+    <div className="min-h-screen">
       {/* Hero Section */}
       <ProdottiHero />
       
@@ -249,7 +248,6 @@ export default function Prodotti() {
       <ContactCTA />
       
       {/* Additional content sections can be added here */}
-      </div>
     </div>
   );
 } 
