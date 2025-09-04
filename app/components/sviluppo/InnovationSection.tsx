@@ -44,7 +44,7 @@ const InnovationSection = () => {
             {/* Left Content - Image */}
             <div className="flex justify-center lg:justify-start pl-4 order-1">
               <Image
-                src="/assets/servizi4/4.jpg"
+                src="/assets/servizi4/1.jpg"
                 alt="Innovazione coinvolgente - ambiente collaborativo immersivo"
                 width={800}
                 height={600}
