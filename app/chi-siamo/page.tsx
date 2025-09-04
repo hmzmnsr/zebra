@@ -7,7 +7,8 @@ import UnderImageSection from '../components/chi-siamo/UnderImageSection';
 
 export default function ChiSiamo() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 flex justify-center">
+      <div className="w-full max-w-[1920px]">
       {/* Hero Section */}
       <ChiSiamoHero />
        
@@ -23,6 +24,7 @@ export default function ChiSiamo() {
       <CTASection />
       
       {/* Additional content sections can be added here */}
+      </div>
     </div>
   );
 } 

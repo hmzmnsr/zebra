@@ -7,13 +7,15 @@ import ContactCTA from '../components/servizi/ContactCTA';
 
 export default function ServiziPage() {
   return (
-    <main className="bg-[#FBFDFC]">
-      <ServiziHero />
-      <ServiziServices />
-      <ServiziFeature />
-      <ServiziQuote />
-      <ServiziContent />
-      <ContactCTA />
+    <main className="bg-[#FBFDFC] flex justify-center">
+      <div className="w-full max-w-[1920px]">
+        <ServiziHero />
+        <ServiziServices />
+        <ServiziFeature />
+        <ServiziQuote />
+        <ServiziContent />
+        <ContactCTA />
+      </div>
     </main>
   );
 } 

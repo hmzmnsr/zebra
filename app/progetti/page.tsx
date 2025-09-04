@@ -4,17 +4,19 @@ import ContactCTA from '../components/ContactCTA';
 
 export default function Progetti() {
   return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Hero Section */}
-      <ProgettiHero />
-      
-      {/* Project Showcase Section */}
-      <ProjectShowcase />
-      
-      {/* Contact CTA Section */}
-      <ContactCTA />
-      
-      {/* Additional content sections can be added here */}
+    <div className="min-h-screen bg-gray-50 flex justify-center">
+      <div className="w-full max-w-[1920px]">
+        {/* Hero Section */}
+        <ProgettiHero />
+        
+        {/* Project Showcase Section */}
+        <ProjectShowcase />
+        
+        {/* Contact CTA Section */}
+        <ContactCTA />
+        
+        {/* Additional content sections can be added here */}
+      </div>
     </div>
   );
 } 

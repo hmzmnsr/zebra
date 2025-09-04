@@ -10,16 +10,18 @@ import CTASection from '../../components/produzione/CTASection';
 
 export default function ProduzionePage() {
   return (
-    <main className="bg-[#222222]">
-      <ProduzioneHero />
-      <ServiziServices />
-      <ProcessSection />
-      <ExperienceSection />
-      <ImageSection />
-      <UnderImageSection />
-      <ImageTextSection />
-      <ShotGallery />
-      <CTASection /> 
+    <main className="bg-[#222222] flex justify-center">
+      <div className="w-full max-w-[1920px]">
+        <ProduzioneHero />
+        <ServiziServices />
+        <ProcessSection />
+        <ExperienceSection />
+        <ImageSection />
+        <UnderImageSection />
+        <ImageTextSection />
+        <ShotGallery />
+        <CTASection /> 
+      </div>
     </main>
   );
 } 
