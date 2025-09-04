@@ -92,10 +92,10 @@ const SoftwareProductsSection = () => {
             {/* Product Description */}
             <div className="space-y-3">
               <p className="text-md text-[#083933] leading-6 text-left font-normal">
-              E' il software che consente ai mediaserver ARES di controllare qualsiasi dispositivo ad essi connesso. 
+              E&apos; il software che consente ai mediaserver ARES di controllare qualsiasi dispositivo ad essi connesso. 
               </p>
               <p className="text-md text-[#083933] leading-6 text-left font-normal">
-              Estremamente flessibile e configurabile, si adatta a diversi contesti applicativi fungendo da domotica evoluta, permettendo ad ARES di dialogare e gestire ogni componente del sistema multimediale, comprese luci, tende, automazioni e dispositivi collegati. Grazie all'interfaccia tablet, con ZNC tutti i controlli dell'impianto sono sempre a portata di mano, in modo semplice, intuitivo e personalizzabile. 
+              Estremamente flessibile e configurabile, si adatta a diversi contesti applicativi fungendo da domotica evoluta, permettendo ad ARES di dialogare e gestire ogni componente del sistema multimediale, comprese luci, tende, automazioni e dispositivi collegati. Grazie all&apos;interfaccia tablet, con ZNC tutti i controlli dell&apos;impianto sono sempre a portata di mano, in modo semplice, intuitivo e personalizzabile. 
               </p>
             </div>
           </div>

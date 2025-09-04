@@ -48,7 +48,7 @@ export default function Prodotti() {
                 {/* Text Content */}
                 <div className="flex-1">
                                      <p className="text-base text-white leading-relaxed font-sans font-normal">
-                   Frutto di un'intensa attività di ricerca e sviluppo, i nostri mediaserver sono progettati per garantire massima flessibilità e affidabilità: gestione di output video in numero illimitato, sistemi audio anche multicanale, acquisizioni video in 4K e controllo di apparati tramite PLC. 
+                   Frutto di un&apos;intensa attività di ricerca e sviluppo, i nostri mediaserver sono progettati per garantire massima flessibilità e affidabilità: gestione di output video in numero illimitato, sistemi audio anche multicanale, acquisizioni video in 4K e controllo di apparati tramite PLC. 
                    </p>
                 </div>
               </div>
