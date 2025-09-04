@@ -6,13 +6,13 @@ const UnderImageSection = () => {
   return (
     <div className="relative pb-12 sm:pb-16 md:pb-24 lg:pb-32 bg-white px-0 lg:px-24">
       {/* Overlapping Image - Top Right Corner */}
-      <div className="absolute top-8 lg:right-4 sm:top-4 right-0 z-10 w-1/2 sm:w-1/3 lg:w-2/5 h-full">
+      <div className="absolute bottom-32 lg:right right-0 z-10 w-1/2 sm:w-1/3 lg:w-2/5 h-full">
         <Image
-          src="/assets/case2betaise/x.png"
+          src="/assets/case2betaise/lizard12.png"
           alt="Decorative Image"
           width={200}
           height={50}
-          className="w-full h-auto object-contain transform -translate-y-16 sm:-translate-y-20 lg:-translate-y-32 rotate-[30deg]"
+          className="w-full h-auto"
         />
       </div>
 
