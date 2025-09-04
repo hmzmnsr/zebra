@@ -143,9 +143,9 @@ const Navbar = () => {
       {/* Main Navigation Bar */}
              <nav className={`w-full h-[70px] flex items-center px-8 z-40 relative transition-all duration-300 ${
          isScrolled 
-           ? 'bg-black/40 backdrop-blur-md border-white/20 text-white lg:bg-black/40 lg:backdrop-blur-md lg:border-white/20 lg:text-white' 
-           : 'bg-black/40 backdrop-blur-md border-white/20 text-white lg:bg-black/40 lg:backdrop-blur-md lg:border-white/20 lg:text-white'
-       }`}>
+           ? 'bg-black/40 backdrop-blur-md border-white/20 text-white lg:bg-black/40 lg:backdrop-blur-md lg:text-white lg:border-b' 
+           : 'bg-black/40 backdrop-blur-md border-white/20 text-white lg:bg-black/40 lg:backdrop-blur-md lg:text-white lg:border-b'
+       }`} style={{ borderBottomColor: '#cfe1e3' }}>
         {/* Desktop Navigation */}
         <div className="hidden lg:flex items-center justify-between w-full max-w-7xl mx-auto">
           {/* Logo */}
