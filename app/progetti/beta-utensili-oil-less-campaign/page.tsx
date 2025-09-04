@@ -16,7 +16,6 @@ export default function Case() {
       <ExperienceSection />
       <PowerToolSection />
       <UnderImageSection />
-      <TechStack/>
       <ShotGallery />
       <CTASection />
     </div>
