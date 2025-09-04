@@ -21,12 +21,12 @@ const CaseHero = () => {
         {/* Body Text - Two paragraphs with generous line spacing */}
         <div className="max-w-4xl space-y-4 sm:space-y-0 md:space-y-0">
           {/* First Paragraph */}
-          <p style={{ fontWeight: 300 }} className="text-sm sm:text-sm md:text-base lg:text-lg text-gray-100 leading-none font-sans font-thin">
+          <p style={{ fontWeight: 300 }} className="text-sm sm:text-sm md:text-xl lg:text-xl text-gray-100 leading-none font-sans font-thin">
           Dai suoli vulcanici di Lanuvio a quelli carichi di salsedine di Alghero, le cantine Tenimenti Leone e Podere Guardia Grande, parte del gruppo Oniverse (Calzedonia), hanno scelto ZEBRA per raccontare il valore dei propri luoghi attraverso storytelling immersivi ad alto impatto emozionale.<br/><br/>
           </p>
           
           {/* Second Paragraph */}
-          <p style={{ fontWeight: 300 }} className="text-sm sm:text-sm md:text-base lg:text-lg text-gray-100 leading-none font-sans font-thin">
+          <p style={{ fontWeight: 300 }} className="text-sm sm:text-sm md:text-xl lg:text-xl text-gray-100 leading-none font-sans font-thin">
           Dal concept narrativo alla produzione video, fino all&apos;installazione delle tecnologie immersive, abbiamo curato l&apos;intero percorso esperienziale, creando due viaggi sensoriali. Due racconti visivi che fondono territorio, cultura e prodotto, pensati per rafforzare il legame emotivo tra l&apos;ospite e l&apos;identità delle cantine.
 
           </p>

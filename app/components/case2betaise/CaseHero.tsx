@@ -21,12 +21,12 @@ const CaseHero = () => {
         {/* Body Text - Two paragraphs with generous line spacing */}
         <div className="max-w-4xl space-y-6 sm:space-y-8">
           {/* First Paragraph */}
-          <p style={{ fontWeight: 300 }} className="text-base sm:text-lg md:text-lg text-gray-100 leading-none font-sans font-thin">
+          <p style={{ fontWeight: 300 }} className="text-base sm:text-lg md:text-xl text-gray-100 leading-none font-sans font-thin">
           In occasione della fiera ISE di Barcellona, il nostro partner strategico EPSON, leader mondiale nella videoproiezione, ci ha affidato la progettazione e realizzazione del suo stand immersivo: uno spazio concepito per esaltare versatilità e qualità delle soluzioni di videoproiezione firmate EPSON.
           <br/>
           <br/>
           </p>
-          <p style={{ fontWeight: 300 }} className="text-base sm:text-lg md:text-lg text-gray-100 leading-none font-sans font-thin">
+          <p style={{ fontWeight: 300 }} className="text-base sm:text-lg md:text-xl text-gray-100 leading-none font-sans font-thin">
           Dalla fase di concept creativo alla gestione tecnica in loco, ZEBRA ha curato ogni aspetto della realizzazione, trasformando lo stand in una vera e propria opera immersiva ad altissima risoluzione, animata da un racconto digitale coinvolgente, creato per omaggiare la città di Barcellona e i grandi maestri della pittura spagnola. 
           </p>
         </div>

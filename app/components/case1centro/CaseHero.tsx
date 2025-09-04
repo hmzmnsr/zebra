@@ -21,14 +21,14 @@ const CaseHero = () => {
         {/* Body Text - Two paragraphs with generous line spacing */}
         <div className="max-w-4xl space-y-6 sm:space-y-8">
           {/* First Paragraph */}
-          <p style={{ fontWeight: 300 }} className="text-base sm:text-lg md:text-lg text-gray-100 leading-none font-sans font-thin">
+          <p style={{ fontWeight: 300 }} className="text-base sm:text-lg md:text-xl text-gray-100 leading-none font-sans font-thin">
           Il Centro TOG di Milano è un&apos;eccellenza nel trattamento di bambini con disabilità cognitive e neurologiche, da sempre in prima linea nell&apos;adozione di approcci innovativi in campo terapeutico. 
 
 
           </p>
           
           {/* Second Paragraph */}
-          <p style={{ fontWeight: 300 }} className="text-base sm:text-lg md:text-lg text-gray-100 leading-none font-sans font-thin">
+          <p style={{ fontWeight: 300 }} className="text-base sm:text-lg md:text-xl text-gray-100 leading-none font-sans font-thin">
           ZEBRA ha scelto di diventare partner attivo del progetto, mettendo a disposizione le proprie competenze tecnologico-esperienziali. 
 
           </p>

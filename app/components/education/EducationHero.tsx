@@ -18,12 +18,12 @@ const EducationHero = () => {
         {/* Body Text - Two paragraphs with generous line spacing */}
         <div className="max-w-4xl space-y-8 mt-14">
           {/* First Paragraph */}
-          <p style={{ fontWeight: 300 }} className="text-base md:text-md text-gray-100 leading-none font-sans">
+          <p style={{ fontWeight: 300 }} className="text-base md:text-xl text-gray-100 leading-none font-sans">
           Forniamo soluzioni multimediali avanzate per portare l immersività nel mondo della scuola. Immagina di insegnare trasportando gli studenti all interno della materia: entrando in una cellula, passeggiando tra le colonne dell Acropoli o esplorando lo spazio. 
           </p>
           
           {/* Second Paragraph */}
-                    <p style={{ fontWeight: 300 }} className="text-base md:text-md text-gray-100 leading-none font-sans">
+                    <p style={{ fontWeight: 300 }} className="text-base md:text-xl text-gray-100 leading-none font-sans">
           Immagina di svolgere laboratori simulando qualsiasi attività con un realismo mai visto prima. ZEBRA rende tutto questo possibile, grazie a strumenti progettati per potenziare l apprendimento e massimizzare l efficacia dell insegnamento. 
           </p>
         </div>

@@ -21,7 +21,7 @@ const CaseHero = () => {
         {/* Body Text - Two paragraphs with generous line spacing */}
         <div className="max-w-4xl space-y-6 sm:space-y-8">
           {/* First Paragraph */}
-          <p style={{ fontWeight: 300 }} className="text-base sm:text-lg md:text-lg text-gray-100 leading-none font-sans font-thin mt-14">
+          <p style={{ fontWeight: 300 }} className="text-base sm:text-lg md:text-xl text-gray-100 leading-none font-sans font-thin mt-14">
           Il colosso della meccanizzazione agricola AGCO ha affidato a ZEBRA e Mosaico una doppia<br/> sfida: realizzare un simulatore per la trebbia di punta IDEAL e progettare un demo center<br/> esperienziale capace di trasmettere il know-how e l&apos;identità del brand. 
           </p>
         </div>

@@ -26,7 +26,7 @@ const ChiSiamoHero = () => {
           </p>
           
           {/* Second Paragraph */}
-          <p style={{ fontWeight: 300 }} className="text-sm sm:text-base md:text-lg text-[#083933] leading-none font-sans">
+          <p style={{ fontWeight: 300 }} className="text-sm sm:text-base md:text-xl text-[#083933] leading-none font-sans">
 
           </p>
         </div>
