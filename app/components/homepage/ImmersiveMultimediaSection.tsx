@@ -170,7 +170,7 @@ const ImmersiveMultimediaSection = () => {
             }
           }}
         />
-        <div className="absolute inset-0 bg-black/40"></div>
+        <div className="absolute inset-0 bg-gradient-to-tr from-black/80 via-black/50 to-transparent"></div>
       </div>
 
       {/* Preload all images */}
@@ -226,7 +226,7 @@ const ImmersiveMultimediaSection = () => {
                   quality={70}
                   priority={item.id === 1}
                 />
-                <div className="absolute inset-0 bg-black/40"></div>
+                <div className="absolute inset-0 bg-gradient-to-tr from-black/80 via-black/50 to-transparent"></div>
                 <div className="absolute top-20 left-0 right-0 z-10 px-4">
                   <div className="bg-black/40 backdrop-blur-sm rounded-lg p-4 mb-4">
                     <h3 className="text-white text-lg font-medium mb-2 text-center">{item.title}</h3>
