@@ -25,7 +25,7 @@ const ChiSiamoStory = () => {
           </div>
 
           {/* Right Column - Text Content (50% width) */}
-          <div className="flex flex-col justify-start items-start h-64 sm:h-96 space-y-4 sm:space-y-6 md:space-y-8 px-2 sm:px-6 lg:px-24">
+          <div className="flex flex-col justify-start items-start h-48 sm:h-96 space-y-4 sm:space-y-0 md:space-y-8 px-2 sm:px-6 lg:px-24">
             {/* Heading */}
 
             

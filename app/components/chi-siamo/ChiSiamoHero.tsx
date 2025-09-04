@@ -2,11 +2,11 @@
 
 const ChiSiamoHero = () => {
   return (
-    <section className="bg-[#FBFDFC] text-[#083933] py-48 relative">
+    <section className="bg-[#FBFDFC] text-[#083933] py-16 md:py-48 relative">
       {/* Matte overlay */}
       <div className="absolute inset-0 mix-blend-multiply"></div>
       
-      <div className="px-4 sm:px-6 lg:px-3 relative z-10">
+      <div className="px-4 sm:px-6 lg:px-3 relative z-10 pt-[70px] md:pt-0">
         {/* Header Title with divider line next to it */}
         <div className="flex flex-col sm:flex-row sm:items-baseline mb-8">
           <h1 style={{ fontWeight: 300 }} className="text-3xl sm:text-4xl md:text-6xl font-sans mr-0 sm:mr-4 mb-4 sm:mb-0 text-[#083933]">

@@ -2,7 +2,7 @@
 
 const ChiSiamoExperience = () => {
   return (
-    <section className="bg-[#FBFDFC] text-[#083933] py-8 md:pb-44 md:pt-36">
+    <section className="bg-[#FBFDFC] text-[#083933] py-4 md:pb-44 md:pt-36">
       <div className="px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           {/* Text Content */}

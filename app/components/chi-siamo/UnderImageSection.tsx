@@ -2,7 +2,7 @@
 
 const UnderImageSection = () => {
   return (
-    <div className="pt-16 pb-8 sm:pb-16 md:pb-24 lg:pb-32 bg-[#FBFDFC] px-0 lg:px-24 text-[#083933] ">
+    <div className="pt-0 sm:pt-8 md:pt-8 pb-4 sm:pb-16 md:pb-24 lg:pb-32 bg-[#FBFDFC] px-0 lg:px-24 text-[#083933] ">
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-12">
         {/* Header Area */}
         <div className="mb-4 sm:mb-8 md:mb-12 leading-tight">
@@ -15,7 +15,7 @@ const UnderImageSection = () => {
         </div>
 
         {/* Content Area - Three Columns */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 md:gap-12 mt-8 sm:mt-16 md:mt-20 lg:mt-24">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 md:gap-12 mt-4 sm:mt-16 md:mt-20 lg:mt-24">
           <div className="text-[#083933] text-sm leading-tight" style={{ fontWeight: 400 }}>
           Nel tempo abbiamo iniziato a sviluppare e produrre internamente i nostri sistemi software ed hardware, tra cui ARES Media Engine: il nostro mediaserver proprietario per la gestione avanzata di infrastrutture multimediali. <br/>La crescita prosegue con l&apos;ingresso nel mondo dei brand e degli eventi internazionali, dove l&apos;immersività diventa strumento distintivo di comunicazione. 
 
