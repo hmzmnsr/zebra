@@ -16,13 +16,13 @@ const ServiziFeature = () => {
                 alt="Soluzioni Multimediali Immersive"
                 width={600}
                 height={400}
-                className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
+                className="w-full h-[35vh] md:h-[60vh] object-cover shadow-lg"
                 priority
               />
             </div>
             
             {/* Right Side - Text Content */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[280px] md:h-[480px] order-1 lg:order-2 px-6 md:px-16 pt-8 md:pt-8 pb-0 md:pb-0">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[35vh] md:h-[60vh] order-1 lg:order-2 px-6 md:px-16 pt-8 md:pt-8 pb-0 md:pb-0">
               {/* Project Header */}
               <div className="space-y-2">
                                  <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#083933]">
@@ -53,7 +53,7 @@ const ServiziFeature = () => {
         <div className="bg-gray-100 rounded-lg mb-8 md:mb-16 overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-5 items-start">
             {/* Left Side - Text Content */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[280px] md:h-[480px] order-1 px-6 md:px-16 pt-8 md:pt-8 pb-0 md:pb-0">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[35vh] md:h-[60vh] order-1 px-6 md:px-16 pt-8 md:pt-8 pb-0 md:pb-0">
               {/* Project Header */}
               <div className="space-y-2">
                                  <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#083933]">
@@ -85,7 +85,7 @@ const ServiziFeature = () => {
                 alt="Ambienti collaborativi all&apos;avanguardia"
                 width={600}
                 height={400}
-                className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
+                className="w-full h-[35vh] md:h-[60vh] object-cover shadow-lg"
                 priority
               />
             </div>

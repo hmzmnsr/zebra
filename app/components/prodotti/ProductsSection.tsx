@@ -12,7 +12,7 @@ const ProductsSection = () => {
           {/* Panel 1: ARES Controller */}
           <div className="shadow-lg transition-transform duration-300 flex flex-col items-center">
             {/* Product Image with gradient background */}
-            <div className="w-full h-120 mb-6 flex items-center justify-center bg-gradient-to-b from-[#CED7CB] to-[#4C64612B] relative">
+            <div className="w-full h-[60vh] mb-6 flex items-center justify-center bg-gradient-to-b from-[#CED7CB] to-[#4C64612B] relative">
               {/* Matte overlay */}
               <div className="absolute inset-0 bg-black/5 mix-blend-multiply"></div>
               <Image
@@ -51,7 +51,7 @@ const ProductsSection = () => {
           {/* Panel 2: ARES Media Engine */}
           <div className="shadow-lg transition-transform duration-300 flex flex-col items-center">
             {/* Product Image with gradient background */}
-            <div className="w-full h-120 mb-6 flex items-center justify-center bg-gradient-to-b from-[#CED7CB] to-[#4C64612B] relative">
+            <div className="w-full h-[60vh] mb-6 flex items-center justify-center bg-gradient-to-b from-[#CED7CB] to-[#4C64612B] relative">
               {/* Matte overlay */}
               <div className="absolute inset-0 bg-black/5 mix-blend-multiply"></div>
               <Image
@@ -93,7 +93,7 @@ const ProductsSection = () => {
           {/* Panel 3: ARES Rig */}
           <div className="shadow-lg transition-transform duration-300 flex flex-col items-center">
             {/* Product Image with gradient background */}
-            <div className="w-full h-120 mb-6 flex items-center justify-center bg-gradient-to-b from-[#CED7CB] to-[#4C64612B] relative">
+            <div className="w-full h-[60vh] mb-6 flex items-center justify-center bg-gradient-to-b from-[#CED7CB] to-[#4C64612B] relative">
               {/* Matte overlay */}
               <div className="absolute inset-0 bg-black/5 mix-blend-multiply"></div>
               <Image

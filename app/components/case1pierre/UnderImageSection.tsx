@@ -15,7 +15,7 @@ const UnderImageSection = () => {
               alt="Spazio immersivo"
               width={600}
               height={400}
-              className="w-full max-w-md h-64 sm:h-80 md:h-96 lg:h-[44rem] object-cover shadow-lg"
+              className="w-full max-w-md h-[40vh] sm:h-[50vh] md:h-[60vh] lg:h-[70vh] object-cover shadow-lg"
             />
           </div>
 

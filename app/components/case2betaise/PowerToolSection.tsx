@@ -27,7 +27,7 @@ const PowerToolSection = () => {
                alt="Beta Utensili Power Tool"
                width={1000}
                height={400}
-               className="w-full max-w-4xl h-64 sm:h-80 md:h-96 lg:h-108 object-cover"
+               className="w-full max-w-4xl h-[40vh] sm:h-[50vh] md:h-[60vh] lg:h-[65vh] object-cover"
              />
              <p className="text-[10px] sm:text-xs text-gray-300 mt-2 text-right pr-1 sm:pr-2 md:pr-4">
                ISE 2023 EPSON Booth

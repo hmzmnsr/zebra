@@ -17,13 +17,13 @@ const EduFeature = () => {
                 alt="Soluzioni Multimediali Immersive"
                 width={600}
                 height={400}
-                className="w-full h-[340px] md:h-[540px] object-cover shadow-lg"
+                className="w-full h-[45vh] md:h-[70vh] object-cover shadow-lg"
                 priority
               />
             </div>
 
             {/* Right Side - Text Content */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col h-[340px] md:h-[540px] order-1 lg:order-2">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col h-[45vh] md:h-[70vh] order-1 lg:order-2">
               {/* Project Header */}
               <div className="space-y-2 flex-1">
                 <h2 className="text-lg md:text-xl text-gray-900">
@@ -83,13 +83,13 @@ const EduFeature = () => {
                 alt="Ambienti collaborativi all&apos;avanguardia"
                 width={600}
                 height={400}
-                className="w-full h-[340px] md:h-[540px] object-cover shadow-lg"
+                className="w-full h-[45vh] md:h-[70vh] object-cover shadow-lg"
                 priority
               />
             </div>
 
             {/* Right Side - Text Content */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col h-[340px] md:h-[540px] order-1 lg:order-2">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col h-[45vh] md:h-[70vh] order-1 lg:order-2">
               {/* Project Header */}
               <div className="space-y-2 flex-1">
                 <h2 className="text-lg md:text-xl text-gray-900">

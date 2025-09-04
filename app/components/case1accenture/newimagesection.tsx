@@ -26,7 +26,7 @@ const NewImageSection = () => {
                 alt="Innovazione tecnologica"
                 width={800}
                 height={600}
-                className="w-full h-64 sm:h-80 md:h-96 lg:h-108 object-cover shadow-lg"
+                className="w-full h-[40vh] sm:h-[50vh] md:h-[60vh] lg:h-[65vh] object-cover shadow-lg"
               />
             </div>
           </div>

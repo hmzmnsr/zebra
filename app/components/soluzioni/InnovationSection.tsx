@@ -37,7 +37,7 @@ Per showroom, musei, stand fieristici, eventi, product reveal e contesti educati
                 alt="Innovazione coinvolgente - ambiente collaborativo immersivo"
                 width={800}
                 height={600}
-                className="w-full h-auto max-h-64 sm:max-h-80 lg:max-h-108"
+                className="w-full h-[40vh] sm:h-[50vh] lg:h-[65vh] object-cover"
               />
             </div>
           </div>
@@ -55,7 +55,7 @@ Per showroom, musei, stand fieristici, eventi, product reveal e contesti educati
                 alt="Innovazione coinvolgente - ambiente collaborativo immersivo"
                 width={800}
                 height={600}
-                className="w-full h-auto max-h-64 sm:max-h-80 lg:max-h-108"
+                className="w-full h-[40vh] sm:h-[50vh] lg:h-[65vh] object-cover"
               />
             </div>
 

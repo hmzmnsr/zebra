@@ -27,7 +27,7 @@ const PowerToolSection = () => {
                alt="Beta Utensili Power Tool"
                width={400}
                height={300}
-               className="w-full h-64 sm:h-80 md:h-96 lg:h-full object-cover"
+               className="w-full h-[40vh] sm:h-[50vh] md:h-[60vh] lg:h-full object-cover"
              />
 
 

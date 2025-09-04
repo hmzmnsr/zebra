@@ -15,7 +15,7 @@ const ChiSiamoThreeColumns = () => {
                  alt="Elderly man with blue sweater and orange collar"
                  width={400}
                  height={600}
-                 className="object-cover rounded-lg w-full h-[400px]"
+                 className="object-cover rounded-lg w-full h-[50vh]"
                  priority
                />
             </div>

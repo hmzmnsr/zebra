@@ -34,7 +34,7 @@ const ChiSiamoFeatures = () => {
           {/* Right Column - Visual Content (2/5 width = 40%) */}
           <div className="lg:col-span-2 relative">
             {/* Image */}
-            <div className="relative h-64 sm:h-80">
+            <div className="relative h-[40vh] sm:h-[50vh]">
               <Image
                 src="/assets/chisiamo/first.jpg"
                 alt="ZEBRA immersive display experience"

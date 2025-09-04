@@ -18,12 +18,12 @@ const ProjectShowcase = () => {
                 alt="Accenture Sala meeting immersiva"
                 width={600}
                 height={400}
-                className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
+                className="w-full h-[35vh] md:h-[60vh] object-cover shadow-lg"
               />
             </div>
             
             {/* Project Content - Takes 2 columns (0.8 parts) */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[35vh] md:min-h-[60vh]">
                              {/* Project Header */}
                <div className="space-y-0">
                  <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
@@ -82,7 +82,7 @@ const ProjectShowcase = () => {
                 alt="Beta Utensili Video 3D Avvitatore Oilless"
                 width={600}
                 height={400}
-                className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
+                className="w-full h-[35vh] md:h-[60vh] object-cover shadow-lg"
               />
             </div>
             
@@ -147,7 +147,7 @@ const ProjectShowcase = () => {
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-center">
             
             {/* Project Content - Takes 2 columns (0.8 parts) */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[35vh] md:min-h-[60vh]">
                              {/* Project Header */}
                <div className="space-y-0">
                  <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
@@ -191,7 +191,7 @@ const ProjectShowcase = () => {
                 alt="Project Three"
                 width={600}
                 height={400}
-                className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
+                className="w-full h-[35vh] md:h-[60vh] object-cover shadow-lg"
               />
             </div>
           </div>
@@ -210,12 +210,12 @@ const ProjectShowcase = () => {
                 alt="Project Four"
                 width={600}
                 height={400}
-                className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
+                className="w-full h-[35vh] md:h-[60vh] object-cover shadow-lg"
               />
             </div>
             
             {/* Project Content - Takes 2 columns (0.8 parts) */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[35vh] md:min-h-[60vh]">
                              {/* Project Header */}
                <div className="space-y-0">
                  <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
@@ -261,7 +261,7 @@ const ProjectShowcase = () => {
            <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-center">
              
              {/* Project Content - Takes 2 columns (0.8 parts) */}
-             <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
+             <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[35vh] md:min-h-[60vh]">
                               {/* Project Header */}
                 <div className="space-y-0">
                   <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
@@ -309,7 +309,7 @@ const ProjectShowcase = () => {
                  alt="Project Five"
                  width={600}
                  height={400}
-                 className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
+                 className="w-full h-[35vh] md:h-[60vh] object-cover shadow-lg"
                />
              </div>
            </div>
@@ -328,12 +328,12 @@ const ProjectShowcase = () => {
                  alt="Project Six"
                  width={600}
                  height={400}
-                 className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
+                 className="w-full h-[35vh] md:h-[60vh] object-cover shadow-lg"
                />
              </div>
              
              {/* Project Content - Takes 2 columns (0.8 parts) */}
-             <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
+             <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[35vh] md:min-h-[60vh]">
                               {/* Project Header */}
                 <div className="space-y-0">
                   <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
@@ -385,7 +385,7 @@ const ProjectShowcase = () => {
              <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-center">
                
                {/* Project Content - Takes 2 columns (0.8 parts) */}
-               <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
+               <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[35vh] md:min-h-[60vh]">
                                   {/* Project Header */}
                   <div className="space-y-0">
                     <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
@@ -429,7 +429,7 @@ const ProjectShowcase = () => {
                    alt="Project Five"
                    width={600}
                    height={400}
-                   className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
+                   className="w-full h-[35vh] md:h-[60vh] object-cover shadow-lg"
                  />
                </div>
              </div>
@@ -448,7 +448,7 @@ const ProjectShowcase = () => {
                 alt="Project Six"
                 width={600}
                 height={400}
-                className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
+                className="w-full h-[35vh] md:h-[60vh] object-cover shadow-lg"
               />
             </div>
             
@@ -502,7 +502,7 @@ const ProjectShowcase = () => {
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-center">
             
             {/* Project Content - Takes 2 columns (0.8 parts) */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[35vh] md:min-h-[60vh]">
                              {/* Project Header */}
                <div className="space-y-0">
                  <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
@@ -547,7 +547,7 @@ const ProjectShowcase = () => {
                 alt="Project Five"
                 width={600}
                 height={400}
-                className="w-full h-[280px] md:h-[480px] object-cover shadow-lg"
+                className="w-full h-[35vh] md:h-[60vh] object-cover shadow-lg"
               />
             </div>
           </div>

@@ -31,7 +31,7 @@ const ImageTextSection = () => {
                   alt="Innovazione tecnologica"
                   width={800}
                   height={600}
-                  className="w-full h-auto max-h-[26rem] shadow-lg"
+                  className="w-full h-[55vh] object-cover shadow-lg"
                 />
             </div>
           </div>
@@ -49,7 +49,7 @@ const ImageTextSection = () => {
                   alt="Innovazione tecnologica"
                   width={800}
                   height={600}
-                  className="w-full h-auto max-h-[26rem] shadow-lg"
+                  className="w-full h-[55vh] object-cover shadow-lg"
                 />
             </div>
 
@@ -97,7 +97,7 @@ const ImageTextSection = () => {
                   alt="Design e grafica"
                   width={800}
                   height={600}
-                  className="w-full h-auto max-h-[26rem] shadow-lg"
+                  className="w-full h-[55vh] object-cover shadow-lg"
                 />
             </div>
           </div>
@@ -116,7 +116,7 @@ const ImageTextSection = () => {
                  alt="Innovazione tecnologica"
                  width={800}
                  height={600}
-                 className="w-full h-auto max-h-96 shadow-lg"
+                 className="w-full h-[50vh] object-cover shadow-lg"
                />
             </div>
 

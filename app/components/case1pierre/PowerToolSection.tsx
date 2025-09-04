@@ -27,7 +27,7 @@ const PowerToolSection = () => {
                alt="Beta Utensili Power Tool"
                width={400}
                height={300}
-               className="w-full h-64 sm:h-80 md:h-96 lg:h-104 object-cover"
+               className="w-full h-[40vh] sm:h-[50vh] md:h-[60vh] lg:h-[65vh] object-cover"
              />
                           <p className="text-[10px] sm:text-xs text-gray-300 mt-2 text-right pr-1 sm:pr-2 md:pr-4">
                           Sfilata Pierre Cardin Cospocorp 2023

@@ -12,7 +12,7 @@ const SoftwareProductsSection = () => {
           {/* Panel 1: EVA Digital Signage */}
           <div className="transition-transform duration-300 flex flex-col items-center">
             {/* Software Interface Screenshot */}
-            <div className="w-full h-128 mb-6 flex items-center justify-end bg-gradient-to-b from-[#CED7CB] to-[#4C64612B] relative overflow-hidden rounded-lg">
+            <div className="w-full h-[65vh] mb-6 flex items-center justify-end bg-gradient-to-b from-[#CED7CB] to-[#4C64612B] relative overflow-hidden rounded-lg">
               {/* Matte overlay */}
               <div className="absolute inset-0 bg-black/5 mix-blend-multiply"></div>
               <Image
@@ -60,7 +60,7 @@ const SoftwareProductsSection = () => {
           {/* Panel 2: Chrono Interfaccia di controllo */}
           <div className="transition-transform duration-300 flex flex-col items-center">
             {/* Software Interface Screenshot */}
-            <div className="w-full h-128 mb-6 flex items-center justify-end bg-gradient-to-b from-[#CED7CB] to-[#4C64612B] relative overflow-hidden rounded-lg">
+            <div className="w-full h-[65vh] mb-6 flex items-center justify-end bg-gradient-to-b from-[#CED7CB] to-[#4C64612B] relative overflow-hidden rounded-lg">
               {/* Matte overlay */}
               <div className="absolute inset-0 bg-black/5 mix-blend-multiply"></div>
               <Image

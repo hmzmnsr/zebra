@@ -10,7 +10,7 @@ const ImageSection = () => {
         alt="Produzione contenuti illustration"
         width={1920}
         height={600}
-        className="w-full h-68 sm:h-48 md:h-64 lg:h-168 object-cover"
+        className="w-full h-[40vh] sm:h-[30vh] md:h-[40vh] lg:h-[50vh] object-cover"
         priority
       />
       {/* Horizontal line */}
