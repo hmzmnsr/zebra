@@ -8,8 +8,8 @@ const CTASection = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
         <div className="sm:mb-8 mt-20">
           <h2 className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-none" style={{ fontWeight: 430 }}>
-            Vuoi realizzare contenuti 3D?<br />
-            Contattaci ed insieme lo renderemo realtà 
+            Vuoi realizzare contenuti 3D?
+            Contattaci ed<br /> insieme lo renderemo realtà 
           </h2>
         </div>
         

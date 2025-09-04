@@ -22,7 +22,7 @@ const StatisticsSection = () => {
             {/* Data Point 1 */}
             <div className="relative z-10 flex items-center justify-center">
               <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-start">
-                <div className="text-2xl md:text-3xl text-center md:text-right mb-2 md:mb-0" style={{ color: '#20352F', fontWeight: 250 }}>
+                <div className="text-2xl md:text-4xl text-center md:text-right mb-2 md:mb-0" style={{ color: '#20352F', fontWeight: 250 }}>
                   +23
                 </div>
                 <div className="col-span-1 md:col-span-2 text-center md:text-left">
@@ -39,7 +39,7 @@ const StatisticsSection = () => {
             {/* Data Point 2 */}
             <div className="relative z-10 flex items-center justify-center">
               <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-start">
-                <div className="text-2xl md:text-3xl text-center md:text-right mb-2 md:mb-0" style={{ color: '#20352F', fontWeight: 250 }}>
+                <div className="text-2xl md:text-4xl text-center md:text-right mb-2 md:mb-0" style={{ color: '#20352F', fontWeight: 250 }}>
                   +500
                 </div>
                 <div className="col-span-1 md:col-span-2 text-center md:text-left">
@@ -56,7 +56,7 @@ const StatisticsSection = () => {
             {/* Data Point 3 */}
             <div className="relative z-10 flex items-center justify-center">
               <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-start">
-                <div className="text-2xl md:text-3xl text-center md:text-right mb-2 md:mb-0" style={{ color: '#20352F', fontWeight: 250 }}>
+                <div className="text-2xl md:text-4xl text-center md:text-right mb-2 md:mb-0" style={{ color: '#20352F', fontWeight: 250 }}>
                   +600
                 </div>
                 <div className="col-span-1 md:col-span-2 text-center md:text-left">
@@ -73,7 +73,7 @@ const StatisticsSection = () => {
             {/* Data Point 4 */}
             <div className="relative z-10 flex items-center justify-center">
               <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-start">
-                <div className="text-2xl md:text-3xl text-center md:text-right mb-2 md:mb-0" style={{ color: '#20352F', fontWeight: 250 }}>
+                <div className="text-2xl md:text-4xl text-center md:text-right mb-2 md:mb-0" style={{ color: '#20352F', fontWeight: 250 }}>
                   100%
                 </div>
                 <div className="col-span-1 md:col-span-2 text-center md:text-left">
