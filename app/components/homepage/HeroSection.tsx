@@ -2,9 +2,9 @@
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full overflow-hidden mt-[70px] md:mt-0 h-[calc(100vh-70px)] md:h-auto bg-black">
+    <section className="relative w-full overflow-hidden mt-0 h-screen md:h-auto bg-black">
       {/* Background Video */}
-      <div className="relative h-auto pt-10">
+      <div className="relative h-auto pt-0 md:pt-10">
         <video
           src="/assets/homepage/hero1.mp4"
           autoPlay
@@ -33,7 +33,7 @@ const HeroSection = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-transparent from-0% via-black/20 via-40% to-[#222222] to-100% z-5"></div>
         
         {/* Text Overlay */}
-        <div className="absolute inset-0 flex items-start md:items-end justify-center z-10 px-4 md:px-8 pt-80 md:pt-0 mb-0 md:mb-24">
+        <div className="absolute inset-0 flex items-center md:items-end justify-center z-10 px-4 md:px-8 pt-[70px] md:pt-0 mb-0 md:mb-24">
           <div className="text-center text-white max-w-4xl w-full">
               <h1 style={{ fontWeight: 300, lineHeight: '0.9' }} className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl mb-4 md:mb-10 px-2 md:px-0 font-cofo">
                Creiamo esperienze<br className="hidden sm:block"/> immersive memorabili
