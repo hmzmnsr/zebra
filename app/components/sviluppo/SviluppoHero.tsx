@@ -2,7 +2,7 @@
 
 const SviluppoHero = () => {
   return (
-    <section className="bg-cover bg-center bg-no-repeat text-white py-48 relative" style={{ backgroundImage: 'url(/assets/servizi4/1.jpg)' }}>
+    <section className="bg-cover bg-center bg-no-repeat text-white py-54 relative" style={{ backgroundImage: 'url(/assets/servizi4/1.jpg)' }}>
       {/* Black layer */}
       <div className="absolute inset-0 bg-black/50"></div>
       {/* Matte overlay */}

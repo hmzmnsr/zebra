@@ -8,16 +8,16 @@ const ImageTextSection = () => {
       {/* First Section - Text on Left, Image on Right */}
       <div className="py-16 bg-white">
         <div className="max-w-8xl mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 items-start gap-8">
             {/* Left Content - Text */}
-            <div className="order-2 lg:order-1 pr-8">
-              <h3 className="text-black text-xs font-thin leading-tight px-4 sm:px-6 lg:pl-10">
+            <div className="order-2 lg:order-1 pr-8 pl-18">
+              <h3 className="text-black text-xs font-normal leading-tight px-4 sm:px-6 lg:pl-10">
               Collaborazione e presentazione potenziate
               </h3>
-              <h2 className="text-4xl md:text-5xl lg:text-3xl font-thin text-black leading-tight px-4 sm:px-6 lg:pl-10">
+              <h2 className="text-4xl md:text-5xl lg:text-3xl font-light text-black leading-tight px-4 sm:px-6 lg:pl-10">
               Sale meeting immersive
               </h2>
-              <div className="text-black text-sm leading-tight space-y-4 mt-8 px-4 sm:px-6 lg:pr-40 lg:pl-10 font-thin">
+              <div className="text-black text-sm leading-tight space-y-4 mt-8 px-4 sm:px-6 lg:pr-40 lg:pl-10 font-normal">
                 <p>
                 Progettiamo e realizziamo spazi collaborativi all&apos;avanguardia, dove l&apos;immersività pervade ogni superficie, trasformandola in un&apos;area di lavoro e interazione. 
                 </p>
@@ -34,7 +34,7 @@ const ImageTextSection = () => {
                 alt="Innovazione tecnologica"
                 width={800}
                 height={600}
-                className="w-full h-auto max-h-64 sm:max-h-80 lg:max-h-96 shadow-lg"
+                className="w-full h-auto max-h-[26rem] shadow-lg"
               />
             </div>
           </div>
@@ -44,7 +44,7 @@ const ImageTextSection = () => {
       {/* Second Section - Image on Left, Text on Right */}
       <div className="py-16 bg-white">
         <div className="max-w-8xl mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 items-start gap-8">
             {/* Left Content - Image */}
             <div className="order-1 flex justify-center lg:justify-end pr-8 mb-8 lg:mb-0">
               <Image
@@ -52,19 +52,19 @@ const ImageTextSection = () => {
                 alt="Innovazione tecnologica"
                 width={800}
                 height={600}
-                className="w-full h-auto shadow-lg"
+                className="w-full h-auto max-h-[26rem] shadow-lg"
               />
             </div>
 
             {/* Right Content - Text */}
             <div className="order-2 pl-8">
-              <h3 className="text-black text-xs font-thin leading-tight px-4 sm:px-6 lg:pl-10">
+              <h3 className="text-black text-xs font-normal leading-tight px-4 sm:px-6 lg:pl-10">
               Condivisione senza limiti
               </h3>
-              <h2 className="text-4xl md:text-5xl lg:text-3xl font-thin text-black leading-tight px-4 sm:px-6 lg:pl-10">
+              <h2 className="text-4xl md:text-5xl lg:text-3xl font-light text-black leading-tight px-4 sm:px-6 lg:pl-10">
               Sale conferenza ed auditorium
               </h2>
-              <div className="text-black text-sm leading-tight space-y-4 mt-8 px-4 sm:px-6 lg:pr-40 lg:pl-10 font-thin">
+              <div className="text-black text-sm leading-tight space-y-4 mt-8 px-4 sm:px-6 lg:pr-40 lg:pl-10 font-normal">
                 <p>
                 Nel workflow moderno, la collaborazione e la presentazione dei contenuti assumono un ruolo sempre più centrale, anche quando i team lavorano da luoghi diversi o i clienti non sono presenti fisicamente. ZEBRA progetta e realizza sale conferenza dotate di videoproiettori, display, sistemi audio, microfoni e telecamere intelligenti, pensati per avvicinare persone lontane e massimizzare l&apos;efficacia della comunicazione. 
                 </p>
@@ -80,16 +80,16 @@ const ImageTextSection = () => {
       {/* Third Section - Text on Left, Image on Right */}
       <div className="py-16 bg-white">
         <div className="max-w-8xl mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 items-start gap-8">
             {/* Left Content - Text */}
-            <div className="order-2 lg:order-1 pr-8">
-              <h3 className="text-black text-xs font-thin leading-tight px-4 sm:px-6 lg:pl-10">
+            <div className="order-2 lg:order-1 pr-8 pl-18">
+              <h3 className="text-black text-xs font-normal leading-tight px-4 sm:px-6 lg:pl-10">
               Dimostrazione e formazione efficaci
               </h3>
-              <h2 className="text-4xl md:text-5xl lg:text-3xl font-thin text-black leading-tight px-4 sm:px-6 lg:pl-10">
+              <h2 className="text-4xl md:text-5xl lg:text-3xl font-light text-black leading-tight px-4 sm:px-6 lg:pl-10">
               Demo e training center aziendali
               </h2>
-              <div className="text-black text-sm leading-tight space-y-4 mt-8 px-4 sm:px-6 lg:pr-40 lg:pl-10 font-thin">
+              <div className="text-black text-sm leading-tight space-y-4 mt-8 px-4 sm:px-6 lg:pr-40 lg:pl-10 font-normal">
                 <p>
                 Nella strategia aziendale, le aree demo e training hanno un ruolo fondamentale per fidelizzare e formare partner, forza vendita e tecnici.
                 </p>
@@ -106,7 +106,7 @@ const ImageTextSection = () => {
                 alt="Design e grafica"
                 width={800}
                 height={600}
-                className="w-full h-auto shadow-lg"
+                className="w-full h-auto max-h-[26rem] shadow-lg"
               />
             </div>
           </div>

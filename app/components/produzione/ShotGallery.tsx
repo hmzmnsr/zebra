@@ -18,10 +18,10 @@ const ShotGallery = () => {
       <div className="max-w-8xl mx-auto px-1">
         {/* Header */}
         <div className="text-start px-4 sm:px-6 lg:ml-24 mb-12">
-          <h3 className="text-black text-xs font-thin leading-tight">
+          <h3 className="text-black text-xs font-normal leading-tight">
             In ogni frame l&apos;animo del brand
           </h3>
-          <h2 className="text-4xl md:text-5xl lg:text-4xl font-thin text-black leading-tight">
+          <h2 className="text-4xl md:text-5xl lg:text-4xl font-extralight text-black leading-tight">
             Shot gallery
           </h2>
         </div>
@@ -41,17 +41,6 @@ const ShotGallery = () => {
           ))}
         </div>
 
-        {/* Navigation */}
-        <div className="flex justify-between items-center px-4 sm:px-6">
-          <Link href="/servizi/soluzioni-multimediali-immersive" className="flex items-center text-black hover:text-gray-600 transition-colors">
-            <span className="mr-2">←</span>
-            <span className="text-sm">Vai a Soluzioni multimediali immersive</span>
-          </Link>
-          <Link href="/servizi/produzione-contenuti" className="flex items-center text-black hover:text-gray-600 transition-colors">
-            <span className="text-sm">Vai a produzioni video 3D</span>
-            <span className="ml-2">→</span>
-          </Link>
-        </div>
       </div>
     </div>
   );

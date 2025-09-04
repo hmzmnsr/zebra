@@ -2,9 +2,8 @@
 
 const AmbientiHero = () => {
   return (
-    <section className="bg-cover bg-center bg-no-repeat text-white py-48 relative" style={{ backgroundImage: 'url(/assets/servizi3/1.jpg)' }}>
-      {/* Black layer */}
-      <div className="absolute inset-0 bg-black/50"></div>
+    <section className="bg-cover bg-center bg-no-repeat text-white py-54 relative" style={{ backgroundImage: 'url(/assets/servizi3/1.jpg)' }}>
+      
       {/* Matte overlay */}
       <div className="absolute inset-0 bg-black/50 mix-blend-multiply"></div>
       

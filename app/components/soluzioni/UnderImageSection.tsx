@@ -2,8 +2,8 @@
 
 const UnderImageSection = () => {
   return (
-    <div className="py-16 sm:py-24 lg:py-32 bg-white">
-      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-12">
+    <div className="py-16 sm:py-24 lg:py-32 bg-[#fbfdfc]">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-24">
         {/* Header Area */}
         <div className="mb-8 sm:mb-12 leading-none">
           <h3 className="text-[#082239] text-xs leading-none" style={{ fontWeight: 400 }}>

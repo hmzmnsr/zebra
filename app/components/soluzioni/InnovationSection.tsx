@@ -5,19 +5,20 @@ import Image from 'next/image';
 const InnovationSection = () => {
   return (
     <>
+    <div className="relative h-px bg-gray-500 ml-136 top-28"></div>
       {/* First Section - Text on Left, Image on Right */}
       <section className="pb-16 pt-12" style={{ background: 'linear-gradient(to bottom, #1b2926, #252727)' }}>
         <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-1">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             {/* Left Content - Text Block */}
             <div className="order-2 lg:order-1">
               <h3 className="text-gray-300 text-md font-thin px-4 sm:px-8 lg:px-32">
               Racconti da vivere
               </h3>
-              <h2 className="text-white text-4xl md:text-5xl lg:text-4xl font-thin leading-tight px-4 sm:px-8 lg:px-32 mb-4">
-              Storytelling immersivi
-              </h2>
-              <div className="w-16 h-px bg-white mb-6 mx-4 sm:mx-8 lg:mx-32"></div>
+                             <h2 className="text-white text-4xl md:text-5xl lg:text-4xl font-thin leading-tight px-4 sm:px-8 lg:px-32 mb-8">
+               Storytelling immersivi
+               </h2>
+               
               <p className="text-white text-sm leading-tight px-4 sm:px-8 lg:px-32 font-thin">
                Creiamo esperienze immersive che stupiscono il pubblico attraverso storytelling multisensoriali personalizzati. 
 <br/>
@@ -44,9 +45,9 @@ Per showroom, musei, stand fieristici, eventi, product reveal e contesti educati
       </section>
 
       {/* Second Section - Image on Left, Text on Right */}
-      <section className="pb-16 pt-12" style={{ backgroundColor: '#252727' }}>
+      <section className="pb-16 pt-12 bg-[linear-gradient(to_bottom,#252727_70%,white_70%)]">
         <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-1">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             {/* Left Content - Image */}
             <div className="flex justify-center lg:justify-start pl-4 order-1">
               <Image
@@ -63,17 +64,20 @@ Per showroom, musei, stand fieristici, eventi, product reveal e contesti educati
               <h3 className="text-gray-300 text-md font-thin px-4 sm:px-8 lg:px-32">
               Nuove forme di terapia
               </h3>
-              <h2 className="text-white text-4xl md:text-5xl lg:text-4xl font-thin leading-tight px-4 sm:px-8 lg:px-32 mb-4">
+              <h2 className="text-white text-4xl md:text-5xl lg:text-4xl font-thin leading-tight px-4 sm:px-8 lg:pl-32 mb-8">
               Soluzioni medico-terapeutiche
               </h2>
-              <div className="w-16 h-px bg-white mb-6 mx-4 sm:mx-8 lg:mx-32"></div>
+              
               <p className="text-white text-sm leading-tight px-4 sm:px-8 lg:px-32 font-thin">
               Progettiamo ed implementiamo sistemi immersivi avanzati per il settore medico, supportando ospedali, centri di riabilitazione e strutture terapeutiche con soluzioni innovative che arricchiscono lesperienza dei pazienti. Grazie allimmersività, offriamo ai terapeuti nuovi strumenti per potenziare le cure, migliorando il benessere psicologico dei pazienti durante il trattamento e favorendone una maggiore efficacia. 
               </p>
             </div>
           </div>
         </div>
+
+        <div className="relative h-px bg-gray-500 right-18 bottom-88"></div>
       </section>
+      
     </>
   );
 };

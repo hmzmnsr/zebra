@@ -2,11 +2,10 @@
 
 const SoluzioniHero = () => {
   return (
-    <section className="bg-cover bg-center bg-no-repeat text-white py-48 relative" style={{ backgroundImage: 'url(/assets/servizi1/1.jpg)' }}>
-      {/* Black layer */}
-      <div className="absolute inset-0 bg-black/50"></div>
+    <section className="bg-cover bg-center bg-no-repeat text-white py-54 relative" style={{ backgroundImage: 'url(/assets/servizi1/1.jpg)' }}>
+
       {/* Matte overlay */}
-      <div className="absolute inset-0 bg-black/50 mix-blend-multiply"></div>
+      <div className="absolute inset-0 bg-black/60 mix-blend-multiply"></div>
       
       <div className="px-4 sm:px-6 lg:px-3 relative z-10">
         {/* Header Title with divider line next to it */}

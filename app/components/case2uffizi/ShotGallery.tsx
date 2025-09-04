@@ -17,10 +17,10 @@ const ShotGallery = () => {
       <div className="max-w-8xl mx-auto px-1">
         {/* Header */}
         <div className="text-start px-4 sm:px-6 lg:ml-24 mb-6 sm:mb-8 md:mb-12">
-          <h3 className="text-black text-xs font-thin leading-tight">
+          <h3 className="text-black text-xs font-normal leading-tight">
             In ogni frame l&apos;animo del brand
           </h3>
-          <h2 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-4xl font-thin text-black leading-tight">
+          <h2 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-4xl font-extralight text-black leading-tight">
             Shot gallery
           </h2>
         </div>
