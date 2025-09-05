@@ -14,24 +14,24 @@ const ServiziFeature = () => {
               <Image
                 src="/assets/servisiz/11.jpg"
                 alt="Soluzioni Multimediali Immersive"
-                width={600}
-                height={400}
-                className="w-full h-[35vh] md:h-[60vh] object-cover shadow-lg"
+                width={1080}
+                height={629}
+                className="w-full h-[629px] object-cover shadow-lg"
                 priority
               />
             </div>
             
             {/* Right Side - Text Content */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[35vh] md:h-[60vh] order-1 lg:order-2 px-6 md:px-16 pt-8 md:pt-8 pb-0 md:pb-0">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between h-[629px] order-1 lg:order-2 px-6 md:px-16 pt-8 md:pt-8">
               {/* Project Header */}
               <div className="space-y-2">
-                                 <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#083933]">
+                                 <h2 style={{ fontWeight: 400 }} className="text-[20px] text-[#083933]">
                    1
                  </h2>
-                                  <h3 style={{ fontWeight: 250 }} className="text-xl md:text-2xl lg:text-4xl text-[#083933]">
+                                  <h3 style={{ fontWeight: 250 }} className="text-[48px] text-[#083933] leading-none">
                    Soluzioni Multimediali Immersive
                  </h3>
-                 <p style={{ fontWeight: 407 }} className="text-[#083933] leading-none text-sm md:text-base mt-4 md:mt-8">
+                 <p style={{ fontWeight: 407 }} className="text-[#083933] leading-none text-[20px] mt-4 md:mt-8">
                    Sistemi immersivi che avvolgono lo spettatore in un momento sensoriale unico, trasformando ogni ambiente in un viaggio emozionale capace di coinvolgere, stupire e lasciare un segno indelebile nella memoria.
                  </p>
                </div>
@@ -53,16 +53,16 @@ const ServiziFeature = () => {
         <div className="bg-gray-100 rounded-lg mb-8 md:mb-16 overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-5 items-start">
             {/* Left Side - Text Content */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[35vh] md:h-[60vh] order-1 px-6 md:px-16 pt-8 md:pt-8 pb-0 md:pb-0">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between h-[629px] order-1 px-6 md:px-16 pt-8 md:pt-8">
               {/* Project Header */}
               <div className="space-y-2">
-                                 <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#083933]">
+                                 <h2 style={{ fontWeight: 400 }} className="text-[20px] text-[#083933]">
                    2
                  </h2>
-                                  <h3 style={{ fontWeight: 250 }} className="text-xl md:text-2xl lg:text-4xl text-[#083933]">
+                                  <h3 style={{ fontWeight: 250 }} className="text-[48px] text-[#083933] leading-none">
                    Ambienti collaborativi all&apos;avanguardia
                  </h3>
-                 <p style={{ fontWeight: 407 }} className="text-[#083933] leading-none text-sm md:text-base mt-4 md:mt-8">
+                 <p style={{ fontWeight: 407 }} className="text-[#083933] leading-none text-[20px] mt-4 md:mt-8">
                  Spazi collaborativi all&apos;avanguardia dove tecnologie multimediali ed immersive potenziano produttività e creatività, trasformando ogni riunione, presentazione o sessione di training in un&apos;esperienza d&apos;impatto altamente performante. 
                  </p>
                </div>
@@ -83,9 +83,9 @@ const ServiziFeature = () => {
               <Image
                 src="/assets/servisiz/2.jpg"
                 alt="Ambienti collaborativi all&apos;avanguardia"
-                width={600}
-                height={400}
-                className="w-full h-[35vh] md:h-[60vh] object-cover shadow-lg"
+                width={1080}
+                height={629}
+                className="w-full h-[629px] object-cover shadow-lg"
                 priority
               />
             </div>

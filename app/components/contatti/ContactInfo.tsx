@@ -14,10 +14,10 @@ const ContactInfo = () => {
              <div className="text-white space-y-8">
                {/* Company Name and Website */}
                <div className="space-y-2">
-                 <h1 className="text-3xl lg:text-4xl font-extralight text-white">
+                 <h1 className="text-white" style={{ fontSize: '48px', fontWeight: 250 }}>
                    ZEBRA MULTIMEDIA
                  </h1>
-                 <p className="text-md lg:text-md text-white">
+                 <p className="text-white" style={{ fontSize: '20px', fontWeight: 400 }}>
                    zebramultimedia.it
                  </p>
                </div>
@@ -26,7 +26,7 @@ const ContactInfo = () => {
                <div className="grid grid-cols-2 gap-12">
                  {/* Address Section */}
                  <div className="space-y-4">
-                   <h2 className="text-md lg:text-md font-extralight text-white">
+                   <h2 className="text-white" style={{ fontSize: '20px', fontWeight: 400 }}>
                      Indirizzo
                    </h2>
                    <div className="space-y-2 text-md lg:text-sm font-extralight">
@@ -39,7 +39,7 @@ const ContactInfo = () => {
                  
                  {/* Contacts Section */}
                  <div className="space-y-4">
-                   <h2 className="text-md lg:text-md font-extralight text-white">
+                   <h2 className="text-white" style={{ fontSize: '20px', fontWeight: 400 }}>
                      Contatti
                    </h2>
                    <div className="text-md lg:text-sm font-extralight">

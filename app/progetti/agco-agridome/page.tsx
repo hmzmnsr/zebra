@@ -8,7 +8,7 @@ import UnderImageSection from '../../components/case1agco/UnderImageSection';
 
 export default function Case() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#fbfdfc]">
       <CaseHero />
       <ImageSection />
       <ExperienceSection />

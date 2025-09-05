@@ -15,14 +15,14 @@ export default function Prodotti() {
       <div className="px-4 sm:px-6 lg:px-8">
           {/* Header Title */}
           <div className="mb-8">
-                         <h2 className="text-3xl md:text-5xl font-sans text-white font-extralight">
+                         <h2 className="text-[48px] font-sans text-white" style={{ fontWeight: 250 }}>
                01 Hardware
              </h2>
           </div>
           
           {/* Software Description */}
           <div className="max-w-4xl mb-16">
-                         <p className="text-base md:text-lg text-white leading-relaxed font-sans font-normal">
+                         <p className="text-[20px] text-white leading-relaxed font-sans" style={{ fontWeight: 400 }}>
              </p>
           </div>
 
@@ -39,15 +39,15 @@ export default function Prodotti() {
                   <Image
                     src="/assets/prodotti/h1.PNG"
                     alt="Ecosystem Management Icon"
-                    width={48}
-                    height={48}
+                    width={40}
+                    height={38.33}
                     className="w-12 h-12 object-contain"
                   />
                 </div>
                 
                 {/* Text Content */}
                 <div className="flex-1">
-                                     <p className="text-base text-white leading-relaxed font-sans font-normal">
+                                     <p className="text-[20px] text-white leading-relaxed font-sans" style={{ fontWeight: 400 }}>
                    Frutto di un&apos;intensa attività di ricerca e sviluppo, i nostri mediaserver sono progettati per garantire massima flessibilità e affidabilità: gestione di output video in numero illimitato, sistemi audio anche multicanale, acquisizioni video in 4K e controllo di apparati tramite PLC. 
                    </p>
                 </div>
@@ -60,15 +60,15 @@ export default function Prodotti() {
                   <Image
                     src="/assets/prodotti/h2.PNG"
                     alt="Automation Icon"
-                    width={48}
-                    height={48}
+                    width={40}
+                    height={38.33}
                     className="w-12 h-12 object-contain"
                   />
                 </div>
                 
                 {/* Text Content */}
                 <div className="flex-1">
-                                     <p className="text-base text-white leading-relaxed font-sans font-normal">
+                                     <p className="text-[20px] text-white leading-relaxed font-sans" style={{ fontWeight: 400 }}>
                    Compatibili con i più diffusi sistemi di controllo integrato, gli ARES spaziano dal più compatto controller per digital signage ai mediaserver di fascia alta per la gestione di ambienti immersivi complessi.
                    </p>
                 </div>
@@ -85,15 +85,15 @@ export default function Prodotti() {
                   <Image
                     src="/assets/prodotti/h3.PNG"
                     alt="Cloud Security Icon"
-                    width={48}
-                    height={48}
+                    width={40}
+                    height={38.33}
                     className="w-12 h-12 object-contain"
                   />
                 </div>
                 
                 {/* Text Content */}
                 <div className="flex-1">
-                                     <p className="text-base text-white leading-relaxed font-sans font-normal">
+                                     <p className="text-[20px] text-white leading-relaxed font-sans" style={{ fontWeight: 400 }}>
                    Sono disponibili anche versioni personalizzate, configurate in base alle specifiche esigenze di connessione e integrazione.
                    </p>
                 </div>
@@ -106,15 +106,15 @@ export default function Prodotti() {
                   <Image
                     src="/assets/prodotti/h4.PNG"
                     alt="Modularity Icon"
-                    width={48}
-                    height={48}
+                    width={40}
+                    height={38.33}
                     className="w-12 h-12 object-contain"
                   />
                 </div>
                 
                 {/* Text Content */}
                 <div className="flex-1">
-                                     <p className="text-base text-white leading-relaxed font-sans font-normal">
+                                     <p className="text-[20px] text-white leading-relaxed font-sans" style={{ fontWeight: 400 }}>
                    Ogni mediaserver ZEBRA include un servizio di supporto da remoto, pensato per garantire la massima continuità operativa e intervento tempestivo in caso di necessità. 
                    </p>
                 </div>
@@ -132,14 +132,14 @@ export default function Prodotti() {
         <div className="px-4 sm:px-6 lg:px-8">
           {/* Header Title */}
           <div className="mb-8">
-                         <h2 className="text-3xl md:text-5xl font-sans text-[#083933] font-extralight">
+                         <h2 className="text-[48px] font-sans text-[#083933]" style={{ fontWeight: 250 }}>
                02 Software
              </h2>
           </div>
           
           {/* Software Description */}
           <div className="max-w-4xl mb-16">
-                         <p className="text-base md:text-lg text-[#083933] leading-relaxed font-sans font-normal">
+                         <p className="text-[20px] text-[#083933] leading-relaxed font-sans" style={{ fontWeight: 400 }}>
              </p>
           </div>
 
@@ -156,15 +156,15 @@ export default function Prodotti() {
                   <Image
                     src="/assets/prodotti/s1.PNG"
                     alt="Ecosystem Management Icon"
-                    width={48}
-                    height={48}
+                    width={40}
+                    height={38.33}
                     className="w-12 h-12 object-contain"
                   />
                 </div>
                 
                 {/* Text Content */}
                 <div className="flex-1">
-                                     <p className="text-base text-[#083933] leading-relaxed font-sans font-normal">
+                                     <p className="text-[20px] text-[#083933] leading-relaxed font-sans" style={{ fontWeight: 400 }}>
                    I software ZEBRA consentono di gestire da un&apos;unica piattaforma l&apos;intero ecosistema multimediale: dai contenuti digitali ai dispositivi connessi. L&apos;interfaccia semplice e accessibile anche da remoto, permette un controllo rapido e preciso, senza bisogno di competenze tecniche avanzate.
                    </p>
                 </div>
@@ -177,15 +177,15 @@ export default function Prodotti() {
                   <Image
                     src="/assets/prodotti/s2.PNG"
                     alt="Automation Icon"
-                    width={48}
-                    height={48}
+                    width={40}
+                    height={38.33}
                     className="w-12 h-12 object-contain"
                   />
                 </div>
                 
                 {/* Text Content */}
                 <div className="flex-1">
-                                     <p className="text-base text-[#083933] leading-relaxed font-sans font-normal">
+                                     <p className="text-[20px] text-[#083933] leading-relaxed font-sans" style={{ fontWeight: 400 }}>
                    Il nostro software automatizza ogni fase operativa, dalla programmazione dei contenuti alla gestione dell&apos;hardware. Il sistema controlla accensione, spegnimento e funzionamento dei dispositivi in modo sincronizzato, riducendo gli interventi manuali e aumentando l&apos;efficienza dell&apos;intero impianto.
                    </p>
                 </div>
@@ -202,15 +202,15 @@ export default function Prodotti() {
                   <Image
                     src="/assets/prodotti/s3.PNG"
                     alt="Cloud Security Icon"
-                    width={48}
-                    height={48}
+                    width={40}
+                    height={38.33}
                     className="w-12 h-12 object-contain"
                   />
                 </div>
                 
                 {/* Text Content */}
                 <div className="flex-1">
-                                     <p className="text-base text-[#083933] leading-relaxed font-sans font-normal">
+                                     <p className="text-[20px] text-[#083933] leading-relaxed font-sans" style={{ fontWeight: 400 }}>
                    La struttura cloud evoluta garantisce prestazioni stabili nel tempo e altissimi standard di sicurezza contro accessi non autorizzati. I software sono pensati per funzionare in ambienti professionali e critici, dove affidabilità e protezione dei dati sono fondamentali.
                    </p>
                 </div>
@@ -223,15 +223,15 @@ export default function Prodotti() {
                   <Image
                     src="/assets/prodotti/s4.PNG"
                     alt="Modularity Icon"
-                    width={48}
-                    height={48}
+                    width={40}
+                    height={38.33}
                     className="w-12 h-12 object-contain"
                   />
                 </div>
                 
                 {/* Text Content */}
                 <div className="flex-1">
-                                     <p className="text-base text-[#083933] leading-relaxed font-sans font-normal">
+                                     <p className="text-[20px] text-[#083933] leading-relaxed font-sans" style={{ fontWeight: 400 }}>
                    Grazie alla loro natura modulare e configurabile, i software si adattano a qualsiasi contesto d&apos;uso: museale, corporate, educational, retail, fieristico; e dialogano con tutti i dispositivi del sistema: luci, schermi, automazioni, sensoristica e altro ancora.
                    </p>
                 </div>

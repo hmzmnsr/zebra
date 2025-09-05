@@ -14,29 +14,29 @@ const ServiziFeature = () => {
             <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:ml-16 flex flex-col h-[45vh] md:h-[70vh] order-1">
               {/* Project Header */}
               <div className="space-y-2 flex-1">
-                <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
+                <h2 style={{ fontWeight: 400 }} className="text-[20px] text-[#082239] leading-none">
                   3
                 </h2>
-                <h3 style={{ fontWeight: 250 }} className="text-xl md:text-2xl lg:text-4xl text-[#082239]">
+                <h3 style={{ fontWeight: 250 }} className="text-[48px] text-[#082239] leading-none">
                   Aula Immersiva
                 </h3>
-                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-sm md:text-base mt-4 md:mt-8">
+                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-[20px] mt-4 md:mt-8">
                  Trasforma qualsiasi ambiente in un <span style={{ fontWeight: 500 }}>aula immersiva ad alto impatto visivo</span>, grazie a 3 o 4 videoproiettori che proiettano fino a 12 metri di base e 2 metri di altezza sulle pareti, <span style={{ fontWeight: 500 }}>senza strutture aggiuntive</span>. Ideale per software didattici, scenari 3D interattivi, navigazione web e numerose applicazioni educative. 
                 </p>
-                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-sm md:text-base mt-4 md:mt-5">
+                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-[20px] mt-4 md:mt-5">
                   L installazione è semplice con proiettori a soffitto, impianto audio dedicato e <span style={{ fontWeight: 500 }}>MediaServer ARES</span> per una gestione fluida e affidabile dei contenuti.
                 </p>
-                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-sm md:text-base italic mt-4 md:mt-5">
+                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-[20px] italic mt-4 md:mt-5">
                 Il kit Aula Immersiva è personalizzabile in base alle dimensioni dello spazio disponibile.
                 </p>
-                <p style={{ fontWeight: 500 }} className="text-[#082239] leading-none text-sm md:text-base font-bold mt-4 md:mt-5">
+                <p style={{ fontWeight: 500 }} className="text-[#082239] leading-none text-[20px] font-bold mt-4 md:mt-5">
                 Un esperienza che trasforma la lezione in un viaggio immersivo.
                 </p>
               </div>
               
                              {/* Call to Action Button - Positioned at bottom right */}
                              <div className="text-center lg:text-right">
-                 <button className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+                 <button className="inline-flex items-center justify-center gap-2 w-[188px] h-[52px] bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-[20px]" style={{ fontWeight: 400 }}>
                    <span>Scopri di più</span>
                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -66,26 +66,26 @@ const ServiziFeature = () => {
             <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:ml-16 flex flex-col h-[45vh] md:h-[70vh] order-1">
               {/* Project Header */}
               <div className="space-y-2 flex-1">
-                <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
+                <h2 style={{ fontWeight: 400 }} className="text-[20px] text-[#082239] leading-none">
                   4
                 </h2>
-                <h3 style={{ fontWeight: 250 }} className="text-xl md:text-2xl lg:text-4xl text-[#082239]">
+                <h3 style={{ fontWeight: 250 }} className="text-[48px] text-[#082239] leading-none">
                 Aula Cinema
                 </h3>
-                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-sm md:text-base mt-4 md:mt-8">
+                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-[20px] mt-4 md:mt-8">
                 Il Kit Cinema è una soluzione completa pensata per portare nelle scuole un esperienza audiovisiva di altissima qualità, ideale per laboratori dedicati al cinema ma perfettamente adattabile anche ad altre discipline grazie alla sua versatilità. 
                 </p>
-                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-sm md:text-base mt-4 md:mt-5">
+                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-[20px] mt-4 md:mt-5">
                 Il sistema include uno schermo da 4 metri, un videoproiettore EPSON ad alte prestazioni e il mediaserver ARES con software di controllo integrato, per garantire una qualità d immagine eccezionale. A completare il kit, un impianto audio professionale, un manuale dettagliato per l installazione e la configurazione e tutti i cablaggi necessari. 
                 </p>
-                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-sm md:text-base mt-4 md:mt-5">
+                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-[20px] mt-4 md:mt-5">
                 Grazie al software multilingua Mozaik incluso, il Kit Cinema può essere impiegato in attività didattiche trasversali, offrendo agli studenti un ambiente immersivo e coinvolgente in cui apprendere, creare e raccontare. Il supporto tecnico da remoto assicura inoltre la massima continuità operativa, permettendo alle scuole di lavorare in modo fluido e senza interruzioni. 
                 </p>
               </div>
               
                              {/* Call to Action Button - Positioned at bottom right */}
                              <div className="text-center lg:text-right">
-                 <button className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+                 <button className="inline-flex items-center justify-center gap-2 w-[188px] h-[52px] bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-[20px]" style={{ fontWeight: 400 }}>
                    <span>Scopri di più</span>
                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -127,23 +127,23 @@ const ServiziFeature = () => {
             <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:mr-16 flex flex-col h-[45vh] md:h-[70vh] order-1 lg:order-2">
               {/* Project Header */}
               <div className="space-y-2 flex-1">
-                <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
+                <h2 style={{ fontWeight: 400 }} className="text-[20px] text-[#082239] leading-none">
                   5
                 </h2>
-                <h3 style={{ fontWeight: 250 }} className="text-xl md:text-2xl lg:text-4xl text-[#082239]">
+                <h3 style={{ fontWeight: 250 }} className="text-[48px] text-[#082239] leading-none">
                 Kit Mapping
                 </h3>
-                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-sm md:text-base mt-4 md:mt-8">
+                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-[20px] mt-4 md:mt-8">
                 Il kit Mapping ZEBRA è la soluzione completa dedicata alle scuole per sperimentare le arti visive e le tecniche di videomapping in modo semplice e professionale. 
                 </p>
-                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-sm md:text-base mt-4 md:mt-5">
+                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-[20px] mt-4 md:mt-5">
                 Grazie al mediaserver ARES, dotato di software dedicato, e a due videoproiettori EPSON, è possibile proiettare su oggetti, pareti o scenografie, esplorando la digital art e la creatività multimediale.Tutto il sistema, completo di cablaggi e accessori, è alloggiato in un pratico flight case antiurto, facile da trasportare e pronto all uso. 
                 </p>
               </div>
               
                              {/* Call to Action Button - Positioned at bottom right */}
                              <div className="text-center lg:text-right">
-                 <button className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+                 <button className="inline-flex items-center justify-center gap-2 w-[188px] h-[52px] bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-[20px]" style={{ fontWeight: 400 }}>
                    <span>Scopri di più</span>
                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -161,20 +161,20 @@ const ServiziFeature = () => {
             <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:ml-16 flex flex-col h-[45vh] md:h-[70vh] order-1">
               {/* Project Header */}
               <div className="space-y-2 flex-1">
-                <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
+                <h2 style={{ fontWeight: 400 }} className="text-[20px] text-[#082239] leading-none">
                   6
                 </h2>
-                <h3 style={{ fontWeight: 250 }} className="text-xl md:text-2xl lg:text-4xl text-[#082239]">
+                <h3 style={{ fontWeight: 250 }} className="text-[48px] text-[#082239] leading-none">
                 Soluzioni Custom
                 </h3>
-                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-sm md:text-base mt-4 md:mt-8">
+                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-[20px] mt-4 md:mt-8">
                 Progettiamo ambienti multimediali evoluti, su misura per auditorium, aule magne e sale conferenze. Utilizziamo grandi schermi curvi, proiezioni su superfici esistenti e integriamo telecamere, microfoni, impianti audio, presenter wireless e ogni tecnologia necessaria per creare esperienze di presentazione e collaborazione coinvolgenti, efficaci e spettacolari. 
                 </p>
               </div>
               
                              {/* Call to Action Button - Positioned at bottom right */}
                              <div className="text-center lg:text-right">
-                 <button className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+                 <button className="inline-flex items-center justify-center gap-2 w-[188px] h-[52px] bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-[20px]" style={{ fontWeight: 400 }}>
                    <span>Scopri di più</span>
                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -216,30 +216,30 @@ const ServiziFeature = () => {
             <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:mr-16 flex flex-col h-[45vh] md:h-[70vh] order-1 lg:order-2">
               {/* Project Header */}
               <div className="space-y-2 flex-1">
-                <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
+                <h2 style={{ fontWeight: 400 }} className="text-[20px] text-[#082239] leading-none">
                   7
                 </h2>
-                <h3 style={{ fontWeight: 250 }} className="text-xl md:text-2xl lg:text-4xl text-[#082239]">
+                <h3 style={{ fontWeight: 250 }} className="text-[48px] text-[#082239] leading-none">
                 ITS: Immersive Teaching System
                 </h3>
-                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-sm md:text-base mt-4 md:mt-8">
+                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-[20px] mt-4 md:mt-8">
                 l nostro prodotto immersivo più conosciuto: uno spazio di proiezione panoramica di oltre 6 metri di base che permette di insegnare entrando letteralmente nella materia. 
                 </p>
-                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-sm md:text-base mt-4 md:mt-5">
+                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-[20px] mt-4 md:mt-5">
                 L intera superficie è interattiva, trasformando ogni lezione in un esperienza dinamica e partecipativa. 
 
                 </p>
-                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-sm md:text-base mt-4 md:mt-5">
+                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-[20px] mt-4 md:mt-5">
                 Già adottato da oltre 500 scuole in tutta Italia, è dotato di un vastissimo repertorio di scenari 3D multilingua, pensati per rendere ogni lezione interattiva, coinvolgente e indimenticabile. 
                 </p>
-                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-sm md:text-base mt-4 md:mt-5">
+                <p style={{ fontWeight: 400 }} className="text-[#082239] leading-none text-[20px] mt-4 md:mt-5">
                 Il supporto tecnico da remoto incluso garantisce massima continuità operativa in ogni momento. 
                 </p>
               </div>
               
                              {/* Call to Action Button - Positioned at bottom right */}
                              <div className="text-center lg:text-right">
-                 <button className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+                 <button className="inline-flex items-center justify-center gap-2 w-[188px] h-[52px] bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-[20px]" style={{ fontWeight: 400 }}>
                    <span>Scopri di più</span>
                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />

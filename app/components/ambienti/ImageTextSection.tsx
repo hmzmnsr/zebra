@@ -11,13 +11,13 @@ const ImageTextSection = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 items-start gap-8">
             {/* Left Content - Text */}
             <div className="order-2 lg:order-1 pr-8 pl-18">
-              <h3 className="text-black text-xs font-normal leading-tight px-4 sm:px-6 lg:pl-10">
+              <h3 className="text-black text-[20px] font-normal leading-tight px-4 sm:px-6 lg:pl-10">
               Collaborazione e presentazione potenziate
               </h3>
-              <h2 className="text-4xl md:text-5xl lg:text-3xl font-light text-black leading-tight px-4 sm:px-6 lg:pl-10">
+              <h2 className="text-[32px] font-light text-black leading-tight px-4 sm:px-6 lg:pl-10">
               Sale meeting immersive
               </h2>
-              <div className="text-black text-sm leading-tight space-y-4 mt-8 px-4 sm:px-6 lg:pr-40 lg:pl-10 font-normal">
+              <div className="text-black text-[20px] leading-tight space-y-4 mt-8 px-4 sm:px-6 lg:pr-40 lg:pl-10 font-normal">
                 <p>
                 Progettiamo e realizziamo spazi collaborativi all&apos;avanguardia, dove l&apos;immersività pervade ogni superficie, trasformandola in un&apos;area di lavoro e interazione. 
                 </p>
@@ -32,9 +32,9 @@ const ImageTextSection = () => {
               <Image
                 src="/assets/servizi3/4.jpg"
                 alt="Innovazione tecnologica"
-                width={800}
-                height={600}
-                className="w-full h-[50vh] shadow-lg object-cover"
+                width={940}
+                height={487}
+                className="w-full h-[487px] shadow-lg object-cover"
               />
             </div>
           </div>
@@ -50,21 +50,21 @@ const ImageTextSection = () => {
               <Image
                 src="/assets/servizi3/71.jpg"
                 alt="Innovazione tecnologica"
-                width={800}
-                height={600}
-                className="w-full h-[50vh] shadow-lg object-cover"
+                width={940}
+                height={487}
+                className="w-full h-[487px] shadow-lg object-cover"
               />
             </div>
 
             {/* Right Content - Text */}
             <div className="order-2 pl-8">
-              <h3 className="text-black text-xs font-normal leading-tight px-4 sm:px-6 lg:pl-10">
+              <h3 className="text-black text-[20px] font-normal leading-tight px-4 sm:px-6 lg:pl-10">
               Condivisione senza limiti
               </h3>
-              <h2 className="text-4xl md:text-5xl lg:text-3xl font-light text-black leading-tight px-4 sm:px-6 lg:pl-10">
+              <h2 className="text-[32px] font-light text-black leading-tight px-4 sm:px-6 lg:pl-10">
               Sale conferenza ed auditorium
               </h2>
-              <div className="text-black text-sm leading-tight space-y-4 mt-8 px-4 sm:px-6 lg:pr-40 lg:pl-10 font-normal">
+              <div className="text-black text-[20px] leading-tight space-y-4 mt-8 px-4 sm:px-6 lg:pr-40 lg:pl-10 font-normal">
                 <p>
                 Nel workflow moderno, la collaborazione e la presentazione dei contenuti assumono un ruolo sempre più centrale, anche quando i team lavorano da luoghi diversi o i clienti non sono presenti fisicamente. ZEBRA progetta e realizza sale conferenza dotate di videoproiettori, display, sistemi audio, microfoni e telecamere intelligenti, pensati per avvicinare persone lontane e massimizzare l&apos;efficacia della comunicazione. 
                 </p>
@@ -83,13 +83,13 @@ const ImageTextSection = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 items-start gap-8">
             {/* Left Content - Text */}
             <div className="order-2 lg:order-1 pr-8 pl-18">
-              <h3 className="text-black text-xs font-normal leading-tight px-4 sm:px-6 lg:pl-10">
+              <h3 className="text-black text-[20px] font-normal leading-tight px-4 sm:px-6 lg:pl-10">
               Dimostrazione e formazione efficaci
               </h3>
-              <h2 className="text-4xl md:text-5xl lg:text-3xl font-light text-black leading-tight px-4 sm:px-6 lg:pl-10">
+              <h2 className="text-[32px] font-light text-black leading-tight px-4 sm:px-6 lg:pl-10">
               Demo e training center aziendali
               </h2>
-              <div className="text-black text-sm leading-tight space-y-4 mt-8 px-4 sm:px-6 lg:pr-40 lg:pl-10 font-normal">
+              <div className="text-black text-[20px] leading-tight space-y-4 mt-8 px-4 sm:px-6 lg:pr-40 lg:pl-10 font-normal">
                 <p>
                 Nella strategia aziendale, le aree demo e training hanno un ruolo fondamentale per fidelizzare e formare partner, forza vendita e tecnici.
                 </p>
@@ -104,9 +104,9 @@ const ImageTextSection = () => {
               <Image
                 src="/assets/servizi3/5.jpg"
                 alt="Design e grafica"
-                width={800}
-                height={600}
-                className="w-full h-[50vh] shadow-lg object-cover"
+                width={940}
+                height={487}
+                className="w-full h-[487px] shadow-lg object-cover"
               />
             </div>
           </div>

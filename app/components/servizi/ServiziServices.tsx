@@ -26,14 +26,14 @@ const ServiziServices = () => {
 
   return (
     <section className="bg-[#FBFDFC] py-8 md:py-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-1">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
           {services.map((service) => (
             <div key={service.id} className="flex items-baseline space-x-3">
-              <span className="text-gray-700 text-md flex-shrink-0">
+              <span className="text-[#51746f] text-[20px] flex-shrink-0" style={{ fontWeight: 400 }}>
                 {service.id}.
               </span>
-              <span className="text-gray-700 text-md leading-tight">
+              <span className="text-[#51746f] text-[20px] leading-none" style={{ fontWeight: 400 }}>
                 {service.title}
               </span>
             </div>

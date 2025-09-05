@@ -4,16 +4,16 @@ import Image from 'next/image';
 
 const ProcessSection = () => {
   return (
-    <section className="py-8 md:py-16" style={{ backgroundColor: '#1b2926' }}>
+    <section className="py-8 md:pb-16 md:pt-44" style={{ backgroundColor: '#1b2926' }}>
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-1">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Content - Text Block */}
           <div className="">
-            <h3 className="text-[#fbfdfc] text-md font-thin px-4 sm:px-8 lg:px-32">
+            <h3 className="text-[#fbfdfc] text-[20px] font-thin px-4 sm:px-8 lg:px-32">
             Il nostro processo
             </h3>
-            <p className="text-[#fbfdfc] text-3xl leading-none px-4 sm:px-8 lg:px-32 font-extralight">
-            Ogni progetto è cucito su misura e prende vita grazie alla sinergia tra tecnica e creatività. Ti accompagniamo in ogni fase del progetto, trasformando la tua visione in un’esperienza memorabile 
+            <p className="text-[#fbfdfc] text-[48px] leading-none px-4 sm:px-8 lg:px-32 font-extralight">
+            Ogni progetto è cucito su misura e prende vita grazie alla sinergia tra tecnica e creatività. Ti accompagniamo in ogni fase del progetto, trasformando la tua visione in un&apos;esperienza memorabile 
               </p>
           </div>
 
@@ -26,12 +26,12 @@ const ProcessSection = () => {
                   <Image
                     src="/assets/servizi1/l1.PNG"
                     alt="Visione icon"
-                    width={24}
-                    height={24}
+                    width={33.33}
+                    height={33.33}
                     className="object-contain"
                   />
                 </div>
-                <span className="text-white text-lg sm:text-xl lg:text-xl ml-4">Visione</span>
+                <span className="text-white text-[32px] ml-4">Visione</span>
               </div>
               <div className="border-t border-white/70 ml-0 sm:ml-2 md:ml-3 lg:ml-4"></div>
               <div className='text-[#1b2926] text-md'>.</div>
@@ -42,12 +42,12 @@ const ProcessSection = () => {
                   <Image
                     src="/assets/servizi1/l2.PNG"
                     alt="Progettazione icon"
-                    width={24}
-                    height={24}
+                    width={33.33}
+                    height={33.33}
                     className="object-contain"
                   />
                 </div>
-                <span className="text-white text-base sm:text-lg lg:text-lg ml-4">Progettazione</span>
+                <span className="text-white text-[32px] ml-4">Progettazione</span>
               </div>
               <div className="border-t border-white/70 ml-1 sm:ml-6 md:ml-10 lg:ml-13"></div>
               <div className='text-[#1b2926] text-md'>.</div>
@@ -58,12 +58,12 @@ const ProcessSection = () => {
                   <Image
                     src="/assets/servizi1/l3.PNG"
                     alt="Realizzazione icon"
-                    width={24}
-                    height={24}
+                    width={33.33}
+                    height={33.33}
                     className="object-contain"
                   />
                 </div>
-                <span className="text-white text-base sm:text-lg lg:text-lg ml-4">Realizzazione</span>
+                <span className="text-white text-[32px] ml-4">Realizzazione</span>
               </div>
               <div className="border-t border-white/70 ml-2 sm:ml-10 md:ml-16 lg:ml-23"></div>
               <div className='text-[#1b2926] text-md'>.</div>
@@ -74,12 +74,12 @@ const ProcessSection = () => {
                   <Image
                     src="/assets/servizi1/l4.PNG"
                     alt="Supporto icon"
-                    width={24}
-                    height={24}
+                    width={33.33}
+                    height={33.33}
                     className="object-contain"
                   />
                 </div>
-                <span className="text-white text-base sm:text-lg lg:text-lg ml-4">Supporto</span>
+                <span className="text-white text-[32px] ml-4">Supporto</span>
               </div>
               <div className="border-t border-white/70 ml-3 sm:ml-14 md:ml-22 lg:ml-33"></div>
               <div className='text-[#1b2926] text-md'>.</div>

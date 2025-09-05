@@ -12,13 +12,13 @@ const InnovationSection = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             {/* Left Content - Text Block */}
             <div className="order-2 lg:order-1">
-              <h3 className="text-gray-300 text-md font-normal px-4 sm:px-8 lg:px-32">
+              <h3 className="text-gray-300 text-[20px] font-normal px-4 sm:px-8 lg:px-32">
               Semplicità e praticità
               </h3>
-              <h2 className="text-white text-4xl md:text-5xl lg:text-4xl font-light leading-tight px-4 sm:px-8 lg:px-32 mb-4">
+              <h2 className="text-white text-[48px] font-light leading-none px-4 sm:px-8 lg:px-32 mb-4">
               UX-UI Design
               </h2>
-              <p className="text-white text-sm leading-tight px-4 sm:px-8 lg:px-32 font-normal">
+              <p className="text-white text-[20px] leading-none px-4 sm:px-8 lg:px-32 font-normal">
               Progettiamo interfacce belle da vedere e facili da usare, dove ogni elemento è studiato per migliorare l&apos;esperienza dell&apos;utente. Dall&apos;architettura delle informazioni al design visivo, curiamo ogni dettaglio per rendere l&apos;interazione intuitiva, accessibile ed efficace. 
               </p>
             </div>
@@ -28,9 +28,9 @@ const InnovationSection = () => {
               <Image
                 src="/assets/servizi4/31.png"
                 alt="Innovazione coinvolgente - ambiente collaborativo immersivo"
-                width={800}
-                height={600}
-                className="w-full h-[40vh] sm:h-[50vh] lg:h-[65vh] object-cover"
+                width={1098}
+                height={564}
+                className="w-full h-[564px] object-cover"
               />
             </div>
           </div>
@@ -46,29 +46,29 @@ const InnovationSection = () => {
               <Image
                 src="/assets/servizi4/1.jpg"
                 alt="Innovazione coinvolgente - ambiente collaborativo immersivo"
-                width={800}
-                height={600}
-                className="w-full h-[40vh] sm:h-[50vh] lg:h-[65vh] object-cover"
+                width={1098}
+                height={564}
+                className="w-full h-[564px] object-cover"
               />
             </div>
 
             {/* Right Content - Text Block */}
             
             <div className="order-2">
-              <h3 className="text-black text-md font-normal px-4 sm:px-8 lg:px-32">
+              <h3 className="text-black text-[20px] font-normal px-4 sm:px-8 lg:px-32">
               Soluzioni su misura
               </h3>
-              <h2 className="text-black text-4xl md:text-5xl lg:text-4xl font-light leading-tight px-4 sm:px-8 lg:px-32 mb-4">
+              <h2 className="text-black text-[48px] font-light leading-none px-4 sm:px-8 lg:px-32 mb-4">
               Software development
               </h2>
               <div className="w-16 h-px bg-white mb-6 mx-4 sm:mx-8 lg:mx-32"></div>
-              <p className="text-black text-sm leading-tight px-4 sm:px-8 lg:px-32 font-normal">
+              <p className="text-black text-[20px] leading-none px-4 sm:px-8 lg:px-32 font-normal">
               Sviluppiamo applicazioni personalizzate, dai configuratori interattivi alle automazioni, dalle interfacce di controllo alle app per smartphone e tablet. Ogni soluzione è progettata su misura per rispondere a esigenze specifiche ed è facilmente integrabile con sistemi preesistenti 
               </p>
             </div>
           </div>
         </div>
-        <div className="relative h-px bg-gray-300 mr-58 bottom-80"></div>
+        <div className="relative h-px bg-gray-300 mr-58 bottom-118"></div>
       </section>
     </>
   );

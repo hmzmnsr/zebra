@@ -14,24 +14,24 @@ const ServiziContent = () => {
               <Image
                 src="/assets/servisiz/3.png"
                 alt="Produzione contenuti"
-                width={600}
-                height={400}
-                className="w-full h-[35vh] md:h-[60vh] object-cover"
+                width={1080}
+                height={629}
+                className="w-full h-[629px] object-cover"
                 priority
               />
             </div>
             
             {/* Right Side - Text Content */}
-                          <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[35vh] md:h-[60vh] order-1 lg:order-2 px-6 md:px-16 pt-8 md:pt-8 pb-0 md:pb-0">
+                          <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between h-[629px] order-1 lg:order-2 px-6 md:px-16 pt-8 md:pt-8">
               {/* Project Header */}
               <div className="space-y-2">
-                                 <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#083933]">
+                                 <h2 style={{ fontWeight: 400 }} className="text-[20px] text-[#083933]">
                    3
                  </h2>
-                 <h3 style={{ fontWeight: 250 }} className="text-xl md:text-2xl lg:text-4xl text-[#083933]">
+                 <h3 style={{ fontWeight: 250 }} className="text-[48px] text-[#083933] leading-none">
                    Produzione contenuti
                  </h3>
-                 <p style={{ fontWeight: 407 }} className="text-[#083933] leading-none text-sm md:text-base mt-4 md:mt-8">
+                 <p style={{ fontWeight: 407 }} className="text-[#083933] leading-none text-[20px] mt-4 md:mt-8">
                  Produzioni A-V pensate per comunicare in modo stupefacente, valorizzando prodotti e aziende tramite contenuti ottimizzati per canali social, YouTube, siti web e spot televisivi. 
                  </p>
               </div>
@@ -57,24 +57,24 @@ const ServiziContent = () => {
               <Image
                 src="/assets/servisiz/12.png"
                 alt="Software development"
-                width={600}
-                height={400}
-                className="w-full h-[35vh] md:h-[60vh] object-cover"
+                width={1080}
+                height={629}
+                className="w-full h-[629px] object-cover"
                 priority
               />
             </div>
 
                          {/* Right Side - Text Content */}
-             <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[35vh] md:h-[60vh] order-1 lg:order-2 px-6 md:px-16 pt-8 md:pt-8 pb-0 md:pb-0">
+             <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between h-[629px] order-1 lg:order-2 px-6 md:px-16 pt-8 md:pt-8">
                {/* Project Header */}
                <div className="space-y-2">
-                                   <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#083933]">
+                                   <h2 style={{ fontWeight: 400 }} className="text-[20px] text-[#083933]">
                     4
                   </h2>
-                  <h3 style={{ fontWeight: 250 }} className="text-xl md:text-2xl lg:text-4xl text-[#083933]">
+                  <h3 style={{ fontWeight: 250 }} className="text-[48px] text-[#083933] leading-none">
                     Software development
                   </h3>
-                  <p style={{ fontWeight: 407 }} className="text-[#083933] leading-none text-sm md:text-base mt-4 md:mt-8">
+                  <p style={{ fontWeight: 407 }} className="text-[#083933] leading-none text-[20px] mt-4 md:mt-8">
                   Software personalizzati con un approccio completo: dal design UX/UI allo sviluppo di applicazioni, anche mobile. Interfacce di controllo intuitive e integrazione di automazioni, per soluzioni che semplificano i processi e valorizzano l&apos;esperienza utente 
                   </p>
                </div>

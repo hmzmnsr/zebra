@@ -14,18 +14,18 @@ const NewImageSection = () => {
               <Image
                 src="/assets/case2betaise/img1.jpg"
                 alt="Innovazione tecnologica"
-                width={800}
-                height={600}
+                width={940}
+                height={487}
                 className="w-full h-[40vh] sm:h-[50vh] md:h-[60vh] lg:h-[65vh] object-cover shadow-lg"
               />
             </div>
 
             {/* Right Content - Text */}
             <div className="order-2 pl-0 sm:pl-4 md:pl-6 lg:pl-8">
-              <h3 className="text-[#082239] text-sm sm:text-md px-0 sm:px-4 md:px-6 lg:pl-16 mb-3 sm:mb-1" style={{ fontWeight: 420 }}>
+              <h3 className="text-[#082239] text-[20px] px-0 sm:px-4 md:px-6 lg:pl-16 mb-3 sm:mb-1" style={{ fontWeight: 400 }}>
               Tecnologia immersiva per raccontare, coinvolgere, vincere
               </h3>
-              <p className="text-2xl sm:text-3xl md:text-4xl lg:text-3xl font-extralight text-[#082239] leading-none px-0 sm:px-4 md:px-6 lg:pl-16" style={{ fontWeight: 250 }}>
+              <p className="text-[48px] text-[#082239] leading-none px-0 sm:px-4 md:px-6 lg:pl-16" style={{ fontWeight: 250 }}>
               Un&apos;esperienza visiva<br/> emozionante, visitata da migliaia <br/> di persone, che ha permesso a <br/> EPSON di aggiudicarsi il premio <br/> come miglior stand della <br/> manifestazione. 
               </p>
             </div>

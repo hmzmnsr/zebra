@@ -14,18 +14,18 @@ const NewImageSection = () => {
               <Image
                 src="/assets/case2uffizi/13.jpg"
                 alt="Innovazione tecnologica"
-                width={800}
-                height={600}
+                width={940}
+                height={487}
                 className="w-full h-[40vh] sm:h-[50vh] md:h-[60vh] lg:h-[65vh] object-cover shadow-lg"
               />
             </div>
 
             {/* Right Content - Text */}
             <div className="order-2 pl-0 sm:pl-4 lg:pl-8">
-              <h3 className="text-[#082239] text-sm sm:text-md px-0 sm:px-4 lg:pl-20 mb-3 sm:mb-1" style={{ fontWeight: 420 }}>
+              <h3 className="text-[#082239] text-[20px] px-0 sm:px-4 lg:pl-20 mb-3 sm:mb-1" style={{ fontWeight: 400 }}>
               Immersi nel pensiero di Leonardo
               </h3>
-              <p className="text-2xl sm:text-3xl md:text-4xl lg:text-3xl font-extralight text-[#082239] leading-none px-0 sm:px-4 lg:pl-20" style={{ fontWeight: 250 }}>
+              <p className="text-[48px] text-[#082239] leading-none px-0 sm:px-4 lg:pl-20" style={{ fontWeight: 250 }}>
               Un&apos;interfaccia interattiva ha<br/> permesso di sfogliare<br/> virtualmente le pagine originali<br/> del Codice, con traduzioni e<br/> approfondimenti in tempo reale,<br/> rendendo comprensibile e<br/> accessibile un documento di<br/> enorme complessità.
               </p>
             </div>

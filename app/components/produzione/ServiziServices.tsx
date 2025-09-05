@@ -22,10 +22,10 @@ const ServiziServices = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 md:gap-8">
           {services.map((service) => (
             <div key={service.id} className="flex items-baseline space-x-3">
-              <span className="text-white text-sm flex-shrink-0">
+              <span className="text-white text-[20px] flex-shrink-0" style={{ fontWeight: 20 }}>
                 {service.id}.
               </span>
-              <span className="text-white text-sm leading-tight">
+              <span className="text-white text-[20px] leading-none" style={{ fontWeight: 20 }}>
                 {service.title}
               </span>
             </div>

@@ -29,7 +29,7 @@ const SoftwareProductsSection = () => {
             
             {/* Product Title and Button - Same Line */}
             <div className="w-full flex items-center justify-between mb-4">
-              <h3 className="text-2xl text-[#083933] font-light">
+              <h3 className="text-[32px] text-[#083933]" style={{ fontWeight: 300 }}>
                 EVA Digital Signage
               </h3>
               <button className="h-7 px-3 text-sm bg-transparent border border-[#083933] text-[#083933] rounded-full hover:border-[#083933] hover:text-[#083933] transition-all duration-300">
@@ -42,16 +42,16 @@ const SoftwareProductsSection = () => {
             
             {/* Product Description */}
             <div className="space-y-3">
-            <p className="text-md text-[#083933] leading-6 text-left font-normal">
+            <p className="text-[20px] text-[#083933] leading-6 text-left" style={{ fontWeight: 400 }}>
               La soluzione software di ZEBRA dedicata al digital signage: una piattaforma semplice e intuitiva per gestire, con un solo click, la comunicazione su monitor, ledwall e videoproiettori. 
               </p>
-              <p className="text-md text-[#083933] leading-6 text-left font-normal">
+              <p className="text-[20px] text-[#083933] leading-6 text-left" style={{ fontWeight: 400 }}>
               Consente di controllare in modo pratico e centralizzato il palinsesto, scegliendo cosa trasmettere e quando farlo, anche da remoto. 
               </p>
-              <p className="text-md text-[#083933] leading-6 text-left font-normal">
+              <p className="text-[20px] text-[#083933] leading-6 text-left" style={{ fontWeight: 400 }}>
               Integrato con il controller ARES, EVA permette la gestione di uno o più output, automatizzando completamente il funzionamento, compresi accensione e spegnimento dei dispositivi. 
               </p>
-              <p className="text-md text-[#083933] leading-6 text-left font-normal">
+              <p className="text-[20px] text-[#083933] leading-6 text-left" style={{ fontWeight: 400 }}>
               È dotato di una base cloud evoluta, progettata per garantire i più alti standard di sicurezza contro intrusioni e manomissioni esterne. 
               </p>
             </div>
@@ -78,7 +78,7 @@ const SoftwareProductsSection = () => {
             
             {/* Product Title and Button - Same Line */}
             <div className="w-full flex items-center justify-between mb-4">
-              <h3 className="text-2xl text-[#083933] font-light">
+              <h3 className="text-[32px] text-[#083933]" style={{ fontWeight: 300 }}>
                 Chrono Interfaccia di controllo
               </h3>
               <button className="h-7 px-3 text-sm bg-transparent border border-[#083933] text-[#083933] rounded-full hover:border-[#083933] hover:text-[#083933] transition-all duration-300">
@@ -91,10 +91,10 @@ const SoftwareProductsSection = () => {
             
             {/* Product Description */}
             <div className="space-y-3">
-              <p className="text-md text-[#083933] leading-6 text-left font-normal">
+              <p className="text-[20px] text-[#083933] leading-6 text-left" style={{ fontWeight: 400 }}>
               E&apos; il software che consente ai mediaserver ARES di controllare qualsiasi dispositivo ad essi connesso. 
               </p>
-              <p className="text-md text-[#083933] leading-6 text-left font-normal">
+              <p className="text-[20px] text-[#083933] leading-6 text-left" style={{ fontWeight: 400 }}>
               Estremamente flessibile e configurabile, si adatta a diversi contesti applicativi fungendo da domotica evoluta, permettendo ad ARES di dialogare e gestire ogni componente del sistema multimediale, comprese luci, tende, automazioni e dispositivi collegati. Grazie all&apos;interfaccia tablet, con ZNC tutti i controlli dell&apos;impianto sono sempre a portata di mano, in modo semplice, intuitivo e personalizzabile. 
               </p>
             </div>

@@ -22,14 +22,14 @@ const StatisticsSection = () => {
             {/* Data Point 1 */}
             <div className="relative z-10 flex items-center justify-center">
               <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-start">
-                <div className="text-2xl md:text-4xl text-center md:text-right mb-2 md:mb-0" style={{ color: '#20352F', fontWeight: 250 }}>
+                <h3 className="text-center md:text-right -mt-3" style={{ color: '#20352F', fontSize: '48px', fontWeight: 250 }}>
                   +23
-                </div>
+                </h3>
                 <div className="col-span-1 md:col-span-2 text-center md:text-left">
-                  <h3 className="text-base md:text-lg font-bold mb-1" style={{ color: '#20352F' }}>
+                  <h3 className="mb-1" style={{ color: '#20352F', fontSize: '20px', fontWeight: 700 }}>
                     Paesi in cui operiamo
                   </h3>
-                  <p className="text-sm md:text-md text-gray-700 leading-relaxed">
+                  <p className="text-gray-700 leading-relaxed" style={{ fontSize: '16px', fontWeight: 400 }}>
                     Offriamo i nostri servizi in tutto il mondo, garantendo supporto completo in ogni fase del progetto
                   </p>
                 </div>
@@ -39,14 +39,14 @@ const StatisticsSection = () => {
             {/* Data Point 2 */}
             <div className="relative z-10 flex items-center justify-center">
               <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-start">
-                <div className="text-2xl md:text-4xl text-center md:text-right mb-2 md:mb-0" style={{ color: '#20352F', fontWeight: 250 }}>
+                <h3 className="text-center md:text-right -mt-3" style={{ color: '#20352F', fontSize: '48px', fontWeight: 250 }}>
                   +500
-                </div>
+                </h3>
                 <div className="col-span-1 md:col-span-2 text-center md:text-left">
-                  <h3 className="text-base md:text-lg font-bold mb-1" style={{ color: '#20352F' }}>
+                  <h3 className="mb-1" style={{ color: '#20352F', fontSize: '20px', fontWeight: 700 }}>
                     Istituzioni hanno scelto i nostri prodotti
                   </h3>
-                  <p className="text-sm md:text-md text-gray-700 leading-relaxed">
+                  <p className="text-gray-700 leading-relaxed" style={{ fontSize: '16px', fontWeight: 400 }}>
                     Forniamo un ampio spettro di istituzioni pubbliche, incluse scuole, università, musei ed ospedali
                   </p>
                 </div>
@@ -56,14 +56,14 @@ const StatisticsSection = () => {
             {/* Data Point 3 */}
             <div className="relative z-10 flex items-center justify-center">
               <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-start">
-                <div className="text-2xl md:text-4xl text-center md:text-right mb-2 md:mb-0" style={{ color: '#20352F', fontWeight: 250 }}>
+                <h3 className="text-center md:text-right -mt-3" style={{ color: '#20352F', fontSize: '48px', fontWeight: 250 }}>
                   +600
-                </div>
+                </h3>
                 <div className="col-span-1 md:col-span-2 text-center md:text-left">
-                  <h3 className="text-base md:text-lg font-bold mb-1" style={{ color: '#20352F' }}>
+                  <h3 className="mb-1" style={{ color: '#20352F', fontSize: '20px', fontWeight: 700 }}>
                     Server attivi a livello globale
                   </h3>
-                  <p className="text-sm md:text-md text-gray-700 leading-relaxed">
+                  <p className="text-gray-700 leading-relaxed" style={{ fontSize: '16px', fontWeight: 400 }}>
                     Forniamo assistenza, gestione remota e supporto sui nostri sistemi, ovunque si trovino nel mondo
                   </p>
                 </div>
@@ -73,14 +73,14 @@ const StatisticsSection = () => {
             {/* Data Point 4 */}
             <div className="relative z-10 flex items-center justify-center">
               <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 items-start">
-                <div className="text-2xl md:text-4xl text-center md:text-right mb-2 md:mb-0" style={{ color: '#20352F', fontWeight: 250 }}>
+                <h3 className="text-center md:text-right -mt-3" style={{ color: '#20352F', fontSize: '48px', fontWeight: 250 }}>
                   100%
-                </div>
+                </h3>
                 <div className="col-span-1 md:col-span-2 text-center md:text-left">
-                  <h3 className="text-base md:text-lg font-bold mb-1" style={{ color: '#20352F' }}>
+                  <h3 className="mb-1" style={{ color: '#20352F', fontSize: '20px', fontWeight: 700 }}>
                     Sostenibilità aziendale
                   </h3>
-                  <p className="text-sm md:text-md text-gray-700 leading-relaxed">
+                  <p className="text-gray-700 leading-relaxed" style={{ fontSize: '16px', fontWeight: 400 }}>
                     ZEBRA è alimentata da un sistema proprietario di produzione energetica da fonti rinnovabili, che ci permette di svolgere la maggior parte delle attività a impatto zero sull&apos;ambiente
                   </p>
                 </div>

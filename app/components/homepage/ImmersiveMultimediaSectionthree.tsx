@@ -114,7 +114,8 @@ const ImmersiveMultimediaSectionThree = () => {
 
   return (
     <section 
-      className="relative min-h-screen w-full overflow-hidden"
+      className="relative w-full overflow-hidden"
+      style={{ height: '780px' }}
       onTouchStart={handleTouchStart}
       onTouchMove={handleTouchMove}
       onTouchEnd={handleTouchEnd}
@@ -158,8 +159,8 @@ const ImmersiveMultimediaSectionThree = () => {
       <div className="absolute top-0 left-0 right-0 z-10">
         <div className="bg-black/30 backdrop-blur-md p-3 md:p-4 shadow-2xl">
           <div className="flex items-center pt-2 md:pt-4 md:pb-2">
-            <span className="text-white text-lg md:text-2xl font-thin mr-2 md:mr-3">4</span>
-            <h2 className="text-lg md:text-2xl font-thin text-white leading-tight ml-8 md:ml-24">
+            <span className="text-white mr-2 md:mr-3" style={{ fontSize: '20px', fontWeight: 400 }}>4</span>
+            <h2 className="text-white leading-tight ml-8 md:ml-24" style={{ fontSize: '32px', fontWeight: 300 }}>
             Software development
             </h2>
           </div>
@@ -249,9 +250,9 @@ const ImmersiveMultimediaSectionThree = () => {
         </div>
 
         {/* Center/Right Foreground Text Block */}
-        <div className="absolute bottom-20 md:bottom-6 left-2 md:left-5 z-10 text-white max-w-xs md:max-w-3xl px-2 md:px-0">
+        <div className="absolute bottom-20 md:bottom-6 left-2 md:left-5 z-10 text-white max-w-xs md:max-w-4xl px-2 md:px-0">
           <div className="absolute -left-5 right-1 -top-4 border-t border-white pt-4"></div>
-          <p className="text-sm md:text-3xl leading-relaxed font-light text-white transition-all duration-1000 ease-in-out" style={{ fontWeight: 250 }}>
+          <p className="leading-none text-white transition-all duration-1000 ease-in-out" style={{ fontSize: '48px', fontWeight: 250 }}>
             {activeContent?.content}
           </p>
         </div>
@@ -259,7 +260,7 @@ const ImmersiveMultimediaSectionThree = () => {
         {/* Call-to-Action Button */}
         <Link 
           href={activeContent?.link ||'/servizi/soluzioni-multimediali-immersive'}
-          className="absolute bottom-4 md:bottom-10 right-2 md:right-10 z-10 pl-8 md:pl-36 pr-2 md:pr-4 pt-8 md:pt-50 pb-2 md:pb-4 text-white border border-white/80 
+          className="absolute bottom-4 md:bottom-10 right-2 md:right-10 z-10 pl-8 md:pl-54 pr-2 md:pr-4 pt-8 md:pt-66 pb-2 md:pb-4 text-white border border-white/80 
                      hover:bg-white/10 transition-all 
                      duration-300 flex items-center gap-2 group text-xs md:text-sm"
         >

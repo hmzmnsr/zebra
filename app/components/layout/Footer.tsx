@@ -67,13 +67,14 @@ const Footer = () => {
               <Image
                 src="/assets/logo2.png"
                 alt="Zebra Logo"
-                width={200}
-                height={60}
-                className="h-12 w-auto"
+                width={466}
+                height={84.73}
+                className="object-contain"
+                style={{ width: '466px', height: '84.73px' }}
                 priority
               />
             </div>
-            <p className="text-sm leading-relaxed max-w-md">
+            <p className="leading-relaxed max-w-md" style={{ fontSize: '20px', fontWeight: 400 }}>
               ZEBRA è un&apos;azienda tecnologica che crea soluzioni multimediali avanzate integrando contenuto e digital media technology.
             </p>
           </div>
@@ -82,13 +83,14 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Quick Links */}
             <div className="space-y-4">
-              <h3 className="font-bold text-black text-lg">Quick Links</h3>
+              <h3 className="text-black" style={{ fontSize: '20px', fontWeight: 600 }}>Quick Links</h3>
               <ul className="space-y-2">
                 {quickLinks.map((link) => (
                   <li key={link.name}>
                     <Link 
                       href={link.href}
-                      className="text-sm hover:text-gray-600 transition-colors"
+                      className="hover:text-gray-600 transition-colors"
+                      style={{ fontSize: '20px', fontWeight: 400 }}
                     >
                       {link.name}
                     </Link>
@@ -99,13 +101,14 @@ const Footer = () => {
 
             {/* Resources */}
             <div className="space-y-4">
-              <h3 className="font-bold text-black text-lg">Resources</h3>
+              <h3 className="text-black" style={{ fontSize: '20px', fontWeight: 600 }}>Resources</h3>
               <ul className="space-y-2">
                 {resources.map((link) => (
                   <li key={link.name}>
                     <Link 
                       href={link.href}
-                      className="text-sm hover:text-gray-600 transition-colors"
+                      className="hover:text-gray-600 transition-colors"
+                      style={{ fontSize: '20px', fontWeight: 400 }}
                     >
                       {link.name}
                     </Link>
@@ -116,13 +119,14 @@ const Footer = () => {
 
             {/* Connect With Us */}
             <div className="space-y-4">
-              <h3 className="font-bold text-black text-lg">Connect With Us</h3>
+              <h3 className="text-black" style={{ fontSize: '20px', fontWeight: 600 }}>Connect With Us</h3>
               <ul className="space-y-2">
                 {socialLinks.map((link) => (
                   <li key={link.name}>
                                        <Link 
                      href={link.href}
-                     className="text-sm hover:text-gray-600 transition-colors flex items-center gap-3"
+                     className="hover:text-gray-600 transition-colors flex items-center gap-3"
+                     style={{ fontSize: '20px', fontWeight: 400 }}
                    >
                      {link.icon}
                      {link.name}
@@ -136,7 +140,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="border-t border-gray-200 mt-24 pt-8">
-          <p className="text-xs text-gray-600">
+          <p className="text-gray-600" style={{ fontSize: '20px', fontWeight: 400 }}>
             2025-2026 Copyright ZEBRA S.R.L. P.iva 123456789 Cap sociale 123456789€
           </p>
         </div>

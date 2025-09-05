@@ -26,7 +26,7 @@ const ProductsSection = () => {
             
             {/* Product Title and Button - Same Line */}
             <div className="w-full flex items-center justify-between mb-4">
-              <h3 className="text-2xl text-[#fbfdfc] font-light">
+              <h3 className="text-[32px] text-[#fbfdfc]" style={{ fontWeight: 300 }}>
                 ARES Controller
               </h3>
               <button className="h-7 px-3 text-sm bg-transparent border border-[#CCCCCC] text-[#CCCCCC] rounded-full hover:border-white hover:text-white transition-all duration-300">
@@ -39,10 +39,10 @@ const ProductsSection = () => {
             
             {/* Product Description */}
             <div className="space-y-3 ">
-              <p className="text-md text-[#fbfdfc] leading-6 text-left font-normal">
+              <p className="text-[20px] text-[#fbfdfc] leading-6 text-left" style={{ fontWeight: 400 }}>
                 Il più compatto della famiglia ARES, ma con una potenza che non teme confronti. Pensato per la gestione del digital signage in contesti ad alta intensità operativa: display e ledwall per aeroporti, stadi, centri commerciali e retail.
               </p>
-              <p className="text-md text-[#fbfdfc] leading-6 text-left font-normal">
+              <p className="text-[20px] text-[#fbfdfc] leading-6 text-left" style={{ fontWeight: 400 }}>
                 ARES Controller, combinato al software EVA, automatizza completamente la gestione del digital signage, lasciando all&apos;utente solo il compito di programmare la sequenza dei contenuti e definire gli orari di riproduzione. E&apos; comandabile in modo semplice e intuitivo, sia da desktop che da dispositivi mobile.
               </p>
             </div>
@@ -65,7 +65,7 @@ const ProductsSection = () => {
             
             {/* Product Title and Button - Same Line */}
             <div className="w-full flex items-center justify-between mb-4">
-              <h3 className="text-2xl text-[#fbfdfc] font-light">
+              <h3 className="text-[32px] text-[#fbfdfc]" style={{ fontWeight: 300 }}>
                 ARES Media Engine
               </h3>
               <button className="h-7 px-3 text-sm bg-transparent border border-[#CCCCCC] text-[#CCCCCC] rounded-full hover:border-white hover:text-white transition-all duration-300">
@@ -78,13 +78,13 @@ const ProductsSection = () => {
             
             {/* Product Description */}
             <div className="space-y-3">
-              <p className="text-md text-[#fbfdfc] leading-6 text-left font-normal">
+              <p className="text-[20px] text-[#fbfdfc] leading-6 text-left" style={{ fontWeight: 400 }}>
                 Il mediaserver più diffuso per la gestione di sistemi multimediali complessi, dalle sale immersive museali ai grandi videomapping architetturali.
               </p>
-              <p className="text-md text-[#fbfdfc] leading-6 text-left font-normal">
+              <p className="text-[20px] text-[#fbfdfc] leading-6 text-left" style={{ fontWeight: 400 }}>
                 Grazie a una potenza e un&apos;affidabilità straordinarie, ARES Media Engine è l&apos;unità di controllo ideale per applicazioni che richiedono alto numero di uscite, grandi risoluzioni, acquisizioni video e di sensori e distribuzione audio multicanale.
               </p>
-              <p className="text-md text-[#fbfdfc] leading-6 text-left font-normal">
+              <p className="text-[20px] text-[#fbfdfc] leading-6 text-left" style={{ fontWeight: 400 }}>
                 ARES automatizza l&apos;intero funzionamento degli impianti multimediali, grazie alla perfetta integrazione con i principali sistemi di controllo e al supporto del software proprietario ZNC.
               </p>
             </div>
@@ -107,7 +107,7 @@ const ProductsSection = () => {
             
             {/* Product Title and Button - Same Line */}
             <div className="w-full flex items-center justify-between mb-4">
-              <h3 className="text-2xl text-[#fbfdfc] font-light">
+              <h3 className="text-[32px] text-[#fbfdfc]" style={{ fontWeight: 300 }}>
                 ARES Rig
               </h3>
               <button className="h-7 px-3 text-sm bg-transparent border border-[#CCCCCC] text-[#CCCCCC] rounded-full hover:border-white hover:text-white transition-all duration-300">
@@ -120,10 +120,10 @@ const ProductsSection = () => {
             
             {/* Product Description */}
             <div className="space-y-3">
-              <p className="text-md text-[#fbfdfc] leading-6 text-left font-normal">
+              <p className="text-[20px] text-[#fbfdfc] leading-6 text-left" style={{ fontWeight: 400 }}>
                 ARES Rig non è un semplice rack, ma un modulo integrato progettato per assicurare la massima connettività ed efficienza operativa ai nostri mediaserver.
               </p>
-              <p className="text-md text-[#fbfdfc] leading-6 text-left font-normal">
+              <p className="text-[20px] text-[#fbfdfc] leading-6 text-left" style={{ fontWeight: 400 }}>
                 Include tutto il necessario: gestione termica, switch gigabit, UPS, NAS, extender video e cablaggio organizzato in modo impeccabile. Una soluzione compatta e ordinata, pensata per garantire affidabilità e prestazioni senza compromessi, completamente personalizzabile in base alle specifiche esigenze del sistema multimediale a cui è connesso.
               </p>
             </div>

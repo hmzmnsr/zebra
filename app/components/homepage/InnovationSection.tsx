@@ -15,22 +15,22 @@ const InnovationSection = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8 lg:gap-0">
             {/* Left Content - Text Block */}
             <div className="order-2 lg:order-1">
-                             <h3 className="text-gray-300 text-xl md:text-2xl lg:text-3xl px-2 md:px-4 sm:px-8 lg:px-32" style={{ fontWeight: 250 }}>
+                             <h3 className="text-gray-300 px-2 md:px-4 sm:px-8 lg:px-32" style={{ fontSize: '32px', fontWeight: 434 }}>
                  Chi siamo
                </h3>
-                             <p className="text-white text-xs md:text-sm leading-none px-2 md:px-4 sm:px-8 lg:px-32 mt-4 md:mt-8">
+                             <p className="text-white leading-none px-2 md:px-4 sm:px-8 lg:px-32 mt-4 md:mt-8" style={{ fontSize: '20px', fontWeight: 400 }}>
                ZEBRA è un&apos;azienda specializzata nella creazione di soluzioni multimediali avanzate integrando contenuto e digital media technology. 
                </p>
-               <p className="text-white text-xs md:text-sm leading-none px-2 md:px-4 sm:px-8 lg:px-32 mt-3 md:mt-4">
+               <p className="text-white leading-none px-2 md:px-4 sm:px-8 lg:px-32 mt-3 md:mt-4" style={{ fontSize: '20px', fontWeight: 400 }}>
                Nata nel 2013 tra i pionieri del videomapping in Italia, ZEBRA ha rapidamente ampliato l&apos;applicazione delle tecnologie immersive ai settori museale e corporate, affermandosi come partner strategico di EPSON, leader mondiale nella videoproiezione. 
                </p>
-               <p className="text-white text-xs md:text-sm leading-none px-2 md:px-4 sm:px-8 lg:px-32 mt-3 md:mt-4">
+               <p className="text-white leading-none px-2 md:px-4 sm:px-8 lg:px-32 mt-3 md:mt-4" style={{ fontSize: '20px', fontWeight: 400 }}>
                Nel tempo abbiamo iniziato a sviluppare e produrre internamente i nostri sistemi software ed hardware, tra cui ARES Media Engine, il nostro mediaserver proprietario per la gestione avanzata di infrastrutture multimediali. 
                </p>
-               <p className="text-white text-xs md:text-sm leading-none px-2 md:px-4 sm:px-8 lg:px-32 mt-3 md:mt-4">
+               <p className="text-white leading-none px-2 md:px-4 sm:px-8 lg:px-32 mt-3 md:mt-4" style={{ fontSize: '20px', fontWeight: 400 }}>
                La crescita prosegue con l&apos;ingresso nel mondo dei brand e degli eventi internazionali, dove l&apos;immersività diventa strumento distintivo di comunicazione. 
                </p>
-               <p className="text-white text-xs md:text-sm leading-none px-2 md:px-4 sm:px-8 lg:px-32 mt-3 md:mt-4">
+               <p className="text-white leading-none px-2 md:px-4 sm:px-8 lg:px-32 mt-3 md:mt-4" style={{ fontSize: '20px', fontWeight: 400 }}>
                 Oggi operiamo, verso tutto il mondo, dalla nuova sede di Vicenza: uno spazio all&apos;avanguardia per design e sostenibilità, alimentato da fonti rinnovabili e progettato per offrire soluzioni tecnologiche a impatto ambientale quanto più possibile vicino allo zero. 
                </p>
             </div>
@@ -40,9 +40,10 @@ const InnovationSection = () => {
               <Image
                 src="/assets/homepage/cvr1.jpg"
                 alt="Innovazione coinvolgente - ambiente collaborativo immersivo"
-                width={800}
-                height={600}
-                className="w-full h-[30vh] sm:h-[40vh] md:h-[50vh] lg:h-[65vh] object-cover"
+                width={782}
+                height={474}
+                className="object-cover"
+                style={{ width: '782px', height: '474px' }}
               />
                          </div>
            </div>

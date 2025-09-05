@@ -13,7 +13,7 @@ const ChiSiamoStory = () => {
             <div className="hidden lg:block absolute top-0 left-0 w-full h-px bg-gray-300 transform -translate-x-full lg:translate-x-0"></div>
             
             {/* Image */}
-            <div className="relative h-64 sm:h-96">
+            <div className="relative" style={{ width: '940px', height: '487px' }}>
               <Image
                 src="/assets/chisiamo/first.jpg"
                 alt="ZEBRA immersive display experience"
@@ -31,10 +31,10 @@ const ChiSiamoStory = () => {
             
             {/* Body Text */}
             <div className="w-full">
-            <h2 className="text-xl sm:text-2xl md:text-xl font-sans text-[#083933] text-left w-full" style={{ fontWeight: 400 }}>
+            <h2 className="font-sans text-[#083933] text-left w-full" style={{ fontSize: '20px', fontWeight: 400 }}>
               La nostra storia
             </h2>
-              <p className="text-sm sm:text-base md:text-3xl text-[#083933] leading-tight font-sans text-left" style={{ fontWeight: 350 }}>
+              <p className="text-[#083933] leading-none font-sans text-left" style={{ fontSize: '48px', fontWeight: 250 }}>
               Nata nel 2013 tra i pionieri del videomapping in Italia, ZEBRA ha rapidamente ampliato l&apos;applicazione delle tecnologie immersive ai settori museale e corporate, affermandosi come partner strategico di EPSON, leader mondiale nella videoproiezione. 
               </p>
             </div>

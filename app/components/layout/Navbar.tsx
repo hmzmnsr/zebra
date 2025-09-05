@@ -80,9 +80,10 @@ const Navbar = () => {
                 <Image
                   src="/assets/logo.png"
                   alt="Zebra Logo"
-                  width={280}
-                  height={80}
-                  className="h-16 w-auto"
+                  width={202.21}
+                  height={34}
+                  className="object-contain"
+                  style={{ width: '202.21px', height: '34px' }}
                   priority
                 />
               </Link>
@@ -94,8 +95,8 @@ const Navbar = () => {
                 <div key={item.name} className="relative">
                   <Link
                     href={item.href}
-                    className="text-white hover:text-gray-300 transition-colors text-base"
-                    style={{ fontWeight: 400 }}
+                    className="text-white hover:text-gray-300 transition-colors"
+                    style={{ fontSize: '20px', fontWeight: 400 }}
                   >
                     {item.name}
                   </Link>
@@ -171,8 +172,8 @@ const Navbar = () => {
                      <div className="flex items-center gap-2">
                        <Link
                          href={item.href}
-                         className="text-white hover:text-gray-300 transition-colors text-base"
-                         style={{ fontWeight: 400 }}
+                         className="text-white hover:text-gray-300 transition-colors"
+                         style={{ fontSize: '20px', fontWeight: 400 }}
                        >
                          {item.name}
                        </Link>
@@ -184,8 +185,8 @@ const Navbar = () => {
                  ) : (
                   <Link
                     href={item.href}
-                    className="text-white hover:text-gray-300 transition-colors text-base"
-                    style={{ fontWeight: 400 }}
+                    className="text-white hover:text-gray-300 transition-colors"
+                    style={{ fontSize: '20px', fontWeight: 400 }}
                   >
                     {item.name}
                   </Link>
@@ -232,7 +233,7 @@ const Navbar = () => {
            onMouseEnter={handleMouseEnter}
            onMouseLeave={handleMouseLeave}
          >
-          <div className="max-w-8xl mx-auto px-8 ml-64">
+          <div className="max-w-8xl mx-auto px-8 ml-14">
             <div className="flex justify-start">
               <div className="w-80 py-8 ml-[calc(50%-18rem)]">
                                  {serviziItems.map((servizio) => (
@@ -242,8 +243,8 @@ const Navbar = () => {
                     <Link
                       href={generateServizioUrl(servizio)}
                       onClick={handleNavigationClick}
-                      className="block text-white hover:text-gray-300 transition-colors text-sm py-2"
-                      style={{ fontWeight: 400 }}
+                      className="block text-white hover:text-gray-300 transition-colors py-2"
+                      style={{ fontSize: '20px', fontWeight: 400 }}
                     >
                       {servizio}
                     </Link>
@@ -275,7 +276,7 @@ const Navbar = () => {
                         href={item.href}
                         onClick={handleNavigationClick}
                         className="flex-1 px-3 py-2 text-white hover:bg-white/10 transition-colors"
-                        style={{ fontWeight: 400 }}
+                        style={{ fontSize: '20px', fontWeight: 400 }}
                       >
                         {item.name}
                       </Link>
@@ -313,7 +314,7 @@ const Navbar = () => {
                           href={generateServizioUrl(servizio)}
                           onClick={handleNavigationClick}
                           className="block px-3 py-2 text-white/90 hover:text-white hover:bg-white/10 transition-colors"
-                          style={{ fontWeight: 400 }}
+                          style={{ fontSize: '20px', fontWeight: 400 }}
                         >
                           {servizio}
                         </Link>
@@ -325,7 +326,7 @@ const Navbar = () => {
                     href={item.href}
                     onClick={handleNavigationClick}
                     className="block px-3 py-2 text-white hover:bg-white/10 transition-colors"
-                    style={{ fontWeight: 400 }}
+                    style={{ fontSize: '20px', fontWeight: 400 }}
                   >
                     {item.name}
                   </Link>

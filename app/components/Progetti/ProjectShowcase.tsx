@@ -16,26 +16,26 @@ const ProjectShowcase = () => {
               <Image
                 src="/assets/progetti/sala.jpg"
                 alt="Accenture Sala meeting immersiva"
-                width={600}
-                height={400}
-                className="w-full h-[35vh] md:h-[60vh] object-cover shadow-lg"
+                width={1080}
+                height={629}
+                className="w-full h-[629px] object-cover shadow-lg"
               />
             </div>
             
             {/* Project Content - Takes 2 columns (0.8 parts) */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[35vh] md:min-h-[60vh]">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between h-[629px]">
                              {/* Project Header */}
                <div className="space-y-0">
-                 <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
+                 <h2 style={{ fontWeight: 400 }} className="text-[20px] text-[#082239]">
                  Sala meeting immersiva
                  </h2>
-                 <h3 style={{ fontWeight: 250 }} className="text-2xl md:text-4xl text-[#082239]">
+                 <h3 style={{ fontWeight: 250 }} className="text-[48px] text-[#082239] leading-none">
                  Accenture Immersive Room
                  </h3>
                </div>
                
                {/* Project Description */}
-               <div className="text-[#082239] leading-tight text-sm md:text-base mt-4 md:mt-5">
+               <div className="text-[#082239] leading-none text-[20px] mt-4 md:mt-5">
                  <p style={{ fontWeight: 407 }} className="leading-none">
                  Uno spazio progettato per portare meeting e presentazioni a un nuovo livello di efficacia e coinvolgimento
                  </p>
@@ -60,7 +60,7 @@ const ProjectShowcase = () => {
               
               {/* Call to Action Button - Positioned at bottom right */}
               <div className="text-center lg:text-right mt-auto">
-                 <Link href="/progetti/accenture-immersive-meeting-space" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+                 <Link href="/progetti/accenture-immersive-meeting-space" className="inline-flex items-center justify-center gap-2 w-[188px] h-[52px] bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-[20px]" style={{ fontWeight: 400 }}>
                   <span>Scopri di più</span>
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -80,26 +80,26 @@ const ProjectShowcase = () => {
               <Image
                 src="/assets/progetti/vid.png"
                 alt="Beta Utensili Video 3D Avvitatore Oilless"
-                width={600}
-                height={400}
-                className="w-full h-[35vh] md:h-[60vh] object-cover shadow-lg"
+                width={1080}
+                height={629}
+                className="w-full h-[629px] object-cover shadow-lg"
               />
             </div>
             
             {/* Project Content - Takes 2 columns (0.8 parts) - On mobile: second, On desktop: first */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:order-1 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:order-1 flex flex-col justify-between h-[629px]">
                              {/* Project Header */}
                <div className="space-y-0">
-                 <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
+                 <h2 style={{ fontWeight: 400 }} className="text-[20px] text-[#082239]">
                    Beta Utensili
                  </h2>
-                 <h3 style={{ fontWeight: 250 }} className="text-2xl md:text-4xl text-[#082239]">
+                 <h3 style={{ fontWeight: 250 }} className="text-[48px] text-[#082239] leading-none">
                    Video 3D Avvitatore Oilless
                  </h3>
                </div>
                
                {/* Project Description */}
-               <div className="text-[#082239] leading-tight text-sm md:text-base mt-4 md:mt-5">
+               <div className="text-[#082239] leading-none text-[20px] mt-4 md:mt-5">
                  <p style={{ fontWeight: 407 }} className="leading-none">
                  In occasione del lancio del rivoluzionario avvitatore Oil-Less, Beta Utensili ci ha affidato la realizzazione di un contenuto 3D ad alto impatto visivo, capace di esprimere l&apos;elevato livello di innovazione tecnica e la raffinatezza progettuale del prodotto.
                  </p>
@@ -114,7 +114,7 @@ const ProjectShowcase = () => {
               
               {/* Call to Action Button - Positioned at bottom right */}
               <div className="text-center lg:text-right mt-auto">
-                <Link href="/progetti/beta-utensili-oil-less-campaign" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+                <Link href="/progetti/beta-utensili-oil-less-campaign" className="inline-flex items-center justify-center gap-2 w-[188px] h-[52px] bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-[20px]" style={{ fontWeight: 400 }}>
                   <span>Scopri di più</span>
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -127,15 +127,15 @@ const ProjectShowcase = () => {
       </div>
       
       {/* Quote Section */}
-      <div className="bg-white py-16 md:py-32">
-        <div className="max-w-6xl mx-auto px-4 mt-4 md:mt-5">
-          <p className="text-lg md:text-xl lg:text-4xl text-[#082239] leading-tight font-sans text-center md:text-left pl-0 md:pl-28">
+      <div className="bg-white py-16 lg:py-64 lg:pl-68">
+        <div className="mx-auto px-4 mt-4 md:mt-5">
+          <p className="text-[50px] text-[#082239] leading-none font-sans text-center md:text-left pl-0 md:pl-28" style={{ fontWeight: 400 }}>
             Quando la conoscenza diventa esperienza, nasce un
           </p>
-          <p className="text-lg md:text-xl lg:text-4xl text-[#082239] leading-tight font-sans text-center md:text-left">
+          <p className="text-[50px] text-[#082239] leading-none font-sans text-center md:text-left" style={{ fontWeight: 400 }}>
             apprendimento che emoziona, coinvolge e resta impresso nella
           </p>
-          <p className="text-lg md:text-xl lg:text-4xl text-[#082239] leading-tight font-sans text-center md:text-left">
+          <p className="text-[50px] text-[#082239] leading-none font-sans text-center md:text-left" style={{ fontWeight: 400 }}>
             memoria
           </p>
         </div>
@@ -147,19 +147,19 @@ const ProjectShowcase = () => {
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-center">
             
             {/* Project Content - Takes 2 columns (0.8 parts) */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[35vh] md:min-h-[60vh]">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between h-[629px]">
                              {/* Project Header */}
                <div className="space-y-0">
-                 <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
+                 <h2 style={{ fontWeight: 400 }} className="text-[20px] text-[#082239]">
                    Beta CDA
                  </h2>
-                 <h3 style={{ fontWeight: 250 }} className="text-2xl md:text-4xl text-[#082239]">
+                 <h3 style={{ fontWeight: 250 }} className="text-[48px] text-[#082239] leading-none">
                    Sala Conferenze
                  </h3>
                </div>
                
                {/* Project Description */}
-               <div className="text-[#082239] leading-tight text-sm md:text-base mt-4 md:mt-5">
+               <div className="text-[#082239] leading-none text-[20px] mt-4 md:mt-5">
                  <p style={{ fontWeight: 407 }} className="leading-none">
                    All&apos;interno dei nuovi headquarters di Beta Utensili, ZEBRA è stata incaricata di progettare e realizzare il sistema tecnologico per la sala del Consiglio di amministrazione: uno spazio iconico dove design e funzionalità si incontrano.
                  </p>
@@ -175,7 +175,7 @@ const ProjectShowcase = () => {
               
               {/* Call to Action Button - Positioned at bottom right */}
               <div className="text-center md:text-right lg:text-right mt-auto">
-                 <Link href="/progetti/beta-sala-cda" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+                 <Link href="/progetti/beta-sala-cda" className="inline-flex items-center justify-center gap-2 w-[188px] h-[52px] bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-[20px]" style={{ fontWeight: 400 }}>
                   <span>Scopri di più</span>
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -189,9 +189,9 @@ const ProjectShowcase = () => {
               <Image
                 src="/assets/progetti/3.jpg"
                 alt="Project Three"
-                width={600}
-                height={400}
-                className="w-full h-[35vh] md:h-[60vh] object-cover shadow-lg"
+                width={1080}
+                height={629}
+                className="w-full h-[629px] object-cover shadow-lg"
               />
             </div>
           </div>
@@ -208,26 +208,26 @@ const ProjectShowcase = () => {
               <Image
                 src="/assets/progetti/4.jpg"
                 alt="Project Four"
-                width={600}
-                height={400}
-                className="w-full h-[35vh] md:h-[60vh] object-cover shadow-lg"
+                width={1080}
+                height={629}
+                className="w-full h-[629px] object-cover shadow-lg"
               />
             </div>
             
             {/* Project Content - Takes 2 columns (0.8 parts) */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[35vh] md:min-h-[60vh]">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between h-[629px]">
                              {/* Project Header */}
                <div className="space-y-0">
-                 <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
+                 <h2 style={{ fontWeight: 400 }} className="text-[20px] text-[#082239]">
                  Soluzioni per fiere e musei
                  </h2>
-                 <h3 style={{ fontWeight: 250 }} className="text-2xl md:text-4xl text-[#082239]">
+                 <h3 style={{ fontWeight: 250 }} className="text-[48px] text-[#082239] leading-none">
                  EPSON Booth ISE Barcellona
                  </h3>
                </div>
                
                {/* Project Description */}
-               <div className="text-[#082239] leading-tight text-sm md:text-base mt-4 md:mt-5">
+               <div className="text-[#082239] leading-none text-[20px] mt-4 md:mt-5">
                  <p style={{ fontWeight: 407 }} className="leading-none">
                  In occasione della fiera ISE di Barcellona, il nostro partner strategico EPSON, leader mondiale nella videoproiezione, ci ha affidato la progettazione e realizzazione del suo stand immersivo: uno spazio concepito per esaltare versatilità e qualità delle soluzioni di videoproiezione firmate EPSON. 
                  </p>
@@ -243,7 +243,7 @@ const ProjectShowcase = () => {
               
               {/* Call to Action Button - Positioned at bottom right */}
               <div className="text-center md:text-right lg:text-right mt-auto">
-                 <Link href="/progetti/epson-booth-ise-barcellona" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+                 <Link href="/progetti/epson-booth-ise-barcellona" className="inline-flex items-center justify-center gap-2 w-[188px] h-[52px] bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-[20px]" style={{ fontWeight: 400 }}>
                   <span>Scopri di più</span>
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -261,19 +261,19 @@ const ProjectShowcase = () => {
            <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-center">
              
              {/* Project Content - Takes 2 columns (0.8 parts) */}
-             <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[35vh] md:min-h-[60vh]">
+             <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between h-[629px]">
                               {/* Project Header */}
                 <div className="space-y-0">
-                  <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
+                  <h2 style={{ fontWeight: 400 }} className="text-[20px] text-[#082239]">
                   Soluzioni Medico-Terapeutiche
                   </h2>
-                  <h3 style={{ fontWeight: 250 }} className="text-2xl md:text-4xl text-[#082239]">
+                  <h3 style={{ fontWeight: 250 }} className="text-[48px] text-[#082239] leading-none">
                   Sala Ulisse, Centro TOG Milano
                   </h3>
                 </div>
                 
                 {/* Project Description */}
-                <div className="text-[#082239] leading-tight text-sm md:text-base mt-4 md:mt-5">
+                <div className="text-[#082239] leading-none text-[20px] mt-4 md:mt-5">
                   <p style={{ fontWeight: 407 }} className="leading-none">
                   Il Centro TOG di Milano è un&apos;eccellenza nel trattamento di bambini con disabilità cognitive e neurologiche, da sempre in prima linea nell&apos;adozione di approcci innovativi in campo terapeutico. 
                   </p>
@@ -293,7 +293,7 @@ const ProjectShowcase = () => {
                
                {/* Call to Action Button - Positioned at bottom right */}
                <div className="text-center md:text-right mt-auto">
-               <Link href="/progetti/sala-ulisse-centro-tog-milano" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+               <Link href="/progetti/sala-ulisse-centro-tog-milano" className="inline-flex items-center justify-center gap-2 w-[188px] h-[52px] bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-[20px]" style={{ fontWeight: 400 }}>
                  <span>Scopri di più</span>
                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -307,9 +307,9 @@ const ProjectShowcase = () => {
                <Image
                  src="/assets/progetti/5.jpg"
                  alt="Project Five"
-                 width={600}
-                 height={400}
-                 className="w-full h-[35vh] md:h-[60vh] object-cover shadow-lg"
+                 width={1080}
+                 height={629}
+                 className="w-full h-[629px] object-cover shadow-lg"
                />
              </div>
            </div>
@@ -326,26 +326,26 @@ const ProjectShowcase = () => {
                <Image
                  src="/assets/progetti/6.jpg"
                  alt="Project Six"
-                 width={600}
-                 height={400}
-                 className="w-full h-[35vh] md:h-[60vh] object-cover shadow-lg"
+                 width={1080}
+                 height={629}
+                 className="w-full h-[629px] object-cover shadow-lg"
                />
              </div>
              
              {/* Project Content - Takes 2 columns (0.8 parts) */}
-             <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[35vh] md:min-h-[60vh]">
+             <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between h-[629px]">
                               {/* Project Header */}
                 <div className="space-y-0">
-                  <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
+                  <h2 style={{ fontWeight: 400 }} className="text-[20px] text-[#082239]">
                   Soluzioni per eventi
                   </h2>
-                  <h3 style={{ fontWeight: 250 }} className="text-2xl md:text-4xl text-[#082239]">
+                  <h3 style={{ fontWeight: 250 }} className="text-[48px] text-[#082239] leading-none">
                   Immersive Runway Pierre Cardin, Parigi e Guyana francese 
                   </h3>
                 </div>
                 
                 {/* Project Description */}
-                <div className="text-[#082239] leading-tight text-sm md:text-base mt-4 md:mt-5">
+                <div className="text-[#082239] leading-none text-[20px] mt-4 md:mt-5">
                   <p style={{ fontWeight: 407 }} className="leading-none">
                   Un lanciatore spaziale, una maison leggendaria, l&apos;Agenzia Spaziale Europea e la visione creativa di ZEBRA. 
                   </p>
@@ -365,7 +365,7 @@ const ProjectShowcase = () => {
                
                {/* Call to Action Button - Positioned at bottom right */}
                <div className="text-center md:text-right lg:text-right mt-auto">
-               <Link href="/progetti/immersive-runway-pierre-cardin" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+               <Link href="/progetti/immersive-runway-pierre-cardin" className="inline-flex items-center justify-center gap-2 w-[188px] h-[52px] bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-[20px]" style={{ fontWeight: 400 }}>
                  <span>Scopri di più</span>
                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -385,19 +385,19 @@ const ProjectShowcase = () => {
              <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-center">
                
                {/* Project Content - Takes 2 columns (0.8 parts) */}
-               <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[35vh] md:min-h-[60vh]">
+               <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between h-[629px]">
                                   {/* Project Header */}
                   <div className="space-y-0">
-                    <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
+                    <h2 style={{ fontWeight: 400 }} className="text-[20px] text-[#082239]">
                     Simulatori e Demo Center 
                     </h2>
-                    <h3 style={{ fontWeight: 250 }} className="text-2xl md:text-4xl text-[#082239]">
+                    <h3 style={{ fontWeight: 250 }} className="text-[48px] text-[#082239] leading-none">
                     AGCO Agridome
                     </h3>
                   </div>
                   
                   {/* Project Description */}
-                  <div className="text-[#082239] leading-tight text-sm md:text-base mt-4 md:mt-5">
+                  <div className="text-[#082239] leading-none text-[20px] mt-4 md:mt-5">
                     <p style={{ fontWeight: 407 }} className="leading-none">
                     Il colosso della meccanizzazione agricola AGCO ha affidato a ZEBRA e Mosaico una doppia sfida: realizzare un simulatore per la trebbia di punta IDEAL e progettare un demo center esperienziale capace di trasmettere il know-how e l&apos;identità del brand. 
                     </p>
@@ -413,7 +413,7 @@ const ProjectShowcase = () => {
                  
                  {/* Call to Action Button - Positioned at bottom right */}
                  <div className="text-center md:text-right lg:text-right mt-auto">
-                 <Link href="/progetti/agco-agridome" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+                 <Link href="/progetti/agco-agridome" className="inline-flex items-center justify-center gap-2 w-[188px] h-[52px] bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-[20px]" style={{ fontWeight: 400 }}>
                    <span>Scopri di più</span>
                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -427,9 +427,9 @@ const ProjectShowcase = () => {
                  <Image
                    src="/assets/progetti/7.jpg"
                    alt="Project Five"
-                   width={600}
-                   height={400}
-                   className="w-full h-[35vh] md:h-[60vh] object-cover shadow-lg"
+                   width={1080}
+                   height={629}
+                   className="w-full h-[629px] object-cover shadow-lg"
                  />
                </div>
              </div>
@@ -446,26 +446,26 @@ const ProjectShowcase = () => {
               <Image
                 src="/assets/progetti/8.jpg"
                 alt="Project Six"
-                width={600}
-                height={400}
-                className="w-full h-[35vh] md:h-[60vh] object-cover shadow-lg"
+                width={1080}
+                height={629}
+                className="w-full h-[629px] object-cover shadow-lg"
               />
             </div>
             
             {/* Project Content - Takes 2 columns (0.8 parts) - On mobile: second, On desktop: second */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:order-2 flex flex-col justify-between min-h-[280px] md:min-h-[480px]">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 lg:order-2 flex flex-col justify-between h-[629px]">
                              {/* Project Header */}
                <div className="space-y-0">
-                 <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
+                 <h2 style={{ fontWeight: 400 }} className="text-[20px] text-[#082239]">
                  Soluzioni multimediali immersive per i musei
                  </h2>
-                 <h3 style={{ fontWeight: 250 }} className="text-2xl md:text-4xl text-[#082239]">
+                 <h3 style={{ fontWeight: 250 }} className="text-[48px] text-[#082239] leading-none">
                  Galleria degli Uffizi 
                  </h3>
                </div>
                
                {/* Project Description */}
-               <div className="text-[#082239] leading-tight text-sm md:text-base mt-4 md:mt-5">
+               <div className="text-[#082239] leading-none text-[20px] mt-4 md:mt-5">
                  <p style={{ fontWeight: 407 }} className="leading-none">
                  In occasione della mostra &ldquo;Il Codice Leicester&rdquo; di Leonardo da Vinci, la Galleria degli Uffizi di Firenze ha coinvolto il team ZEBRA nella progettazione e realizzazione di exhibit digitali interattivi per immergere i visitatori nell&apos;universo visionario del genio toscano. 
                  </p>
@@ -481,7 +481,7 @@ const ProjectShowcase = () => {
               
               {/* Call to Action Button - Positioned at bottom right */}
               <div className="text-center md:text-right lg:text-right mt-auto">
-              <Link href="/progetti/il-codice-leicester-galleria-degli-uffizi" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+              <Link href="/progetti/il-codice-leicester-galleria-degli-uffizi" className="inline-flex items-center justify-center gap-2 w-[188px] h-[52px] bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-[20px]" style={{ fontWeight: 400 }}>
                 <span>Scopri di più</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -502,19 +502,19 @@ const ProjectShowcase = () => {
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 md:gap-8 items-center">
             
             {/* Project Content - Takes 2 columns (0.8 parts) */}
-            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between min-h-[35vh] md:min-h-[60vh]">
+            <div className="space-y-4 md:space-y-6 relative lg:col-span-2 flex flex-col justify-between h-[629px]">
                              {/* Project Header */}
                <div className="space-y-0">
-                 <h2 style={{ fontWeight: 400 }} className="text-lg md:text-xl text-[#082239]">
+                 <h2 style={{ fontWeight: 400 }} className="text-[20px] text-[#082239]">
                  Storytelling immersivo
                  </h2>
-                 <h3 style={{ fontWeight: 250 }} className="text-2xl md:text-4xl text-[#082239]">
+                 <h3 style={{ fontWeight: 250 }} className="text-[48px] text-[#082239] leading-none">
                  Cantine Oniverse (gruppo Calzedonia) 
                  </h3>
                </div>
                
                {/* Project Description */}
-               <div className="text-[#082239] leading-tight text-sm md:text-base mt-4 md:mt-5">
+               <div className="text-[#082239] leading-none text-[20px] mt-4 md:mt-5">
                  <p style={{ fontWeight: 407 }} className="leading-none">
                  Terreni diversi, identità uniche, vini d&apos;eccellenza. 
                  Dai suoli vulcanici di Lanuvio a quelli carichi di salsedine di Alghero, le cantine Tenimenti Leone e Podere Guardia Grande, parte del gruppo Oniverse (Calzedonia), hanno scelto ZEBRA per raccontare il valore dei propri luoghi attraverso storytelling immersivi ad alto impatto emozionale.
@@ -531,7 +531,7 @@ const ProjectShowcase = () => {
               
               {/* Call to Action Button - Positioned at bottom right */}
               <div className="text-center md:text-right lg:text-right mt-auto">
-              <Link href="/progetti/cantine-oniverse-gruppo-calzedonia" className="inline-flex items-center gap-2 px-4 md:px-6 py-2 md:py-3 bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-sm md:text-base">
+              <Link href="/progetti/cantine-oniverse-gruppo-calzedonia" className="inline-flex items-center justify-center gap-2 w-[188px] h-[52px] bg-[#F5F5F5] text-black border-t border-l border-b border-[#D0E0E0] hover:bg-gray-100 transition-colors text-[20px]" style={{ fontWeight: 400 }}>
                 <span>Scopri di più</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -545,9 +545,9 @@ const ProjectShowcase = () => {
               <Image
                 src="/assets/progetti/9.jpg"
                 alt="Project Five"
-                width={600}
-                height={400}
-                className="w-full h-[35vh] md:h-[60vh] object-cover shadow-lg"
+                width={1080}
+                height={629}
+                className="w-full h-[629px] object-cover shadow-lg"
               />
             </div>
           </div>

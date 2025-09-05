@@ -32,8 +32,8 @@ const ShotGallery = () => {
               <Image
                 src={image.src}
                 alt={image.alt}
-                width={600}
-                height={450}
+                width={624}
+                height={320}
                 className="w-full h-full object-cover"
               />
             </div>

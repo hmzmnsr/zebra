@@ -35,10 +35,10 @@ const HeroSection = () => {
         {/* Text Overlay */}
         <div className="absolute inset-0 flex items-center md:items-end justify-center z-10 px-4 md:px-8 pt-[70px] md:pt-0 mb-0 md:mb-24">
           <div className="text-center text-white max-w-4xl w-full">
-              <h1 style={{ fontWeight: 300, lineHeight: '0.9' }} className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl mb-4 md:mb-10 px-2 md:px-0 font-cofo">
+              <h1 style={{ fontSize: '88px', fontWeight: 300, lineHeight: '0.9' }} className="mb-4 md:mb-10 px-2 md:px-0 font-cofo">
                Creiamo esperienze<br className="hidden sm:block"/> immersive memorabili
              </h1>
-             <p style={{ fontWeight: 300 }} className="text-sm sm:text-base md:text-lg leading-none px-2 md:px-0 font-cofo">
+             <p style={{ fontSize: '32px', fontWeight: 300 }} className="leading-none px-2 md:px-0 font-cofo">
                Diamo forma a visioni ambiziose trasformandole in <br className="hidden sm:block"/> soluzioni multimediali su misura
              </p>
           </div>
